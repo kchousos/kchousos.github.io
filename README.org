@@ -1,0 +1,4 @@
+#+TITLE: My Personal Blog's Source
+#+HTML: <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kchousos/kchousos.github.io">
+
+This is the start of my journey to learn more about web hosting, github workflow and blog writing.

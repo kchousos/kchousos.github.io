@@ -1,0 +1,14 @@
+*
+!content/
+!content/*
+
+!.github/
+!.github/workflows
+!.github/workflows/publish.yml
+    
+!.gitignore
+!build-site.el
+!build.sh
+!README.org
+
+*.gz
