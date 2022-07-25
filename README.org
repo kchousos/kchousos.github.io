@@ -3,4 +3,4 @@
 
 This is the start of my journey to learn more about web hosting, github workflow and blog writing.
 
-[[https://kchousos.github.io][Visit the site]].
+Visit the site [[https://kchousos.github.io][here]].
