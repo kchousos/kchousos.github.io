@@ -1,5 +1,6 @@
 #+TITLE: Kchou's Personal Blog
-|------+----------+-------|
+-----
+#+ATTR_HTML: :style margin-left: auto; margin-right: auto;
 | [[https://example.com][Home]] | [[https://example.com][Articles]] | [[https://example.com][About]] |
-|------+----------+-------|
+
 
