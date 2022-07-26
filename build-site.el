@@ -13,6 +13,8 @@
 ;; Install dependencies
 (package-install 'htmlize)
 
+(setq org-html-htmlize-output-type 'css)
+
 ;; Load the publishing system
 (require 'ox-publish)
 
