@@ -1,9 +1,9 @@
 #+TITLE: Kchou's Personal Blog
-#+ATTR_HTML: :style margin-left: auto; margin-right: auto;
+
 #+begin_export html
 <div class="orgyeah-header">
   <div class="topbar-menu-container">
-  <div style="style="text-align:center;margin: 0 auto">
+  <div style="text-align:center;margin: 0 auto">
     <span class="topbar-menu"><a class="current" href="https://kchousos.github.io/">Home</a></span>
     <span class="topbar-menu"><a href="https://kchousos.github.io">Articles</a></span>
     <span class="topbar-menu"><a href="https://kchousos.github.io">About</a></span>
