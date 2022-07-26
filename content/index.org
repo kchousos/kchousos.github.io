@@ -1,5 +1,6 @@
 #+INCLUDE: ../header.org
-#+DESCRIPTION: /This is just a placeholder for now. More to come.../
+
+/This is just a placeholder for now. More to come.../
 
 * Goal
 To familiarise myself with simple HTML website publishing.
