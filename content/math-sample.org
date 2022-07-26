@@ -1,12 +1,11 @@
-#+INCLUDE: ../header.org
+#+INCLUDE: ./header.org
+#+TITLE: Math Sample
 
-* Math Sample
-
-*** /Euler's Number/
+** /Euler's Number/
 
 $$e = \sum_{n=0}^{\infty} \frac{1}{n!}$$
 
-*** /Euler's Formula/
+** /Euler's Formula/
 
 $$e^{\imath x} = \cos x + \imath \sin x$$
 
