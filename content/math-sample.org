@@ -2,7 +2,7 @@
 
 *** /Euler's Number/
 
-$$e = \sum_{n=0}{\infty} \frac{1}{n!}$$
+$$e = \sum_{n=0}^{\infty} \frac{1}{n!}$$
 
 *** /Euler's Formula/
 
