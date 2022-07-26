@@ -24,10 +24,13 @@
       org-html-head
       "<link rel=\"stylesheet\" href=\"https://gongzhitaao.org/orgcss/org.css\" />"
       org-html-postamble
-      "<p>Written %C.</p>
-       <p>Made with <a href=\"https://www.gnu.org/software/emacs/\">Emacs</a>,
-                    <a href=\"https://orgmode.org/\">Org Mode</a> and
-                    <a href=\"https://github.com/gongzhitaao/orgcss\">Orgcss</a>.</p>")
+      "<center>
+           <p>Written %C.</p>
+           <p>Made with <a href=\"https://www.gnu.org/software/emacs/\">Emacs</a>,
+                        <a href=\"https://orgmode.org/\">Org Mode</a> and
+                        <a href=\"https://github.com/gongzhitaao/orgcss\">Orgcss</a>.
+          </p>
+       </center>")
 
 ;; Define the publishing project
 (setq org-publish-project-alist

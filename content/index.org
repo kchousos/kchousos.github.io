@@ -1,39 +1,7 @@
-#+INCLUDE: ./header.org
+#+TITLE: Konstantinos Chousos
 
-/This is just a placeholder for now. More to come.../
+#+BEGIN_CENTER
+/Welcome to my personal site!/
+#+END_CENTER
 
-* Goal
-To familiarise myself with simple HTML website publishing.
-This is made easier with the help of [[https://orgmode.org][Org Mode]].
-
-** Links
-- [[./text-sample.org][Text sample]]
-- [[./math-sample.org][Math sample]]
-  
-** Misc. examples
-*** Definitions
-- Literate programming :: Literate programming is a programming paradigm introduced by Donald Knuth in which a computer program is given an explanation of its logic in a natural language, such as English, interspersed (embedded) with snippets of macros and traditional source code, from which compilable source code can be generated.
-*** Tables with calculations
-This table's elements are calculated in real-time by orgmode (/with commands like in Microsoft Excel/). The original input is this:
-
-#+BEGIN_SRC org
-,#+CAPTION: Table Caption
-| \(N\) | \(N^2\) | \(N^3\) | \(N^4\) | \(\sqrt n\) | \(\sqrt[4]N\) |
-|-------+---------+---------+---------+-------------+---------------|
-|     1 |         |         |         |             |               |
-|     2 |         |         |         |             |               |
-|     3 |         |         |         |             |               |
-|-------+---------+---------+---------+-------------+---------------|
-,#+TBLFM: $2=$1^2::$3=$1^3::$4=$1^4::$5=sqrt($1)::$6=sqrt(sqrt(($1)))
-#+END_SRC
-
-And this is the result:
-
-#+CAPTION: Table Caption
-| \(N\) | \(N^2\) | \(N^3\) | \(N^4\) | \(\sqrt n\) | \(\sqrt[4]N\) |
-|-------+---------+---------+---------+-------------+---------------|
-|     1 |       1 |       1 |       1 |           1 |             1 |
-|     2 |       4 |       8 |      16 |   1.4142136 |     1.1892071 |
-|     3 |       9 |      27 |      81 |   1.7320508 |     1.3160740 |
-|-------+---------+---------+---------+-------------+---------------|
-#+TBLFM: $2=$1^2::$3=$1^3::$4=$1^4::$5=sqrt($1)::$6=sqrt(sqrt(($1)))
+This site will be the home of various side-projects I will be working on. Also, it will host articles about things I am interested in, /e.g./ programming, networking, self-hosting, Linux and Emacs.
