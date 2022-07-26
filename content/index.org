@@ -1,4 +1,4 @@
-#+TITLE: Kchou's Personal Blog
+#+INCLUDE: ../header.org
 
 /This is just a placeholder for now. More to come.../
 

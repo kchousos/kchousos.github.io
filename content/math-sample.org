@@ -1,4 +1,6 @@
-#+TITLE: Math Sample
+#+INCLUDE: ../header.org
+
+* Math Sample
 
 *** /Euler's Number/
 
