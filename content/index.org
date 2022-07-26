@@ -1,4 +1,4 @@
-#+INCLUDE: ./header.org
+#+INCLUDE: ../header.org
 
 /This is just a placeholder for now. More to come.../
 
@@ -38,4 +38,4 @@ And this is the result:
 |-------+---------+---------+---------+-------------+---------------|
 #+TBLFM: $2=$1^2::$3=$1^3::$4=$1^4::$5=sqrt($1)::$6=sqrt(sqrt(($1)))
 
-#+INCLUDE: ./footer.org
+#+INCLUDE: ../footer.org

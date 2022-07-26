@@ -10,5 +10,7 @@
 !build-site.el
 !build.sh
 !README.org
+!footer.org
+!header.org
 
 *.gz
