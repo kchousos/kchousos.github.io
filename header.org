@@ -5,6 +5,4 @@
 #+END_CENTER
 #+BEGIN_SRC
 
-
-
 #+END_SRC
