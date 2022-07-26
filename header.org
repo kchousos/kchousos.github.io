@@ -1,5 +1,5 @@
 #+TITLE: Kchou's Personal Blog
 |------+----------+-------|
-| [[asdfafd][Home]] | [[adsfasf][Articles]] | [[asdf][About]] |
+| [[https://example.com][Home]] | [[https://example.com][Articles]] | [[https://example.com][About]] |
 |------+----------+-------|
 
