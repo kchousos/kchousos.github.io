@@ -1,1 +1,0 @@
-#+HTML: <footer><p>Made with [[https://github.com/gongzhitaao/orgcss][orgcss]].</p></footer>

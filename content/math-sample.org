@@ -1,5 +1,5 @@
-#+INCLUDE: ../header.org
-#+TITLE: Math Sample
+#+INCLUDE: ./header.org
+#+SUBTITLE: Math Sample
 
 ** /Euler's Number/
 
