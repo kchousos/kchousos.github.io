@@ -1,7 +1,7 @@
 #+TITLE: My Personal Blog's Source
 # Badges
 #+HTML: <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kchousos/kchousos.github.io">
-#+HTML: <img src="https://github.com/kchousos/kchousos.github.io/actions/workflows/publish.yml/badge.svg" alt="Publish to GitHub Pages"></a>
+#+HTML: <img src="https://github.com/kchousos/kchousos.github.io/actions/workflows/publish.yml/badge.svg" alt="Publish to GitHub Pages">
 
 This is the start of my journey to learn more about web hosting, github workflow and blog writing.
 
