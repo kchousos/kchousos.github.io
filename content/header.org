@@ -3,6 +3,4 @@
 # [[https://kchou.github.io][Home]] | [[https://kchou.github.io][Articles]] | [[https://kchou.github.io][About]]
 # #+END_CENTER
 # -----
-# #+BEGIN_SRC
-
-# #+END_SRC
+\\
