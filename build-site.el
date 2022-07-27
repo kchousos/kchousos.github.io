@@ -25,7 +25,8 @@
       "<link rel=\"stylesheet\" type=\"text/css\" href=\"org.css\" />"
       org-html-postamble
       ;; <p>Written %C.</p>
-      "<center>
+      "<hr>
+       <center>
            <p>Made with <a href=\"https://www.gnu.org/software/emacs/\">Emacs</a>,
                         <a href=\"https://orgmode.org/\">Org Mode</a> and
                         <a href=\"https://github.com/gongzhitaao/orgcss\">Orgcss</a>.
