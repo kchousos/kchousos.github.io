@@ -22,10 +22,10 @@
       org-html-head-include-scripts nil       ;; Use our own scripts
       org-html-head-include-default-style nil ;; Use our own styles
       org-html-head
-      "<link rel=\"stylesheet\" href=\"https://gongzhitaao.org/orgcss/org.css\" />"
+      "<link rel=\"stylesheet\" href=\"org.css\" />"
       org-html-postamble
+      ;; <p>Written %C.</p>
       "<center>
-           <p>Written %C.</p>
            <p>Made with <a href=\"https://www.gnu.org/software/emacs/\">Emacs</a>,
                         <a href=\"https://orgmode.org/\">Org Mode</a> and
                         <a href=\"https://github.com/gongzhitaao/orgcss\">Orgcss</a>.
