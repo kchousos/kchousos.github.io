@@ -3,8 +3,8 @@
 
 #+BEGIN_CENTER
 /Welcome to my personal site!/
-
-/{{{time(%Y-%m-%d %a)}}}/
+#
+# /{{{time(%Y-%m-%d %a)}}}/
 #+END_CENTER
 
 * Ambition
