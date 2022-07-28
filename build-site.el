@@ -32,10 +32,10 @@
       org-html-preamble
       "<b>Konstantinos Chousos</b>
        <p>
-       		<a href=\"https://kchousos.github.io\">
+       		<a href=\"index.html\">
                 <i class=\"fa fa-home\"></i> Home
             </a> |
-       		<a href=\"https://kchousos.github.io/about.html\">
+       		<a href=\"about.html\">
                 <i class=\"fa fa-user\"></i> About
             </a> |
        		<a href=\"https://github.com/kchousos\">
@@ -51,7 +51,8 @@
                         <a href=\"https://orgmode.org/\">Org Mode</a> and
                         <a href=\"https://github.com/gongzhitaao/orgcss\">Orgcss</a>.
           </p>
-       </center>")
+       </center>
+       <script src=\"external_links.js\"></script>")
 
 ;; Define the publishing project
 (setq org-publish-project-alist

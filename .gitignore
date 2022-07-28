@@ -14,5 +14,6 @@
 !public/
 !public/org.css
 !public/logo.png
+!public/external_links.js
 
 *.gz
