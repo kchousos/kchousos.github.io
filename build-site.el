@@ -22,13 +22,25 @@
       org-html-head-include-scripts nil       ;; Use our own scripts
       org-html-head-include-default-style nil ;; Use our own styles
       org-html-head
-      "<script src=\"newtab.js\"></script>
-       <link rel=\"stylesheet\" type=\"text/css\" href=\"org.css\" />"
+      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">
+       <link rel=\"stylesheet\" type=\"text/css\" href=\"org.css\" />
+       <link rel=\"icon\" href=\"logo.png\" type=\"image/png\">
+       <script type=\"text/javascript\">
+            document.title += \" | Konstantinos Chousos\";
+       </script>
+       "
       org-html-preamble
       "<b>Konstantinos Chousos</b>
        <p>
-       		<a href=\"https://kchousos.github.io\">Home</a> |
-       		<a href=\"https://kchousos.github.io/about.html\">About</a>
+       		<a href=\"https://kchousos.github.io\">
+                <i class=\"fa fa-home\"></i> Home
+            </a> |
+       		<a href=\"https://kchousos.github.io/about.html\">
+                <i class=\"fa fa-user\"></i> About
+            </a> |
+       		<a href=\"https://github.com/kchousos\">
+                <i class=\"fa fa-github\"></i> Github
+            </a>
        </p>
        "
       org-html-postamble

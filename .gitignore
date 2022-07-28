@@ -13,6 +13,6 @@
 
 !public/
 !public/org.css
-!public/newtab.js
+!public/logo.png
 
 *.gz

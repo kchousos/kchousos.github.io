@@ -1,8 +1,8 @@
-#+TITLE: My Personal Page
+#+HTML_HEAD_EXTRA: <script type="text/javascript"> document.title = "Konstantinos Chousos"; </script>
 
-# #+BEGIN_CENTER
-# /{{{time(%Y-%m-%d %a)}}}/
-# #+END_CENTER
-# \\
-# \\
+#+BEGIN_CENTER
+*/Welcome to my site!/*
+# /{{{time(%Y-%m-%d %A)}}}/
+#+END_CENTER
+\\
 This site will be the home of various side-projects I will be working on. Also, it will host articles about things I am interested in, /e.g./ programming, networking, self-hosting, Linux and Emacs.
