@@ -22,7 +22,8 @@
       org-html-head-include-scripts nil       ;; Use our own scripts
       org-html-head-include-default-style nil ;; Use our own styles
       org-html-head
-      "<link rel=\"stylesheet\" type=\"text/css\" href=\"org.css\" />"
+      "<base target=\"_blank\" rel=\"noopener noreferrer\">
+       <link rel=\"stylesheet\" type=\"text/css\" href=\"org.css\" />"
       org-html-postamble
       ;; <p>Written %C.</p>
       "<hr>
