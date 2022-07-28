@@ -1,0 +1,2 @@
+#+TITLE: About Me
+I am a second year undergraduate student in the [[https://www.di.uoa.gr/en][Department of Informatics and Telecommunications]] at [[https://en.uoa.gr/][University of Athens]].

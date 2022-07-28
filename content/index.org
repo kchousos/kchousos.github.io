@@ -1,14 +1,8 @@
-#+TITLE: Konstantinos Chousos
-#+DATE: <2022-07-27 Wed>
+#+TITLE: My Personal Page
 
-#+BEGIN_CENTER
-/Welcome to my personal site!/
-#
+# #+BEGIN_CENTER
 # /{{{time(%Y-%m-%d %a)}}}/
-#+END_CENTER
-
-* Ambition
+# #+END_CENTER
+# \\
+# \\
 This site will be the home of various side-projects I will be working on. Also, it will host articles about things I am interested in, /e.g./ programming, networking, self-hosting, Linux and Emacs.
-
-* About
-I am a second year undergraduate student in the [[https://www.di.uoa.gr/en][Department of Informatics and Telecommunications]] at [[https://en.uoa.gr/][University of Athens]].

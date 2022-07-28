@@ -24,6 +24,13 @@
       org-html-head
       "<base target=\"_blank\" rel=\"noopener noreferrer\">
        <link rel=\"stylesheet\" type=\"text/css\" href=\"org.css\" />"
+      org-html-preamble
+      "<b>Konstantinos Chousos</b>
+       <p>
+       		<a href=\"https://kchousos.github.io\">Home</a> |
+       		<a href=\"https://kchousos.github.io/about.html\">About</a>
+       </p>
+       "
       org-html-postamble
       ;; <p>Written %C.</p>
       "<hr>
