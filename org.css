@@ -2000,6 +2000,13 @@ a {
     color: #527d9a;
     text-decoration: none;
 }
+a:link {
+    color: #527d9a;
+    text-decoration: none;
+}
+a:visited {
+    color: #6429c4;
+}
 a:hover {
     color: #035;
     border-bottom: 1px dotted;
