@@ -31,7 +31,7 @@
        "
       org-html-preamble
       "<b>Konstantinos Chousos</b>
-       <p>
+       <nav>
        		<a href=\"index.html\">
                 <i class=\"fa fa-home\"></i> Home
             </a> |
@@ -41,7 +41,7 @@
        		<a href=\"https://github.com/kchousos\">
                 <i class=\"fa fa-github\"></i> Github
             </a>
-       </p>
+       <nav>
        "
       org-html-postamble
       ;; <p>Written %C.</p>
