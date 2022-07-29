@@ -17,10 +17,12 @@
 ;; Load the publishing system
 (require 'ox-publish)
 
+
 ;; Customize the HTML output
 (setq org-html-validation-link nil            ;; Don't show validation link
       org-html-head-include-scripts nil       ;; Use our own scripts
       org-html-head-include-default-style nil ;; Use our own styles
+      org-html-metadata-timestamp-format "%A, %d %b %Y"
       org-html-head
       "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">
        <link rel=\"stylesheet\" type=\"text/css\" href=\"org.css\" />
@@ -44,21 +46,21 @@
        <nav>
        "
       org-html-postamble
-      ;; <p>Written %C.</p>
+      ;; <p><a href=\"#top\">↑Top↑</a></p>
       "<hr>
        <center>
            <p>Made with <a href=\"https://www.gnu.org/software/emacs/\">Emacs</a>,
                         <a href=\"https://orgmode.org/\">Org Mode</a> and
                         <a href=\"https://github.com/gongzhitaao/orgcss\">Orgcss</a>.
-          </p>
-          ;; <p><a href=\"#top\">↑Top↑</a></p>
+           </p>
+           <p>%C</p>
        </center>
        <script src=\"external_links.js\"></script>")
 
 ;; Define the publishing project
 (setq org-publish-project-alist
       (list
-       (list "blog:main"
+       (list "site:main"
              :recursive t
              :base-directory "./content"
              :publishing-function 'org-html-publish-to-html
