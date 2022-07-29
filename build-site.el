@@ -51,6 +51,7 @@
                         <a href=\"https://orgmode.org/\">Org Mode</a> and
                         <a href=\"https://github.com/gongzhitaao/orgcss\">Orgcss</a>.
           </p>
+          ;; <p><a href=\"#top\">↑Top↑</a></p>
        </center>
        <script src=\"external_links.js\"></script>")
 
