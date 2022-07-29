@@ -24,9 +24,11 @@
       org-html-head-include-default-style nil ;; Use our own styles
       org-html-metadata-timestamp-format "%A, %d %b %Y"
       org-html-head
-      "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">
-       <link rel=\"stylesheet\" type=\"text/css\" href=\"org.css\" />
-       <link rel=\"icon\" href=\"logo.png\" type=\"image/png\">
+      "<link rel=\"stylesheet\" href=\"css/normalize.css\" type=\"text/css\">
+       <link rel=\"stylesheet\" href=\"css/sakura.css\" media=\"screen\" />
+       <link rel=\"stylesheet\" href=\"css/sakura-dark.css\" media=\"screen and (prefers-color-scheme: dark)\" />
+       <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">
+       <link rel=\"icon\" href=\"icons/logo-light.png\" type=\"image/png\">
        <script type=\"text/javascript\">
             document.title += \" | Konstantinos Chousos\";
        </script>
@@ -51,11 +53,11 @@
        <center>
            <p>Made with <a href=\"https://www.gnu.org/software/emacs/\">Emacs</a>,
                         <a href=\"https://orgmode.org/\">Org Mode</a> and
-                        <a href=\"https://github.com/gongzhitaao/orgcss\">Orgcss</a>.
+                        <a href=\"https://github.com/oxalorg/sakura\">Sakura</a>
+                        <br>%C
            </p>
-           <p>%C</p>
        </center>
-       <script src=\"external_links.js\"></script>")
+       <script src=\"js/external_links.js\"></script>")
 
 ;; Define the publishing project
 (setq org-publish-project-alist

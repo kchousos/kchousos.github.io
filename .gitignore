@@ -12,8 +12,17 @@
 !README.org
 
 !public/
-!public/org.css
-!public/logo.png
-!public/external_links.js
+
+!public/icons/
+!public/icons/logo-light.png
+!public/icons/logo-dark.png
+
+!public/css/
+!public/css/sakura.css
+!public/css/sakura-dark.css
+!public/css/normalize.css
+
+!public/js/
+!public/js/external_links.js
 
 *.gz
