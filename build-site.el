@@ -27,8 +27,11 @@
       "<link rel=\"stylesheet\" href=\"css/normalize.css\" type=\"text/css\">
        <link rel=\"stylesheet\" href=\"css/sakura.css\" media=\"screen\" />
        <link rel=\"stylesheet\" href=\"css/sakura-dark.css\" media=\"screen and (prefers-color-scheme: dark)\" />
+
        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">
-       <link rel=\"icon\" href=\"icons/logo-light.png\" type=\"image/png\">
+
+       <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"icons/icon-light.png\" id=\"faviconTag\"/>
+
        <script type=\"text/javascript\">
             document.title += \" | Konstantinos Chousos\";
        </script>
@@ -57,6 +60,7 @@
                         <br>%C
            </p>
        </center>
+       <script src=\"js/favicon.js\"></script>
        <script src=\"js/external_links.js\"></script>")
 
 ;; Define the publishing project
