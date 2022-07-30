@@ -17,20 +17,19 @@
 ;; Load the publishing system
 (require 'ox-publish)
 
-
 ;; Customize the HTML output
 (setq org-html-validation-link nil            ;; Don't show validation link
       org-html-head-include-scripts nil       ;; Use our own scripts
       org-html-head-include-default-style nil ;; Use our own styles
       org-html-metadata-timestamp-format "%A, %d %b %Y"
       org-html-head
-      "<link rel=\"stylesheet\" href=\"css/normalize.css\" type=\"text/css\">
-       <link rel=\"stylesheet\" href=\"css/sakura.css\" media=\"screen\" />
-       <link rel=\"stylesheet\" href=\"css/sakura-dark.css\" media=\"screen and (prefers-color-scheme: dark)\" />
+      "<link rel=\"stylesheet\" href=\"/css/normalize.css\" type=\"text/css\">
+       <link rel=\"stylesheet\" href=\"/css/sakura.css\" media=\"screen\" />
+       <link rel=\"stylesheet\" href=\"/css/sakura-dark.css\" media=\"screen and (prefers-color-scheme: dark)\" />
 
        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">
 
-       <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"icons/icon-light.png\" id=\"faviconTag\"/>
+       <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/icons/icon-light.png\" id=\"faviconTag\"/>
 
        <script type=\"text/javascript\">
             document.title += \" | Konstantinos Chousos\";
@@ -39,10 +38,13 @@
       org-html-preamble
       "<b>Konstantinos Chousos</b>
        <nav>
-       		<a href=\"index.html\">
+       		<a href=\"/index.html\">
                 <i class=\"fa fa-home\"></i> Home
             </a> |
-       		<a href=\"about.html\">
+       		<a href=\"/articles.html\">
+            <i class=\"fa fa-book\"></i> Articles
+            </a> |
+       		<a href=\"/about.html\">
                 <i class=\"fa fa-user\"></i> About
             </a> |
        		<a href=\"https://github.com/kchousos\">
@@ -60,8 +62,8 @@
                         <br>%C
            </p>
        </center>
-       <script src=\"js/favicon.js\"></script>
-       <script src=\"js/external_links.js\"></script>")
+       <script src=\"/js/favicon.js\"></script>
+       <script src=\"/js/external_links.js\"></script>")
 
 ;; Define the publishing project
 (setq org-publish-project-alist

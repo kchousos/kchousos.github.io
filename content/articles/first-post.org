@@ -1,0 +1,3 @@
+#+TITLE: My first article
+
+This site's purpose is to give me an opportunity to test and expand my -very limited as of now- webdev knowledge and to act as a portfolio for my programming projects. Apart from that, there will occasionally be articles or tutorials about anything loosely tech related I find interest in. That's it for now!

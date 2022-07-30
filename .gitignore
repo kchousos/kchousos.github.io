@@ -1,6 +1,7 @@
 *
 !content/
 !content/*
+!content/**/*
 
 !.github/
 !.github/workflows
