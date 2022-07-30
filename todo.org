@@ -1,10 +1,10 @@
 #+TITLE: TODO's
 
-- [ ] Find an efficient syntax highlighting solution
+* TODO an efficient syntax highlighting solution
   Preferably without an external syntax highlighter.
-- [ ] Automatic "articles" index
+* TODO Automatic "articles" index
   Probably some kind of shell script.
-- [ ] Faster solution for the favicon theme change
+* TODO Faster solution for the favicon theme change
   Think it has to do with some kind of listener.
-- [ ] RSS feed
+* TODO RSS feed
   Probably difficult if I'm to implement it from scratch. Not really needed, but a fun project nonetheless.
