@@ -1,3 +1,5 @@
+#+OPTIONS: todo: t
+
 * TODO Find an efficient syntax highlighting solution
 Preferably without an external syntax highlighter.
 * TODO Automatic "articles" index
