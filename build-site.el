@@ -12,7 +12,7 @@
 
 ;; Install dependencies
 (package-install 'htmlize)
-(setq org-html-htmlize-output-type 'css)
+;; (setq org-html-htmlize-output-type 'css)
 
 ;; Load the publishing system
 (require 'ox-publish)
@@ -59,7 +59,7 @@
            <p>Made with <a href=\"https://www.gnu.org/software/emacs/\">Emacs</a>,
                         <a href=\"https://orgmode.org/\">Org Mode</a> and
                         <a href=\"https://github.com/oxalorg/sakura\">Sakura</a>
-                        <br>%C
+                        <br>Last edited: %C
            </p>
        </center>
        <script src=\"/js/favicon.js\"></script>
