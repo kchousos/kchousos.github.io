@@ -1,3 +1,5 @@
+(setq org-html-htmlize-output-type nil)
+
 (require 'ox-publish)
 (require 'ox-html)
 
