@@ -24,8 +24,8 @@
 
        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">
 
-       <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/github.min.css\" media=\"screen\" />
-       <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/github-dark.min.css\" media=\"screen and (prefers-color-scheme: dark)\" />
+       <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/base16/tomorrow.min.css\" media=\"screen\" />
+       <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/base16/tomorrow-night.min.css\" media=\"screen and (prefers-color-scheme: dark)\" />
 
        <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/icons/icon-light.png\" id=\"faviconTag\"/>
 
