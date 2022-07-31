@@ -1,0 +1,14 @@
+/* My additions */
+.title  {
+    text-align: center;
+    margin-bottom: .5em;
+}
+.subtitle {
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    margin-top:0;
+}
+#postamble.status {
+    font-size: 1.6rem;
+}

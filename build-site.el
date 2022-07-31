@@ -21,6 +21,7 @@
       "<link rel=\"stylesheet\" href=\"/css/normalize.css\" type=\"text/css\">
        <link rel=\"stylesheet\" href=\"/css/sakura.css\" media=\"screen\" />
        <link rel=\"stylesheet\" href=\"/css/sakura-dark.css\" media=\"screen and (prefers-color-scheme: dark)\" />
+       <link rel=\"stylesheet\" href=\"/css/mine.css\" type=\"text/css\">
 
        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">
 
@@ -43,6 +44,9 @@
        <nav>"
 
       org-html-postamble
+      ;; <script src=\"https://cdn.jsdelivr.net/npm/highlightjs-line-numbers.js/dist/highlightjs-line-numbers.min.js\"></script>
+      ;; <script>hljs.initLineNumbersOnLoad();</script>
+
       "<hr>
        <center>
            <p>Made with <a href=\"https://www.gnu.org/software/emacs/\">Emacs</a>,

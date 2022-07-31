@@ -126,7 +126,9 @@ img, video {
 /* Pre and Code */
 pre {
     background-color: #f1f1f1;
-    display: block;
+    /* display: block; */
+    border-radius: 10px;
+    border: 1px solid;
     /* padding: 1em; */
     overflow-x: auto;
     margin-top: 0px;
@@ -219,19 +221,4 @@ label, legend, fieldset {
     display: block;
     margin-bottom: 0.5rem;
     font-weight: 600;
-}
-
-/* My additions */
-.title  {
-    text-align: center;
-    margin-bottom: .5em;
-}
-.subtitle {
-    text-align: center;
-    font-size: medium;
-    font-weight: bold;
-    margin-top:0;
-}
-#postamble.status {
-    font-size: 1.6rem;
 }
