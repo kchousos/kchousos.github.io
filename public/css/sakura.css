@@ -127,7 +127,7 @@ img, video {
 pre {
     background-color: #f1f1f1;
     display: block;
-    padding: 1em;
+    /* padding: 1em; */
     overflow-x: auto;
     margin-top: 0px;
     margin-bottom: 2.5rem;
