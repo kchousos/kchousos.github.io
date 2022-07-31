@@ -1,0 +1,35 @@
+/* My additions */
+.title  {
+    text-align: center;
+    margin-bottom: .5em;
+}
+.subtitle {
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    margin-top:0;
+}
+#postamble.status {
+    font-size: 1.6rem;
+}
+.footpara {
+    display: inline;
+    margin: 0.2em auto;
+}
+.footdef {
+    margin-bottom: 0.5em;
+}
+.footdef sup {
+    padding-right: 0.5em;
+}
+#footnotes {
+    font-size: 80%;
+    margin-bottom: 1.8rem;
+}
+.underline {
+    text-decoration: underline;
+}
+kbd {
+    border: 1px solid;
+    border-radius: 6px;
+}

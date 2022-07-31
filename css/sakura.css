@@ -125,9 +125,8 @@ img, video {
 
 /* Pre and Code */
 pre {
-    background-color: #f1f1f1;
-    display: block;
-    padding: 1em;
+    border-radius: 6px;
+    border: 1px solid;
     overflow-x: auto;
     margin-top: 0px;
     margin-bottom: 2.5rem;
@@ -137,7 +136,6 @@ pre {
 code, kbd, samp {
     font-size: 0.9em;
     padding: 0 0.5em;
-    background-color: #f1f1f1;
     white-space: pre-wrap;
 }
 
@@ -221,17 +219,8 @@ label, legend, fieldset {
     font-weight: 600;
 }
 
-/* My additions */
-.title  {
-    text-align: center;
-    margin-bottom: .5em;
-}
-.subtitle {
-    text-align: center;
-    font-size: medium;
-    font-weight: bold;
-    margin-top:0;
-}
-#postamble.status {
-    font-size: 1.6rem;
+/* My overrides */
+
+kbd {
+    background: white;
 }
