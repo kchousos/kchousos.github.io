@@ -12,3 +12,24 @@
 #postamble.status {
     font-size: 1.6rem;
 }
+.footpara {
+    display: inline;
+    margin: 0.2em auto;
+}
+.footdef {
+    margin-bottom: 0.5em;
+}
+.footdef sup {
+    padding-right: 0.5em;
+}
+#footnotes {
+    font-size: 80%;
+    margin-bottom: 1.8rem;
+}
+.underline {
+    text-decoration: underline;
+}
+kbd {
+    border: 1px solid;
+    border-radius: 6px;
+}

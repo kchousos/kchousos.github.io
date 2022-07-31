@@ -125,11 +125,8 @@ img, video {
 
 /* Pre and Code */
 pre {
-    background-color: #f1f1f1;
-    /* display: block; */
-    border-radius: 10px;
+    border-radius: 6px;
     border: 1px solid;
-    /* padding: 1em; */
     overflow-x: auto;
     margin-top: 0px;
     margin-bottom: 2.5rem;
@@ -139,7 +136,6 @@ pre {
 code, kbd, samp {
     font-size: 0.9em;
     padding: 0 0.5em;
-    background-color: #f1f1f1;
     white-space: pre-wrap;
 }
 
@@ -221,4 +217,10 @@ label, legend, fieldset {
     display: block;
     margin-bottom: 0.5rem;
     font-weight: 600;
+}
+
+/* My overrides */
+
+kbd {
+    background: white;
 }

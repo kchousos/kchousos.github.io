@@ -1,0 +1,46 @@
+#+TITLE: Feature: Code highlighting has arrived!
+
+Since this site has to do with tech and programming, it will naturally have code blocks. With my previous configuration, exported code blocks from org-mode worked just fine, except with one caveat: they weren't highlighted.
+
+Although syntax highlighting and if it is needed can be a controversial topic where views differ, I thought that it would be a nice QOL improvement.
+
+Normally, the =htmlize= emacs package would do the trick. But, as many other have pointed out[fn:1][fn:2][fn:3], it doesn't work when emacs is run in =-batch= mode, which is necessary for the auto-publication of this site.
+
+So my solution was to "borrow" this snippet from [[https://www.reddit.com/r/emacs/comments/bhlxmd/where_is_the_proper_way_of_rewriting_or_replacing/][this reddit thread]],Which makes the exported html [[https://highlightjs.org/][Highlight.js]]-compatible.
+
+#+BEGIN_SRC emacs-lisp
+(defun my/org-html-src-block (html)
+  "Modify the output of org-html-src-block for highlight.js"
+  (replace-regexp-in-string
+   "</pre>" "</code></pre>"
+   (replace-regexp-in-string
+    "<pre class=\"src src-\\(.*\\)\">"
+    "<pre><code class=\"\\1\">"
+    html)))
+
+(advice-add 'org-html-src-block :filter-return #'my/org-html-src-block)
+#+END_SRC
+
+Now, with the following html code added to my automatic build script:
+
+#+BEGIN_SRC html
+<!-- HTML HEAD -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/base16/papercolor-light.min.css" media="screen"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/base16/papercolor-dark.min.css" media="screen and (prefers-color-scheme: dark)"/>
+...
+<!-- HTML BODY -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+#+END_SRC
+
+The code blocks are highlighted based on the language's syntax. Also, in the same way the main css is changed based on whether dark-mode is enabled, the highlight.js theme is changed as well.
+
+* Caveats
+
+The only downside of this approach is that the highlighting becomes depended to whether highlight.js supports the language (/e.g./, emacs-lisp is _not_ supported as the first code block indicates).
+
+* Footnotes
+
+[fn:1] https://stackoverflow.com/questions/22123382/running-org-export-as-html-in-emacs-batch-mode
+[fn:2] https://emacs.stackexchange.com/questions/38437/org-mode-batch-export-missing-syntax-highlighting 
+[fn:3] https://stackoverflow.com/questions/24329865/using-emacs-in-batch-mode-to-dump-a-file-with-syntax-highlighting 

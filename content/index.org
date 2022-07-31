@@ -1,5 +1,3 @@
-# #+HTML_HEAD_EXTRA: <script type="text/javascript"> document.title = "Konstantinos Chousos"; </script>
-
 #+TITLE: Welcome
 
 This site will be the home of various side-projects I will be working on. Also, it will host articles about things I am interested in, /e.g./ programming, networking, self-hosting, Linux and Emacs.

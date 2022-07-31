@@ -75,3 +75,9 @@ textarea:focus, select:focus, input:focus {
 input[type=checkbox]:focus {
     outline: 1px dotted #ffffff;
 }
+
+/* My overrides */
+
+kbd {
+    background: white;
+}
