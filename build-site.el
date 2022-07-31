@@ -24,8 +24,8 @@
 
        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">
 
-       <link rel=\"stylesheet\" href=\"/js/highlight.js/styles/github.min.css\" media=\"screen\" />
-       <link rel=\"stylesheet\" href=\"/js/highlight.js/styles/github-dark.min.css\" media=\"screen and (prefers-color-scheme: dark)\" />
+       <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/github.min.css\" media=\"screen\" />
+       <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/github-dark.min.css\" media=\"screen and (prefers-color-scheme: dark)\" />
 
        <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/icons/icon-light.png\" id=\"faviconTag\"/>
 
@@ -52,9 +52,10 @@
            </p>
        </center>
 
-       <script src=\"/js/favicon.js\"></script>
-       <script src=\"/js/highlight.js/highlight.min.js\"></script>
+       <script src=\"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js\"></script>
        <script>hljs.highlightAll();</script>
+
+       <script src=\"/js/favicon.js\"></script>
        <script src=\"/js/external_links.js\"></script>")
 
 ;; Define the publishing project
