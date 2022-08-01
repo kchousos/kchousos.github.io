@@ -47,5 +47,7 @@ The only downside of this approach is that the highlighting becomes depended to 
 * Footnotes
 
 [fn:1] https://stackoverflow.com/questions/22123382/running-org-export-as-html-in-emacs-batch-mode
-[fn:2] https://emacs.stackexchange.com/questions/38437/org-mode-batch-export-missing-syntax-highlighting 
-[fn:3] https://stackoverflow.com/questions/24329865/using-emacs-in-batch-mode-to-dump-a-file-with-syntax-highlighting 
+
+[fn:2] https://emacs.stackexchange.com/questions/38437/org-mode-batch-export-missing-syntax-highlighting
+
+[fn:3] https://stackoverflow.com/questions/24329865/using-emacs-in-batch-mode-to-dump-a-file-with-syntax-highlighting
