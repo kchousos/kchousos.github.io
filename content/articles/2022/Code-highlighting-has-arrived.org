@@ -8,7 +8,7 @@ Normally, the =htmlize= emacs package would do the trick. But, as many other hav
 
 So my solution was to "borrow" this snippet from [[https://www.reddit.com/r/emacs/comments/bhlxmd/where_is_the_proper_way_of_rewriting_or_replacing/][this reddit thread]],Which makes the exported html [[https://highlightjs.org/][Highlight.js]]-compatible.
 
-#+BEGIN_SRC emacs-lisp
+#+BEGIN_SRC lisp
 (defun my/org-html-src-block (html)
   "Modify the output of org-html-src-block for highlight.js"
   (replace-regexp-in-string
@@ -37,7 +37,12 @@ The code blocks are highlighted based on the language's syntax. Also, in the sam
 
 * Caveats
 
-The only downside of this approach is that the highlighting becomes depended to whether highlight.js supports the language (/e.g./, emacs-lisp is _not_ supported as the first code block indicates).
+The only downside of this approach is that the highlighting becomes depended to whether highlight.js supports the language +(/e.g./, emacs-lisp is _not_ supported as the first code block indicates)+.
+*Edit*: you can get ~lisp~ syntax highlighting by including the language seperately, since it's not in the common set of the main link. ~Lisp~ is added by the following line:
+
+#+BEGIN_SRC html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/lisp.min.js"></script>
+#+END_SRC
 
 * Footnotes
 

@@ -73,6 +73,7 @@
        </center>
 
        <script src=\"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js\"></script>
+       <script src=\"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/lisp.min.js\"></script>
        <script>hljs.highlightAll();</script>
 
        <script src=\"/js/favicon.js\"></script>
