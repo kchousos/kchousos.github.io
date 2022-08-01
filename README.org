@@ -4,5 +4,3 @@
 #+HTML: <a href="https://github.com/kchousos/kchousos.github.io/actions/workflows/publish.yml"><img src="https://github.com/kchousos/kchousos.github.io/actions/workflows/publish.yml/badge.svg" alt="Publish to GitHub Pages"></a>
 
 Visit the site [[https://kchousos.github.io][here]].
-
-Special thanks to [[https://github.com/gongzhitaao][Zhitao Gong]] for his excellent [[https://github.com/gongzhitaao/orgcss][orgcss]].
