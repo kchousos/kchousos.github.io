@@ -54,8 +54,8 @@
       "<b>Konstantinos Chousos</b>
        <nav>
        		<a href=\"/\"> <i class=\"fa fa-home\"></i> Home </a> |
-       		<a href=\"/articles.html\"> <i class=\"fa fa-book\"></i> Articles </a> |
-       		<a href=\"/about.html\"> <i class=\"fa fa-user\"></i> About </a> |
+       		<a href=\"/articles\"> <i class=\"fa fa-book\"></i> Articles </a> |
+       		<a href=\"/about\"> <i class=\"fa fa-user\"></i> About </a> |
        		<a href=\"https://github.com/kchousos\"> <i class=\"fa fa-github\"></i> Github </a>
        <nav>"
 
@@ -82,7 +82,7 @@
 ;; Define the publishing project
 (setq org-publish-project-alist
       (list
-       (list "site:main"
+       (list "site"
              :recursive t
              :base-directory "./content"
              :publishing-function 'org-html-publish-to-html
@@ -94,7 +94,7 @@
              :section-numbers nil       ;; Don't include section numbers
              ;; :time-stamp-file nil       ;; Don't include time stamp in file
              )))
-
+ 
 ;; Generate the site output
 (org-publish-all t)
 

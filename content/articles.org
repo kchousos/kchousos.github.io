@@ -1,4 +1,4 @@
 #+TITLE: Articles
 * 2022
-- [[./articles/2022/Code-highlighting-has-arrived.org][Feature: Code highlighting has arrived!]]
-- [[./articles/2022/first-post.org][My first article]]
+- [[./articles/2022/Code-highlighting-has-arrived][Feature: Code highlighting has arrived!]]
+- [[./articles/2022/first-post][My first article]]
