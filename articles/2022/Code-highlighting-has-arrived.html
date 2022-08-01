@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- Sunday, 31 Jul 2022 -->
+<!-- Monday, 01 Aug 2022 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Feature: Code highlighting has arrived!</title>
@@ -53,7 +53,7 @@ So my solution was to "borrow" this snippet from <a href="https://www.reddit.com
 </p>
 
 <div class="org-src-container">
-<pre><code class="emacs-lisp">(defun my/org-html-src-block (html)
+<pre><code class="lisp">(defun my/org-html-src-block (html)
   "Modify the output of org-html-src-block for highlight.js"
   (replace-regexp-in-string
    "&lt;/pre&gt;" "&lt;/code&gt;&lt;/pre&gt;"
@@ -85,12 +85,18 @@ Now, with the following html code added to my automatic build script:
 The code blocks are highlighted based on the language's syntax. Also, in the same way the main css is changed based on whether dark-mode is enabled, the highlight.js theme is changed as well.
 </p>
 
-<div id="outline-container-org6e825c4" class="outline-2">
-<h2 id="org6e825c4">Caveats</h2>
-<div class="outline-text-2" id="text-org6e825c4">
+<div id="outline-container-org5f15f6c" class="outline-2">
+<h2 id="org5f15f6c">Caveats</h2>
+<div class="outline-text-2" id="text-org5f15f6c">
 <p>
-The only downside of this approach is that the highlighting becomes depended to whether highlight.js supports the language (<i>e.g.</i>, emacs-lisp is <span class="underline">not</span> supported as the first code block indicates).
+The only downside of this approach is that the highlighting becomes depended to whether highlight.js supports the language <del>(<i>e.g.</i>, emacs-lisp is <span class="underline">not</span> supported as the first code block indicates)</del>.
+<b>Edit</b>: you can get <code>lisp</code> syntax highlighting by including the language seperately, since it's not in the common set of the main link. <code>Lisp</code> is added by the following line:
 </p>
+
+<div class="org-src-container">
+<pre><code class="html">&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/lisp.min.js"&gt;&lt;/script&gt;
+</code></pre>
+</div>
 </div>
 </div>
 <div id="footnotes">
@@ -102,11 +108,11 @@ The only downside of this approach is that the highlighting becomes depended to 
 </p></div></div>
 
 <div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> <div class="footpara"><p class="footpara">
-<a href="https://emacs.stackexchange.com/questions/38437/org-mode-batch-export-missing-syntax-highlighting">https://emacs.stackexchange.com/questions/38437/org-mode-batch-export-missing-syntax-highlighting</a> 
+<a href="https://emacs.stackexchange.com/questions/38437/org-mode-batch-export-missing-syntax-highlighting">https://emacs.stackexchange.com/questions/38437/org-mode-batch-export-missing-syntax-highlighting</a>
 </p></div></div>
 
 <div class="footdef"><sup><a id="fn.3" class="footnum" href="#fnr.3">3</a></sup> <div class="footpara"><p class="footpara">
-<a href="https://stackoverflow.com/questions/24329865/using-emacs-in-batch-mode-to-dump-a-file-with-syntax-highlighting">https://stackoverflow.com/questions/24329865/using-emacs-in-batch-mode-to-dump-a-file-with-syntax-highlighting</a> 
+<a href="https://stackoverflow.com/questions/24329865/using-emacs-in-batch-mode-to-dump-a-file-with-syntax-highlighting">https://stackoverflow.com/questions/24329865/using-emacs-in-batch-mode-to-dump-a-file-with-syntax-highlighting</a>
 </p></div></div>
 
 
@@ -118,12 +124,13 @@ The only downside of this approach is that the highlighting becomes depended to 
            <p>Made with <a href="https://www.gnu.org/software/emacs/">Emacs</a>,
                         <a href="https://orgmode.org/">Org Mode</a> and
                         <a href="https://github.com/oxalorg/sakura">Sakura</a>
-                        <br>Last edited: Sunday, 31 Jul 2022
+                        <br>Last edited: Monday, 01 Aug 2022
            </p>
        </center>
 
        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
-       <script>hljs.highlightAll();</script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/lisp.min.js"></script>
+       <script src="/js/my_highlight.js"></script>
 
        <script src="/js/favicon.js"></script>
        <script src="/js/external_links.js"></script>
