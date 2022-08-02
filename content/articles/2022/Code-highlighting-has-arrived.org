@@ -4,7 +4,7 @@ Since this site has to do with tech and programming, it will naturally have code
 
 Although syntax highlighting and if it is needed can be a controversial topic where views differ, I thought that it would be a nice QOL improvement.
 
-Normally, the =htmlize= emacs package would do the trick. But, as many other have pointed out[fn:1][fn:2][fn:3], it doesn't work when emacs is run in =-batch= mode, which is necessary for the auto-publication of this site.
+Normally, the =htmlize= emacs package would do the trick. But, as many other have pointed out[fn:1][fn:2][fn:3], it doesn't work when emacs is run in ~-batch~ mode, which is necessary for the auto-publication of this site.
 
 So my solution was to "borrow" this snippet from [[https://www.reddit.com/r/emacs/comments/bhlxmd/where_is_the_proper_way_of_rewriting_or_replacing/][this reddit thread]],Which makes the exported html [[https://highlightjs.org/][Highlight.js]]-compatible.
 
