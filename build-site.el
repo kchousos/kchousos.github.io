@@ -49,8 +49,8 @@
       "<b>Konstantinos Chousos</b>
        <nav>
        		<a href=\"/\"> <i class=\"fa fa-home\"></i> Home </a> |
-       		<a href=\"/articles/\"> <i class=\"fa fa-book\"></i> Articles </a> |
-       		<a href=\"/about/\"> <i class=\"fa fa-user\"></i> About </a> |
+       		<a href=\"/articles\"> <i class=\"fa fa-book\"></i> Articles </a> |
+       		<a href=\"/about\"> <i class=\"fa fa-user\"></i> About </a> |
        		<a href=\"https://github.com/kchousos\"> <i class=\"fa fa-github\"></i> Github </a>
        <nav>"
 
