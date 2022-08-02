@@ -1,0 +1,1 @@
+document.title += " | Konstantinos Chousos";
