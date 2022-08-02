@@ -12,20 +12,19 @@
 
 ;; Install dependencies
 (package-install 'htmlize)
-(setq org-html-htmlize-output-type 'nil)
+(setq org-html-htmlize-output-type nil)
 
 (require 'ox-publish)
 (require 'ox-html)
 
-;; ; Makes code blocks compatible with highlight.js
 (defun my/org-html-src-block (html)
-  "Modify the output of org-html-src-block for highlight.js."
   (replace-regexp-in-string
    "</pre>" "</code></pre>"
    (replace-regexp-in-string
     "<pre class=\"src src-\\(.*\\)\">"
-    "<pre><code class=\"\\1\">"
+    "<pre><code class=\"language-\\1\">"
     html)))
+
 (advice-add 'org-html-src-block :filter-return #'my/org-html-src-block)
 
 ;; Customize the HTML output
@@ -41,27 +40,21 @@
 
        <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">
 
-       <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/base16/papercolor-light.min.css\" media=\"screen\" />
-       <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/base16/papercolor-dark.min.css\" media=\"screen and (prefers-color-scheme: dark)\" />
+       <link rel=\"stylesheet\" href=\"/css/hljs-light.css\" media=\"screen\" />
+       <link rel=\"stylesheet\" href=\"/css/hljs-dark.css\" media=\"screen and (prefers-color-scheme: dark)\" />
 
-       <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/icons/icon-light.png\" id=\"faviconTag\"/>
-
-       <script type=\"text/javascript\">
-            document.title += \" | Konstantinos Chousos\";
-       </script>"
+       <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/icons/icon-light.png\" id=\"faviconTag\"/>"
       
       org-html-preamble
       "<b>Konstantinos Chousos</b>
        <nav>
        		<a href=\"/\"> <i class=\"fa fa-home\"></i> Home </a> |
-       		<a href=\"/articles\"> <i class=\"fa fa-book\"></i> Articles </a> |
-       		<a href=\"/about\"> <i class=\"fa fa-user\"></i> About </a> |
+       		<a href=\"/articles/\"> <i class=\"fa fa-book\"></i> Articles </a> |
+       		<a href=\"/about/\"> <i class=\"fa fa-user\"></i> About </a> |
        		<a href=\"https://github.com/kchousos\"> <i class=\"fa fa-github\"></i> Github </a>
        <nav>"
 
       org-html-postamble
-      ;; <script src=\"https://cdn.jsdelivr.net/npm/highlightjs-line-numbers.js/dist/highlightjs-line-numbers.min.js\"></script>
-      ;; <script>hljs.initLineNumbersOnLoad();</script>
 
       "<hr>
        <center>
@@ -72,10 +65,10 @@
            </p>
        </center>
 
-       <script src=\"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js\"></script>
-       <script src=\"https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/lisp.min.js\"></script>
-       <script src=\"/js/my_highlight.js\"></script>
+       <script src=\"/js/highlight.js\"></script>
+       <script src=\"/js/hljs.js\"></script>
 
+       <script src=\"/js/title.js\"></script>
        <script src=\"/js/favicon.js\"></script>
        <script src=\"/js/external_links.js\"></script>")
 

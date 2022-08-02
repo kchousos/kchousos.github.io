@@ -8,14 +8,13 @@ Normally, the =htmlize= emacs package would do the trick. But, as many other hav
 
 So my solution was to "borrow" this snippet from [[https://www.reddit.com/r/emacs/comments/bhlxmd/where_is_the_proper_way_of_rewriting_or_replacing/][this reddit thread]],Which makes the exported html [[https://highlightjs.org/][Highlight.js]]-compatible.
 
-#+BEGIN_SRC lisp
+#+BEGIN_SRC emacs-lisp
 (defun my/org-html-src-block (html)
-  "Modify the output of org-html-src-block for highlight.js"
   (replace-regexp-in-string
    "</pre>" "</code></pre>"
    (replace-regexp-in-string
     "<pre class=\"src src-\\(.*\\)\">"
-    "<pre><code class=\"\\1\">"
+    "<pre><code class=\"language-\\1\">"
     html)))
 
 (advice-add 'org-html-src-block :filter-return #'my/org-html-src-block)
@@ -25,24 +24,24 @@ Now, with the following html code added to my automatic build script:
 
 #+BEGIN_SRC html
 <!-- HTML HEAD -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/base16/papercolor-light.min.css" media="screen"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/base16/papercolor-dark.min.css" media="screen and (prefers-color-scheme: dark)"/>
+<link rel=\"stylesheet\" href=\"/css/hljs-light.css\" media=\"screen\" />
+<link rel=\"stylesheet\" href=\"/css/hljs-dark.css\" media=\"screen and (prefers-color-scheme: dark)\" />
 ...
 <!-- HTML BODY -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
-<script>hljs.highlightAll();</script>
+<script src="/js/highlight.js"></script>
+<script src="/js/hljs.js"></script>
+#+END_SRC
+
+Where the ~highlight.js~ file is the main script and in ~hljs.js~ exists the following configuration:
+
+#+BEGIN_SRC js
+hljs.registerAliases("emacs-lisp", { languageName: 'lisp' }); 
+hljs.registerAliases("text", { languageName: 'plaintext' }); 
+hljs.registerAliases("js", { languageName: 'javascript' }); 
+hljs.highlightAll();
 #+END_SRC
 
 The code blocks are highlighted based on the language's syntax. Also, in the same way the main css is changed based on whether dark-mode is enabled, the highlight.js theme is changed as well.
-
-* Caveats
-
-The only downside of this approach is that the highlighting becomes depended to whether highlight.js supports the language +(/e.g./, emacs-lisp is _not_ supported as the first code block indicates)+.
-*Edit*: you can get ~lisp~ syntax highlighting by including the language seperately, since it's not in the common set of the main link. ~Lisp~ is added by the following line:
-
-#+BEGIN_SRC html
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/lisp.min.js"></script>
-#+END_SRC
 
 * Footnotes
 
