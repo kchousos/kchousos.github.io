@@ -16,9 +16,6 @@ hr {
 a {
     color: #ffffff;
 }
-a:visited {
-    color: #c9c9c9;
-}
 a:hover {
     color: #c9c9c9;
     border-bottom: 2px solid #c9c9c9;
