@@ -8,16 +8,6 @@
 (load-directory "./elisp")
 (advice-add 'org-html-src-block :filter-return #'my/org-html-src-block)
 
-;; Customize the HTML output
-(setq org-html-validation-link nil            ;; Don't show validation link
-      org-html-head-include-scripts nil       ;; Use our own scripts
-      org-html-head-include-default-style nil ;; Use our own styles
-      org-html-metadata-timestamp-format "%A, %d %b %Y"
-      org-html-head (file-to-string "html/head.html")
-      org-html-preamble (file-to-string "html/preamble.html")
-      org-html-postamble (file-to-string "html/postamble.html")
-)
-
 ;; Define the publishing project
 (setq org-publish-project-alist
       (list
@@ -27,12 +17,15 @@
              :publishing-function 'org-html-publish-to-html
              :publishing-directory "./public"
              :html-format-headline-function 'my-org-html-format-headline-function
-            ;; :htmlized-source nil
-             ;; :with-author nil           ;; Don't include author name
-             ;; :with-creator nil          ;; Include Emacs and Org versions in footer
-             :with-toc nil              ;; Include a table of contents
-             :section-numbers nil       ;; Don't include section numbers
-             ;; :time-stamp-file nil       ;; Don't include time stamp in file
+             :with-toc nil
+             :section-numbers nil
+	         :html-head-include-default-style nil
+		     :html-head-include-scripts nil
+             :html-validation-link nil
+             :html-metadata-timestamp-format "%A, %d %b %Y"
+             :html-head (file-to-string "html/head.html")
+             :html-preamble (file-to-string "html/preamble.html")
+             :html-postamble (file-to-string "html/postamble.html")
              )))
  
 ;; Generate the site output
