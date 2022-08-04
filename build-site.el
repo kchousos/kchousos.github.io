@@ -3,7 +3,8 @@
 (require 'package)
 (setq package-user-dir (expand-file-name "./.packages"))
 (setq package-archives '(("melpa" . "https://melpa.org/packages/")
-                         ("elpa" . "https://elpa.gnu.org/packages/")))
+                         ("elpa" . "https://elpa.gnu.org/packages/")
+                         ("nongnu" . "https://elpa.nongnu.org/nongnu/")))
 
 ;; Initialize the package system
 (package-initialize)
@@ -12,6 +13,7 @@
 
 ;; Install dependencies
 (package-install 'htmlize)
+(package-install 'org-contrib)
 (setq org-html-htmlize-output-type nil)
 
 (require 'ox-publish)
