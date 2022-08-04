@@ -27,7 +27,7 @@
              :html-preamble (file-to-string "html/preamble.html")
              :html-postamble (file-to-string "html/postamble.html")
              )))
- 
+
 ;; Generate the site output
 (org-publish-all t)
 
