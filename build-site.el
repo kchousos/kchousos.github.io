@@ -19,8 +19,8 @@
              :html-format-headline-function 'my-org-html-format-headline-function
              :with-toc nil
              :section-numbers nil
-	         :html-head-include-default-style nil
-		     :html-head-include-scripts nil
+             :html-head-include-default-style nil
+             :html-head-include-scripts nil
              :html-validation-link nil
              :html-metadata-timestamp-format "%A, %d %b %Y"
              :html-head (file-to-string "html/head.html")
