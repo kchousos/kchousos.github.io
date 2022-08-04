@@ -13,7 +13,6 @@
 
 ;; Install dependencies
 (package-install 'htmlize)
-(package-install 'org-contrib)
 (setq org-html-htmlize-output-type nil)
 
 (require 'ox-publish)
@@ -41,50 +40,21 @@
                  text)))
     (org-html-format-headline-default-function todo todo-type priority link tags info)))
 
+(defun file-to-string (file)
+  "File to string function"
+  (with-temp-buffer
+    (insert-file-contents file)
+    (buffer-string)))
+
 ;; Customize the HTML output
 (setq org-html-validation-link nil            ;; Don't show validation link
       org-html-head-include-scripts nil       ;; Use our own scripts
       org-html-head-include-default-style nil ;; Use our own styles
       org-html-metadata-timestamp-format "%A, %d %b %Y"
-      org-html-head
-      "<link rel=\"stylesheet\" href=\"/css/normalize.css\" type=\"text/css\">
-       <link rel=\"stylesheet\" href=\"/css/sakura.css\" media=\"screen\" />
-       <link rel=\"stylesheet\" href=\"/css/sakura-dark.css\" media=\"screen and (prefers-color-scheme: dark)\" />
-       <link rel=\"stylesheet\" href=\"/css/mine.css\" type=\"text/css\">
-
-       <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">
-
-       <link rel=\"stylesheet\" href=\"/css/hljs-light.css\" media=\"screen\" />
-       <link rel=\"stylesheet\" href=\"/css/hljs-dark.css\" media=\"screen and (prefers-color-scheme: dark)\" />
-
-       <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"/icons/icon-light.png\" id=\"faviconTag\"/>"
-      
-      org-html-preamble
-      "<b>Konstantinos Chousos</b>
-       <nav>
-       		<a href=\"/\"> <i class=\"fa fa-home\"></i> Home </a> |
-       		<a href=\"/articles\"> <i class=\"fa fa-book\"></i> Articles </a> |
-       		<a href=\"/about\"> <i class=\"fa fa-user\"></i> About </a> |
-       		<a href=\"https://github.com/kchousos\"> <i class=\"fa fa-github\"></i> Github </a>
-       <nav>"
-
-      org-html-postamble
-
-      "<hr>
-       <center>
-           <p>Made with <a href=\"https://www.gnu.org/software/emacs/\">Emacs</a>,
-                        <a href=\"https://orgmode.org/\">Org Mode</a> and
-                        <a href=\"https://github.com/oxalorg/sakura\">Sakura</a>
-                        <br>Last edited: %C
-           </p>
-       </center>
-
-       <script src=\"/js/highlight.js\"></script>
-       <script src=\"/js/hljs.js\"></script>
-
-       <script src=\"/js/title.js\"></script>
-       <script src=\"/js/favicon.js\"></script>
-       <script src=\"/js/external_links.js\"></script>")
+      org-html-head (file-to-string "html/head.html")
+      org-html-preamble (file-to-string "html/preamble.html")
+      org-html-postamble (file-to-string "html/postamble.html")
+)
 
 ;; Define the publishing project
 (setq org-publish-project-alist

@@ -4,6 +4,9 @@
 !content/**/*
 !content/**/**/*
 
+!html/
+!html/*
+
 !.github/
 !.github/workflows
 !.github/workflows/publish.yml
