@@ -13,6 +13,26 @@ hr {
     border-color: #ffffff;
 }
 
+h1 > a {
+    color: #c9c9c9;
+}
+
+h2 > a {
+    color: #c9c9c9;
+}
+
+h3 > a {
+    color: #c9c9c9;
+}
+
+h4 > a {
+    color: #c9c9c9;
+}
+
+h5 > a {
+    color: #c9c9c9;
+}
+
 a {
     color: #ffffff;
 }

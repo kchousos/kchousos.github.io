@@ -65,6 +65,30 @@ h6 {
     font-size: 1em;
 }
 
+h1 > a {
+    color: #4a4a4a;
+}
+
+h2 > a {
+    color: #4a4a4a;
+}
+
+h3 > a {
+    color: #4a4a4a;
+}
+
+h4 > a {
+    color: #4a4a4a;
+}
+
+h5 > a {
+    color: #4a4a4a;
+}
+
+h6 > a {
+    color: #4a4a4a;
+}
+
 p {
     margin-top: 0px;
     margin-bottom: 2.5rem;
