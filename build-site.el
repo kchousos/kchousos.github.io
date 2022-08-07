@@ -8,7 +8,6 @@
 (load-directory "./elisp")
 (advice-add 'org-html-src-block :filter-return #'my/org-html-src-block)
 
-;; Define the publishing project
 (setq org-publish-project-alist
       (list
        (list "site"
@@ -28,7 +27,5 @@
              :html-postamble (file-to-string "html/postamble.html")
              )))
 
-;; Generate the site output
 (org-publish-all t)
-
 (message "Build complete!")
