@@ -33,3 +33,7 @@ kbd {
     border: 1px solid;
     border-radius: 6px;
 }
+iframe {
+    margin:auto;
+    display:block;
+}
