@@ -37,3 +37,7 @@ iframe {
     margin:auto;
     display:block;
 }
+.csl-right-inline{
+    margin: 0 0 0 1em;
+    padding-left: 0.5em;
+}
