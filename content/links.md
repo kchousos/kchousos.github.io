@@ -1,4 +1,5 @@
 ---
+title: Links
 showtoc: false
 hideSocial: true
 disableShare: true
