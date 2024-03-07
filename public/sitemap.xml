@@ -30,13 +30,15 @@
     <lastmod>2024-03-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
-    <lastmod>2023-04-12T22:33:05+03:00</lastmod>
+    <lastmod>2023-04-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/copyright/</loc>
   </url><url>
     <loc>http://localhost:1313/archive/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/links/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
   </url><url>

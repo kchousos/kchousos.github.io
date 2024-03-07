@@ -135,21 +135,9 @@ menu:
       name: Posts
       url: /posts/
       weight: 10
-    - identifier: projects
-      name: Projects
-      url: /projects/
-      weight: 12
-    - identifier: notes
-      name: Notes
-      url: /notes/
-      weight: 15
-    - identifier: archive
-      name: Archive
-      url: /archive/
-      weight: 18
-    - identifier: tags
-      name: Tags
-      url: /tags/
+    - identifier: links
+      name: Links
+      url: /links/
       weight: 20
     - identifier: search
       name: Search

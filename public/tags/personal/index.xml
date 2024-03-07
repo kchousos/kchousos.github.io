@@ -19,29 +19,25 @@
       <link>http://localhost:1313/now/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/now/</guid>
-      <description>2024-03-07
-Overhauled the site, one year later&amp;hellip; I&amp;rsquo;ll try to make writing more of a habit this year.
-2023-06-07
-Started reading SICP. Finals season, trying to give my best, although I procrastinate on assignments and studying. Gonna take 7 exams and even if I pass all 7 of them I have two summer assignments &amp;mdash; a full-stack site as a two-man project and a big assignment on operating systems &amp;mdash; to look forward to 😞.</description>
-      <content:encoded><![CDATA[<ul>
-<li>
-<p><strong>2024-03-07</strong></p>
-<p>Overhauled the site, one year later&hellip; I&rsquo;ll try to make writing more of a habit this year.</p>
-</li>
-<li>
-<p><strong>2023-06-07</strong></p>
-<p>Started reading SICP. Finals season, trying to give my best, although I procrastinate on assignments and studying. Gonna take 7 exams and even if I pass all 7 of them I have two summer assignments &mdash; a full-stack site as a two-man project and a big assignment on operating systems &mdash; to look forward to 😞. Nevertheless, we got to keep our heads up!</p>
-<figure><a href="/2023-06-07_23-39-06_screenshot.png">
-        <img loading="lazy" src="/2023-06-07_23-39-06_screenshot.png"
-             alt="Figure 1: Never give up"/> </a><figcaption>
-                <p><!-- raw HTML omitted -->Figure 1: <!-- raw HTML omitted -->Never give up</p>
-            </figcaption>
-    </figure>
+      <description>Overhauled the site, one year later&amp;hellip; I&amp;rsquo;ll try to make writing more of a habit this year.
+Starting a new semester full of potential and possibilities. Let&amp;rsquo;s hope I become a bit more organized this time around.
+Music I listen to these days:
+Jiro Inagaki &amp;amp; His Soul Media - In The Groove The Rolling Stones - Out Of Our Heads </description>
+      <content:encoded><![CDATA[<p>Overhauled the site, one year later&hellip; I&rsquo;ll try to make writing more of a habit this year.</p>
+<p>Starting a new semester full of potential and possibilities. Let&rsquo;s hope I become a bit more organized this time around.</p>
+<p>Music I listen to these days:</p>
+<ul>
+<li>Jiro Inagaki &amp; His Soul Media - In The Groove
 
+  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe src="https://www.youtube.com/embed/tJ6fyxjF-tU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+  </div>
 </li>
-<li>
-<p><strong>2023-04-10</strong></p>
-<p>Attending lectures &mdash;or at least trying to&mdash;, studying, procrastinating doing assignments to study other stuff. Taking a break from guitar. Trying to find something to write on here, only to draw a blank. Weighing the pros and cons of including a &ldquo;digital garden&rdquo; on this site, meaning publishing my <a href="https://www.orgroam.com/">org-roam</a> notes. Trying to get back on track.</p>
+<li>The Rolling Stones - Out Of Our Heads
+
+  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe src="https://www.youtube.com/embed/mJH7ckPPy30" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+  </div>
 </li>
 </ul>
 ]]></content:encoded>
@@ -49,30 +45,28 @@ Started reading SICP. Finals season, trying to give my best, although I procrast
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
-      <pubDate>Wed, 01 Mar 2023 16:50:00 +0200</pubDate>
+      <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>Hello there! Welcome to my personal site 😄.
-About me My name is Konstantinos Chousos. I am an undergraduate student at the Department of Informatics and Telecommunications of the University of Athens studying computer science.
-CS interests My interests include software development, open source projects, Linux, \(\LaTeX{}\). Most of my programming experience revolves around low-level projects, usually written in C and C++.
-Hobbies I play classical guitar, in which I acquired a diploma in January of 2023, of which I&amp;rsquo;m very proud of.</description>
-      <content:encoded><![CDATA[<p>Hello there! Welcome to my personal site 😄.</p>
-<h2 id="about-me">About me</h2>
+      <description>Hello, welcome to my personal site!
+My name is Konstantinos Chousos. I am an undergraduate student at the Department of Informatics and Telecommunications of the University of Athens studying computer science.
+CS interests My interests include machine learning, programming language theory, competitive programming, Linux and $\LaTeX{}$. Most of my programming experience revolves around C and C++, as well as Python in the form of Jupyter notebooks. I&amp;rsquo;m currently learning web development using React.</description>
+      <content:encoded><![CDATA[<p>Hello, welcome to my personal site!</p>
 <p>My name is Konstantinos Chousos. I am an undergraduate student at the <a href="https://www.di.uoa.gr/en">Department of Informatics and Telecommunications</a> of the <a href="https://en.uoa.gr/">University of Athens</a> studying computer science.</p>
-<h3 id="cs-interests">CS interests</h3>
-<p>My interests include software development, open source projects, Linux, \(\LaTeX{}\). Most of my programming experience revolves around low-level projects, usually written in C and C++.</p>
-<h3 id="hobbies">Hobbies</h3>
-<p>I play classical guitar, in which I acquired a diploma in January of 2023, of which I&rsquo;m very proud of. Apart from the guitar, my interest in music has led me to become a member of a choir, as a member of which I participated in a plethora of concerts and events, in places such as the Athens Concert Hall, the Odeon of Herodes Atticus, the Panathenaic Stadium, Veakeio Theater etc.</p>
+<h2 id="cs-interests">CS interests</h2>
+<p>My interests include machine learning, programming language theory, competitive programming, Linux and $\LaTeX{}$. Most of my programming experience revolves around C and C++, as well as Python in the form of Jupyter notebooks. I&rsquo;m currently learning web development using React.</p>
+<h2 id="other-hobbies">Other Hobbies</h2>
+<p>I play classical guitar, in which I acquired a diploma in January of 2023 from the national conservatory of Greece, of which I&rsquo;m very proud of. Apart from the guitar, my interest in music has led me to become a member of a choir, as a member of which I participated in a plethora of concerts and events.</p>
+<p>Apart from that, I&rsquo;m recently learning to draw, following the <a href="https://drawabox.com">DrawABox</a> course. I&rsquo;ve been making progress and I look forward to improving my drawing skills furthermore. I used to draw a lot during primary school, and I was quite good at it too. So. I&rsquo;m excited to get back at it.</p>
 <h2 id="about-this-site">About this site</h2>
 <h3 id="why-does-it-exist">Why does it exist?</h3>
 <p>This site could be categorized as an <a href="https://www.urbandictionary.com/define.php?term=everything%2Fnothing"><em>e/n website</em></a>.</p>
 <blockquote>
 <p>The website&rsquo;s content means everything to the publisher, but it could mean nothing to the rest of the world.</p>
 </blockquote>
-<p>This basically means that the site is used as my personal playground, covering a myriad of topics. Basically I will write about anything I find interesting and/or worthwhile sharing. The result may be useful or not for someone who will stumble across this site, but that is not the end goal.</p>
+<p>This basically means that the site is used as my personal playground, covering a myriad of topics. Basically I write about anything I find interesting and/or worthwhile sharing. The result may be useful or not for someone who will stumble across this site, but that is not the end goal.</p>
 <p>More practically, this site&rsquo;s posts will probably consist of project showcases, tutorials on things I couldn&rsquo;t find any preexisting info online and possibly various notes I take during my classes that come out legible enough.</p>
 <h3 id="how-is-it-built">How is it built?</h3>
 <p>This site is generated by <a href="https://gohugo.io/">Hugo</a>, a popular <em>ssg</em> (static-site generator) written in Go. One of its selling points is that the posts can be written in <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a> (md) instead of plain HTML, making the whole process much more streamlined and low-friction. The specific Hugo theme I use is <a href="https://github.com/adityatelange/hugo-PaperMod/">PaperMod</a>.</p>
-<p><del>When it comes to this specific site, these markdown files are actually org files exported to md, by the <a href="https://ox-hugo.scripter.co/">ox-hugo</a> exporter. <a href="https://orgmode.org/">Org</a> is another markup language that is&mdash;in my humble opinion&mdash;superior to markdown by a long shot (<a href="https://orgmode.org/features.html">and you can easily see why</a>). It is tightly integrated with <a href="https://www.gnu.org/software/emacs/">Emacs</a>, my editor/planner/calendar/ide/rss reader/browser/OS. This synergy makes creating blog posts much easier.</del> The posts are written in Markdown directly, using <a href="https://obsidian.md/">Obsidian</a> as the editor.</p>
 <p>After Hugo has generated the static site along with its html files and everything else, it is uploaded on <a href="https:github.com">Github</a> and served automatically with <a href="https://pages.github.com/">Github-Pages</a>. You can find the source code of this site on my <a href="https://github.com/kchousos/kchousos.github.io">github</a>.</p>
 ]]></content:encoded>
     </item>
