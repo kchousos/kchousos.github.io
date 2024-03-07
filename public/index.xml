@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Konstantinos Chousos</title>
-    <link>http://localhost:1313/</link>
+    <link>https://kchousos.github.io/</link>
     <description>Recent content on Konstantinos Chousos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 28 Jun 2023 14:38:44 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kchousos.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SICP in Emacs</title>
-      <link>http://localhost:1313/posts/sicp-in-emacs/</link>
+      <link>https://kchousos.github.io/posts/sicp-in-emacs/</link>
       <pubDate>Wed, 07 Jun 2023 13:38:00 +0300</pubDate>
-      <guid>http://localhost:1313/posts/sicp-in-emacs/</guid>
+      <guid>https://kchousos.github.io/posts/sicp-in-emacs/</guid>
       <description>&lt;p&gt;I recently began reading the notorious &amp;ldquo;Structure and Interpretation of Computer Programs&amp;rdquo;, a.k.a. the &lt;em&gt;Wizard book&lt;/em&gt;. I&amp;rsquo;m only on the first chapter, but I can already see its value and why it gets recommended so much.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I recently began reading the notorious &ldquo;Structure and Interpretation of Computer Programs&rdquo;, a.k.a. the <em>Wizard book</em>. I&rsquo;m only on the first chapter, but I can already see its value and why it gets recommended so much.</p>
 <p>From Wikipedia:</p>
@@ -184,9 +184,9 @@ The book describes computer science concepts using Scheme, a dialect of Lisp. It
     </item>
     <item>
       <title>Now</title>
-      <link>http://localhost:1313/now/</link>
+      <link>https://kchousos.github.io/now/</link>
       <pubDate>Mon, 10 Apr 2023 00:15:00 +0300</pubDate>
-      <guid>http://localhost:1313/now/</guid>
+      <guid>https://kchousos.github.io/now/</guid>
       <description>2023-06-07
 Started reading SICP. Finals season, trying to give my best, although I procrastinate on assignments and studying. Gonna take 7 exams and even if I pass all 7 of them I have two summer assignments &amp;mdash; a full-stack site as a two-man project and a big assignment on operating systems &amp;mdash; to look forward to 😞. Nevertheless, we got to keep our heads up!
 Figure 1: Never give up</description>
@@ -214,9 +214,9 @@ Figure 1: Never give up</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://kchousos.github.io/about/</link>
       <pubDate>Wed, 01 Mar 2023 16:50:00 +0200</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://kchousos.github.io/about/</guid>
       <description>Hello there! Welcome to my personal site 😄.
 About me My name is Konstantinos Chousos. I am an undergraduate student at the Department of Informatics and Telecommunications of the University of Athens studying computer science.
 CS interests My interests include software development, open source projects, Linux, \(\LaTeX{}\). Most of my programming experience revolves around low-level projects, usually written in C and C++.
