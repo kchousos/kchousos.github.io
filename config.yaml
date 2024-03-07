@@ -109,7 +109,7 @@ params:
     linkFullImages: true
 
   editPost:
-    URL: "https://github.com/kchousos/kchousos.github.io/content"
+    URL: "https://github.com/kchousos/kchousos.github.io/edit/master/content/"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
