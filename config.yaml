@@ -15,7 +15,7 @@ minify:
   minifyOutput: true
 
 params:
-  math: true
+  math: false
   enableEmoji: true
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "Konstantinos Chousos"
