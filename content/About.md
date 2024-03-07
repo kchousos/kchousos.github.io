@@ -3,7 +3,7 @@ title: "About"
 date: 2023-03-01T16:50:00+02:00
 lastmod: 2023-04-12T22:33:05+03:00
 tags: ["personal"]
-draft: false
+math: true
 ---
 
 Hello there! Welcome to my personal site 😄.
