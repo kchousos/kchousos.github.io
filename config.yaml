@@ -147,7 +147,7 @@ menu:
       url: /search
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: true
+pygmentsUseClasses: false
 markup:
   highlight:
     noClasses: false
@@ -155,7 +155,7 @@ markup:
     codeFences: true
     # guessSyntax: true
     lineNos: true
-    style: monokai
+    #style: monokai
 
 outputs:
   home:
