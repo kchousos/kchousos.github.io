@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Personal on Konstantinos Chousos</title>
-    <link>https://kchousos.github.io/tags/personal/</link>
+    <link>http://localhost:1313/tags/personal/</link>
     <description>Recent content in Personal on Konstantinos Chousos</description>
     <image>
       <title>Konstantinos Chousos</title>
-      <url>https://kchousos.github.io/cover.jpg</url>
-      <link>https://kchousos.github.io/cover.jpg</link>
+      <url>http://localhost:1313/cover.jpg</url>
+      <link>http://localhost:1313/cover.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>[Konstantinos Chousos](/copyright)</copyright>
     <lastBuildDate>Thu, 07 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://kchousos.github.io/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Now</title>
-      <link>https://kchousos.github.io/now/</link>
+      <link>http://localhost:1313/now/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://kchousos.github.io/now/</guid>
+      <guid>http://localhost:1313/now/</guid>
       <description>2024-03-07
 Overhauled the site, one year later&amp;hellip; I&amp;rsquo;ll try to make writing more of a habit this year.
 2023-06-07
@@ -48,9 +48,9 @@ Started reading SICP. Finals season, trying to give my best, although I procrast
     </item>
     <item>
       <title>About</title>
-      <link>https://kchousos.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Wed, 01 Mar 2023 16:50:00 +0200</pubDate>
-      <guid>https://kchousos.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>Hello there! Welcome to my personal site 😄.
 About me My name is Konstantinos Chousos. I am an undergraduate student at the Department of Informatics and Telecommunications of the University of Athens studying computer science.
 CS interests My interests include software development, open source projects, Linux, \(\LaTeX{}\). Most of my programming experience revolves around low-level projects, usually written in C and C++.

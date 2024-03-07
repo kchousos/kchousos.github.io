@@ -6,7 +6,7 @@ lastmod: 2023-06-28T14:38:44+03:00
 tags: ["lisp", "emacs", "book"]
 draft: false
 cover: 
-    image: https://i.imgur.com/1ZGjEDn.jpeg
+    image: sicp.jpeg
 ---
 
 I recently began reading the notorious "Structure and Interpretation of Computer Programs" {{< cite abelsonStructureInterpretationComputer2002>}}, a.k.a. the _Wizard book_. I'm only on the first chapter, but I can already see its value and why it gets recommended so much.
