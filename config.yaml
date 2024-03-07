@@ -74,8 +74,6 @@ params:
     buttons:
       - name: About
         url: about
-      - name: Posts
-        url: posts
       - name: Now
         url: now
 
@@ -130,6 +128,10 @@ menu:
       name: Posts
       url: /posts/
       weight: 10
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 12
     - identifier: notes
       name: Notes
       url: /notes/
