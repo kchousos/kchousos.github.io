@@ -1,0 +1,188 @@
+---
+title: "First post"
+author: ["Konstantinos Chousos"]
+date: 2023-03-01T19:19:00+02:00
+lastmod: 2023-05-05T11:44:14+03:00
+draft: false
+---
+
+This is the first post of the site. Really just a test to see if everything is working correctly.
+
+
+## Placeholder text {#placeholder-text}
+
+The following is random placeholder text.
+
+The first radio series of six episodes (called "Fits" after the names of the sections of Lewis Carroll's nonsense poem "The Hunting of the Snark")[15] was broadcast in 1978 on BBC Radio 4. Despite a low-key launch of the series (the first episode was broadcast at 10:30 pm on Wednesday, 8 March 1978), it received generally good reviews and a tremendous audience reaction for radio.
+
+<!--more-->
+
+[16] A one-off episode (a "Christmas special") was broadcast later in the year. The BBC had a practice at the time of commissioning "Christmas Special" episodes for popular radio series, and while an early draft of this episode of The Hitchhiker's Guide had a Christmas-related plotline, it was decided to be "in slightly poor taste" and the episode as transmitted served as a bridge between the two series.[17] This episode was released as part of the second radio series and, later, The Secondary Phase on cassettes and CDs. The Primary and Secondary Phases were aired, in a slightly edited version, in the United States on NPR Playhouse.
+
+The first series was repeated twice in 1978 alone and many more times in the next few years. This led to an LP re-recording, produced independently of the BBC for sale, and a further adaptation of the series as a book. A second radio series, which consisted of a further five episodes, and bringing the total number of episodes to 12, was broadcast in 1980.
+
+The radio series (and the LP and TV versions) were narrated by comedy actor Peter Jones as The Book. Jones was cast after a three-month-long casting search and after at least three actors (including Michael Palin) turning down the role.[18]
+
+The series was also notable for its use of sound, being the first comedy series to be produced in stereo.[19] Adams said that he wanted the programme's production to be comparable to that of a modern rock album. Much of the programme's budget was spent on sound effects, which were largely the work of Paddy Kingsland (for the pilot episode and the complete second series) at the BBC Radiophonic Workshop and Dick Mills and Harry Parker (for the remaining episodes (2–6) of the first series). The fact that they were at the forefront of modern radio production in 1978 and 1980 was reflected when the three new series of Hitchhiker's became some of the first radio shows to be mixed into four-channel Dolby Surround. This mix was also featured on DVD releases of the third radio series.
+
+The theme tune used for the radio, television, LP, and film versions is "Journey of the Sorcerer", an instrumental piece composed by Bernie Leadon and recorded by the Eagles on their 1975 album One of These Nights. Only the transmitted radio series used the original recording; a sound-alike cover by Tim Souster was used for the LP and TV series, another arrangement by Joby Talbot was used for the 2005 film, and still another arrangement, this time by Philip Pope, was recorded to be released with the CDs of the last three radio series. Apparently, Adams chose this song for its futuristic-sounding nature, but also for the fact that it had a banjo in it, which, as Geoffrey Perkins recalls, Adams said would give an "on the road, hitch-hiking feel" to it.[20]
+
+The twelve episodes were released (in a slightly edited form, removing the Pink Floyd music and two other tunes "hummed" by Marvin when the team land on Magrathea) on CD and cassette in 1988, becoming the first CD release in the BBC Radio Collection. They were re-released in 1992, and at this time Adams suggested that they could retitle Fits the First to Sixth as "The Primary Phase" and Fits the Seventh to Twelfth as "The Secondary Phase" instead of just "the first series" and "the second series".[21] It was at about this time that a "Tertiary Phase" was first discussed with Dirk Maggs, adapting Life, the Universe and Everything, but this series would not be recorded for another ten years.[22]
+
+
+### Testing `kbd` tags {#testing-kbd-tags}
+
+Exiting Emacs
+: <kbd>C-x C-c</kbd>
+
+Exiting Vim
+: <kbd>:wq</kbd>
+
+
+## Tables {#tables}
+
+<div class="table-caption">
+  <span class="table-number">Table 1:</span>
+  Longer caption.
+</div>
+
+| **Category 1** | **Category 2** | **Category 3** | **Category 4** |
+|----------------|----------------|----------------|----------------|
+| 11324          | 13241234       | 1231           | 435            |
+| 1231           | sdfg           | sgsd           | dafd           |
+| asdf           | dkd            | sdkjl          | sdaie          |
+
+
+## Code blocks {#code-blocks}
+
+```C
+  /* File: factorial.c */
+  #include <stdio.h>
+  #define MAXN 12             /* Compute factorials up to MAXN */
+
+  int factorial(int n)                  /* No prototype needed */
+  { int f;
+    for (f=1 ; n > 0 ; n--)       /* Initialize factorial to 1 */
+      f *= n;        /* Multiply into factorial n, n-1, ..., 1 */
+    return f;                                 /* Return result */
+  }
+
+  int main(void)
+  { int n;                         /* For all n from 1 to MAXN */
+    for (n=1 ; n <= MAXN ; n++)           /* Call function and */
+      printf("%2d! = %d\n", n, factorial(n));  /* print result */
+    return 0;
+  }
+```
+
+
+## Math rendering {#math-rendering}
+
+Inline math:  \\(\\sum_{k=1}^{n} \\frac{1}{k!}\\)
+
+Display math:
+
+\\begin{equation}
+x=\\sqrt{b}
+\\end{equation}
+
+\\begin{equation}
+\\int_0^{\\infty} x^n dx = \\frac{1}{n+1} \\left[ x^n{n+1} \\right]_0^{\\infty}
+\\end{equation}
+
+\\begin{equation\*}
+ e = \\sum_{k=1}^{n = \\infty} \\frac{1}{k!}
+\\end{equation\*}
+
+\\[\\mathbb{N} \\subset \\mathbb{R} \\subset \\mathbb{C}\\]
+
+
+### Math environments[^fn:1] {#math-environments}
+
+-   **TODO**: Create css rules for dark-mode
+
+<div class="definition">
+
+a matrix is a rectangular array or table of numbers, symbols, or expressions, arranged in rows and columns, which is used to represent a mathematical object or a property of such an object
+
+<div class="characteristic">
+
+a matrix can be constructed over a specific finite/infinite set of numbers for example $\\mathbb{Z}$ which is the set of integers, when we say a matrix is over a specific field of numbers we mean that the numbers in the matrix are limited to that field of numbers
+
+</div>
+
+<div class="my_example">
+
+consider this matrix over the field $\\mathbb{Z}$, where all the numbers are integers
+\\[
+\\left[\\begin{array}{rrrr} -5 &amp; 0 &amp; 1 &amp; 0 \\\\ 0 &amp; 0 &amp; 7 &amp; 1 \\\\ 1 &amp; 1 &amp; 2 &amp; 0 \\\\ 0 &amp; 0 &amp; -1 &amp; -1 \\\\ -9 &amp; 1 &amp; 1 &amp; -1 \\end{array}\\right]
+\\]
+
+</div>
+
+</div>
+
+
+## Quote handling {#quote-handling}
+
+> Let us change our traditional attitude to the construction of programs:
+> Instead of imagining that our main task is to instruct a computer what to do,
+> let us concentrate rather on explaining to human beings what we want a
+> computer to do.
+>
+> The practitioner of literate programming can be regarded as an essayist, whose
+> main concern is with exposition and excellence of style. Such an author, with
+> thesaurus in hand, chooses the names of variables carefully and explains what
+> each variable means. He or she strives for a program that is comprehensible
+> because its concepts have been introduced in an order that is best for human
+> understanding, using a mixture of formal and informal methods that reinforce
+> each other.[^fn:2]
+>
+> ---Donald Knuth
+
+
+## Images {#images}
+
+"Circles in a Circle" (figure [1](#figure--fig:circles)) is a compact and closed composition. Kandinsky began a thoughtful study of the circle as an artistic unit starting from this painting. In his letter to Galka Scheyer he wrote, "it is the first picture of mine to bring the theme of circles to the foreground." The outer black circle, as if the second frame for a picture, encourages us to focus on the interaction between the inside circles, and two intersecting diagonal stripes enhance the effect, adding a perspective to the composition.[^fn:3]
+
+<a id="figure--fig:circles"></a>
+
+{{< figure src="/2023-03-02_23-02-17_screenshot.png" alt="circles in a circle painting" caption="<span class=\"figure-number\">Figure 1: </span>\"Circles in a Circle\", Wassily Kandinsky (1923)" >}}
+
+
+## Youtube Videos {#youtube-videos}
+
+<div class="videowrapper"><iframe src="https://www.youtube-nocookie.com/embed/54W8kktFE_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+
+
+## Citation handling {#citation-handling}
+
+Lorem ipsum dolor sit amet <a href="#citeproc_bib_item_1">[1]</a>, consectetur adipiscing elit <a href="#citeproc_bib_item_2">[2]</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat <a href="#citeproc_bib_item_3">[3]</a>. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident <a href="#citeproc_bib_item_4">[4]</a>, <a href="#citeproc_bib_item_5">[5]</a>, sunt in culpa qui officia deserunt mollit anim id est laborum <a href="#citeproc_bib_item_6">[6]</a>.
+
+## References
+
+<style>.csl-left-margin{float: left; padding-right: 0em;}
+ .csl-right-inline{margin: 0 0 0 1em;}</style><div class="csl-bib-body">
+  <div class="csl-entry"><a id="citeproc_bib_item_1"></a>
+    <div class="csl-left-margin">[1]</div><div class="csl-right-inline">E. Schulte, D. Davison, T. Dye, and C. Dominik, “A Multi-Language Computing Environment for Literate Programming and Reproducible Research,” <i>J. stat. soft.</i>, vol. 46, no. 3, 2012, doi: <a href="https://doi.org/10.18637/jss.v046.i03">10.18637/jss.v046.i03</a>.</div>
+  </div>
+  <div class="csl-entry"><a id="citeproc_bib_item_2"></a>
+    <div class="csl-left-margin">[2]</div><div class="csl-right-inline">R. Rombach, A. Blattmann, D. Lorenz, P. Esser, and B. Ommer, “High-Resolution Image Synthesis with Latent Diffusion Models,” Apr. 13, 2022. <a href="http://arxiv.org/abs/2112.10752">http://arxiv.org/abs/2112.10752</a></div>
+  </div>
+  <div class="csl-entry"><a id="citeproc_bib_item_3"></a>
+    <div class="csl-left-margin">[3]</div><div class="csl-right-inline">V. Schetinger, V. Filipov, I. Pérez-Messina, E. Smith, and R. O. de Oliveira, “I Learn to Diffuse, or Data Alchemy 101: A Mnemonic Manifesto,” Oct. 05, 2022. <a href="http://arxiv.org/abs/2208.03998">http://arxiv.org/abs/2208.03998</a></div>
+  </div>
+  <div class="csl-entry"><a id="citeproc_bib_item_4"></a>
+    <div class="csl-left-margin">[4]</div><div class="csl-right-inline">J. DeNero, D. Klein, and P. Abbeel, “Projects - CS 188: Introduction to Artificial Intelligence, Spring 2022,” 2022. <a href="https://inst.eecs.berkeley.edu/~cs188/sp22/projects/">https://inst.eecs.berkeley.edu/~cs188/sp22/projects/</a></div>
+  </div>
+  <div class="csl-entry"><a id="citeproc_bib_item_5"></a>
+    <div class="csl-left-margin">[5]</div><div class="csl-right-inline">S. J. Russell and P. Norvig, <i>Artificial intelligence: A Modern Approach</i>, Fourth edition, global edition. in Pearson Series in Artificial Intelligence. Harlow: Pearson, 2022.</div>
+  </div>
+  <div class="csl-entry"><a id="citeproc_bib_item_6"></a>
+    <div class="csl-left-margin">[6]</div><div class="csl-right-inline">D. Ofer and D. Shahaf, “Cards Against AI: Predicting Humor in a Fill-in-the-blank Party Game,” Oct. 24, 2022. <a href="http://arxiv.org/abs/2210.13016">http://arxiv.org/abs/2210.13016</a></div>
+  </div>
+</div>
+
+[^fn:1]: The following example and the css for the math environments belongs to [mahmoodsheikh36](https://github.com/mahmoodsheikh36/mahmoodsheikh36.github.io/blob/main/themes/cortex/assets/css/org.css).
+[^fn:2]: footnote testing
+[^fn:3]: Source: <https://www.wassilykandinsky.net/work-247.php>

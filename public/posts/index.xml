@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Konstantinos Chousos</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Konstantinos Chousos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 28 Jun 2023 14:38:44 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SICP in Emacs</title>
+      <link>http://localhost:1313/posts/sicp-in-emacs/</link>
+      <pubDate>Wed, 07 Jun 2023 13:38:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/sicp-in-emacs/</guid>
+      <description>&lt;p&gt;I recently began reading the notorious &amp;ldquo;Structure and Interpretation of Computer Programs&amp;rdquo;, a.k.a. the &lt;em&gt;Wizard book&lt;/em&gt;. I&amp;rsquo;m only on the first chapter, but I can already see its value and why it gets recommended so much.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>I recently began reading the notorious &ldquo;Structure and Interpretation of Computer Programs&rdquo;, a.k.a. the <em>Wizard book</em>. I&rsquo;m only on the first chapter, but I can already see its value and why it gets recommended so much.</p>
+<p>From Wikipedia:</p>
+<blockquote>
+<p>Structure and Interpretation of Computer Programs (SICP) is a computer science textbook by Massachusetts Institute of Technology professors Harold Abelson and Gerald Jay Sussman with Julie Sussman. [&hellip;] It teaches fundamental principles of computer programming, including recursion, abstraction, modularity, and programming language design and implementation.
+[&hellip;]
+The book describes computer science concepts using Scheme, a dialect of Lisp. It also uses a virtual register machine and assembler to implement Lisp interpreters and compilers.</p>
+</blockquote>
+<p>In this post, I aim to showcase my workflow for studying the book. Also, I will provide any resources that helped me get going. To study SICP, we need two things: The book and a Scheme implementation for the examples and exercises.</p>
+<h2 id="getting-the-book">Getting the book</h2>
+<p>Lucky for us, the book is freely distributed from MIT itself. It is available in <a href="https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html">HTML</a> and <a href="https://web.mit.edu/6.001/6.037/sicp.pdf">PDF</a>. But, there is also a third format option and it is the one we&rsquo;re going to choose: the Texinfo format.</p>
+<p>From the official GNU site<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>:</p>
+<blockquote>
+<p>Texinfo uses a single source file to produce output in a number of formats, both online and printed (HTML, PDF, DVI, Info, DocBook, LaTeX, EPUB 3). This means that instead of writing different documents for online information and another for a printed manual, you need write only one document.</p>
+<p>The Texinfo system is well-integrated with GNU Emacs.</p>
+</blockquote>
+<p>That last line is what&rsquo;s important here. <code>info</code> files are essentially manuals in plain text. Emacs has a built-in mode for rendering such documents. By using the <code>info</code> format, we can read SICP from inside Emacs.</p>
+<h3 id="obtaining-the-info-file">Obtaining the <code>info</code> file</h3>
+<p>The <code>info</code> file can be retrieved in two methods:</p>
+<ol>
+<li>
+<p>By installing the <code>sicp</code> MELPA package<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+</li>
+<li>
+<p>By downloading the <code>info</code> file directly from <a href="https://www.neilvandyke.org/sicp-texi/">neilvandyke.org</a> and installing it.</p>
+<ol>
+<li>
+<p>Download the <code>sicp.info.gz</code> file (<a href="https://www.neilvandyke.org/sicp-texi/sicp.info.gz">link</a>) in your home directory.</p>
+</li>
+<li>
+<p>Execute the following commands</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ sudo cp ~/sicp.info.gz /usr/local/share/info/
+</span></span><span class="line"><span class="cl">$ sudo chmod <span class="m">644</span> /usr/local/share/info/sicp.info.gz
+</span></span><span class="line"><span class="cl">$ sudo install-info /usr/local/share/info/sicp.info.gz /usr/local/share/info/dir
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+</ol>
+</li>
+</ol>
+<p>Now SICP will be available through Emacs! To access it, you need to open Emacs, type <!-- raw HTML omitted -->C-h i<!-- raw HTML omitted --> to go to the <code>*info*</code> top directory, type <!-- raw HTML omitted -->m<!-- raw HTML omitted --> to search and type <code>sicp</code> to find the book. If everything went correctly, you should be greeted with something like this:</p>
+<figure><a href="/2023-06-07_14-15-41_screenshot.png">
+    <img loading="lazy" src="/2023-06-07_14-15-41_screenshot.png"
+         alt="Figure 1: SICP&amp;rsquo;s table of contents in info format, viewed from within Emacs"/> </a><figcaption>
+            <p><!-- raw HTML omitted -->Figure 1: <!-- raw HTML omitted -->SICP&rsquo;s table of contents in <code>info</code> format, viewed from within Emacs</p>
+        </figcaption>
+</figure>
+
+<h2 id="setting-up-scheme">Setting up Scheme</h2>
+<p>SICP&rsquo;s examples and exercises are all implemented in Scheme. Scheme is a Lisp dialect with many implementations. <del>SICP uses the <a href="https://www.gnu.org/software/mit-scheme/">MIT-Scheme</a> implementation</del> Turns out GNU/MIT-Scheme is <strong>not</strong> fully compatible with the code in SICP (<a href="https://www.reddit.com/r/sicp/comments/mf0j95/comment/gsljkkw/?utm_source=share&amp;utm_medium=web2x&amp;context=3">source</a>). Instead, we will use <a href="https://racket-lang.org/">Racket</a>. Racket offers the <a href="https://docs.racket-lang.org/sicp-manual/">SICP collection</a>, a Racket <code>#lang</code> that makes it fully compatible with the SICP code.</p>
+<p>First, we need to install racket through our package manager. After that, the sicp collection can be downloaded like this:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ raco pkg install sicp
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>That&rsquo;s it! Now, when we write a <code>.rkt</code> file that needs to be compatible with SICP all we need to do is add <!-- raw HTML omitted --><code>#lang sicp</code><!-- raw HTML omitted --> at the top of the file<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
+<h3 id="racket-in-emacs">Racket in Emacs</h3>
+<p>Personally, I recommend <a href="https://github.com/greghendershott/racket-mode">racket-mode</a> for working with Racket in Emacs. Another popular choice is <a href="https://github.com/emacsmirror/geiser">geiser</a>, but its <code>geiser-racket</code> module seems to be unmaintained<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>.</p>
+<p>To install <code>racket-mode</code> using <a href="https://github.com/progfolio/elpaca/">elpaca</a>, add the following to your config file:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-elisp" data-lang="elisp"><span class="line"><span class="cl"><span class="p">(</span><span class="nb">use-package</span> <span class="nv">racket-mode</span>
+</span></span><span class="line"><span class="cl">  <span class="nb">:elpaca</span> <span class="no">t</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="racket-in-org-babel">Racket in Org-Babel</h4>
+<p>In case you choose to go the literate programming route (as I have) using Org-Mode, you will need to enable support for racket in org-babel. To do this, use the <a href="https://github.com/hasu/emacs-ob-racket">emacs-ob-racket</a> package. Add the following to your config:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-elisp" data-lang="elisp"><span class="line"><span class="cl"><span class="p">(</span><span class="nb">use-package</span> <span class="nv">ob-racket</span>
+</span></span><span class="line"><span class="cl">  <span class="nb">:elpaca</span> <span class="p">(</span><span class="nb">:type</span> <span class="nv">git</span> <span class="nb">:host</span> <span class="nv">github</span> <span class="nb">:repo</span> <span class="s">&#34;hasu/emacs-ob-racket&#34;</span><span class="p">))</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>and then enable racket in your org-babel configuration.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-elisp" data-lang="elisp"><span class="line"><span class="cl"><span class="p">(</span><span class="nv">org-babel-do-load-languages</span>
+</span></span><span class="line"><span class="cl"> <span class="ss">&#39;org-babel-load-languages</span>
+</span></span><span class="line"><span class="cl"> <span class="o">&#39;</span><span class="p">((</span><span class="nv">emacs-lisp</span> <span class="nb">:tangle</span> <span class="o">.</span><span class="nv">/init.el</span> <span class="o">.</span> <span class="no">t</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">   <span class="p">(</span><span class="nv">C</span> <span class="o">.</span> <span class="no">t</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">   <span class="p">(</span><span class="nv">python</span> <span class="o">.</span> <span class="no">t</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">   <span class="o">...</span>
+</span></span><span class="line"><span class="cl">   <span class="p">(</span><span class="nv">racket</span> <span class="o">.</span> <span class="no">t</span><span class="p">)))</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>To be able to use the <code>sicp</code> package in org-babel code blocks, you need to add <code>:lang sicp</code> in the Org block, like so:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-org" data-lang="org"><span class="line"><span class="cl"> #<span class="gd">+begin_src racket :lang sicp
+</span></span></span><span class="line"><span class="cl"><span class="gd"> &#34;Hello World!&#34;
+</span></span></span><span class="line"><span class="cl"><span class="gd"> #+</span>​end_src
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Instead of adding that to every code block, you can add <code>#+property: header-args :lang sicp</code> to the start of your Org file. <del>This will be applied to <em>all</em> code blocks in the file, so make sure you include only racket code blocks</del> This can be mitigated by specifying that these header-args are to be applied only to racket blocks, like so: <code>#+property: header-args:racket :lang sicp</code>.</p>
+<h2 id="result">Result</h2>
+<p>After all this work, now we can finally start reading SICP. My so-far workflow consists of the book in the left window, a racket REPL in the top-right corner and my Org-Roam notes in the bottom-right corner.</p>
+<figure><a href="/2023-06-07_14-40-22_screenshot.png">
+    <img loading="lazy" src="/2023-06-07_14-40-22_screenshot.png"
+         alt="Figure 2: My SICP studying workflow"/> </a><figcaption>
+            <p><!-- raw HTML omitted -->Figure 2: <!-- raw HTML omitted -->My SICP studying workflow</p>
+        </figcaption>
+</figure>
+
+<p>When it comes to the exercises, I use Org-Mode and Org-Babel to write the solutions in a literate programming style. The file is divided by chapter. Each exercise is included followed by its (hopefully correct) solution. (So far) I use a single <code>.org</code> file and export it to PDF. Also, all of the code blocks are exported to a <code>.rkt</code> file, with links to the corresponding position in the org file. All of these files can be found at <a href="https://github.com/kchousos/SICP-solutions">this repo</a>.</p>
+<figure><a href="/2023-06-07_15-11-59_screenshot.png">
+    <img loading="lazy" src="/2023-06-07_15-11-59_screenshot.png"
+         alt="Figure 3: My SICP solutions in literate programming"/> </a><figcaption>
+            <p><!-- raw HTML omitted -->Figure 3: <!-- raw HTML omitted -->My SICP solutions in literate programming</p>
+        </figcaption>
+</figure>
+
+<h2 id="miscellaneous-tips">Miscellaneous tips</h2>
+<ul>
+<li>
+<p><strong>Update 07/06/2023</strong>: As <a href="https://www.reddit.com/r/emacs/comments/143cyw3/comment/jna8ev2/?utm_source=share&amp;utm_medium=web2x&amp;context=3">u/jherrlin</a> on Reddit pointed out, the fact that SICP is in text format gives us the ability to leverage Emacs&rsquo; built-in bookmarks feature. When you arrive to the end of your study session, just type <!-- raw HTML omitted -->C-x r m<!-- raw HTML omitted --> and a bookmark will be placed on the current line. You can search your bookmarks with <!-- raw HTML omitted -->C-x r b<!-- raw HTML omitted --> or list them with <!-- raw HTML omitted -->C-x r l<!-- raw HTML omitted -->.</p>
+<p>My tip is to name the bookmark the same each time (e.g. <code>sicp</code>). That way, when you re-create it in a later position, the old bookmark is discarded automatically. Also, if you run Emacs in daemon mode, I suggest to run <!-- raw HTML omitted -->M-x<!-- raw HTML omitted --> <code>bookmark-save</code> after adding a bookmark, to make sure it has been saved.</p>
+</li>
+</ul>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://www.gnu.org/software/texinfo/">https://www.gnu.org/software/texinfo/</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://melpa.org/#/sicp">https://melpa.org/#/sicp</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>when using the REPL, we need to first evaluate <!-- raw HTML omitted --><code>(require sicp)</code><!-- raw HTML omitted --> before evaluating anything else.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://lists.nongnu.org/archive/html/geiser-users/2022-06/msg00004.html">https://lists.nongnu.org/archive/html/geiser-users/2022-06/msg00004.html</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>]]></content:encoded>
+    </item>
+  </channel>
+</rss>

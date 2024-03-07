@@ -1,0 +1,164 @@
+baseURL: https://kchousos.github.io/
+languageCode: en
+title: "Konstantinos Chousos"
+
+theme: ["hugo-chart", "PaperMod", "hugo-simplecite"]
+
+paginate: 5
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  math: true
+  enableEmoji: true
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: "Konstantinos Chousos"
+  description: "Personal site of Konstantinos Chousos, Computer Science undergrad"
+  keywords: [Blog, Portfolio, PaperMod, Programmer]
+  author: "Konstantinos Chousos"
+  # author: ["Me", "You"] # multiple authors
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  languageAltTitle: "Greek"
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShareButtons: ["x", "reddit", "linkedin", "facebook", "ycombinator"]
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  showFullTextInRss: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: true
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  assets:
+    disableHLJS: true # to disable highlight.js
+    disableFingerprinting: true
+    favicon: "/icons/favicon.ico"
+    favicon16x16: "/icons/favicon-16x16.png"
+    favicon32x32: "/icons/favicon-32x32.png"
+    apple_touch_icon: "/icons/apple-touch-icon.png"
+    #safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: "Konstantinos Chousos"
+    subtitle: "Computer Science @ DiT, UoA"
+    imageUrl: "me.png"
+    imageWidth: 240
+    imageHeight: 240
+    imageTitle: Me
+    buttons:
+      - name: About
+        url: about
+      - name: Posts
+        url: posts
+      - name: Now
+        url: now
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/kchousos"
+    - name: LinkedIn
+      url: "https://www.linkedin.com/in/kchousos/"
+    - name: x
+      url: "https://x.com/kchousos"
+    - name: rss
+      url: "/index.xml"
+
+  #analytics:
+  #  google:
+  #    SiteVerificationTag: "XYZabc"
+  #  bing:
+  #    SiteVerificationTag: "XYZabc"
+  #  yandex:
+  #    SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+    linkFullImages: true
+
+  editPost:
+    URL: "https://github.com/kchousos/kchousos.github.io/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: notes
+      name: Notes
+      url: /notes/
+      weight: 15
+    - identifier: archive
+      name: Archive
+      url: /archive/
+      weight: 18
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 30
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    codeFences: true
+    # guessSyntax: true
+    lineNos: true
+    style: monokai
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON

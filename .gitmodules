@@ -1,0 +1,9 @@
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/hugo-simplecite"]
+	path = themes/hugo-simplecite
+	url = https://github.com/joksas/hugo-simplecite
+[submodule "themes/hugo-chart"]
+	path = themes/hugo-chart
+	url = https://github.com/Shen-Yu/hugo-chart.git
