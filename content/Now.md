@@ -3,18 +3,19 @@ title: "Now"
 date: 2023-04-10
 lastmod: 2024-03-07
 tags: ["personal"]
+showtoc: false
+hideSocial: true
+disableShare: true
+hideMeta: true
+ShowBreadCrumbs: false
 ---
+Overhauled the site, one year later... I'll try to make writing more of a habit this year.
 
-- **2024-03-07**
+Starting a new semester full of potential and possibilities. Let's hope I become a bit more organized this time around.
 
-    Overhauled the site, one year later... I'll try to make writing more of a habit this year.
+Music I listen to these days:
 
-- **2023-06-07**
-	
-    Started reading SICP. Finals season, trying to give my best, although I procrastinate on assignments and studying. Gonna take 7 exams and even if I pass all 7 of them I have two summer assignments --- a full-stack site as a two-man project and a big assignment on operating systems --- to look forward to 😞. Nevertheless, we got to keep our heads up!
-	
-    {{< figure src="/2023-06-07_23-39-06_screenshot.png" caption="<span class=\"figure-number\">Figure 1: </span>Never give up" link="/2023-06-07_23-39-06_screenshot.png" >}}
-
-- **2023-04-10**
-	
-    Attending lectures ---or at least trying to---, studying, procrastinating doing assignments to study other stuff. Taking a break from guitar. Trying to find something to write on here, only to draw a blank. Weighing the pros and cons of including a "digital garden" on this site, meaning publishing my [org-roam](https://www.orgroam.com/) notes. Trying to get back on track.
+- Jiro Inagaki & His Soul Media - In The Groove
+  {{<youtube "tJ6fyxjF-tU">}}
+- The Rolling Stones - Out Of Our Heads
+  {{<youtube "mJH7ckPPy30">}}

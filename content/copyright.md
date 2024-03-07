@@ -3,6 +3,8 @@ showtoc: false
 comments: false
 hideSocial: true
 disableShare: true
+hideMeta: true
+ShowBreadCrumbs: false
 ---
 **The content presented on this website is solely for informational purposes.** While every effort is made to ensure accuracy, I do not assume any responsibility for errors or omissions in the website contents.
 
