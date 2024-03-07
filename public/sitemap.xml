@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/book/</loc>
+    <loc>https://kchousos.github.io/tags/book/</loc>
     <lastmod>2023-06-28T14:38:44+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/emacs/</loc>
+    <loc>https://kchousos.github.io/tags/emacs/</loc>
     <lastmod>2023-06-28T14:38:44+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://kchousos.github.io/</loc>
     <lastmod>2023-06-28T14:38:44+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/lisp/</loc>
+    <loc>https://kchousos.github.io/tags/lisp/</loc>
     <lastmod>2023-06-28T14:38:44+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://kchousos.github.io/posts/</loc>
     <lastmod>2023-06-28T14:38:44+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/sicp-in-emacs/</loc>
+    <loc>https://kchousos.github.io/posts/sicp-in-emacs/</loc>
     <lastmod>2023-06-28T14:38:44+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://kchousos.github.io/tags/</loc>
     <lastmod>2023-06-28T14:38:44+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/now/</loc>
+    <loc>https://kchousos.github.io/now/</loc>
     <lastmod>2023-06-07T23:40:35+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/personal/</loc>
+    <loc>https://kchousos.github.io/tags/personal/</loc>
     <lastmod>2023-06-07T23:40:35+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://kchousos.github.io/about/</loc>
     <lastmod>2023-04-12T22:33:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/</loc>
+    <loc>https://kchousos.github.io/archive/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://kchousos.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://kchousos.github.io/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://kchousos.github.io/search/</loc>
   </url>
 </urlset>
