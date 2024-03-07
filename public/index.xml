@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Konstantinos Chousos</title>
-    <link>http://localhost:1313/</link>
+    <link>https://kchousos.github.io/</link>
     <description>Recent content on Konstantinos Chousos</description>
     <image>
       <title>Konstantinos Chousos</title>
-      <url>http://localhost:1313/cover.jpg</url>
-      <link>http://localhost:1313/cover.jpg</link>
+      <url>https://kchousos.github.io/cover.jpg</url>
+      <link>https://kchousos.github.io/cover.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>[Konstantinos Chousos](/copyright)</copyright>
     <lastBuildDate>Thu, 07 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kchousos.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SICP in Emacs</title>
-      <link>http://localhost:1313/posts/sicp-in-emacs/</link>
+      <link>https://kchousos.github.io/posts/sicp-in-emacs/</link>
       <pubDate>Wed, 07 Jun 2023 13:38:00 +0300</pubDate>
-      <guid>http://localhost:1313/posts/sicp-in-emacs/</guid>
+      <guid>https://kchousos.github.io/posts/sicp-in-emacs/</guid>
       <description>I recently began reading the notorious &amp;ldquo;Structure and Interpretation of Computer Programs&amp;rdquo; [1], a.k.a. the Wizard book. I&amp;rsquo;m only on the first chapter, but I can already see its value and why it gets recommended so much.
 From Wikipedia:
 Structure and Interpretation of Computer Programs (SICP) is a computer science textbook by Massachusetts Institute of Technology professors Harold Abelson and Gerald Jay Sussman with Julie Sussman. [&amp;hellip;] It teaches fundamental principles of computer programming, including recursion, abstraction, modularity, and programming language design and implementation.</description>
@@ -195,9 +195,9 @@ The book describes computer science concepts using Scheme, a dialect of Lisp. It
     </item>
     <item>
       <title>Now</title>
-      <link>http://localhost:1313/now/</link>
+      <link>https://kchousos.github.io/now/</link>
       <pubDate>Mon, 10 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/now/</guid>
+      <guid>https://kchousos.github.io/now/</guid>
       <description>Overhauled the site, one year later&amp;hellip; I&amp;rsquo;ll try to make writing more of a habit this year.
 Starting a new semester full of potential and possibilities. Let&amp;rsquo;s hope I become a bit more organized this time around.
 Music I listen to these days:
@@ -223,9 +223,9 @@ Jiro Inagaki &amp;amp; His Soul Media - In The Groove The Rolling Stones - Out O
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://kchousos.github.io/about/</link>
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://kchousos.github.io/about/</guid>
       <description>Hello, welcome to my personal site!
 My name is Konstantinos Chousos. I am an undergraduate student at the Department of Informatics and Telecommunications of the University of Athens studying computer science.
 CS interests My interests include machine learning, programming language theory, competitive programming, Linux and $\LaTeX{}$. Most of my programming experience revolves around C and C++, as well as Python in the form of Jupyter notebooks. I&amp;rsquo;m currently learning web development using React.</description>
@@ -251,9 +251,9 @@ CS interests My interests include machine learning, programming language theory,
     </item>
     <item>
       <title>Disclaimer</title>
-      <link>http://localhost:1313/copyright/</link>
+      <link>https://kchousos.github.io/copyright/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/copyright/</guid>
+      <guid>https://kchousos.github.io/copyright/</guid>
       <description>The content presented on this website is solely for informational purposes. While every effort is made to ensure accuracy, I do not assume any responsibility for errors or omissions in the website contents.
 Ownership and Rights I retain ownership of articles, original images, and audio presented on this site. However, for linked content and specified images, ownership remains with the original creators. I encourage the use of my content for personal purposes.</description>
       <content:encoded><![CDATA[<p><strong>The content presented on this website is solely for informational purposes.</strong> While every effort is made to ensure accuracy, I do not assume any responsibility for errors or omissions in the website contents.</p>
@@ -270,9 +270,9 @@ Ownership and Rights I retain ownership of articles, original images, and audio 
     </item>
     <item>
       <title>Links</title>
-      <link>http://localhost:1313/links/</link>
+      <link>https://kchousos.github.io/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/links/</guid>
+      <guid>https://kchousos.github.io/links/</guid>
       <description>About
 Now
 Projects
