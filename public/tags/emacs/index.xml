@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Emacs on Konstantinos Chousos</title>
-    <link>https://kchousos.github.io/tags/emacs/</link>
+    <link>http://localhost:1313/tags/emacs/</link>
     <description>Recent content in Emacs on Konstantinos Chousos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 28 Jun 2023 14:38:44 +0300</lastBuildDate>
-    <atom:link href="https://kchousos.github.io/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SICP in Emacs</title>
-      <link>https://kchousos.github.io/posts/sicp-in-emacs/</link>
+      <link>http://localhost:1313/posts/sicp-in-emacs/</link>
       <pubDate>Wed, 07 Jun 2023 13:38:00 +0300</pubDate>
-      <guid>https://kchousos.github.io/posts/sicp-in-emacs/</guid>
+      <guid>http://localhost:1313/posts/sicp-in-emacs/</guid>
       <description>&lt;p&gt;I recently began reading the notorious &amp;ldquo;Structure and Interpretation of Computer Programs&amp;rdquo;, a.k.a. the &lt;em&gt;Wizard book&lt;/em&gt;. I&amp;rsquo;m only on the first chapter, but I can already see its value and why it gets recommended so much.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>I recently began reading the notorious &ldquo;Structure and Interpretation of Computer Programs&rdquo;, a.k.a. the <em>Wizard book</em>. I&rsquo;m only on the first chapter, but I can already see its value and why it gets recommended so much.</p>
 <p>From Wikipedia:</p>
@@ -44,16 +44,16 @@ The book describes computer science concepts using Scheme, a dialect of Lisp. It
 </li>
 <li>
 <p>Execute the following commands</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ sudo cp ~/sicp.info.gz /usr/local/share/info/
-</span></span><span class="line"><span class="cl">$ sudo chmod <span class="m">644</span> /usr/local/share/info/sicp.info.gz
-</span></span><span class="line"><span class="cl">$ sudo install-info /usr/local/share/info/sicp.info.gz /usr/local/share/info/dir
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ sudo cp ~/sicp.info.gz /usr/local/share/info/
+</span></span><span style="display:flex;"><span>$ sudo chmod <span style="color:#ae81ff">644</span> /usr/local/share/info/sicp.info.gz
+</span></span><span style="display:flex;"><span>$ sudo install-info /usr/local/share/info/sicp.info.gz /usr/local/share/info/dir
 </span></span></code></pre></td></tr></table>
 </div>
 </div></li>
@@ -71,72 +71,72 @@ The book describes computer science concepts using Scheme, a dialect of Lisp. It
 <h2 id="setting-up-scheme">Setting up Scheme</h2>
 <p>SICP&rsquo;s examples and exercises are all implemented in Scheme. Scheme is a Lisp dialect with many implementations. <del>SICP uses the <a href="https://www.gnu.org/software/mit-scheme/">MIT-Scheme</a> implementation</del> Turns out GNU/MIT-Scheme is <strong>not</strong> fully compatible with the code in SICP (<a href="https://www.reddit.com/r/sicp/comments/mf0j95/comment/gsljkkw/?utm_source=share&amp;utm_medium=web2x&amp;context=3">source</a>). Instead, we will use <a href="https://racket-lang.org/">Racket</a>. Racket offers the <a href="https://docs.racket-lang.org/sicp-manual/">SICP collection</a>, a Racket <code>#lang</code> that makes it fully compatible with the SICP code.</p>
 <p>First, we need to install racket through our package manager. After that, the sicp collection can be downloaded like this:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ raco pkg install sicp
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ raco pkg install sicp
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>That&rsquo;s it! Now, when we write a <code>.rkt</code> file that needs to be compatible with SICP all we need to do is add <!-- raw HTML omitted --><code>#lang sicp</code><!-- raw HTML omitted --> at the top of the file<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>.</p>
 <h3 id="racket-in-emacs">Racket in Emacs</h3>
 <p>Personally, I recommend <a href="https://github.com/greghendershott/racket-mode">racket-mode</a> for working with Racket in Emacs. Another popular choice is <a href="https://github.com/emacsmirror/geiser">geiser</a>, but its <code>geiser-racket</code> module seems to be unmaintained<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>.</p>
 <p>To install <code>racket-mode</code> using <a href="https://github.com/progfolio/elpaca/">elpaca</a>, add the following to your config file:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-elisp" data-lang="elisp"><span class="line"><span class="cl"><span class="p">(</span><span class="nb">use-package</span> <span class="nv">racket-mode</span>
-</span></span><span class="line"><span class="cl">  <span class="nb">:elpaca</span> <span class="no">t</span><span class="p">)</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span>(use-package racket-mode
+</span></span><span style="display:flex;"><span>  :elpaca <span style="color:#66d9ef">t</span>)
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="racket-in-org-babel">Racket in Org-Babel</h4>
 <p>In case you choose to go the literate programming route (as I have) using Org-Mode, you will need to enable support for racket in org-babel. To do this, use the <a href="https://github.com/hasu/emacs-ob-racket">emacs-ob-racket</a> package. Add the following to your config:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-elisp" data-lang="elisp"><span class="line"><span class="cl"><span class="p">(</span><span class="nb">use-package</span> <span class="nv">ob-racket</span>
-</span></span><span class="line"><span class="cl">  <span class="nb">:elpaca</span> <span class="p">(</span><span class="nb">:type</span> <span class="nv">git</span> <span class="nb">:host</span> <span class="nv">github</span> <span class="nb">:repo</span> <span class="s">&#34;hasu/emacs-ob-racket&#34;</span><span class="p">))</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span>(use-package ob-racket
+</span></span><span style="display:flex;"><span>  :elpaca (:type git :host github :repo <span style="color:#e6db74">&#34;hasu/emacs-ob-racket&#34;</span>))
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>and then enable racket in your org-babel configuration.</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-elisp" data-lang="elisp"><span class="line"><span class="cl"><span class="p">(</span><span class="nv">org-babel-do-load-languages</span>
-</span></span><span class="line"><span class="cl"> <span class="ss">&#39;org-babel-load-languages</span>
-</span></span><span class="line"><span class="cl"> <span class="o">&#39;</span><span class="p">((</span><span class="nv">emacs-lisp</span> <span class="nb">:tangle</span> <span class="o">.</span><span class="nv">/init.el</span> <span class="o">.</span> <span class="no">t</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">   <span class="p">(</span><span class="nv">C</span> <span class="o">.</span> <span class="no">t</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">   <span class="p">(</span><span class="nv">python</span> <span class="o">.</span> <span class="no">t</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">   <span class="o">...</span>
-</span></span><span class="line"><span class="cl">   <span class="p">(</span><span class="nv">racket</span> <span class="o">.</span> <span class="no">t</span><span class="p">)))</span>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-elisp" data-lang="elisp"><span style="display:flex;"><span>(org-babel-do-load-languages
+</span></span><span style="display:flex;"><span> <span style="color:#e6db74">&#39;org-babel-load-languages</span>
+</span></span><span style="display:flex;"><span> <span style="color:#f92672">&#39;</span>((emacs-lisp :tangle <span style="color:#f92672">.</span>/init.el <span style="color:#f92672">.</span> <span style="color:#66d9ef">t</span>)
+</span></span><span style="display:flex;"><span>   (C <span style="color:#f92672">.</span> <span style="color:#66d9ef">t</span>)
+</span></span><span style="display:flex;"><span>   (python <span style="color:#f92672">.</span> <span style="color:#66d9ef">t</span>)
+</span></span><span style="display:flex;"><span>   <span style="color:#f92672">...</span>
+</span></span><span style="display:flex;"><span>   (racket <span style="color:#f92672">.</span> <span style="color:#66d9ef">t</span>)))
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>To be able to use the <code>sicp</code> package in org-babel code blocks, you need to add <code>:lang sicp</code> in the Org block, like so:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-org" data-lang="org"><span class="line"><span class="cl"> #<span class="gd">+begin_src racket :lang sicp
-</span></span></span><span class="line"><span class="cl"><span class="gd"> &#34;Hello World!&#34;
-</span></span></span><span class="line"><span class="cl"><span class="gd"> #+</span>​end_src
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-org" data-lang="org"><span style="display:flex;"><span> #<span style="color:#f92672">+begin_src racket :lang sicp
+</span></span></span><span style="display:flex;"><span><span style="color:#f92672"> &#34;Hello World!&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#f92672"> #+</span>​end_src
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Instead of adding that to every code block, you can add <code>#+property: header-args :lang sicp</code> to the start of your Org file. <del>This will be applied to <em>all</em> code blocks in the file, so make sure you include only racket code blocks</del> This can be mitigated by specifying that these header-args are to be applied only to racket blocks, like so: <code>#+property: header-args:racket :lang sicp</code>.</p>
