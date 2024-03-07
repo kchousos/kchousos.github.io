@@ -67,7 +67,7 @@ params:
     enabled: true # needs to be explicitly set
     title: "Konstantinos Chousos"
     subtitle: "Computer Science @ DiT, UoA"
-    imageUrl: "me.png"
+    imageUrl: "me.avif"
     imageWidth: 240
     imageHeight: 240
     imageTitle: Me
