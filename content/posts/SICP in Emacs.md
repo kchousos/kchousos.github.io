@@ -5,11 +5,11 @@ date: 2023-06-07T13:38:00+03:00
 lastmod: 2023-06-28T14:38:44+03:00
 tags: ["lisp", "emacs", "book"]
 draft: false
+cover: 
+    image: https://i.imgur.com/1ZGjEDn.jpeg
 ---
 
-I recently began reading the notorious "Structure and Interpretation of Computer Programs", a.k.a. the _Wizard book_. I'm only on the first chapter, but I can already see its value and why it gets recommended so much.
-
-<!--more-->
+I recently began reading the notorious "Structure and Interpretation of Computer Programs" {{< cite abelsonStructureInterpretationComputer2002>}}, a.k.a. the _Wizard book_. I'm only on the first chapter, but I can already see its value and why it gets recommended so much.
 
 From Wikipedia:
 
@@ -17,7 +17,7 @@ From Wikipedia:
 > [...]
 > The book describes computer science concepts using Scheme, a dialect of Lisp. It also uses a virtual register machine and assembler to implement Lisp interpreters and compilers.
 
-In this post, I aim to showcase my workflow for studying the book. Also, I will provide any resources that helped me get going. To study SICP, we need two things: The book and a Scheme implementation for the examples and exercises.
+In this post, I aim to showcase my workflow for studying the book using Emacs {{< cite stallmanEMACSExtensibleCustomizable1981>}}. Also, I will provide any resources that helped me get going. To study SICP, we need two things: The book and a Scheme implementation for the examples and exercises.
 
 
 ## Getting the book {#getting-the-book}
@@ -51,8 +51,7 @@ The `info` file can be retrieved in two methods:
 
 Now SICP will be available through Emacs! To access it, you need to open Emacs, type <kbd>C-h i</kbd> to go to the `*info*` top directory, type <kbd>m</kbd> to search and type `sicp` to find the book. If everything went correctly, you should be greeted with something like this:
 
-{{< figure src="/2023-06-07_14-15-41_screenshot.png" caption="<span class=\"figure-number\">Figure 1: </span>SICP's table of contents in `info` format, viewed from within Emacs" link="/2023-06-07_14-15-41_screenshot.png" >}}
-
+{{< figure src="/2023-06-07_14-15-41_screenshot.png" caption="Figure 1: SICP's table of contents in `info` format, viewed from within Emacs" link="/2023-06-07_14-15-41_screenshot.png" >}}
 
 ## Setting up Scheme {#setting-up-scheme}
 
@@ -105,7 +104,7 @@ To be able to use the `sicp` package in org-babel code blocks, you need to add `
 ```org
  #+begin_src racket :lang sicp
  "Hello World!"
- #+​end_src
+ #+end_src
 ```
 
 Instead of adding that to every code block, you can add `#+property: header-args :lang sicp` to the start of your Org file. ~~This will be applied to _all_ code blocks in the file, so make sure you include only racket code blocks~~ This can be mitigated by specifying that these header-args are to be applied only to racket blocks, like so: `#+property: header-args:racket :lang sicp`.
@@ -132,3 +131,7 @@ When it comes to the exercises, I use Org-Mode and Org-Babel to write the soluti
 [^fn:2]: <https://melpa.org/#/sicp>
 [^fn:3]: when using the REPL, we need to first evaluate <span class="inline-src language-racket" data-lang="racket">`(require sicp)`</span> before evaluating anything else.
 [^fn:4]: <https://lists.nongnu.org/archive/html/geiser-users/2022-06/msg00004.html>
+
+# References
+
+{{<references>}}

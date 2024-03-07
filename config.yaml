@@ -14,6 +14,8 @@ minify:
   disableXML: true
   minifyOutput: true
 
+copyright: "[Konstantinos Chousos](/copyright)"
+
 params:
   math: false
   enableEmoji: true
@@ -28,7 +30,7 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
-  languageAltTitle: "Greek"
+  languageAltTitle: "English"
 
   ShowReadingTime: true
   ShowShareButtons: true
@@ -39,7 +41,7 @@ params:
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   showFullTextInRss: true
-  UseHugoToc: true
+  UseHugoToc: false
   disableSpecial1stPost: false
   disableScrollToTop: false
   comments: true
@@ -66,7 +68,8 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: "Konstantinos Chousos"
-    subtitle: "Computer Science @ DiT, UoA"
+    subtitle: |
+      Computer Science @ DiT, UoA
     imageUrl: "me.avif"
     imageWidth: 240
     imageHeight: 240
@@ -89,6 +92,8 @@ params:
       url: "https://www.linkedin.com/in/kchousos/"
     - name: x
       url: "https://x.com/kchousos"
+    - name: email
+      url: "mailto:kon.chousos@gmail.com"
     - name: rss
       url: "/index.xml"
 
@@ -101,13 +106,14 @@ params:
   #    SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
     linkFullImages: true
+    responsiveImages: true
 
   editPost:
-    URL: "https://github.com/kchousos/kchousos.github.io/edit/master/content/"
+    URL: "https://github.com/kchousos/kchousos.github.io/edit/master/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -149,7 +155,7 @@ menu:
       url: /search
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: false
+pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: true
@@ -157,7 +163,7 @@ markup:
     codeFences: true
     # guessSyntax: true
     lineNos: true
-    #style: monokai
+    # style: monokai
 
 outputs:
   home:

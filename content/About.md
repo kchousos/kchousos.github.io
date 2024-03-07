@@ -8,7 +8,6 @@ draft: false
 
 Hello there! Welcome to my personal site 😄.
 
-
 ## About me {#about-me}
 
 My name is Konstantinos Chousos. I am an undergraduate student at the [Department of Informatics and Telecommunications](https://www.di.uoa.gr/en) of the [University of Athens](https://en.uoa.gr/) studying computer science.
