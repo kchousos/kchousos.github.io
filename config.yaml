@@ -25,7 +25,8 @@ params:
   keywords: [Blog, Portfolio, PaperMod, Programmer]
   author: "Konstantinos Chousos"
   # author: ["Me", "You"] # multiple authors
-  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  images:
+    - "/cover.jpg"
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
