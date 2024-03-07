@@ -58,7 +58,7 @@ params:
     #safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: " "
     icon: /icons/apple-touch-icon.png
     iconHeight: 35
 
