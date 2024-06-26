@@ -97,6 +97,8 @@ params:
       url: "mailto:kon.chousos@gmail.com"
     - name: rss
       url: "/index.xml"
+    - name: kofi
+      url: "https://ko-fi.com/kchousos"
 
   #analytics:
   #  google:

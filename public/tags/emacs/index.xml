@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Emacs on Konstantinos Chousos</title>
+    <title>emacs on Konstantinos Chousos</title>
     <link>https://kchousos.github.io/tags/emacs/</link>
-    <description>Recent content in Emacs on Konstantinos Chousos</description>
+    <description>Recent content in emacs on Konstantinos Chousos</description>
     <image>
       <title>Konstantinos Chousos</title>
       <url>https://kchousos.github.io/cover.jpg</url>
       <link>https://kchousos.github.io/cover.jpg</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.121.2</generator>
     <language>en</language>
-    <copyright>&amp;copy; 2024 [Konstantinos Chousos](/copyright)</copyright>
+    <copyright>2024 Konstantinos Chousos</copyright>
     <lastBuildDate>Wed, 28 Jun 2023 14:38:44 +0300</lastBuildDate>
     <atom:link href="https://kchousos.github.io/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
     <item>
