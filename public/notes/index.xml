@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Notes on Konstantinos Chousos</title>
-    <link>http://localhost:1313/notes/</link>
+    <link>https://kchousos.github.io/notes/</link>
     <description>Recent content in Notes on Konstantinos Chousos</description>
     <image>
       <title>Konstantinos Chousos</title>
-      <url>http://localhost:1313/cover.jpg</url>
-      <link>http://localhost:1313/cover.jpg</link>
+      <url>https://kchousos.github.io/cover.jpg</url>
+      <link>https://kchousos.github.io/cover.jpg</link>
     </image>
     <generator>Hugo -- 0.126.2</generator>
     <language>en</language>
     <copyright>2024 Konstantinos Chousos</copyright>
     <lastBuildDate>Tue, 24 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kchousos.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[GR] &#34;Cryptography&#34; course notes (PDF)</title>
-      <link>http://localhost:1313/notes/cryptography-notes-2024/</link>
+      <link>https://kchousos.github.io/notes/cryptography-notes-2024/</link>
       <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/cryptography-notes-2024/</guid>
+      <guid>https://kchousos.github.io/notes/cryptography-notes-2024/</guid>
       <description>My notes for the &amp;ldquo;ΘΠ05 Κρυπτογραφία&amp;rdquo; course [1], [2] during the 2024 Spring semester.
 Direct link</description>
       <content:encoded><![CDATA[<p>My notes for the &ldquo;ΘΠ05 Κρυπτογραφία&rdquo; course <a href="https://eclass.uoa.gr/courses/D41/">[1]</a>, <a href="https://crypto.di.uoa.gr/class/Kryptographia/index.html">[2]</a> during the 2024 Spring semester.</p>

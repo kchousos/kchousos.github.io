@@ -2,129 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Konstantinos Chousos</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://kchousos.github.io/posts/</link>
     <description>Recent content in Posts on Konstantinos Chousos</description>
     <image>
       <title>Konstantinos Chousos</title>
-      <url>http://localhost:1313/cover.jpg</url>
-      <link>http://localhost:1313/cover.jpg</link>
+      <url>https://kchousos.github.io/cover.jpg</url>
+      <link>https://kchousos.github.io/cover.jpg</link>
     </image>
     <generator>Hugo -- 0.126.2</generator>
     <language>en</language>
     <copyright>2024 Konstantinos Chousos</copyright>
-    <lastBuildDate>Wed, 26 Jun 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Intro to format string attacks</title>
-      <link>http://localhost:1313/posts/introduction-to-format-string-attacks-tbd/</link>
-      <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/introduction-to-format-string-attacks-tbd/</guid>
-      <description>The jesting friend Suppose a friend is running a server somewhere, where you can ssh into. This friend has also made sure that all you can do on their server is:
-use a text editor, run python and execute a peculiar rick binary that appears in your home directory. The only thing this executable does is rickroll us! For example:
-$ ./rick Konstantinos Never gonna give you up Konstantinos Never gonna let you down!</description>
-      <content:encoded><![CDATA[<h1 id="the-jesting-friend">The jesting friend</h1>
-<p>Suppose a friend is running a server somewhere, where you can <code>ssh</code> into. This <em>friend</em> has also made sure that all you can do on their server is:</p>
-<ol>
-<li>use a text editor,</li>
-<li>run python and</li>
-<li>execute a peculiar <code>rick</code> binary that appears in your home directory.</li>
-</ol>
-<p>The only thing this executable does is rickroll us! For example:</p>
-<pre tabindex="0"><code>$ ./rick Konstantinos
-Never gonna give you up Konstantinos
-Never gonna let you down!
-$
-</code></pre><p>Being rickrolled in 2024 A.D. pushes you over the edge. You decide to take matters into your own hands and teach this friend of yours a lesson!</p>
-<p>But&hellip;, how? This binary is owned by the root user, you cannot change its function neither delete it. To taunt you even more, your friend has also left the source code available for you to see:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
-</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;stdlib.h&gt;</span><span class="cp">
-</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;string.h&gt;</span><span class="cp">
-</span></span></span><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;unistd.h&gt;</span><span class="cp">
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
-</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">never_gonna_let_you_down</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Never gonna let you down!</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="nf">never_gonna_run_around</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="nf">execl</span><span class="p">(</span><span class="s">&#34;/bin/sh&#34;</span><span class="p">,</span> <span class="s">&#34;sh&#34;</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kt">void</span> <span class="p">(</span><span class="o">*</span><span class="n">print_message</span><span class="p">)()</span> <span class="o">=</span> <span class="n">never_gonna_let_you_down</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">**</span> <span class="n">argv</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="n">argc</span> <span class="o">!=</span> <span class="mi">2</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Usage: %s &lt;name&gt;</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">argv</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">char</span> <span class="n">buffer</span><span class="p">[</span><span class="nf">strlen</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">+</span> <span class="mi">1</span><span class="p">];</span>
-</span></span><span class="line"><span class="cl">    <span class="nf">strcpy</span><span class="p">(</span><span class="n">buffer</span><span class="p">,</span> <span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span>
-</span></span><span class="line"><span class="cl">    <span class="kt">char</span> <span class="o">*</span> <span class="n">message</span> <span class="o">=</span> <span class="nf">calloc</span><span class="p">(</span><span class="nf">strlen</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="o">+</span> <span class="mi">1337</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="kt">char</span><span class="p">));</span>
-</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">message</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;Memory allocation failed</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="nf">sprintf</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="s">&#34;Never gonna give you up %s!</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]);</span>
-</span></span><span class="line"><span class="cl">    <span class="nf">printf</span><span class="p">(</span><span class="n">message</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="nf">print_message</span><span class="p">();</span>
-</span></span><span class="line"><span class="cl">    <span class="nf">free</span><span class="p">(</span><span class="n">message</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>The logic is easy enough to understand, but something seems off&hellip; What is the function in lines 10-12 even about? What is its purpose and what could possibly be the reason for your friend to include it there? Before you find an answer to any of those questions, a devilish thought crosses your mind: What if you <em>exploit</em> this program and use this function to become root and wreak havoc on your friend&rsquo;s server? <em>That</em> will teach him.</p>
-<p>The motivation is there. Now you only need to find a way.</p>
-<p>The only parameter that you control in this program is the input you provide. Its size is checked before doing anything memory-related, so a buffer overflow attack is out of the question. The only other instance that it is used is at the <code>sprintf</code>&rsquo;s execution. &ldquo;But wait, what vulnerability could this possibly have? It just <em>reads</em> a string&rdquo; I hear you say. Well, let me introduce you to <em>format string attacks</em>.</p>
-<h1 id="the-format-string">The format string</h1>
-<h1 id="references">References</h1>
-<p>[<a class="hugo-simplecite-cite-hyperlink" href="#bibreference-1" title="scut, Exploiting Format String Vulnerabilities, 2001. [Online]. Available: https://cs155.stanford.edu/papers/formatstring-1.2.pdf  ">1</a>]
-[<a class="hugo-simplecite-cite-hyperlink" href="#bibreference-2" title="SYSTEM V APPLICATION BINARY INTERFACE: Intel386 Architecture Processor Supplement[Online]. Available: https://refspecs.linuxbase.org/elf/abi386-4.pdf  ">2</a>]</p>
-<ol class="hugo-simplecite-reference-list"><li class="hugo-simplecite-reference-list-item" id="bibreference-1">scut,&#32;<q>Exploiting Format String Vulnerabilities,</q>&#32;2001.&#32;[Online]. Available: <a class="hugo-simplecite-url-hyperlink" rel="noopener" target="_blank" href="https://cs155.stanford.edu/papers/formatstring-1.2.pdf">https://cs155.stanford.edu/papers/formatstring-1.2.pdf</a>&#32;
-</li><li class="hugo-simplecite-reference-list-item" id="bibreference-2"><em>SYSTEM V APPLICATION BINARY INTERFACE: Intel386 Architecture Processor Supplement</em>[Online]. Available: <a class="hugo-simplecite-url-hyperlink" rel="noopener" target="_blank" href="https://refspecs.linuxbase.org/elf/abi386-4.pdf">https://refspecs.linuxbase.org/elf/abi386-4.pdf</a>&#32;
-</li></ol>
-]]></content:encoded>
-    </item>
+    <lastBuildDate>Wed, 28 Jun 2023 14:38:44 +0300</lastBuildDate>
+    <atom:link href="https://kchousos.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SICP in Emacs</title>
-      <link>http://localhost:1313/posts/sicp-in-emacs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/sicp-in-emacs/</guid>
+      <link>https://kchousos.github.io/posts/sicp-in-emacs/</link>
+      <pubDate>Wed, 07 Jun 2023 13:38:00 +0300</pubDate>
+      <guid>https://kchousos.github.io/posts/sicp-in-emacs/</guid>
       <description>I recently began reading the notorious &amp;ldquo;Structure and Interpretation of Computer Programs&amp;rdquo; [1], a.k.a. the Wizard book. I&amp;rsquo;m only on the first chapter, but I can already see its value and why it gets recommended so much.
 From Wikipedia:
 Structure and Interpretation of Computer Programs (SICP) is a computer science textbook by Massachusetts Institute of Technology professors Harold Abelson and Gerald Jay Sussman with Julie Sussman. [&amp;hellip;] It teaches fundamental principles of computer programming, including recursion, abstraction, modularity, and programming language design and implementation.</description>

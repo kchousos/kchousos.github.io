@@ -22,7 +22,7 @@ minify:
 copyright: "&copy; 2024 [Konstantinos Chousos](/copyright)"
 
 params:
-  math: false
+  math: true
   enableEmoji: true
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "Konstantinos Chousos"
@@ -143,6 +143,10 @@ menu:
       name: Posts
       url: /posts/
       weight: 10
+    - identifier: micro
+      name: Micro
+      url: /microposts/
+      weight: 12
     - identifier: notes
       name: Notes
       url: /notes/

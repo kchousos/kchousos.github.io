@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Book on Konstantinos Chousos</title>
-    <link>http://localhost:1313/tags/book/</link>
+    <link>https://kchousos.github.io/tags/book/</link>
     <description>Recent content in Book on Konstantinos Chousos</description>
     <image>
       <title>Konstantinos Chousos</title>
-      <url>http://localhost:1313/cover.jpg</url>
-      <link>http://localhost:1313/cover.jpg</link>
+      <url>https://kchousos.github.io/cover.jpg</url>
+      <link>https://kchousos.github.io/cover.jpg</link>
     </image>
     <generator>Hugo -- 0.126.2</generator>
     <language>en</language>
     <copyright>2024 Konstantinos Chousos</copyright>
     <lastBuildDate>Wed, 28 Jun 2023 14:38:44 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/book/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kchousos.github.io/tags/book/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SICP in Emacs</title>
-      <link>http://localhost:1313/posts/sicp-in-emacs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/sicp-in-emacs/</guid>
+      <link>https://kchousos.github.io/posts/sicp-in-emacs/</link>
+      <pubDate>Wed, 07 Jun 2023 13:38:00 +0300</pubDate>
+      <guid>https://kchousos.github.io/posts/sicp-in-emacs/</guid>
       <description>I recently began reading the notorious &amp;ldquo;Structure and Interpretation of Computer Programs&amp;rdquo; [1], a.k.a. the Wizard book. I&amp;rsquo;m only on the first chapter, but I can already see its value and why it gets recommended so much.
 From Wikipedia:
 Structure and Interpretation of Computer Programs (SICP) is a computer science textbook by Massachusetts Institute of Technology professors Harold Abelson and Gerald Jay Sussman with Julie Sussman. [&amp;hellip;] It teaches fundamental principles of computer programming, including recursion, abstraction, modularity, and programming language design and implementation.</description>
