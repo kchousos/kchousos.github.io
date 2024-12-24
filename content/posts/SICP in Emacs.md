@@ -8,8 +8,7 @@ draft: false
 cover: 
     image: sicp.jpeg
 ---
-
-I recently began reading the notorious "Structure and Interpretation of Computer Programs" {{< cite abelsonStructureInterpretationComputer2002>}}, a.k.a. the _Wizard book_. I'm only on the first chapter, but I can already see its value and why it gets recommended so much.
+I recently began reading the notorious "Structure and Interpretation of Computer Programs" {{< cite "abelsonStructureInterpretationComputer2002" >}}, a.k.a. the _Wizard book_. I'm only on the first chapter, but I can already see its value and why it gets recommended so much.
 
 From Wikipedia:
 
@@ -17,7 +16,7 @@ From Wikipedia:
 > [...]
 > The book describes computer science concepts using Scheme, a dialect of Lisp. It also uses a virtual register machine and assembler to implement Lisp interpreters and compilers.
 
-In this post, I aim to showcase my workflow for studying the book using Emacs {{< cite stallmanEMACSExtensibleCustomizable1981>}}. Also, I will provide any resources that helped me get going. To study SICP, we need two things: The book and a Scheme implementation for the examples and exercises.
+In this post, I aim to showcase my workflow for studying the book using Emacs {{< cite "stallmanEMACSExtensibleCustomizable1981" >}}. Also, I will provide any resources that helped me get going. To study SICP, we need two things: The book and a Scheme implementation for the examples and exercises.
 
 ## Getting the book
 
@@ -47,9 +46,9 @@ The `info` file can be retrieved in two methods:
         $ sudo install-info /usr/local/share/info/sicp.info.gz /usr/local/share/info/dir
         ```
 
-Now SICP will be available through Emacs! To access it, you need to open Emacs, type <kbd>C-h i</kbd> to go to the `*info*` top directory, type <kbd>m</kbd> to search and type `sicp` to find the book. If everything went correctly, you should be greeted with something like this:
+Now SICP will be available through Emacs! To access it, you need to open Emacs, type `C-h i` to go to the `*info*` top directory, type `m` to search and type `sicp` to find the book. If everything went correctly, you should be greeted with something like this:
 
-{{< figure src="/2023-06-07_14-15-41_screenshot.png" numbered="true" caption="SICP's table of contents in `info` format, viewed from within Emacs" link="/2023-06-07_14-15-41_screenshot.png" >}}
+![SICP's table of contents in `info` format, viewed from within Emacs](2023-06-07_14-15-41_screenshot.png)
 
 ## Setting up Scheme
 
@@ -109,17 +108,17 @@ Instead of adding that to every code block, you can add `#+property: header-args
 
 After all this work, now we can finally start reading SICP. My so-far workflow consists of the book in the left window, a racket REPL in the top-right corner and my Org-Roam notes in the bottom-right corner.
 
-{{< figure src="/2023-06-07_14-40-22_screenshot.png" numbered="true" caption="My SICP studying workflow" link="/2023-06-07_14-40-22_screenshot.png" >}}
+![My SICP studying workflow](2023-06-07_14-40-22_screenshot.png)
 
 When it comes to the exercises, I use Org-Mode and Org-Babel to write the solutions in a literate programming style. The file is divided by chapter. Each exercise is included followed by its (hopefully correct) solution. (So far) I use a single `.org` file and export it to PDF. Also, all of the code blocks are exported to a `.rkt` file, with links to the corresponding position in the org file. All of these files can be found at [this repo](https://github.com/kchousos/SICP-solutions).
 
-{{< figure src="/2023-06-07_15-11-59_screenshot.png" numbered="true" caption="My SICP solutions in literate programming" link="/2023-06-07_15-11-59_screenshot.png" >}}
+![My SICP solutions in literate programming](2023-06-07_15-11-59_screenshot.png)
 
 ## Miscellaneous tips
 
--   **Update 07/06/2023**: As [u/jherrlin](https://www.reddit.com/r/emacs/comments/143cyw3/comment/jna8ev2/?utm_source=share&utm_medium=web2x&context=3) on Reddit pointed out, the fact that SICP is in text format gives us the ability to leverage Emacs' built-in bookmarks feature. When you arrive to the end of your study session, just type <kbd>C-x r m</kbd> and a bookmark will be placed on the current line. You can search your bookmarks with <kbd>C-x r b</kbd> or list them with <kbd>C-x r l</kbd>.
+-   **Update 07/06/2023**: As [u/jherrlin](https://www.reddit.com/r/emacs/comments/143cyw3/comment/jna8ev2/?utm_source=share&utm_medium=web2x&context=3) on Reddit pointed out, the fact that SICP is in text format gives us the ability to leverage Emacs' built-in bookmarks feature. When you arrive to the end of your study session, just type `C-x r m` and a bookmark will be placed on the current line. You can search your bookmarks with `C-x r b` or list them with `C-x r l`.
 
-    My tip is to name the bookmark the same each time (e.g. `sicp`). That way, when you re-create it in a later position, the old bookmark is discarded automatically. Also, if you run Emacs in daemon mode, I suggest to run <kbd>M-x</kbd> `bookmark-save` after adding a bookmark, to make sure it has been saved.
+    My tip is to name the bookmark the same each time (e.g. `sicp`). That way, when you re-create it in a later position, the old bookmark is discarded automatically. Also, if you run Emacs in daemon mode, I suggest to run `M-x` `bookmark-save` after adding a bookmark, to make sure it has been saved.
 
 [^fn:1]: <https://www.gnu.org/software/texinfo/>
 [^fn:2]: <https://melpa.org/#/sicp>
