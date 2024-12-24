@@ -1,0 +1,21 @@
+:root {
+    --theme: #fff;
+    --entry: #ddd;
+    --primary: #2e3338;
+    --secondary: #888;
+    --tertiary: #d9e1f5;
+    --content: #2e3338;
+    --border: #ddd;
+}
+
+.dark {
+    --theme: #202020;
+    --entry: #333;
+    --primary: #dcddde;
+    --secondary: #999;
+    --tertiary: #4a577e;
+    --content: #dcddde;
+    /* --hljs-bg: rgb(27, 27, 199); */
+    /* --code-bg: #9194a5; */
+    --border: #333;
+}
