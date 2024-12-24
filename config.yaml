@@ -121,10 +121,10 @@ params:
     linkFullImages: true
     responsiveImages: true
 
-  editPost:
-    URL: "https://github.com/kchousos/kchousos.github.io/edit/master/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #   URL: "https://github.com/kchousos/kchousos.github.io/edit/master/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
