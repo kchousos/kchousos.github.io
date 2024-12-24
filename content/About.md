@@ -10,6 +10,7 @@ hideSocial: true
 disableShare: true
 hideMeta: true
 ShowBreadCrumbs: false
+kudos: false
 ---
 Hello, welcome to my personal site!
 
