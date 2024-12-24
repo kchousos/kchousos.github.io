@@ -12,8 +12,25 @@
     <generator>Hugo -- 0.126.2</generator>
     <language>en</language>
     <copyright>2024 Konstantinos Chousos</copyright>
-    <lastBuildDate>Wed, 28 Jun 2023 14:38:44 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 24 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kchousos.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[GR] &#34;Cryptography&#34; course notes (PDF)</title>
+      <link>https://kchousos.github.io/notes/cryptography-notes-2024/</link>
+      <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://kchousos.github.io/notes/cryptography-notes-2024/</guid>
+      <description>My notes for the &amp;ldquo;ΘΠ05 Κρυπτογραφία&amp;rdquo; course [1], [2] during the 2024 Spring semester.
+Direct link</description>
+      <content:encoded><![CDATA[<p>My notes for the &ldquo;ΘΠ05 Κρυπτογραφία&rdquo; course <a href="https://eclass.uoa.gr/courses/D41/">[1]</a>, <a href="https://crypto.di.uoa.gr/class/Kryptographia/index.html">[2]</a> during the 2024 Spring semester.</p>
+
+
+<object data="/ΘΠ05%20Κρυπτογραφία%202024.pdf" type="application/pdf" width="100%" height="800px">
+</object>
+
+
+<p><a href="/%CE%98%CE%A005%20%CE%9A%CF%81%CF%85%CF%80%CF%84%CE%BF%CE%B3%CF%81%CE%B1%CF%86%CE%AF%CE%B1%202024.pdf">Direct link</a></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>SICP in Emacs</title>
       <link>https://kchousos.github.io/posts/sicp-in-emacs/</link>
