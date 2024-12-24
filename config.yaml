@@ -4,6 +4,11 @@ title: "Konstantinos Chousos"
 
 theme: ["hugo-chart", "PaperMod", "hugo-simplecite"]
 
+markup:
+  goldmark:
+    parser:
+      attribute: true
+
 paginate: 5
 enableRobotsTXT: true
 buildDrafts: false
@@ -34,9 +39,9 @@ params:
   languageAltTitle: "English"
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShareButtons: ["x", "reddit", "linkedin", "facebook", "ycombinator"]
-  ShowPostNavLinks: true
+  ShowPostNavLinks: false
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowWordCount: true
@@ -45,7 +50,8 @@ params:
   UseHugoToc: false
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: true
+  comments: false
+  kudos: true
   hidemeta: false
   hideSummary: false
   showtoc: true
@@ -97,8 +103,8 @@ params:
       url: "mailto:kon.chousos@gmail.com"
     - name: rss
       url: "/index.xml"
-    - name: kofi
-      url: "https://ko-fi.com/kchousos"
+    # - name: kofi
+    #   url: "https://ko-fi.com/kchousos"
 
   #analytics:
   #  google:

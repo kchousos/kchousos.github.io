@@ -9,34 +9,34 @@
       <url>https://kchousos.github.io/cover.jpg</url>
       <link>https://kchousos.github.io/cover.jpg</link>
     </image>
-    <generator>Hugo -- 0.121.2</generator>
+    <generator>Hugo -- 0.126.2</generator>
     <language>en</language>
     <copyright>2024 Konstantinos Chousos</copyright>
     <lastBuildDate>Wed, 28 Jun 2023 14:38:44 +0300</lastBuildDate>
     <atom:link href="https://kchousos.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>book</title>
+      <title>Book</title>
       <link>https://kchousos.github.io/tags/book/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kchousos.github.io/tags/book/</guid>
       <description></description>
     </item>
     <item>
-      <title>emacs</title>
+      <title>Emacs</title>
       <link>https://kchousos.github.io/tags/emacs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kchousos.github.io/tags/emacs/</guid>
       <description></description>
     </item>
     <item>
-      <title>lisp</title>
+      <title>Lisp</title>
       <link>https://kchousos.github.io/tags/lisp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kchousos.github.io/tags/lisp/</guid>
       <description></description>
     </item>
     <item>
-      <title>personal</title>
+      <title>Personal</title>
       <link>https://kchousos.github.io/tags/personal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kchousos.github.io/tags/personal/</guid>

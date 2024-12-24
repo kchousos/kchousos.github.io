@@ -9,7 +9,7 @@
       <url>https://kchousos.github.io/cover.jpg</url>
       <link>https://kchousos.github.io/cover.jpg</link>
     </image>
-    <generator>Hugo -- 0.121.2</generator>
+    <generator>Hugo -- 0.126.2</generator>
     <language>en</language>
     <copyright>2024 Konstantinos Chousos</copyright>
     <lastBuildDate>Wed, 28 Jun 2023 14:38:44 +0300</lastBuildDate>
@@ -68,14 +68,18 @@ The book describes computer science concepts using Scheme, a dialect of Lisp. It
 </ol>
 </li>
 </ol>
-<p>Now SICP will be available through Emacs! To access it, you need to open Emacs, type <!-- raw HTML omitted -->C-h i<!-- raw HTML omitted --> to go to the <code>*info*</code> top directory, type <!-- raw HTML omitted -->m<!-- raw HTML omitted --> to search and type <code>sicp</code> to find the book. If everything went correctly, you should be greeted with something like this:</p>
-<figure><a href="/2023-06-07_14-15-41_screenshot.png">
-    <img loading="lazy" src="/2023-06-07_14-15-41_screenshot.png"
-         alt="SICP&amp;rsquo;s table of contents in info format, viewed from within Emacs"/> </a><figcaption>
-            <p>SICP&rsquo;s table of contents in <code>info</code> format, viewed from within Emacs</p>
-        </figcaption>
+<p>Now SICP will be available through Emacs! To access it, you need to open Emacs, type <code>C-h i</code> to go to the <code>*info*</code> top directory, type <code>m</code> to search and type <code>sicp</code> to find the book. If everything went correctly, you should be greeted with something like this:</p>
+<p>
+<figure>
+  <a href="/2023-06-07_14-15-41_screenshot.png"><img loading="lazy" src="/2023-06-07_14-15-41_screenshot.png" alt="">
+  </a>
+  <figcaption>
+      <p>
+        SICP&rsquo;s table of contents in <code>info</code> format, viewed from within Emacs
+      </p>
+  </figcaption>
 </figure>
-
+</p>
 <h2 id="setting-up-scheme">Setting up Scheme</h2>
 <p>SICP&rsquo;s examples and exercises are all implemented in Scheme. Scheme is a Lisp dialect with many implementations. <del>SICP uses the <a href="https://www.gnu.org/software/mit-scheme/">MIT-Scheme</a> implementation</del> Turns out GNU/MIT-Scheme is <strong>not</strong> fully compatible with the code in SICP (<a href="https://www.reddit.com/r/sicp/comments/mf0j95/comment/gsljkkw/?utm_source=share&amp;utm_medium=web2x&amp;context=3">source</a>). Instead, we will use <a href="https://racket-lang.org/">Racket</a>. Racket offers the <a href="https://docs.racket-lang.org/sicp-manual/">SICP collection</a>, a Racket <code>#lang</code> that makes it fully compatible with the SICP code.</p>
 <p>First, we need to install racket through our package manager. After that, the sicp collection can be downloaded like this:</p>
@@ -150,26 +154,34 @@ The book describes computer science concepts using Scheme, a dialect of Lisp. It
 </div><p>Instead of adding that to every code block, you can add <code>#+property: header-args :lang sicp</code> to the start of your Org file. <del>This will be applied to <em>all</em> code blocks in the file, so make sure you include only racket code blocks</del> This can be mitigated by specifying that these header-args are to be applied only to racket blocks, like so: <code>#+property: header-args:racket :lang sicp</code>.</p>
 <h2 id="result">Result</h2>
 <p>After all this work, now we can finally start reading SICP. My so-far workflow consists of the book in the left window, a racket REPL in the top-right corner and my Org-Roam notes in the bottom-right corner.</p>
-<figure><a href="/2023-06-07_14-40-22_screenshot.png">
-    <img loading="lazy" src="/2023-06-07_14-40-22_screenshot.png"
-         alt="My SICP studying workflow"/> </a><figcaption>
-            <p>My SICP studying workflow</p>
-        </figcaption>
+<p>
+<figure>
+  <a href="/2023-06-07_14-40-22_screenshot.png"><img loading="lazy" src="/2023-06-07_14-40-22_screenshot.png" alt="">
+  </a>
+  <figcaption>
+      <p>
+        My SICP studying workflow
+      </p>
+  </figcaption>
 </figure>
-
+</p>
 <p>When it comes to the exercises, I use Org-Mode and Org-Babel to write the solutions in a literate programming style. The file is divided by chapter. Each exercise is included followed by its (hopefully correct) solution. (So far) I use a single <code>.org</code> file and export it to PDF. Also, all of the code blocks are exported to a <code>.rkt</code> file, with links to the corresponding position in the org file. All of these files can be found at <a href="https://github.com/kchousos/SICP-solutions">this repo</a>.</p>
-<figure><a href="/2023-06-07_15-11-59_screenshot.png">
-    <img loading="lazy" src="/2023-06-07_15-11-59_screenshot.png"
-         alt="My SICP solutions in literate programming"/> </a><figcaption>
-            <p>My SICP solutions in literate programming</p>
-        </figcaption>
+<p>
+<figure>
+  <a href="/2023-06-07_15-11-59_screenshot.png"><img loading="lazy" src="/2023-06-07_15-11-59_screenshot.png" alt="">
+  </a>
+  <figcaption>
+      <p>
+        My SICP solutions in literate programming
+      </p>
+  </figcaption>
 </figure>
-
+</p>
 <h2 id="miscellaneous-tips">Miscellaneous tips</h2>
 <ul>
 <li>
-<p><strong>Update 07/06/2023</strong>: As <a href="https://www.reddit.com/r/emacs/comments/143cyw3/comment/jna8ev2/?utm_source=share&amp;utm_medium=web2x&amp;context=3">u/jherrlin</a> on Reddit pointed out, the fact that SICP is in text format gives us the ability to leverage Emacs&rsquo; built-in bookmarks feature. When you arrive to the end of your study session, just type <!-- raw HTML omitted -->C-x r m<!-- raw HTML omitted --> and a bookmark will be placed on the current line. You can search your bookmarks with <!-- raw HTML omitted -->C-x r b<!-- raw HTML omitted --> or list them with <!-- raw HTML omitted -->C-x r l<!-- raw HTML omitted -->.</p>
-<p>My tip is to name the bookmark the same each time (e.g. <code>sicp</code>). That way, when you re-create it in a later position, the old bookmark is discarded automatically. Also, if you run Emacs in daemon mode, I suggest to run <!-- raw HTML omitted -->M-x<!-- raw HTML omitted --> <code>bookmark-save</code> after adding a bookmark, to make sure it has been saved.</p>
+<p><strong>Update 07/06/2023</strong>: As <a href="https://www.reddit.com/r/emacs/comments/143cyw3/comment/jna8ev2/?utm_source=share&amp;utm_medium=web2x&amp;context=3">u/jherrlin</a> on Reddit pointed out, the fact that SICP is in text format gives us the ability to leverage Emacs&rsquo; built-in bookmarks feature. When you arrive to the end of your study session, just type <code>C-x r m</code> and a bookmark will be placed on the current line. You can search your bookmarks with <code>C-x r b</code> or list them with <code>C-x r l</code>.</p>
+<p>My tip is to name the bookmark the same each time (e.g. <code>sicp</code>). That way, when you re-create it in a later position, the old bookmark is discarded automatically. Also, if you run Emacs in daemon mode, I suggest to run <code>M-x</code> <code>bookmark-save</code> after adding a bookmark, to make sure it has been saved.</p>
 </li>
 </ul>
 <h1 id="references">References</h1>
@@ -289,9 +301,12 @@ The two most interesting courses that I attend this semester are a cryptography 
 <p>The two most interesting courses that I attend this semester are a cryptography and a security course, each with its own merits and difficulties. The math behind cryptography systems are pretty complex but also very intriguing and make you appreciate the beauty of mathematics, but also collective effort through the times.</p>
 <h3 id="suggested-listening">Suggested listening</h3>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/zuxPKikM0NI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/zuxPKikM0NI?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
 
 <h2 id="march-03-2024">March 03, 2024</h2>
 <p>Overhauled the site, one year later&hellip; I&rsquo;ll try to make writing more of a habit this year.</p>
@@ -300,15 +315,21 @@ The two most interesting courses that I attend this semester are a cryptography 
 <ul>
 <li>Jiro Inagaki &amp; His Soul Media - In The Groove
 
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-    <iframe src="https://www.youtube.com/embed/tJ6fyxjF-tU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-  </div>
+  
+      
+      <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+        <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/tJ6fyxjF-tU?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+        ></iframe>
+      </div>
 </li>
 <li>The Rolling Stones - Out Of Our Heads
 
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-    <iframe src="https://www.youtube.com/embed/mJH7ckPPy30" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-  </div>
+  
+      
+      <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+        <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/mJH7ckPPy30?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+        ></iframe>
+      </div>
 </li>
 </ul>
 ]]></content:encoded>

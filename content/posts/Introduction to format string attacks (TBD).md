@@ -2,7 +2,7 @@
 title: "Intro to format string attacks"
 author: ["Konstantinos Chousos"]
 date: 2024-06-26
-tags: []
+tags:
 draft: true
 cover: 
   image: rickroll.jpg
@@ -71,8 +71,6 @@ The motivation is there. Now you only need to find a way.
 The only parameter that you control in this program is the input you provide. Its size is checked before doing anything memory-related, so a buffer overflow attack is out of the question. The only other instance that it is used is at the `sprintf`'s execution. "But wait, what vulnerability could this possibly have? It just *reads* a string" I hear you say. Well, let me introduce you to *format string attacks*.
 
 # The format string
-
-
 
 # References
 
