@@ -71,7 +71,7 @@ The book describes computer science concepts using Scheme, a dialect of Lisp. It
 <p>Now SICP will be available through Emacs! To access it, you need to open Emacs, type <code>C-h i</code> to go to the <code>*info*</code> top directory, type <code>m</code> to search and type <code>sicp</code> to find the book. If everything went correctly, you should be greeted with something like this:</p>
 <p>
 <figure>
-  <a href="/2023-06-07_14-15-41_screenshot.png"><img loading="lazy" src="/2023-06-07_14-15-41_screenshot.png" alt="">
+  <a href="/sicp%20in%20emacs.png"><img loading="lazy" src="/sicp%20in%20emacs.png" alt="">
   </a>
   <figcaption>
       <p>
@@ -156,7 +156,7 @@ The book describes computer science concepts using Scheme, a dialect of Lisp. It
 <p>After all this work, now we can finally start reading SICP. My so-far workflow consists of the book in the left window, a racket REPL in the top-right corner and my Org-Roam notes in the bottom-right corner.</p>
 <p>
 <figure>
-  <a href="/2023-06-07_14-40-22_screenshot.png"><img loading="lazy" src="/2023-06-07_14-40-22_screenshot.png" alt="">
+  <a href="/sicp%20workflow.png"><img loading="lazy" src="/sicp%20workflow.png" alt="">
   </a>
   <figcaption>
       <p>
@@ -168,7 +168,7 @@ The book describes computer science concepts using Scheme, a dialect of Lisp. It
 <p>When it comes to the exercises, I use Org-Mode and Org-Babel to write the solutions in a literate programming style. The file is divided by chapter. Each exercise is included followed by its (hopefully correct) solution. (So far) I use a single <code>.org</code> file and export it to PDF. Also, all of the code blocks are exported to a <code>.rkt</code> file, with links to the corresponding position in the org file. All of these files can be found at <a href="https://github.com/kchousos/SICP-solutions">this repo</a>.</p>
 <p>
 <figure>
-  <a href="/2023-06-07_15-11-59_screenshot.png"><img loading="lazy" src="/2023-06-07_15-11-59_screenshot.png" alt="">
+  <a href="/sicp%20literate%20notes.png"><img loading="lazy" src="/sicp%20literate%20notes.png" alt="">
   </a>
   <figcaption>
       <p>
