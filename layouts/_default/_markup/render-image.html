@@ -1,0 +1,13 @@
+{{ if .Text }}
+<figure>
+  <a href="/{{ .Destination | safeURL }}"><img loading="lazy" src="/{{ .Destination | safeURL }}" alt="{{ .Title  }}">
+  </a>
+  <figcaption>
+      <p>
+        {{ .Text | safeHTML }}
+      </p>
+  </figcaption>
+</figure>
+{{ else }}
+<img src="{{ .Destination | safeURL }}" alt="{{ .Title }}">
+{{ end }}
