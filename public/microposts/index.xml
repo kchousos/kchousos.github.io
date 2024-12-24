@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Microposts on Konstantinos Chousos</title>
+    <link>http://localhost:1313/microposts/</link>
+    <description>Recent content in Microposts on Konstantinos Chousos</description>
+    <image>
+      <title>Konstantinos Chousos</title>
+      <url>http://localhost:1313/cover.jpg</url>
+      <link>http://localhost:1313/cover.jpg</link>
+    </image>
+    <generator>Hugo -- 0.126.2</generator>
+    <language>en</language>
+    <copyright>2024 Konstantinos Chousos</copyright>
+    <lastBuildDate>Tue, 24 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/microposts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>first micropost</title>
+      <link>http://localhost:1313/microposts/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/microposts/test/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit scelerisque in dictum non. Ullamcorper a lacus vestibulum sed. Dui vivamus arcu felis bibendum ut. Pharetra pharetra massa massa ultricies mi. Vitae auctor eu augue ut lectus arcu bibendum at. Et sollicitudin ac orci phasellus egestas tellus. Non enim praesent elementum facilisis leo vel. Justo eget magna fermentum iaculis eu non diam phasellus vestibulum.</description>
+      <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit scelerisque in dictum non. Ullamcorper a lacus vestibulum sed. Dui vivamus arcu felis bibendum ut. Pharetra pharetra massa massa ultricies mi. Vitae auctor eu augue ut lectus arcu bibendum at. Et sollicitudin ac orci phasellus egestas tellus. Non enim praesent elementum facilisis leo vel. Justo eget magna fermentum iaculis eu non diam phasellus vestibulum. Enim blandit volutpat maecenas volutpat. Pellentesque adipiscing commodo elit at imperdiet dui. Ac turpis egestas integer eget aliquet nibh. Dui faucibus in ornare quam viverra orci. Amet commodo nulla facilisi nullam vehicula ipsum a arcu. Tellus orci ac auctor augue mauris. Facilisi cras fermentum odio eu feugiat pretium. Potenti nullam ac tortor vitae. Ac turpis egestas sed tempus. Mauris sit amet massa vitae tortor. In nisl nisi scelerisque eu.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
