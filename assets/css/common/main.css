@@ -68,5 +68,7 @@ pre:hover .copy-code {
  blockquote {
     margin: 20px 0;
     padding: 0 14px;
-    border-inline-start: 3px solid var(--primary);
+    border-inline-start: 3px solid var(--tertiary);
+    color: var(--secondary);
+    font-style: italic;
 }
