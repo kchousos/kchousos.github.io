@@ -77,7 +77,7 @@ params:
     title: "Konstantinos Chousos"
     subtitle: |
       Computer Science @ DiT, UoA
-    imageUrl: "me.avif"
+    # imageUrl: "me.avif"
     imageWidth: 240
     imageHeight: 240
     imageTitle: Me
