@@ -147,9 +147,9 @@ menu:
       name: Micro
       url: /microposts/
       weight: 12
-    - identifier: notes
-      name: Notes
-      url: /notes/
+    # - identifier: notes
+    #   name: Notes
+    #   url: /notes/
       weight: 15
     - identifier: links
       name: Links
