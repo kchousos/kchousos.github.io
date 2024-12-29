@@ -72,3 +72,7 @@ pre:hover .copy-code {
     color: var(--secondary);
     font-style: italic;
 }
+
+.center {
+	text-align:center;
+}
