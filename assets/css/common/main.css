@@ -76,3 +76,7 @@ pre:hover .copy-code {
 .center {
 	text-align:center;
 }
+
+.dark img {
+    opacity: 0.7;                   
+}
