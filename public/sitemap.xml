@@ -45,6 +45,8 @@
   </url><url>
     <loc>https://kchousos.github.io/feed/second-micropost/</loc>
   </url><url>
+    <loc>https://kchousos.github.io/feed/mathjax-migration/</loc>
+  </url><url>
     <loc>https://kchousos.github.io/archive/</loc>
   </url><url>
     <loc>https://kchousos.github.io/categories/</loc>
@@ -53,7 +55,11 @@
   </url><url>
     <loc>https://kchousos.github.io/feed/</loc>
   </url><url>
+    <loc>https://kchousos.github.io/tags/infra/</loc>
+  </url><url>
     <loc>https://kchousos.github.io/links/</loc>
+  </url><url>
+    <loc>https://kchousos.github.io/tags/math/</loc>
   </url><url>
     <loc>https://kchousos.github.io/tags/micropost/</loc>
   </url><url>

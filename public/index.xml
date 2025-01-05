@@ -288,6 +288,63 @@ This is a post to test the microposting feature I implemented hastily today. The
 ]]></content:encoded>
     </item>
     <item>
+      <title>2025-01-05, 21:17</title>
+      <link>https://kchousos.github.io/feed/mathjax-migration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kchousos.github.io/feed/mathjax-migration/</guid>
+      <description>Infrastructure update: Migrated from KaTeX to MathJax for math rendering. Although MathJax is a bit slower to load,1 it supports referencing numbered equations and linking to them.2
+The following in markdown:
+1 2 3 4 5 6 7 8 $$ \begin{equation} \label{eq:1} C = W\log_{2} (1+\mathrm{SNR}) \end{equation} $$ See \eqref{eq:1}. will result in:
+$$ \begin{equation} \label{eq:1} C = W\log_{2} (1+\mathrm{SNR}) \end{equation} $$
+See \eqref{eq:1}.
+If only I could somehow make Obsidian render the labeled equation without errors&amp;hellip;</description>
+      <content:encoded><![CDATA[<p>Infrastructure update: Migrated from <a href="https://katex.org/">KaTeX</a> to <a href="https://www.mathjax.org/">MathJax</a> for math rendering. Although MathJax is a bit slower to load,<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> it supports referencing numbered equations and linking to them.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p>The following in markdown:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="sb">$$</span><span class="nb">
+</span></span></span><span class="line"><span class="cl"><span class="nb"></span><span class="nv">\begin</span><span class="nb">{equation}
+</span></span></span><span class="line"><span class="cl"><span class="nb"></span><span class="nv">\label</span><span class="nb">{eq:</span><span class="m">1</span><span class="nb">}
+</span></span></span><span class="line"><span class="cl"><span class="nb">C </span><span class="o">=</span><span class="nb"> W</span><span class="nv">\log</span><span class="nb">_{</span><span class="m">2</span><span class="nb">} </span><span class="o">(</span><span class="m">1</span><span class="o">+</span><span class="nv">\mathrm</span><span class="nb">{SNR}</span><span class="o">)</span><span class="nb">
+</span></span></span><span class="line"><span class="cl"><span class="nb"></span><span class="nv">\end</span><span class="nb">{equation}
+</span></span></span><span class="line"><span class="cl"><span class="nb"></span><span class="s">$$</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">See <span class="k">\eqref</span><span class="nb">{</span>eq:1<span class="nb">}</span>.
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>will result in:</p>
+<p>$$
+\begin{equation}
+\label{eq:1}
+C = W\log_{2} (1+\mathrm{SNR})
+\end{equation}
+$$</p>
+<p>See \eqref{eq:1}.</p>
+<p>If only I could somehow make Obsidian render the labeled equation <a href="https://forum.obsidian.md/t/label-in-the-math-block-and-ref-in-the-content-at-the-same-time-cause-error/3189">without errors</a>&hellip;</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>See <a href="https://www.intmath.com/cg5/katex-mathjax-comparison.php">KaTeX and MathJax Comparison Demo</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Thanks to the developers of ox-hugo for <a href="https://ox-hugo.scripter.co/doc/equations/#mathjax-config-example">pointing to the solution</a>.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Disclaimer</title>
       <link>https://kchousos.github.io/copyright/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
