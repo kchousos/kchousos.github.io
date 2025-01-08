@@ -368,11 +368,12 @@ Ownership and Rights I retain ownership of articles, original images, and audio 
       <link>https://kchousos.github.io/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kchousos.github.io/links/</guid>
-      <description> About Now Notes Disclaimer Archive Tags </description>
+      <description> About Now Notes Reading Disclaimer Archive Tags </description>
       <content:encoded><![CDATA[<ul>
 <li><a href="/about">About</a></li>
 <li><a href="/now">Now</a></li>
 <li><a href="/notes">Notes</a></li>
+<li><a href="/book-list">Reading</a></li>
 <li><a href="/copyright">Disclaimer</a></li>
 <li><a href="/archive">Archive</a></li>
 <li><a href="/tags">Tags</a></li>
