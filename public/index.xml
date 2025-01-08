@@ -246,11 +246,11 @@ The book describes computer science concepts using Scheme, a dialect of Lisp. It
       <guid>https://kchousos.github.io/about/</guid>
       <description>Hello, welcome to my personal site!
 My name is Konstantinos Chousos. I am an undergraduate student at the Department of Informatics and Telecommunications of the University of Athens studying computer science.
-CS interests My interests include machine learning, programming language theory, competitive programming, Linux and $\LaTeX{}$. Most of my programming experience revolves around C and C++, as well as Python in the form of Jupyter notebooks. I&amp;rsquo;m currently learning web development using React.</description>
+CS interests My interests include machine learning, programming language theory, competitive programming, Linux and $\rm\LaTeX{}$. Most of my programming experience revolves around C and C++, as well as Python in the form of Jupyter notebooks. I&amp;rsquo;m currently learning web development using React.</description>
       <content:encoded><![CDATA[<p>Hello, welcome to my personal site!</p>
 <p>My name is Konstantinos Chousos. I am an undergraduate student at the <a href="https://www.di.uoa.gr/en">Department of Informatics and Telecommunications</a> of the <a href="https://en.uoa.gr/">University of Athens</a> studying computer science.</p>
 <h2 id="cs-interests">CS interests</h2>
-<p>My interests include machine learning, programming language theory, competitive programming, Linux and $\LaTeX{}$. Most of my programming experience revolves around C and C++, as well as Python in the form of Jupyter notebooks. I&rsquo;m currently learning web development using React.</p>
+<p>My interests include machine learning, programming language theory, competitive programming, Linux and $\rm\LaTeX{}$. Most of my programming experience revolves around C and C++, as well as Python in the form of Jupyter notebooks. I&rsquo;m currently learning web development using React.</p>
 <h2 id="other-hobbies">Other Hobbies</h2>
 <p>I play classical guitar, in which I acquired a diploma in January of 2023 from the national conservatory of Greece, of which I&rsquo;m very proud of. Apart from the guitar, my interest in music has led me to become a member of a choir, as a member of which I participated in a plethora of concerts and events.</p>
 <p>Apart from that, I&rsquo;m recently learning to draw, following the <a href="https://drawabox.com">DrawABox</a> course. I&rsquo;ve been making progress and I look forward to improving my drawing skills furthermore. I used to draw a lot during primary school, and I was quite good at it too. So. I&rsquo;m excited to get back at it.</p>
@@ -410,6 +410,137 @@ Studying (local) LLMs Fuzzing Game theory Multi-variable calculus Reading Dune, 
 <li><strong>Fire of Unknown Origin</strong>, Blue Öyster Cult</li>
 <li><strong>Innervisions</strong>, Stevie Wonder</li>
 <li><strong>Ocean&rsquo;s {11,12,13} Soundtrack</strong></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Reading</title>
+      <link>https://kchousos.github.io/book-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kchousos.github.io/book-list/</guid>
+      <description>2025 Title Author Rating Streams of Silver R.A. Salvatore ⭐⭐⭐ Dune Frank Herbert Reading 2024 Title Author Rating The Music of the Primes Marcus du Sautoy ⭐⭐⭐ Λι Νίκος Καββαδίας ⭐⭐️ Letter to His Father Franz Kafka ⭐⭐ Homeland R. A. Salvatore ⭐⭐⭐⭐⭐ You and Your Research Richard W. Hamming ⭐⭐⭐⭐ In Praise of Idleness Bertrand Russell ⭐⭐ Exile R.A. Salvatore ⭐⭐⭐ Sojourn R.A. Salvatore ⭐⭐⭐⭐ The Crystal Shard R.A. Salvatore ⭐⭐⭐⭐ The Housekeeper and the Professor Yoko Ogawa ⭐⭐⭐ Changing Planes Ursula K.</description>
+      <content:encoded><![CDATA[<h1 id="2025">2025</h1>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Streams of Silver</strong></td>
+<td>R.A. Salvatore</td>
+<td>⭐⭐⭐</td>
+</tr>
+<tr>
+<td><strong>Dune</strong></td>
+<td>Frank Herbert</td>
+<td>Reading</td>
+</tr>
+</tbody>
+</table>
+<h1 id="2024">2024</h1>
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author</th>
+<th>Rating</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>The Music of the Primes</strong></td>
+<td>Marcus du Sautoy</td>
+<td>⭐⭐⭐</td>
+</tr>
+<tr>
+<td><strong>Λι</strong></td>
+<td>Νίκος Καββαδίας</td>
+<td>⭐⭐️</td>
+</tr>
+<tr>
+<td><strong>Letter to His Father</strong></td>
+<td>Franz Kafka</td>
+<td>⭐⭐</td>
+</tr>
+<tr>
+<td><strong>Homeland</strong></td>
+<td>R. A. Salvatore</td>
+<td>⭐⭐⭐⭐⭐</td>
+</tr>
+<tr>
+<td><strong>You and Your Research</strong></td>
+<td>Richard W. Hamming</td>
+<td>⭐⭐⭐⭐</td>
+</tr>
+<tr>
+<td><strong>In Praise of Idleness</strong></td>
+<td>Bertrand Russell</td>
+<td>⭐⭐</td>
+</tr>
+<tr>
+<td><strong>Exile</strong></td>
+<td>R.A. Salvatore</td>
+<td>⭐⭐⭐</td>
+</tr>
+<tr>
+<td><strong>Sojourn</strong></td>
+<td>R.A. Salvatore</td>
+<td>⭐⭐⭐⭐</td>
+</tr>
+<tr>
+<td><strong>The Crystal Shard</strong></td>
+<td>R.A. Salvatore</td>
+<td>⭐⭐⭐⭐</td>
+</tr>
+<tr>
+<td><strong>The Housekeeper and the Professor</strong></td>
+<td>Yoko Ogawa</td>
+<td>⭐⭐⭐</td>
+</tr>
+<tr>
+<td><strong>Changing Planes</strong></td>
+<td>Ursula K. Le Guin</td>
+<td>DNF</td>
+</tr>
+<tr>
+<td><strong>Dune</strong></td>
+<td>Frank Herbert</td>
+<td>DNF</td>
+</tr>
+<tr>
+<td><strong>How to Write a Thesis</strong></td>
+<td>Umberto Eco</td>
+<td>DNF</td>
+</tr>
+<tr>
+<td><strong>The Multi-Orgasmic Man</strong></td>
+<td>Mantak Chia &amp; Douglas Abrams</td>
+<td>DNF</td>
+</tr>
+<tr>
+<td><strong>Calculus Made Easy</strong></td>
+<td>Silvanus Phillips Thompson</td>
+<td>DNF</td>
+</tr>
+<tr>
+<td><strong>Where Wizards Stay Up Late: The Origins of the Internet</strong></td>
+<td>Katie Hafner &amp; Matthew Lyon</td>
+<td>DNF</td>
+</tr>
+<tr>
+<td><strong>Notes from Underground</strong></td>
+<td>Fyodor Dostoevsky</td>
+<td>DNF</td>
+</tr>
+</tbody>
+</table>
+<h1 id="-2023">-2023</h1>
+<ul>
+<li><input disabled="" type="checkbox"> <strong>TODO</strong></li>
 </ul>
 ]]></content:encoded>
     </item>
