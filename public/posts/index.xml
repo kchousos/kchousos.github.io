@@ -17,7 +17,7 @@
     <item>
       <title>BIOS update for Lenovo laptop on Linux</title>
       <link>https://kchousos.github.io/posts/lenovo-bios-linux/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 25 Dec 2024 16:36:00 +0300</pubDate>
       <guid>https://kchousos.github.io/posts/lenovo-bios-linux/</guid>
       <description>Updating your BIOS is often perceived as a straightforward task. You run an .exe file, you wait a minute or two, your screen flashes and poof, you&amp;rsquo;re done. This at least is the Lenovo Experience™ with their BIOS update wizards.
 But what if your laptop is running Linux? Then the only way to use these .exe files would be to dual boot with a Windows partition. Unfortunately, this is not acceptable for most.</description>

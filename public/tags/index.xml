@@ -12,8 +12,29 @@
     <generator>Hugo -- 0.126.2</generator>
     <language>en</language>
     <copyright>2024 Konstantinos Chousos</copyright>
-    <lastBuildDate>Wed, 25 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jan 2025 21:17:00 +0300</lastBuildDate>
     <atom:link href="https://kchousos.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Infra</title>
+      <link>https://kchousos.github.io/tags/infra/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kchousos.github.io/tags/infra/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Math</title>
+      <link>https://kchousos.github.io/tags/math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kchousos.github.io/tags/math/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Micropost</title>
+      <link>https://kchousos.github.io/tags/micropost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kchousos.github.io/tags/micropost/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Software</title>
       <link>https://kchousos.github.io/tags/software/</link>
@@ -47,27 +68,6 @@
       <link>https://kchousos.github.io/tags/personal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kchousos.github.io/tags/personal/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Infra</title>
-      <link>https://kchousos.github.io/tags/infra/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kchousos.github.io/tags/infra/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Math</title>
-      <link>https://kchousos.github.io/tags/math/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kchousos.github.io/tags/math/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Micropost</title>
-      <link>https://kchousos.github.io/tags/micropost/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kchousos.github.io/tags/micropost/</guid>
       <description></description>
     </item>
   </channel>

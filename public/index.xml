@@ -12,12 +12,69 @@
     <generator>Hugo -- 0.126.2</generator>
     <language>en</language>
     <copyright>2024 Konstantinos Chousos</copyright>
-    <lastBuildDate>Wed, 25 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jan 2025 21:17:00 +0300</lastBuildDate>
     <atom:link href="https://kchousos.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025-01-05, 21:17</title>
+      <link>https://kchousos.github.io/feed/mathjax-migration/</link>
+      <pubDate>Sun, 05 Jan 2025 21:17:00 +0300</pubDate>
+      <guid>https://kchousos.github.io/feed/mathjax-migration/</guid>
+      <description>Infrastructure update: Migrated from KaTeX to MathJax for math rendering. Although MathJax is a bit slower to load,1 it supports referencing numbered equations and linking to them.2
+The following in markdown:
+1 2 3 4 5 6 7 8 $$ \begin{equation} \label{eq:1} C = W\log_{2} (1+\mathrm{SNR}) \end{equation} $$ See \eqref{eq:1}. will result in:
+$$ \begin{equation} \label{eq:1} C = W\log_{2} (1+\mathrm{SNR}) \end{equation} $$
+See \eqref{eq:1}.
+If only I could somehow make Obsidian render the labeled equation without errors&amp;hellip;</description>
+      <content:encoded><![CDATA[<p>Infrastructure update: Migrated from <a href="https://katex.org/">KaTeX</a> to <a href="https://www.mathjax.org/">MathJax</a> for math rendering. Although MathJax is a bit slower to load,<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> it supports referencing numbered equations and linking to them.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p>The following in markdown:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="sb">$$</span><span class="nb">
+</span></span></span><span class="line"><span class="cl"><span class="nb"></span><span class="nv">\begin</span><span class="nb">{equation}
+</span></span></span><span class="line"><span class="cl"><span class="nb"></span><span class="nv">\label</span><span class="nb">{eq:</span><span class="m">1</span><span class="nb">}
+</span></span></span><span class="line"><span class="cl"><span class="nb">C </span><span class="o">=</span><span class="nb"> W</span><span class="nv">\log</span><span class="nb">_{</span><span class="m">2</span><span class="nb">} </span><span class="o">(</span><span class="m">1</span><span class="o">+</span><span class="nv">\mathrm</span><span class="nb">{SNR}</span><span class="o">)</span><span class="nb">
+</span></span></span><span class="line"><span class="cl"><span class="nb"></span><span class="nv">\end</span><span class="nb">{equation}
+</span></span></span><span class="line"><span class="cl"><span class="nb"></span><span class="s">$$</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl">See <span class="k">\eqref</span><span class="nb">{</span>eq:1<span class="nb">}</span>.
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>will result in:</p>
+<p>$$
+\begin{equation}
+\label{eq:1}
+C = W\log_{2} (1+\mathrm{SNR})
+\end{equation}
+$$</p>
+<p>See \eqref{eq:1}.</p>
+<p>If only I could somehow make Obsidian render the labeled equation <a href="https://forum.obsidian.md/t/label-in-the-math-block-and-ref-in-the-content-at-the-same-time-cause-error/3189">without errors</a>&hellip;</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>See <a href="https://www.intmath.com/cg5/katex-mathjax-comparison.php">KaTeX and MathJax Comparison Demo</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>Thanks to the developers of ox-hugo for <a href="https://ox-hugo.scripter.co/doc/equations/#mathjax-config-example">pointing to the solution</a>.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+    </item>
     <item>
       <title>BIOS update for Lenovo laptop on Linux</title>
       <link>https://kchousos.github.io/posts/lenovo-bios-linux/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 25 Dec 2024 16:36:00 +0300</pubDate>
       <guid>https://kchousos.github.io/posts/lenovo-bios-linux/</guid>
       <description>Updating your BIOS is often perceived as a straightforward task. You run an .exe file, you wait a minute or two, your screen flashes and poof, you&amp;rsquo;re done. This at least is the Lenovo Experience™ with their BIOS update wizards.
 But what if your laptop is running Linux? Then the only way to use these .exe files would be to dual boot with a Windows partition. Unfortunately, this is not acceptable for most.</description>
@@ -29,6 +86,26 @@ But what if your laptop is running Linux? Then the only way to use these .exe fi
 </blockquote>
 <p>It is a very interesting project and one that in my case came in very handy. The only problem I faced was that the laptop wouldn&rsquo;t connect to Wi-Fi and thus I wasn&rsquo;t able to download the <code>.exe</code> file. My solution was copying the update executable to another USB from which I transferred it to the live image. Simply executing the file worked correctly and the update was successful!</p>
 <p>Hope this short post will be helpful to anyone facing a similar problem :).</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>2024-12-24, 17:51</title>
+      <link>https://kchousos.github.io/feed/second-micropost/</link>
+      <pubDate>Tue, 24 Dec 2024 17:51:00 +0300</pubDate>
+      <guid>https://kchousos.github.io/feed/second-micropost/</guid>
+      <description>Just testing for multiple notes and the list sorting.</description>
+      <content:encoded><![CDATA[<p>Just testing for multiple notes and the list sorting.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>2024-12-24, 16:55</title>
+      <link>https://kchousos.github.io/feed/first-micropost/</link>
+      <pubDate>Tue, 24 Dec 2024 16:55:00 +0300</pubDate>
+      <guid>https://kchousos.github.io/feed/first-micropost/</guid>
+      <description>Don&amp;rsquo;t mind me, just making some quick changes to this site, might even start posting again!
+This is a post to test the microposting feature I implemented hastily today. The goal is to use this similarly to something like Twitter 𝕏 for random thoughts and cool internet findings.</description>
+      <content:encoded><![CDATA[<p>Don&rsquo;t mind me, just making some quick changes to this site, might even start posting again!</p>
+<p>This is a post to test the microposting feature I implemented hastily today. The goal is to use this similarly to something like <del>Twitter</del> 𝕏 for random thoughts and cool internet findings.</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -265,83 +342,6 @@ CS interests My interests include machine learning, programming language theory,
 <h3 id="how-is-it-built">How is it built?</h3>
 <p>This site is generated by <a href="https://gohugo.io/">Hugo</a>, a popular <em>ssg</em> (static-site generator) written in Go. One of its selling points is that the posts can be written in <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a> (md) instead of plain HTML, making the whole process much more streamlined and low-friction. The specific Hugo theme I use is <a href="https://github.com/adityatelange/hugo-PaperMod/">PaperMod</a>.</p>
 <p>After Hugo has generated the static site along with its html files and everything else, it is uploaded on <a href="https:github.com">Github</a> and served automatically with <a href="https://pages.github.com/">Github-Pages</a>. You can find the source code of this site on my <a href="https://github.com/kchousos/kchousos.github.io">github</a>.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>2024-12-24, 16:55</title>
-      <link>https://kchousos.github.io/feed/first-micropost/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kchousos.github.io/feed/first-micropost/</guid>
-      <description>Don&amp;rsquo;t mind me, just making some quick changes to this site, might even start posting again!
-This is a post to test the microposting feature I implemented hastily today. The goal is to use this similarly to something like Twitter 𝕏 for random thoughts and cool internet findings.</description>
-      <content:encoded><![CDATA[<p>Don&rsquo;t mind me, just making some quick changes to this site, might even start posting again!</p>
-<p>This is a post to test the microposting feature I implemented hastily today. The goal is to use this similarly to something like <del>Twitter</del> 𝕏 for random thoughts and cool internet findings.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>2024-12-24, 17:51</title>
-      <link>https://kchousos.github.io/feed/second-micropost/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kchousos.github.io/feed/second-micropost/</guid>
-      <description>Just testing for multiple notes and the list sorting.</description>
-      <content:encoded><![CDATA[<p>Just testing for multiple notes and the list sorting.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>2025-01-05, 21:17</title>
-      <link>https://kchousos.github.io/feed/mathjax-migration/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kchousos.github.io/feed/mathjax-migration/</guid>
-      <description>Infrastructure update: Migrated from KaTeX to MathJax for math rendering. Although MathJax is a bit slower to load,1 it supports referencing numbered equations and linking to them.2
-The following in markdown:
-1 2 3 4 5 6 7 8 $$ \begin{equation} \label{eq:1} C = W\log_{2} (1+\mathrm{SNR}) \end{equation} $$ See \eqref{eq:1}. will result in:
-$$ \begin{equation} \label{eq:1} C = W\log_{2} (1+\mathrm{SNR}) \end{equation} $$
-See \eqref{eq:1}.
-If only I could somehow make Obsidian render the labeled equation without errors&amp;hellip;</description>
-      <content:encoded><![CDATA[<p>Infrastructure update: Migrated from <a href="https://katex.org/">KaTeX</a> to <a href="https://www.mathjax.org/">MathJax</a> for math rendering. Although MathJax is a bit slower to load,<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> it supports referencing numbered equations and linking to them.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
-<p>The following in markdown:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="sb">$$</span><span class="nb">
-</span></span></span><span class="line"><span class="cl"><span class="nb"></span><span class="nv">\begin</span><span class="nb">{equation}
-</span></span></span><span class="line"><span class="cl"><span class="nb"></span><span class="nv">\label</span><span class="nb">{eq:</span><span class="m">1</span><span class="nb">}
-</span></span></span><span class="line"><span class="cl"><span class="nb">C </span><span class="o">=</span><span class="nb"> W</span><span class="nv">\log</span><span class="nb">_{</span><span class="m">2</span><span class="nb">} </span><span class="o">(</span><span class="m">1</span><span class="o">+</span><span class="nv">\mathrm</span><span class="nb">{SNR}</span><span class="o">)</span><span class="nb">
-</span></span></span><span class="line"><span class="cl"><span class="nb"></span><span class="nv">\end</span><span class="nb">{equation}
-</span></span></span><span class="line"><span class="cl"><span class="nb"></span><span class="s">$$</span>
-</span></span><span class="line"><span class="cl"> 
-</span></span><span class="line"><span class="cl">See <span class="k">\eqref</span><span class="nb">{</span>eq:1<span class="nb">}</span>.
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>will result in:</p>
-<p>$$
-\begin{equation}
-\label{eq:1}
-C = W\log_{2} (1+\mathrm{SNR})
-\end{equation}
-$$</p>
-<p>See \eqref{eq:1}.</p>
-<p>If only I could somehow make Obsidian render the labeled equation <a href="https://forum.obsidian.md/t/label-in-the-math-block-and-ref-in-the-content-at-the-same-time-cause-error/3189">without errors</a>&hellip;</p>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>See <a href="https://www.intmath.com/cg5/katex-mathjax-comparison.php">KaTeX and MathJax Comparison Demo</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:2">
-<p>Thanks to the developers of ox-hugo for <a href="https://ox-hugo.scripter.co/doc/equations/#mathjax-config-example">pointing to the solution</a>.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</div>
 ]]></content:encoded>
     </item>
     <item>

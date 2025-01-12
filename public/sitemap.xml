@@ -2,10 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kchousos.github.io/posts/lenovo-bios-linux/</loc>
-    <lastmod>2024-12-25T00:00:00+00:00</lastmod>
+    <loc>https://kchousos.github.io/feed/mathjax-migration/</loc>
+    <lastmod>2025-01-05T21:17:00+03:00</lastmod>
+  </url><url>
+    <loc>https://kchousos.github.io/feed/</loc>
+    <lastmod>2025-01-05T21:17:00+03:00</lastmod>
+  </url><url>
+    <loc>https://kchousos.github.io/tags/infra/</loc>
+    <lastmod>2025-01-05T21:17:00+03:00</lastmod>
   </url><url>
     <loc>https://kchousos.github.io/</loc>
+    <lastmod>2025-01-05T21:17:00+03:00</lastmod>
+  </url><url>
+    <loc>https://kchousos.github.io/tags/math/</loc>
+    <lastmod>2025-01-05T21:17:00+03:00</lastmod>
+  </url><url>
+    <loc>https://kchousos.github.io/tags/micropost/</loc>
+    <lastmod>2025-01-05T21:17:00+03:00</lastmod>
+  </url><url>
+    <loc>https://kchousos.github.io/tags/</loc>
+    <lastmod>2025-01-05T21:17:00+03:00</lastmod>
+  </url><url>
+    <loc>https://kchousos.github.io/posts/lenovo-bios-linux/</loc>
     <lastmod>2024-12-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kchousos.github.io/posts/</loc>
@@ -14,8 +32,11 @@
     <loc>https://kchousos.github.io/tags/software/</loc>
     <lastmod>2024-12-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kchousos.github.io/tags/</loc>
-    <lastmod>2024-12-25T00:00:00+00:00</lastmod>
+    <loc>https://kchousos.github.io/feed/second-micropost/</loc>
+    <lastmod>2024-12-24T17:51:00+03:00</lastmod>
+  </url><url>
+    <loc>https://kchousos.github.io/feed/first-micropost/</loc>
+    <lastmod>2024-12-24T16:55:00+03:00</lastmod>
   </url><url>
     <loc>https://kchousos.github.io/notes/cryptography-notes-2024/</loc>
     <lastmod>2024-12-24T00:00:00+00:00</lastmod>
@@ -41,27 +62,13 @@
     <loc>https://kchousos.github.io/tags/personal/</loc>
     <lastmod>2023-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kchousos.github.io/feed/first-micropost/</loc>
-  </url><url>
-    <loc>https://kchousos.github.io/feed/second-micropost/</loc>
-  </url><url>
-    <loc>https://kchousos.github.io/feed/mathjax-migration/</loc>
-  </url><url>
     <loc>https://kchousos.github.io/archive/</loc>
   </url><url>
     <loc>https://kchousos.github.io/categories/</loc>
   </url><url>
     <loc>https://kchousos.github.io/copyright/</loc>
   </url><url>
-    <loc>https://kchousos.github.io/feed/</loc>
-  </url><url>
-    <loc>https://kchousos.github.io/tags/infra/</loc>
-  </url><url>
     <loc>https://kchousos.github.io/links/</loc>
-  </url><url>
-    <loc>https://kchousos.github.io/tags/math/</loc>
-  </url><url>
-    <loc>https://kchousos.github.io/tags/micropost/</loc>
   </url><url>
     <loc>https://kchousos.github.io/now/</loc>
   </url><url>
