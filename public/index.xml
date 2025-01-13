@@ -419,7 +419,7 @@ Studying (local) LLMs Fuzzing Game theory Multi-variable calculus Reading Dune, 
       <link>https://kchousos.github.io/book-list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kchousos.github.io/book-list/</guid>
-      <description>2025 Title Author Rating Streams of Silver R.A. Salvatore ⭐⭐⭐ Dune Frank Herbert Reading 2024 Title Author Rating The Music of the Primes Marcus du Sautoy ⭐⭐⭐ Λι Νίκος Καββαδίας ⭐⭐️ Letter to His Father Franz Kafka ⭐⭐ Homeland R. A. Salvatore ⭐⭐⭐⭐⭐ You and Your Research Richard W. Hamming ⭐⭐⭐⭐ In Praise of Idleness Bertrand Russell ⭐⭐ Exile R.A. Salvatore ⭐⭐⭐ Sojourn R.A. Salvatore ⭐⭐⭐⭐ The Crystal Shard R.A. Salvatore ⭐⭐⭐⭐ The Housekeeper and the Professor Yoko Ogawa ⭐⭐⭐ Changing Planes Ursula K.</description>
+      <description>2025 Title Author Rating Ευθύφρων Πλάτωνας ⭐⭐⭐⭐ Streams of Silver R.A. Salvatore ⭐⭐⭐ 2024 Title Author Rating The Housekeeper and the Professor Yoko Ogawa ⭐⭐⭐ The Crystal Shard R.A. Salvatore ⭐⭐⭐⭐ Sojourn R.A. Salvatore ⭐⭐⭐⭐ Exile R.A. Salvatore ⭐⭐⭐ In Praise of Idleness Bertrand Russell ⭐⭐ You and Your Research Richard W. Hamming ⭐⭐⭐⭐ Homeland R. A. Salvatore ⭐⭐⭐⭐⭐ Letter to His Father Franz Kafka ⭐⭐ Λι Νίκος Καββαδίας ⭐⭐️ The Music of the Primes Marcus du Sautoy ⭐⭐⭐ Changing Planes Ursula K.</description>
       <content:encoded><![CDATA[<h1 id="2025">2025</h1>
 <table>
 <thead>
@@ -431,14 +431,14 @@ Studying (local) LLMs Fuzzing Game theory Multi-variable calculus Reading Dune, 
 </thead>
 <tbody>
 <tr>
+<td><strong>Ευθύφρων</strong></td>
+<td>Πλάτωνας</td>
+<td>⭐⭐⭐⭐</td>
+</tr>
+<tr>
 <td><strong>Streams of Silver</strong></td>
 <td>R.A. Salvatore</td>
 <td>⭐⭐⭐</td>
-</tr>
-<tr>
-<td><strong>Dune</strong></td>
-<td>Frank Herbert</td>
-<td>Reading</td>
 </tr>
 </tbody>
 </table>
@@ -453,44 +453,9 @@ Studying (local) LLMs Fuzzing Game theory Multi-variable calculus Reading Dune, 
 </thead>
 <tbody>
 <tr>
-<td><strong>The Music of the Primes</strong></td>
-<td>Marcus du Sautoy</td>
+<td><strong>The Housekeeper and the Professor</strong></td>
+<td>Yoko Ogawa</td>
 <td>⭐⭐⭐</td>
-</tr>
-<tr>
-<td><strong>Λι</strong></td>
-<td>Νίκος Καββαδίας</td>
-<td>⭐⭐️</td>
-</tr>
-<tr>
-<td><strong>Letter to His Father</strong></td>
-<td>Franz Kafka</td>
-<td>⭐⭐</td>
-</tr>
-<tr>
-<td><strong>Homeland</strong></td>
-<td>R. A. Salvatore</td>
-<td>⭐⭐⭐⭐⭐</td>
-</tr>
-<tr>
-<td><strong>You and Your Research</strong></td>
-<td>Richard W. Hamming</td>
-<td>⭐⭐⭐⭐</td>
-</tr>
-<tr>
-<td><strong>In Praise of Idleness</strong></td>
-<td>Bertrand Russell</td>
-<td>⭐⭐</td>
-</tr>
-<tr>
-<td><strong>Exile</strong></td>
-<td>R.A. Salvatore</td>
-<td>⭐⭐⭐</td>
-</tr>
-<tr>
-<td><strong>Sojourn</strong></td>
-<td>R.A. Salvatore</td>
-<td>⭐⭐⭐⭐</td>
 </tr>
 <tr>
 <td><strong>The Crystal Shard</strong></td>
@@ -498,8 +463,43 @@ Studying (local) LLMs Fuzzing Game theory Multi-variable calculus Reading Dune, 
 <td>⭐⭐⭐⭐</td>
 </tr>
 <tr>
-<td><strong>The Housekeeper and the Professor</strong></td>
-<td>Yoko Ogawa</td>
+<td><strong>Sojourn</strong></td>
+<td>R.A. Salvatore</td>
+<td>⭐⭐⭐⭐</td>
+</tr>
+<tr>
+<td><strong>Exile</strong></td>
+<td>R.A. Salvatore</td>
+<td>⭐⭐⭐</td>
+</tr>
+<tr>
+<td><strong>In Praise of Idleness</strong></td>
+<td>Bertrand Russell</td>
+<td>⭐⭐</td>
+</tr>
+<tr>
+<td><strong>You and Your Research</strong></td>
+<td>Richard W. Hamming</td>
+<td>⭐⭐⭐⭐</td>
+</tr>
+<tr>
+<td><strong>Homeland</strong></td>
+<td>R. A. Salvatore</td>
+<td>⭐⭐⭐⭐⭐</td>
+</tr>
+<tr>
+<td><strong>Letter to His Father</strong></td>
+<td>Franz Kafka</td>
+<td>⭐⭐</td>
+</tr>
+<tr>
+<td><strong>Λι</strong></td>
+<td>Νίκος Καββαδίας</td>
+<td>⭐⭐️</td>
+</tr>
+<tr>
+<td><strong>The Music of the Primes</strong></td>
+<td>Marcus du Sautoy</td>
 <td>⭐⭐⭐</td>
 </tr>
 <tr>
