@@ -41,7 +41,7 @@ params:
   languageAltTitle: "English"
 
   ShowAllPagesInArchive: false
-  ShowPostNavLinks: false
+  ShowPostNavLinks: true
   ShowReadingTime: true
   ShowShareButtons: false
   ShareButtons: ["x", "reddit", "ycombinator"]
