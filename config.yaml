@@ -35,20 +35,23 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
+  mainSections:
+    - posts
 
   languageAltTitle: "English"
 
+  ShowAllPagesInArchive: false
+  ShowPostNavLinks: false
   ShowReadingTime: true
   ShowShareButtons: false
-  ShareButtons: ["x", "reddit", "linkedin", "facebook", "ycombinator"]
-  ShowPostNavLinks: false
+  ShareButtons: ["x", "reddit", "ycombinator"]
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   showFullTextInRss: true
   UseHugoToc: false
-  disableSpecial1stPost: false
+  disableSpecial1stPost: true
   disableScrollToTop: false
   comments: false
   kudos: true
