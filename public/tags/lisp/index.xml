@@ -75,7 +75,7 @@ The book describes computer science concepts using Scheme, a dialect of Lisp. It
   </a>
   <figcaption>
       <p>
-        SICP&rsquo;s table of contents in <code>info</code> format, viewed from within Emacs
+        SICP&rsquo;s table of contents in `info` format, viewed from within Emacs
       </p>
   </figcaption>
 </figure>

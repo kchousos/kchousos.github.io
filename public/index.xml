@@ -20,7 +20,7 @@
       <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://kchousos.github.io/notes/game-theory-notes-2024/</guid>
       <description>My notes for the &amp;ldquo;MATH271 Θεωρία Παιγνίων και Εφαρμογές&amp;rdquo; course [1] during the 2024 Winter semester.
-Direct link</description>
+[[/MATH271 Θεωρία Παιγνίων και Εφαρμογές.pdf|Direct link]]</description>
       <content:encoded><![CDATA[<p>My notes for the &ldquo;MATH271 Θεωρία Παιγνίων και Εφαρμογές&rdquo; course <a href="https://eclass.uoa.gr/courses/MATH271/">[1]</a> during the 2024 Winter semester.</p>
 
 
@@ -28,7 +28,7 @@ Direct link</description>
 </object>
 
 
-<p><a href="/MATH271%20%CE%98%CE%B5%CF%89%CF%81%CE%AF%CE%B1%20%CE%A0%CE%B1%CE%B9%CE%B3%CE%BD%CE%AF%CF%89%CE%BD%20%CE%BA%CE%B1%CE%B9%20%CE%95%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CE%B3%CE%AD%CF%82.pdf">Direct link</a></p>
+<p>[[/MATH271 Θεωρία Παιγνίων και Εφαρμογές.pdf|Direct link]]</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -37,7 +37,7 @@ Direct link</description>
       <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://kchousos.github.io/notes/calculus-notes-2024/</guid>
       <description>My notes for the &amp;ldquo;K06 Ανάλυση ΙΙ&amp;rdquo; course [1] during the 2024 Winter semester.
-Direct link</description>
+[[/K06 Ανάλυση II.pdf|Direct link]]</description>
       <content:encoded><![CDATA[<p>My notes for the &ldquo;K06 Ανάλυση ΙΙ&rdquo; course <a href="https://eclass.uoa.gr/courses/D260/">[1]</a> during the 2024 Winter semester.</p>
 
 
@@ -45,7 +45,7 @@ Direct link</description>
 </object>
 
 
-<p><a href="/K06%20%CE%91%CE%BD%CE%AC%CE%BB%CF%85%CF%83%CE%B7%20II.pdf">Direct link</a></p>
+<p>[[/K06 Ανάλυση II.pdf|Direct link]]</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -54,7 +54,7 @@ Direct link</description>
       <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://kchousos.github.io/notes/number-theory-notes-2024/</guid>
       <description>My notes for the &amp;ldquo;ΘΠ08 Θεωρία Αριθμών&amp;rdquo; course [1] during the 2024 Spring semester.
-Direct link</description>
+[[/ΘΠ08 Θεωρία Αριθμών.pdf|Direct link]]</description>
       <content:encoded><![CDATA[<p>My notes for the &ldquo;ΘΠ08 Θεωρία Αριθμών&rdquo; course <a href="https://eclass.uoa.gr/courses/DI597/">[1]</a> during the 2024 Spring semester.</p>
 
 
@@ -62,7 +62,7 @@ Direct link</description>
 </object>
 
 
-<p><a href="/%CE%98%CE%A008%20%CE%98%CE%B5%CF%89%CF%81%CE%AF%CE%B1%20%CE%91%CF%81%CE%B9%CE%B8%CE%BC%CF%8E%CE%BD.pdf">Direct link</a></p>
+<p>[[/ΘΠ08 Θεωρία Αριθμών.pdf|Direct link]]</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -70,13 +70,13 @@ Direct link</description>
       <link>https://kchousos.github.io/feed/mathjax-migration/</link>
       <pubDate>Sun, 05 Jan 2025 21:17:00 +0300</pubDate>
       <guid>https://kchousos.github.io/feed/mathjax-migration/</guid>
-      <description>Infrastructure update: Migrated from KaTeX to MathJax for math rendering. Although MathJax is a bit slower to load,1 it supports referencing numbered equations and linking to them.2
+      <description>Infrastructure update: Migrated from KaTeX to MathJax for math rendering. Although MathJax is a bit slower to load,1 it supports referencing numbered equations and linking to them.[^2]
 The following in markdown:
 1 2 3 4 5 6 7 8 $$ \begin{equation} \label{eq:1} C = W\log_{2} (1+\mathrm{SNR}) \end{equation} $$ See \eqref{eq:1}. will result in:
 $$ \begin{equation} \label{eq:1} C = W\log_{2} (1+\mathrm{SNR}) \end{equation} $$
 See \eqref{eq:1}.
 If only I could somehow make Obsidian render the labeled equation without errors&amp;hellip;</description>
-      <content:encoded><![CDATA[<p>Infrastructure update: Migrated from <a href="https://katex.org/">KaTeX</a> to <a href="https://www.mathjax.org/">MathJax</a> for math rendering. Although MathJax is a bit slower to load,<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> it supports referencing numbered equations and linking to them.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+      <content:encoded><![CDATA[<p>Infrastructure update: Migrated from <a href="https://katex.org/">KaTeX</a> to <a href="https://www.mathjax.org/">MathJax</a> for math rendering. Although MathJax is a bit slower to load,<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> it supports referencing numbered equations and linking to them.[^2]</p>
 <p>The following in markdown:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -113,10 +113,8 @@ $$</p>
 <hr>
 <ol>
 <li id="fn:1">
-<p>See <a href="https://www.intmath.com/cg5/katex-mathjax-comparison.php">KaTeX and MathJax Comparison Demo</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-<li id="fn:2">
-<p>Thanks to the developers of ox-hugo for <a href="https://ox-hugo.scripter.co/doc/equations/#mathjax-config-example">pointing to the solution</a>.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>See <a href="https://www.intmath.com/cg5/katex-mathjax-comparison.php">KaTeX and MathJax Comparison Demo</a>.
+[[https://ox-hugo.scripter.co/doc/equations/#mathjax-config-example]].&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
@@ -165,7 +163,7 @@ This is a post to test the microposting feature I implemented hastily today. The
       <pubDate>Tue, 24 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://kchousos.github.io/notes/cryptography-notes-2024/</guid>
       <description>My notes for the &amp;ldquo;ΘΠ05 Κρυπτογραφία&amp;rdquo; course [1], [2] during the 2024 Spring semester.
-Direct link</description>
+[[/ΘΠ05 Κρυπτογραφία.pdf|Direct link]]</description>
       <content:encoded><![CDATA[<p>My notes for the &ldquo;ΘΠ05 Κρυπτογραφία&rdquo; course <a href="https://eclass.uoa.gr/courses/D41/">[1]</a>, <a href="https://crypto.di.uoa.gr/class/Kryptographia/index.html">[2]</a> during the 2024 Spring semester.</p>
 
 
@@ -173,7 +171,7 @@ Direct link</description>
 </object>
 
 
-<p><a href="/%CE%98%CE%A005%20%CE%9A%CF%81%CF%85%CF%80%CF%84%CE%BF%CE%B3%CF%81%CE%B1%CF%86%CE%AF%CE%B1.pdf">Direct link</a></p>
+<p>[[/ΘΠ05 Κρυπτογραφία.pdf|Direct link]]</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -237,7 +235,7 @@ The book describes computer science concepts using Scheme, a dialect of Lisp. It
   </a>
   <figcaption>
       <p>
-        SICP&rsquo;s table of contents in <code>info</code> format, viewed from within Emacs
+        SICP&rsquo;s table of contents in `info` format, viewed from within Emacs
       </p>
   </figcaption>
 </figure>
@@ -411,7 +409,7 @@ Ownership and Rights I retain ownership of articles, original images, and audio 
 <h2 id="external-links-disclaimer">External Links Disclaimer</h2>
 <p>This website may feature links to external sites not provided, maintained by, or affiliated with me in any way. Please be aware that I do not guarantee the accuracy, relevance, timeliness, or completeness of any information on these external sites.</p>
 <h2 id="contact">Contact</h2>
-<p>For inquiries about this disclaimer or any other concerns, feel free to reach out to me at <a href="https://twitter.com/kchousos">𝕏</a> or by <a href="mailto:kon.chousos@gmail.com">email</a>.</p>
+<p>For inquiries about this disclaimer or any other concerns, feel free to reach out to me at <a href="https://twitter.com/kchousos">𝕏</a> or by [[mailto:kon.chousos@gmail.com|email]].</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -419,15 +417,15 @@ Ownership and Rights I retain ownership of articles, original images, and audio 
       <link>https://kchousos.github.io/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kchousos.github.io/links/</guid>
-      <description> About Now Notes Reading Disclaimer Archive Tags </description>
+      <description> [[/about|About]] [[/now|Now]] [[/notes|Notes]] [[/book-list|Reading]] [[/copyright|Disclaimer]] [[/archive|Archive]] [[/tags|Tags]] </description>
       <content:encoded><![CDATA[<ul>
-<li><a href="/about">About</a></li>
-<li><a href="/now">Now</a></li>
-<li><a href="/notes">Notes</a></li>
-<li><a href="/book-list">Reading</a></li>
-<li><a href="/copyright">Disclaimer</a></li>
-<li><a href="/archive">Archive</a></li>
-<li><a href="/tags">Tags</a></li>
+<li>[[/about|About]]</li>
+<li>[[/now|Now]]</li>
+<li>[[/notes|Notes]]</li>
+<li>[[/book-list|Reading]]</li>
+<li>[[/copyright|Disclaimer]]</li>
+<li>[[/archive|Archive]]</li>
+<li>[[/tags|Tags]]</li>
 </ul>
 ]]></content:encoded>
     </item>
@@ -467,7 +465,7 @@ Studying (local) LLMs Fuzzing Game theory Multi-variable calculus Reading Dune, 
       <link>https://kchousos.github.io/book-list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kchousos.github.io/book-list/</guid>
-      <description>2025 Title Author Rating A System for Writing Bob Doto ⭐⭐⭐⭐ Dune Frank Herbert ⭐⭐⭐⭐⭐ How to Write a Thesis Umberto Eco ⭐⭐⭐ The Halfling&amp;rsquo;s Gem R.A. Salvatore ⭐⭐ On Bullshit Harry G. Frankfurt ⭐⭐ Ο Θείος Πέτρος και η Εικασία του Γκόλντμπαχ Απόστολος Δοξιάδης ⭐⭐⭐⭐ Notes from Underground Fyodor Dostoevsky ⭐⭐⭐⭐ Ευθύφρων Πλάτωνας ⭐⭐⭐⭐ Streams of Silver R.A. Salvatore ⭐⭐⭐ 2024 Title Author Rating The Housekeeper and the Professor Yoko Ogawa ⭐⭐⭐ The Crystal Shard R.</description>
+      <description>2025 Title Author Rating Digital Zettelkasten David Kadavy ⭐⭐⭐ Modern Technical Writing Andrew Etter ⭐⭐⭐ A System for Writing Bob Doto ⭐⭐⭐⭐ Dune Frank Herbert ⭐⭐⭐⭐⭐ How to Write a Thesis Umberto Eco ⭐⭐⭐ The Halfling&amp;rsquo;s Gem R.A. Salvatore ⭐⭐ On Bullshit Harry G. Frankfurt ⭐⭐ Ο Θείος Πέτρος και η Εικασία του Γκόλντμπαχ Απόστολος Δοξιάδης ⭐⭐⭐⭐ Notes from Underground Fyodor Dostoevsky ⭐⭐⭐⭐ Ευθύφρων Πλάτωνας ⭐⭐⭐⭐ Streams of Silver R.A. Salvatore ⭐⭐⭐ 2024 Title Author Rating The Housekeeper and the Professor Yoko Ogawa ⭐⭐⭐ The Crystal Shard R.</description>
       <content:encoded><![CDATA[<h1 id="2025">2025</h1>
 <table>
 <thead>
@@ -478,6 +476,16 @@ Studying (local) LLMs Fuzzing Game theory Multi-variable calculus Reading Dune, 
 </tr>
 </thead>
 <tbody>
+<tr>
+<td><strong>Digital Zettelkasten</strong></td>
+<td>David Kadavy</td>
+<td>⭐⭐⭐</td>
+</tr>
+<tr>
+<td><strong>Modern Technical Writing</strong></td>
+<td>Andrew Etter</td>
+<td>⭐⭐⭐</td>
+</tr>
 <tr>
 <td><strong>A System for Writing</strong></td>
 <td>Bob Doto</td>
