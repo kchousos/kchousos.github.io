@@ -12,8 +12,26 @@
     <generator>Hugo -- 0.126.2</generator>
     <language>en</language>
     <copyright>2024 Konstantinos Chousos</copyright>
-    <lastBuildDate>Sun, 05 Jan 2025 21:17:00 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 30 Mar 2025 22:39:00 +0300</lastBuildDate>
     <atom:link href="https://kchousos.github.io/feed/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025-03-30, 22:39</title>
+      <link>https://kchousos.github.io/feed/2025-03-30t22-39-13/</link>
+      <pubDate>Sun, 30 Mar 2025 22:39:00 +0300</pubDate>
+      <guid>https://kchousos.github.io/feed/2025-03-30t22-39-13/</guid>
+      <description>As of March, I began working as a researcher in my university&amp;rsquo;s AI research team. I&amp;rsquo;m currently involved in the RECITALS EU project1: &amp;ldquo;An open-source platform for Resilient sECure digITAL identitieS&amp;rdquo;. I&amp;rsquo;m very excited for the opportunity and looking forward to collaborating with other European researchers!
+https://cordis.europa.eu/project/id/101168490&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+      <content:encoded><![CDATA[<p>As of March, I began working as a researcher in my university&rsquo;s AI research team. I&rsquo;m currently involved in the RECITALS EU project<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>: &ldquo;An open-source platform for Resilient sECure digITAL identitieS&rdquo;. I&rsquo;m very excited for the opportunity and looking forward to collaborating with other European researchers!</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://cordis.europa.eu/project/id/101168490">https://cordis.europa.eu/project/id/101168490</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content:encoded>
+    </item>
     <item>
       <title>2025-01-05, 21:17</title>
       <link>https://kchousos.github.io/feed/mathjax-migration/</link>
