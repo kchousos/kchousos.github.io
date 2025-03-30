@@ -70,13 +70,13 @@
       <link>https://kchousos.github.io/feed/mathjax-migration/</link>
       <pubDate>Sun, 05 Jan 2025 21:17:00 +0300</pubDate>
       <guid>https://kchousos.github.io/feed/mathjax-migration/</guid>
-      <description>Infrastructure update: Migrated from KaTeX to MathJax for math rendering. Although MathJax is a bit slower to load,1 it supports referencing numbered equations and linking to them.[^2]
+      <description>Infrastructure update: Migrated from KaTeX to MathJax for math rendering. Although MathJax is a bit slower to load,1 it supports referencing numbered equations and linking to them.2
 The following in markdown:
 1 2 3 4 5 6 7 8 $$ \begin{equation} \label{eq:1} C = W\log_{2} (1+\mathrm{SNR}) \end{equation} $$ See \eqref{eq:1}. will result in:
 $$ \begin{equation} \label{eq:1} C = W\log_{2} (1+\mathrm{SNR}) \end{equation} $$
 See \eqref{eq:1}.
 If only I could somehow make Obsidian render the labeled equation without errors&amp;hellip;</description>
-      <content:encoded><![CDATA[<p>Infrastructure update: Migrated from <a href="https://katex.org/">KaTeX</a> to <a href="https://www.mathjax.org/">MathJax</a> for math rendering. Although MathJax is a bit slower to load,<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> it supports referencing numbered equations and linking to them.[^2]</p>
+      <content:encoded><![CDATA[<p>Infrastructure update: Migrated from <a href="https://katex.org/">KaTeX</a> to <a href="https://www.mathjax.org/">MathJax</a> for math rendering. Although MathJax is a bit slower to load,<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> it supports referencing numbered equations and linking to them.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <p>The following in markdown:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -113,8 +113,10 @@ $$</p>
 <hr>
 <ol>
 <li id="fn:1">
-<p>See <a href="https://www.intmath.com/cg5/katex-mathjax-comparison.php">KaTeX and MathJax Comparison Demo</a>.
-[[https://ox-hugo.scripter.co/doc/equations/#mathjax-config-example]].&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>See <a href="https://www.intmath.com/cg5/katex-mathjax-comparison.php">KaTeX and MathJax Comparison Demo</a>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://ox-hugo.scripter.co/doc/equations/#mathjax-config-example">Equations — ox-hugo - Org to Hugo exporter</a>.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
@@ -417,15 +419,15 @@ Ownership and Rights I retain ownership of articles, original images, and audio 
       <link>https://kchousos.github.io/links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://kchousos.github.io/links/</guid>
-      <description> [[/about|About]] [[/now|Now]] [[/notes|Notes]] [[/book-list|Reading]] [[/copyright|Disclaimer]] [[/archive|Archive]] [[/tags|Tags]] </description>
+      <description> About Now Notes Reading Disclaimer Archive Tags </description>
       <content:encoded><![CDATA[<ul>
-<li>[[/about|About]]</li>
-<li>[[/now|Now]]</li>
-<li>[[/notes|Notes]]</li>
-<li>[[/book-list|Reading]]</li>
-<li>[[/copyright|Disclaimer]]</li>
-<li>[[/archive|Archive]]</li>
-<li>[[/tags|Tags]]</li>
+<li><a href="/about">About</a></li>
+<li><a href="/now">Now</a></li>
+<li><a href="/notes">Notes</a></li>
+<li><a href="/book-list">Reading</a></li>
+<li><a href="/copyright">Disclaimer</a></li>
+<li><a href="/archive">Archive</a></li>
+<li><a href="/tags">Tags</a></li>
 </ul>
 ]]></content:encoded>
     </item>
