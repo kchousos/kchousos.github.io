@@ -79,7 +79,7 @@ params:
     enabled: true # needs to be explicitly set
     title: "Konstantinos Chousos"
     subtitle: |
-      Computer Science @ DiT, UoA
+      AI/Security Researcher @ DIT, UoA
     # imageUrl: "me.avif"
     imageWidth: 240
     imageHeight: 240
@@ -89,6 +89,18 @@ params:
         url: about
       - name: Now
         url: now
+      - name: Posts
+        url: posts
+      - name: Feed
+        url: feed
+      - name: Notes
+        url: notes
+      - name: Reading
+        url: book-list
+      - name: Archive
+        url: archive
+      - name: Tags
+        url: tags
 
   # home-info mode
   homeInfoParams:
@@ -102,6 +114,8 @@ params:
       url: "https://www.linkedin.com/in/kchousos/"
     - name: x
       url: "https://x.com/kchousos"
+    - name: bluesky
+      url: "https://bsky.app/profile/kchousos.bsky.social"
     - name: email
       url: "mailto:kon.chousos@gmail.com"
     - name: rss
@@ -154,10 +168,10 @@ menu:
     #   name: Notes
     #   url: /notes/
       weight: 15
-    - identifier: links
-      name: Links
-      url: /links/
-      weight: 20
+      # - identifier: links
+      #   name: Links
+      #   url: /links/
+      #   weight: 20
     - identifier: search
       name: Search
       url: /search

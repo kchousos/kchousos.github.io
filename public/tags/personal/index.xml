@@ -20,26 +20,24 @@
       <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://kchousos.github.io/about/</guid>
       <description>Hello, welcome to my personal site!
-My name is Konstantinos Chousos. I am an undergraduate student at the Department of Informatics and Telecommunications of the University of Athens studying computer science.
-CS interests My interests include machine learning, programming language theory, competitive programming, Linux and $\rm\LaTeX{}$. Most of my programming experience revolves around C and C++, as well as Python in the form of Jupyter notebooks. I&amp;rsquo;m currently learning web development using React.</description>
+My name is Konstantinos Chousos. I am an AI/Security researcher, member of the UoA AI team.
+About me I am nearing the end of my undergraduate studies at the Department of Informatics and Telecommunications of the University of Athens. Currently, I am working on my thesis under the guidance of prof. Thanassis Avgerinos. I am also working on the RECITALS EU project [1, 2], as part of prof.</description>
       <content:encoded><![CDATA[<p>Hello, welcome to my personal site!</p>
-<p>My name is Konstantinos Chousos. I am an undergraduate student at the <a href="https://www.di.uoa.gr/en">Department of Informatics and Telecommunications</a> of the <a href="https://en.uoa.gr/">University of Athens</a> studying computer science.</p>
-<h2 id="cs-interests">CS interests</h2>
-<p>My interests include machine learning, programming language theory, competitive programming, Linux and $\rm\LaTeX{}$. Most of my programming experience revolves around C and C++, as well as Python in the form of Jupyter notebooks. I&rsquo;m currently learning web development using React.</p>
-<h2 id="other-hobbies">Other Hobbies</h2>
-<p>I play classical guitar, in which I acquired a diploma in January of 2023 from the national conservatory of Greece, of which I&rsquo;m very proud of. Apart from the guitar, my interest in music has led me to become a member of a choir, as a member of which I participated in a plethora of concerts and events.</p>
-<p>Apart from that, I&rsquo;m recently learning to draw, following the <a href="https://drawabox.com">DrawABox</a> course. I&rsquo;ve been making progress and I look forward to improving my drawing skills furthermore. I used to draw a lot during primary school, and I was quite good at it too. So. I&rsquo;m excited to get back at it.</p>
-<h2 id="about-this-site">About this site</h2>
-<h3 id="why-does-it-exist">Why does it exist?</h3>
+<p>My name is Konstantinos Chousos. I am an AI/Security researcher, member of the <a href="https://ai.di.uoa.gr/">UoA AI team</a>.</p>
+<h1 id="about-me">About me</h1>
+<p>I am nearing the end of my undergraduate studies at the <a href="https://www.di.uoa.gr/en">Department of Informatics and Telecommunications</a> of the <a href="https://en.uoa.gr/">University of Athens</a>. Currently, I am working on my thesis under the guidance of prof. <a href="https://ethan42.github.io/">Thanassis Avgerinos</a>. I am also working on the RECITALS EU project [<a href="https://cordis.europa.eu/project/id/101168490">1</a>, <a href="https://recitals-project.eu/">2</a>], as part of prof. <a href="https://cgi.di.uoa.gr/~koubarak/">Manolis Koubarakis&rsquo;</a> team.</p>
+<p>I am mainly interested in AI and its applications, software security and cryptography. Miscellaneous interests of mine include functional programming, typesetting, linux systems, human-computer interaction and CS-adjacent math.</p>
+<p>Aside from computer science, my second passion is music. I play classical guitar, in which I acquired a diploma in January of 2023 from the national conservatory of Greece. I am also a member of the Vox Fortis choir [<a href="https://www.youtube.com/watch?v=QJvTAZme7-I">1</a>, <a href="https://www.youtube.com/watch?v=QgDGL_61noU">2</a>], with appearances in places such as the Athens Concert Hall and the Odeon of Herodes Atticus.</p>
+<p>Lastly, I&rsquo;m currently re-learning to draw, following the <a href="https://drawabox.com">DrawABox</a> course. I&rsquo;ve been making progress and I look forward to improving my drawing skills furthermore. I used to draw a lot during primary school, and I was quite good at it too. So. I&rsquo;m excited to get back at it.</p>
+<h1 id="about-this-site">About this site</h1>
+<h2 id="why-does-it-exist">Why does it exist?</h2>
 <p>This site could be categorized as an <a href="https://www.urbandictionary.com/define.php?term=everything%2Fnothing"><em>e/n website</em></a>.</p>
 <blockquote>
 <p>The website&rsquo;s content means everything to the publisher, but it could mean nothing to the rest of the world.</p>
 </blockquote>
-<p>This basically means that the site is used as my personal playground, covering a myriad of topics. Basically I write about anything I find interesting and/or worthwhile sharing. The result may be useful or not for someone who will stumble across this site, but that is not the end goal.</p>
-<p>More practically, this site&rsquo;s posts will probably consist of project showcases, tutorials on things I couldn&rsquo;t find any preexisting info online and possibly various notes I take during my classes that come out legible enough.</p>
-<h3 id="how-is-it-built">How is it built?</h3>
-<p>This site is generated by <a href="https://gohugo.io/">Hugo</a>, a popular <em>ssg</em> (static-site generator) written in Go. One of its selling points is that the posts can be written in <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a> (md) instead of plain HTML, making the whole process much more streamlined and low-friction. The specific Hugo theme I use is <a href="https://github.com/adityatelange/hugo-PaperMod/">PaperMod</a>.</p>
-<p>After Hugo has generated the static site along with its html files and everything else, it is uploaded on <a href="https:github.com">Github</a> and served automatically with <a href="https://pages.github.com/">Github-Pages</a>. You can find the source code of this site on my <a href="https://github.com/kchousos/kchousos.github.io">github</a>.</p>
+<p>The content is/will be varied and will basically showcase whatever I find helpful and/or interesting, hoping that someone somewhere will find it useful.</p>
+<h2 id="how-is-it-built">How is it built?</h2>
+<p>This site is generated by <a href="https://gohugo.io/">Hugo</a>. The posts are written in <a href="https://en.wikipedia.org/wiki/Markdown">Markdown</a>. The specific Hugo theme I use is a modified version of <a href="https://github.com/adityatelange/hugo-PaperMod/">PaperMod</a>. <a href="https://pages.github.com/">Github-Pages</a> is used for hosting. You can find the source code of this site on my <a href="https://github.com/kchousos/kchousos.github.io">github</a>.</p>
 ]]></content:encoded>
     </item>
     <item>
