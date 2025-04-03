@@ -412,6 +412,19 @@ About me I am nearing the end of my undergraduate studies at the Department of I
 ]]></content:encoded>
     </item>
     <item>
+      <title></title>
+      <link>https://kchousos.github.io/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://kchousos.github.io/archive/</guid>
+      <description> title: &amp;ldquo;Archive&amp;rdquo; layout: &amp;ldquo;archives&amp;rdquo; url: &amp;ldquo;/archive/&amp;rdquo; summary: archives </description>
+      <content:encoded><![CDATA[<hr>
+<h2 id="summary-archives">title: &ldquo;Archive&rdquo;
+layout: &ldquo;archives&rdquo;
+url: &ldquo;/archive/&rdquo;
+summary: archives</h2>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Disclaimer</title>
       <link>https://kchousos.github.io/copyright/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -450,7 +463,7 @@ Ownership and Rights I retain ownership of articles, original images, and audio 
       <guid>https://kchousos.github.io/now/</guid>
       <description>(This is a now page, and if you have your own site, you should make one, too.)
 Last updated: March 30, 2025
-Working on An open-source platform for Resilient sECure digITAL identitieS | RECITALS Project Automated fuzz targets generation through LLMs Reading Dune Messiah, Frank Herbert The PARA Method, Tiago Forte Listening The New Sound, Geordie Greep All Greece for Mikis, Μίκης Θεοδωράκης, Παναγής Μπαρμπάτης Inspiration, Yngwie Malmsteen Watching The Sopranos (rewatch) </description>
+Working on An open-source platform for Resilient sECure digITAL identitieS | RECITALS Project Automated fuzz targets generation through LLMs Reading Dune Messiah, Frank Herbert The PARA Method, Tiago Forte Listening The New Sound, Geordie Greep All Greece for Mikis, Μίκης Θεοδωράκης, Παναγής Μπαρμπάτης Inspiration, Yngwie Malmsteen Watching The Sopranos (rewatch) Halt and Catch Fire </description>
       <content:encoded><![CDATA[<div class="center"><p>(This is <a href="https://nownownow.com/about">a now page</a>, and if you have your own site, <a href="https://nownownow.com/about">you should make one</a>, too.)</p>
 <p><em>Last updated:</em> March 30, 2025</p>
 </div>
@@ -473,6 +486,7 @@ Working on An open-source platform for Resilient sECure digITAL identitieS | REC
 <h1 id="watching">Watching</h1>
 <ul>
 <li><strong>The Sopranos</strong> (rewatch)</li>
+<li><strong>Halt and Catch Fire</strong></li>
 </ul>
 ]]></content:encoded>
     </item>
