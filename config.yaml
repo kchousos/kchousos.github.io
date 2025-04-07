@@ -110,12 +110,14 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/kchousos"
-    - name: LinkedIn
-      url: "https://www.linkedin.com/in/kchousos/"
+    - name: mastodon
+      url: "https://mastodon.social/@kchousos"
     - name: x
       url: "https://x.com/kchousos"
     - name: bluesky
       url: "https://bsky.app/profile/kchousos.bsky.social"
+    - name: LinkedIn
+      url: "https://www.linkedin.com/in/kchousos/"
     - name: email
       url: "mailto:kon.chousos@gmail.com"
     - name: rss
