@@ -85,22 +85,22 @@ params:
     imageHeight: 240
     imageTitle: Me
     buttons:
-      - name: About
-        url: about
-      - name: Now
-        url: now
-      - name: Posts
-        url: posts
-      - name: Feed
-        url: feed
-      - name: Notes
-        url: notes
-      - name: Reading
-        url: book-list
-      - name: Archive
-        url: archive
-      - name: Tags
-        url: tags
+      # - name: About
+      #   url: about
+      # - name: Now
+      #   url: now
+      # - name: Posts
+      #   url: posts
+      # - name: Feed
+      #   url: feed
+      # - name: Notes
+      #   url: notes
+      # - name: Reading
+      #   url: book-list
+      # - name: Archive
+      #   url: archive
+      # - name: Tags
+      #   url: tags
 
   # home-info mode
   homeInfoParams:
@@ -158,6 +158,10 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    # - identifier: about
+    #   name: About
+    #   url: /about/
+    #   weight: 5
     - identifier: posts
       name: Posts
       url: /posts/
@@ -169,11 +173,11 @@ menu:
     # - identifier: notes
     #   name: Notes
     #   url: /notes/
-      weight: 15
-      # - identifier: links
-      #   name: Links
-      #   url: /links/
-      #   weight: 20
+    # weight: 15
+    - identifier: links
+      name: Links
+      url: /links/
+      weight: 20
     - identifier: search
       name: Search
       url: /search
