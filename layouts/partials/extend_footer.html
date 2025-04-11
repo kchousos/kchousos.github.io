@@ -1,7 +1,6 @@
 {{- /* Footer custom content area start */ -}}
-{{- /*     Insert any custom code web-analytics, resources, etc. here */ -}}
-{{- /* Footer custom content area end */ -}}
 <script src="https://tinylytics.app/embed/bp9HPTzRCo35BgZSLJaf.js?kudos=❤️" defer></script>
-{{ if $.Param "carbon" -}}
+{{ if .Params.carbon }}
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
-{{ end -}}
+{{ end }}
+{{- /* Footer custom content area end */ -}}
