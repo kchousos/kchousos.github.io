@@ -19,7 +19,7 @@ minify:
   disableXML: true
   minifyOutput: true
 
-copyright: "&copy; 2024 [Konstantinos Chousos](/copyright)"
+copyright: "&copy; 2025 [Konstantinos Chousos](/copyright)"
 
 params:
   math: true
