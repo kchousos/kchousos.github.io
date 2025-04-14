@@ -9,6 +9,11 @@
 <link>https://kchousos.github.io/posts.html</link>
 <atom:link href="https://kchousos.github.io/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Personal site of Konstantinos Chousos, AI/Security Researcher</description>
+<image>
+<url>https://kchousos.github.io/./static/cover.png</url>
+<title>Konstantinos Chousos</title>
+<link>https://kchousos.github.io/posts.html</link>
+</image>
 <generator>quarto-1.7.23</generator>
 <lastBuildDate>Wed, 25 Dec 2024 13:36:00 GMT</lastBuildDate>
 <item>
