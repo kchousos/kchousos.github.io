@@ -15,5 +15,5 @@ My notes for the "ΘΠ08 Θεωρία Αριθμών" course [[1](https://eclass
 [Direct link](/ΘΠ08%20Θεωρία%20Αριθμών.pdf)
 
 <center>
-<div class="tinylytics-kudos"></div>
+<button class="tinylytics_kudos"></button>
 </center>

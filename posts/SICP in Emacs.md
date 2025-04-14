@@ -129,5 +129,5 @@ When it comes to the exercises, I use Org-Mode and Org-Babel to write the soluti
 [^fn:4]: <https://lists.nongnu.org/archive/html/geiser-users/2022-06/msg00004.html>
 
 <center>
-<div class="tinylytics-kudos"></div>
+<button class="tinylytics_kudos"></button>
 </center>

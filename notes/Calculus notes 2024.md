@@ -15,5 +15,5 @@ My notes for the "K06 Ανάλυση ΙΙ" course [[1](https://eclass.uoa.gr/cou
 [Direct link](/K06%20Ανάλυση%20II.pdf)
 
 <center>
-<div class="tinylytics-kudos"></div>
+<button class="tinylytics_kudos"></button>
 </center>

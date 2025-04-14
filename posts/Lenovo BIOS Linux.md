@@ -23,5 +23,5 @@ It is a very interesting project and one that in my case came in very handy. The
 Hope this short post will be helpful to anyone facing a similar problem :).
 
 <center>
-<div class="tinylytics-kudos"></div>
+<button class="tinylytics_kudos"></button>
 </center>
