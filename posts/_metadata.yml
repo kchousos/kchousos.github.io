@@ -31,9 +31,9 @@ format:
   html:
     default: true
   pdf:
+    default: true
     standalone: true
     cite-method: biblatex
-    
     mainfont: "Libertinus Serif"
     mainfontfallback:
       - "Liberation Serif:"
@@ -55,7 +55,6 @@ format:
     filecolor: cyan
     urlcolor: blue
     links-as-notes: false
-    default: true
     filters:
       - ../filters/minted.lua
     header-includes: |

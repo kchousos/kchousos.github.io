@@ -51,7 +51,7 @@ The `info` file can be retrieved in two methods:
 
 Now SICP will be available through Emacs! To access it, you need to open Emacs, type {{< kbd 'C-h i' >}} to go to the `*info*` top directory, type {{< kbd m >}} to search and type `sicp` to find the book. If everything went correctly, you should be greeted with something like this:
 
-![SICP's table of contents in \`info\` format, viewed from within Emacs](static/sicp%20in%20emacs.png)
+![SICP's table of contents in \`info\` format, viewed from within Emacs](sicp%20in%20emacs.png)
 
 # Setting up Scheme
 
@@ -111,11 +111,11 @@ Instead of adding that to every code block, you can add `#+property: header-args
 
 After all this work, now we can finally start reading SICP. My so-far workflow consists of the book in the left window, a racket REPL in the top-right corner and my Org-Roam notes in the bottom-right corner.
 
-![My SICP studying workflow](static/sicp%20workflow.png)
+![My SICP studying workflow](sicp%20workflow.png)
 
 When it comes to the exercises, I use Org-Mode and Org-Babel to write the solutions in a literate programming style. The file is divided by chapter. Each exercise is included followed by its (hopefully correct) solution. (So far) I use a single `.org` file and export it to PDF. Also, all of the code blocks are exported to a `.rkt` file, with links to the corresponding position in the org file. All of these files can be found at [this repo](https://github.com/kchousos/SICP-solutions).
 
-![My SICP solutions in literate programming](static/sicp%20literate%20notes.png)
+![My SICP solutions in literate programming](sicp%20literate%20notes.png)
 
 # Miscellaneous tips
 

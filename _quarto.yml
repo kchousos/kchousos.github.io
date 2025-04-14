@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: docs
   post-render:
-    - "cp -rv static/. docs/"
+    # - "cp -rv static/. docs/"
     - "ln -sf posts.xml docs/index.xml"
 
 website:
@@ -12,9 +12,9 @@ website:
   description: "Personal site of Konstantinos Chousos, AI/Security Researcher"
   bread-crumbs: true
   open-graph:
-    image: '/cover.jpg'
+    image: '/static/cover.jpg'
   twitter-card:
-    image: '/cover.jpg'
+    image: '/static/cover.jpg'
   navbar:
     logo: './icons/favicon-32x32.png'
     right:
