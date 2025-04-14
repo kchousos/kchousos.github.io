@@ -15,6 +15,7 @@ website:
     image: '/static/cover.jpg'
   twitter-card:
     image: '/static/cover.jpg'
+  search: false
   navbar:
     logo: './icons/favicon-32x32.png'
     right:

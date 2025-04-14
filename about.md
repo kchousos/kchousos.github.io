@@ -2,7 +2,7 @@
 title: About
 categories:
   - personal
-image: headshot.png
+image: /static/headshot.png
 about:
   template: solana
 aliases:
