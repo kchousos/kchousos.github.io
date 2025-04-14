@@ -2,9 +2,9 @@
 title: "Konstantinos Chousos"
 image: empty.png
 open-graph:
-  image: './static/cover.png'
+  image: '/cover.jpg'
 twitter-card:
-  image: './static/cover.png'
+  image: '/cover.jpg'
 about:
   template: jolla
 ---

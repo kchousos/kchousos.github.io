@@ -12,9 +12,9 @@ website:
   description: "Personal site of Konstantinos Chousos, AI/Security Researcher"
   bread-crumbs: true
   open-graph:
-    image: './static/cover.png'
+    image: '/cover.jpg'
   twitter-card:
-    image: './static/cover.png'
+    image: '/cover.jpg'
   navbar:
     logo: './icons/favicon-32x32.png'
     right:
