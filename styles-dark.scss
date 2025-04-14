@@ -1,0 +1,32 @@
+/*-- scss:defaults --*/
+$body-bg: #202020;
+$body-color: #dcddde;
+$link-color: #94aee6;
+$navbar-bg: #2d2d2d;
+$code-bg: #37383e;
+$code-color: #ca88f0;
+// $code-block-bg: #2d2d2d;
+// $code-block-bg-alpha: 1.0;
+
+/*-- scss:rules --*/
+
+pre {
+    color: inherit;
+}
+
+.listing-category {
+    color: #999 !important;
+    border: solid 1px #999 !important;
+}
+
+img {
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1.0;
+}
+
+.input-group-text {
+    background-color: inherit !important;
+}

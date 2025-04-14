@@ -1,0 +1,177 @@
+[
+  {
+    "objectID": "links.html",
+    "href": "links.html",
+    "title": "Links",
+    "section": "",
+    "text": "About\nNow\nNotes\nReading\nDisclaimer"
+  },
+  {
+    "objectID": "notes/Game Theory notes 2024.html",
+    "href": "notes/Game Theory notes 2024.html",
+    "title": "Game Theory",
+    "section": "",
+    "text": "My notes for the “MATH271 Θεωρία Παιγνίων και Εφαρμογές” course [1] during the 2024 Winter semester.\n\n\nDirect link"
+  },
+  {
+    "objectID": "notes/Calculus notes 2024.html",
+    "href": "notes/Calculus notes 2024.html",
+    "title": "Multi-variable Calculus",
+    "section": "",
+    "text": "My notes for the “K06 Ανάλυση ΙΙ” course [1] during the 2024 Winter semester.\n\n\nDirect link"
+  },
+  {
+    "objectID": "now.html",
+    "href": "now.html",
+    "title": "Now",
+    "section": "",
+    "text": "(This is a now page, and if you have your own site, you should make one, too.)\nLast updated: March 30, 2025\n\n\nWorking on\n\nAn open-source platform for Resilient sECure digITAL identitieS | RECITALS Project\nAutomated fuzz targets generation through LLMs\n\n\n\nReading\n\nDune Messiah, Frank Herbert\nThe PARA Method, Tiago Forte\n\n\n\nListening\n\nThe New Sound, Geordie Greep\nAll Greece for Mikis, Μίκης Θεοδωράκης, Παναγής Μπαρμπάτης\nInspiration, Yngwie Malmsteen\n\n\n\nWatching\n\nThe Sopranos (rewatch)\nHalt and Catch Fire"
+  },
+  {
+    "objectID": "posts/SICP in Emacs.html",
+    "href": "posts/SICP in Emacs.html",
+    "title": "SICP in Emacs",
+    "section": "",
+    "text": "I recently began reading the notorious “Structure and Interpretation of Computer Programs” [1], a.k.a. the Wizard book. I’m only on the first chapter, but I can already see its value and why it gets recommended so much.\nFrom Wikipedia:\nIn this post, I aim to showcase my workflow for studying the book using Emacs [2]. Also, I will provide any resources that helped me get going. To study SICP, we need two things: The book and a Scheme implementation for the examples and exercises."
+  },
+  {
+    "objectID": "posts/SICP in Emacs.html#getting-the-book",
+    "href": "posts/SICP in Emacs.html#getting-the-book",
+    "title": "SICP in Emacs",
+    "section": "Getting the book",
+    "text": "Getting the book\nLucky for us, the book is freely distributed from MIT itself. It is available in HTML and PDF. But, there is also a third format option and it is the one we’re going to choose: the Texinfo format.\nFrom the official GNU site1:\n\nTexinfo uses a single source file to produce output in a number of formats, both online and printed (HTML, PDF, DVI, Info, DocBook, LaTeX, EPUB 3). This means that instead of writing different documents for online information and another for a printed manual, you need write only one document.\nThe Texinfo system is well-integrated with GNU Emacs.\n\nThat last line is what’s important here. info files are essentially manuals in plain text. Emacs has a built-in mode for rendering such documents. By using the info format, we can read SICP from inside Emacs.\n\nObtaining the info file\nThe info file can be retrieved in two methods:\n\nBy installing the sicp MELPA package2\nBy downloading the info file directly from neilvandyke.org and installing it.\n\nDownload the sicp.info.gz file (link) in your home directory.\nExecute the following commands\n$ sudo cp ~/sicp.info.gz /usr/local/share/info/\n$ sudo chmod 644 /usr/local/share/info/sicp.info.gz\n$ sudo install-info /usr/local/share/info/sicp.info.gz /usr/local/share/info/dir\n\n\nNow SICP will be available through Emacs! To access it, you need to open Emacs, type C-hC-h to go to the *info* top directory, type mm to search and type sicp to find the book. If everything went correctly, you should be greeted with something like this:\n\n\n\nSICP’s table of contents in `info` format, viewed from within Emacs"
+  },
+  {
+    "objectID": "posts/SICP in Emacs.html#setting-up-scheme",
+    "href": "posts/SICP in Emacs.html#setting-up-scheme",
+    "title": "SICP in Emacs",
+    "section": "Setting up Scheme",
+    "text": "Setting up Scheme\nSICP’s examples and exercises are all implemented in Scheme. Scheme is a Lisp dialect with many implementations. SICP uses the MIT-Scheme implementation Turns out GNU/MIT-Scheme is not fully compatible with the code in SICP (source). Instead, we will use Racket. Racket offers the SICP collection, a Racket #lang that makes it fully compatible with the SICP code.\nFirst, we need to install racket through our package manager. After that, the sicp collection can be downloaded like this:\n$ raco pkg install sicp\nThat’s it! Now, when we write a .rkt file that needs to be compatible with SICP all we need to do is add #lang sicp at the top of the file3.\n\nRacket in Emacs\nPersonally, I recommend racket-mode for working with Racket in Emacs. Another popular choice is geiser, but its geiser-racket module seems to be unmaintained4.\nTo install racket-mode using elpaca, add the following to your config file:\n(use-package racket-mode\n  :elpaca t)\n\nRacket in Org-Babel\nIn case you choose to go the literate programming route (as I have) using Org-Mode, you will need to enable support for racket in org-babel. To do this, use the emacs-ob-racket package. Add the following to your config:\n(use-package ob-racket\n  :elpaca (:type git :host github :repo \"hasu/emacs-ob-racket\"))\nand then enable racket in your org-babel configuration.\n(org-babel-do-load-languages\n 'org-babel-load-languages\n '((emacs-lisp :tangle ./init.el . t)\n   (C . t)\n   (python . t)\n   ...\n   (racket . t)))\nTo be able to use the sicp package in org-babel code blocks, you need to add :lang sicp in the Org block, like so:\n #+begin_src racket :lang sicp\n \"Hello World!\"\n #+end_src\nInstead of adding that to every code block, you can add #+property: header-args :lang sicp to the start of your Org file. This will be applied to all code blocks in the file, so make sure you include only racket code blocks This can be mitigated by specifying that these header-args are to be applied only to racket blocks, like so: #+property: header-args:racket :lang sicp."
+  },
+  {
+    "objectID": "posts/SICP in Emacs.html#result",
+    "href": "posts/SICP in Emacs.html#result",
+    "title": "SICP in Emacs",
+    "section": "Result",
+    "text": "Result\nAfter all this work, now we can finally start reading SICP. My so-far workflow consists of the book in the left window, a racket REPL in the top-right corner and my Org-Roam notes in the bottom-right corner.\n\n\n\nMy SICP studying workflow\n\n\nWhen it comes to the exercises, I use Org-Mode and Org-Babel to write the solutions in a literate programming style. The file is divided by chapter. Each exercise is included followed by its (hopefully correct) solution. (So far) I use a single .org file and export it to PDF. Also, all of the code blocks are exported to a .rkt file, with links to the corresponding position in the org file. All of these files can be found at this repo.\n\n\n\nMy SICP solutions in literate programming"
+  },
+  {
+    "objectID": "posts/SICP in Emacs.html#miscellaneous-tips",
+    "href": "posts/SICP in Emacs.html#miscellaneous-tips",
+    "title": "SICP in Emacs",
+    "section": "Miscellaneous tips",
+    "text": "Miscellaneous tips\n\nUpdate 07/06/2023: As u/jherrlin on Reddit pointed out, the fact that SICP is in text format gives us the ability to leverage Emacs’ built-in bookmarks feature. When you arrive to the end of your study session, just type C-x r mC-x r m and a bookmark will be placed on the current line. You can search your bookmarks with C-x r bC-x r b or list them with C-x r lC-x r l.\nMy tip is to name the bookmark the same each time (e.g. sicp). That way, when you re-create it in a later position, the old bookmark is discarded automatically. Also, if you run Emacs in daemon mode, I suggest to run M-xM-x bookmark-save after adding a bookmark, to make sure it has been saved."
+  },
+  {
+    "objectID": "posts/SICP in Emacs.html#footnotes",
+    "href": "posts/SICP in Emacs.html#footnotes",
+    "title": "SICP in Emacs",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nhttps://www.gnu.org/software/texinfo/↩︎\nhttps://melpa.org/#/sicp↩︎\nwhen using the REPL, we need to first evaluate (require sicp) before evaluating anything else.↩︎\nhttps://lists.nongnu.org/archive/html/geiser-users/2022-06/msg00004.html↩︎"
+  },
+  {
+    "objectID": "copyright.html",
+    "href": "copyright.html",
+    "title": "Disclaimer",
+    "section": "",
+    "text": "The content presented on this website is solely for informational purposes. While every effort is made to ensure accuracy, I do not assume any responsibility for errors or omissions in the website contents."
+  },
+  {
+    "objectID": "copyright.html#ownership-and-rights",
+    "href": "copyright.html#ownership-and-rights",
+    "title": "Disclaimer",
+    "section": "Ownership and Rights",
+    "text": "Ownership and Rights\n\nI retain ownership of articles, original images, and audio presented on this site. However, for linked content and specified images, ownership remains with the original creators.\nI encourage the use of my content for personal purposes. If you wish to commercially exploit any content or media from this website, kindly contact me beforehand."
+  },
+  {
+    "objectID": "copyright.html#external-links-disclaimer",
+    "href": "copyright.html#external-links-disclaimer",
+    "title": "Disclaimer",
+    "section": "External Links Disclaimer",
+    "text": "External Links Disclaimer\nThis website may feature links to external sites not provided, maintained by, or affiliated with me in any way. Please be aware that I do not guarantee the accuracy, relevance, timeliness, or completeness of any information on these external sites."
+  },
+  {
+    "objectID": "copyright.html#contact",
+    "href": "copyright.html#contact",
+    "title": "Disclaimer",
+    "section": "Contact",
+    "text": "Contact\nFor inquiries about this disclaimer or any other concerns, feel free to reach out to me at 𝕏 or by email."
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Posts",
+    "section": "",
+    "text": "BIOS update for Lenovo laptop on Linux\n\n\n\nsoftware\n\nhardware\n\nBIOS\n\n\n\n\n\n\n\n\n\nDec 25, 2024\n\n2 min\n\n\n\n\n\n\nSICP in Emacs\n\n\n\nlisp\n\nemacs\n\nbook\n\n\n\n\n\n\n\n\n\nJun 7, 2023\n\n6 min\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hello, welcome to my personal site!\nMy name is Konstantinos Chousos. I am an AI/Security researcher, member of the UoA AI team."
+  },
+  {
+    "objectID": "about.html#why-does-it-exist",
+    "href": "about.html#why-does-it-exist",
+    "title": "About",
+    "section": "Why does it exist?",
+    "text": "Why does it exist?\nThis site could be categorized as an e/n website.\n\nThe website’s content means everything to the publisher, but it could mean nothing to the rest of the world.\n\nThe content is/will be varied and will basically showcase whatever I find helpful and/or interesting, hoping that someone somewhere will find it useful."
+  },
+  {
+    "objectID": "about.html#how-is-it-built",
+    "href": "about.html#how-is-it-built",
+    "title": "About",
+    "section": "How is it built?",
+    "text": "How is it built?\nThis site is generated by Quarto. The posts are written in Markdown. Github-Pages is used for hosting. You can find the source code of this site on my github.\n\n  nevermonetize"
+  },
+  {
+    "objectID": "about.html#footnotes",
+    "href": "about.html#footnotes",
+    "title": "About",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nhttps://cordis.europa.eu/project/id/101168490↩︎\nhttps://recitals-project.eu/↩︎\nhttps://www.youtube.com/watch?v=QJvTAZme7-I↩︎\nhttps://www.youtube.com/watch?v=QgDGL_61noU↩︎"
+  },
+  {
+    "objectID": "booklist.html",
+    "href": "booklist.html",
+    "title": "Reading",
+    "section": "",
+    "text": "2025\n\n\n\n\n\n\n\n\nTitle\nAuthor\nRating\n\n\n\n\nDune Messiah\nFrank Herbert\n⭐⭐⭐⭐⭐\n\n\nDigital Zettelkasten\nDavid Kadavy\n⭐⭐⭐\n\n\nModern Technical Writing\nAndrew Etter\n⭐⭐⭐\n\n\nA System for Writing\nBob Doto\n⭐⭐⭐⭐\n\n\nDune\nFrank Herbert\n⭐⭐⭐⭐⭐\n\n\nHow to Write a Thesis\nUmberto Eco\n⭐⭐⭐\n\n\nThe Halfling’s Gem\nR.A. Salvatore\n⭐⭐\n\n\nOn Bullshit\nHarry G. Frankfurt\n⭐⭐\n\n\nΟ Θείος Πέτρος και η Εικασία του Γκόλντμπαχ\nΑπόστολος Δοξιάδης\n⭐⭐⭐⭐\n\n\nNotes from Underground\nFyodor Dostoevsky\n⭐⭐⭐⭐\n\n\nΕυθύφρων\nΠλάτωνας\n⭐⭐⭐⭐\n\n\nStreams of Silver\nR.A. Salvatore\n⭐⭐⭐\n\n\n\n\n\n2024\n\n\n\n\n\n\n\n\nTitle\nAuthor\nRating\n\n\n\n\nThe Housekeeper and the Professor\nYoko Ogawa\n⭐⭐⭐\n\n\nThe Crystal Shard\nR.A. Salvatore\n⭐⭐⭐⭐\n\n\nSojourn\nR.A. Salvatore\n⭐⭐⭐⭐\n\n\nExile\nR.A. Salvatore\n⭐⭐⭐\n\n\nIn Praise of Idleness\nBertrand Russell\n⭐⭐\n\n\nYou and Your Research\nRichard W. Hamming\n⭐⭐⭐⭐\n\n\nHomeland\nR. A. Salvatore\n⭐⭐⭐⭐⭐\n\n\nLetter to His Father\nFranz Kafka\n⭐⭐\n\n\nΛι\nΝίκος Καββαδίας\n⭐⭐️\n\n\nThe Music of the Primes\nMarcus du Sautoy\n⭐⭐⭐\n\n\nChanging Planes\nUrsula K. Le Guin\nDNF\n\n\nDune\nFrank Herbert\nDNF\n\n\nHow to Write a Thesis\nUmberto Eco\nDNF\n\n\nCalculus Made Easy\nSilvanus Phillips Thompson\nDNF\n\n\nWhere Wizards Stay Up Late: The Origins of the Internet\nKatie Hafner & Matthew Lyon\nDNF\n\n\nNotes from Underground\nFyodor Dostoevsky\nDNF\n\n\n\n\n\n-2023\n\nTODO"
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Notes",
+    "section": "",
+    "text": "Number Theory\n\n\n\n\n\nFeb 8, 2025\n\n\n\n\n\n\n\nMulti-variable Calculus\n\n\n\n\n\nFeb 8, 2025\n\n\n\n\n\n\n\nGame Theory\n\n\n\n\n\nFeb 8, 2025\n\n\n\n\n\n\n\nCryptography\n\n\n\n\n\nDec 24, 2024\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/Lenovo BIOS Linux.html",
+    "href": "posts/Lenovo BIOS Linux.html",
+    "title": "BIOS update for Lenovo laptop on Linux",
+    "section": "",
+    "text": "Updating your BIOS is often perceived as a straightforward task. You run an .exe file, you wait a minute or two, your screen flashes and poof, you’re done. This at least is the Lenovo Experience™ with their BIOS update wizards.\nBut what if your laptop is running Linux? Then the only way to use these .exe files would be to dual boot with a Windows partition. Unfortunately, this is not acceptable for most.\nThe easiest solution I came to find was instead of using a normal Windows installation, I could run the update from a live CD Windows image, specifically Hiren’s BootCD PE. From their homepage:\n\nHiren’s BootCD PE (Preinstallation Environment) is a restored edition of Hiren’s BootCD based on Windows 11 PE x64. Given the absence of official updates after November 2012, the PE version is currently under development by the fans of Hiren’s BootCD. It includes a carefully chosen set of the best free tools, designed for modern computers that support UEFI booting and need at least 4 GB of RAM.\n\nIt is a very interesting project and one that in my case came in very handy. The only problem I faced was that the laptop wouldn’t connect to Wi-Fi and thus I wasn’t able to download the .exe file. My solution was copying the update executable to another USB from which I transferred it to the live image. Simply executing the file worked correctly and the update was successful!\nHope this short post will be helpful to anyone facing a similar problem :).\n\n\n\nReuseCC BY 4.0CitationBibTeX citation:@online{chousos2024,\n  author = {Chousos, Konstantinos},\n  title = {BIOS Update for {Lenovo} Laptop on {Linux}},\n  date = {2024-12-25},\n  url = {https://kchousos.github.io/posts/Lenovo BIOS Linux.html},\n  langid = {en}\n}"
+  },
+  {
+    "objectID": "notes/Number Theory notes 2024.html",
+    "href": "notes/Number Theory notes 2024.html",
+    "title": "Number Theory",
+    "section": "",
+    "text": "My notes for the “ΘΠ08 Θεωρία Αριθμών” course [1] during the 2024 Spring semester.\n\n\nDirect link"
+  },
+  {
+    "objectID": "notes/Cryptography notes 2024.html",
+    "href": "notes/Cryptography notes 2024.html",
+    "title": "Cryptography",
+    "section": "",
+    "text": "My notes for the “ΘΠ05 Κρυπτογραφία” course [1], [2] during the 2024 Spring semester.\n\n\nDirect link"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Konstantinos Chousos",
+    "section": "",
+    "text": "AI/Security Researcher @ DIT, UoA"
+  }
+]

@@ -1,0 +1,61 @@
+project:
+  type: website
+  output-dir: docs
+  post-render:
+    - "cp -rv static/. docs/"
+
+website:
+  title: "Konstantinos Chousos"
+  site-url: "https://kchousos.github.io"
+  favicon: './icons/favicon.ico'
+  description: "Personal site of Konstantinos Chousos, AI/Security Researcher"
+  bread-crumbs: true
+  open-graph: true
+  twitter-card: true
+  navbar:
+    logo: './icons/favicon-32x32.png'
+    right:
+      - about.md
+      - posts.md
+      - links.md
+  page-footer:
+    center:
+      - text: '&copy; 2025 Konstantinos Chousos'
+        href: copyright.md
+    right:
+      - icon: github
+        url: "https://github.com/kchousos"
+      - text: "{{< iconify academicons orcid >}}"
+        url: "https://orcid.org/0009-0008-6063-7915"
+      - icon: mastodon
+        url: "https://mastodon.social/@kchousos"
+      - text: "{{< iconify fa6-brands x-twitter >}}"
+        url: "https://x.com/kchousos"
+      - text: "{{< iconify fa6-brands bluesky >}}"
+        url: "https://bsky.app/profile/kchousos.bsky.social"
+      - text: "{{< iconify fa6-brands linkedin >}}"
+        url: "https://www.linkedin.com/in/kchousos/"
+      - text: "{{< iconify simple-icons kofi >}}"
+        url: "https://ko-fi.com/kchousos"
+      - text: "{{< iconify material-symbols mail >}}"
+        url: "mailto:kon.chousos@gmail.com"
+      - text: "{{< iconify material-symbols rss-feed >}}"
+        url: "/posts.xml"
+format:
+  html:
+    theme:
+      light:
+        - cosmo
+        - brand
+        - styles.scss
+      dark:
+        - cosmo
+        - brand
+        - styles.scss
+        - styles-dark.scss
+    respect-user-color-scheme: true
+    highlight-style: gruvbox-dark
+    html-math-method: katex
+
+filters:
+ - ./filters/image-slash.lua

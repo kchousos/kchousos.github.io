@@ -1,0 +1,26 @@
+# options specified here will apply to all posts in this folder
+
+# freeze computational output
+# (see https://quarto.org/docs/projects/code-execution.html#freeze)
+freeze: true
+
+# Enable banner style title blocks
+title-block-banner: true
+
+code-line-numbers: true
+email-obfuscation: references
+bibliography: /home/kchou/Documents/Zotero Library/biblio.bib
+csl: /home/kchou/Documents/Zotero/styles/ieee.csl
+author:
+  - name: Konstantinos Chousos
+    email: kon.chousos@gmail.com
+toc: true
+toc-title: "Table of Contents"
+citation: true
+appendix-cite-as: bibtex
+lightbox: true
+lang: en
+license: CC BY
+copyright:
+  holder: Konstantinos Chousos
+  year: 2025

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Konstantinos Chousos</title>
+<link>https://kchousos.github.io/posts.html</link>
+<atom:link href="https://kchousos.github.io/posts.xml" rel="self" type="application/rss+xml"/>
+<description>Personal site of Konstantinos Chousos, AI/Security Researcher</description>
+<generator>quarto-1.7.23</generator>
+<lastBuildDate>Wed, 25 Dec 2024 13:36:00 GMT</lastBuildDate>
+<item>
+  <title>BIOS update for Lenovo laptop on Linux</title>
+  <dc:creator>Konstantinos Chousos</dc:creator>
+  <link>https://kchousos.github.io/posts/Lenovo BIOS Linux.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p>Updating your BIOS is often perceived as a straightforward task. You run an <code>.exe</code> file, you wait a minute or two, your screen flashes and poof, you’re done. This at least is the Lenovo Experience™ with their BIOS update wizards.</p>
+<p>But what if your laptop is running Linux? Then the only way to use these <code>.exe</code> files would be to dual boot with a Windows partition. Unfortunately, this is not acceptable for most.</p>
+<p>The easiest solution I came to find was instead of using a normal Windows installation, I could run the update from a live CD Windows image, specifically <a href="https://www.hirensbootcd.org/"><strong>Hiren’s BootCD PE</strong></a>. From their homepage:</p>
+<blockquote class="blockquote">
+<p>Hiren’s BootCD PE (Preinstallation Environment) is a restored edition of Hiren’s BootCD based on Windows 11 PE x64. Given the absence of official updates after November 2012, the PE version is currently under development by the fans of Hiren’s BootCD. It includes a carefully chosen set of the best free tools, designed for modern computers that support UEFI booting and need at least 4 GB of RAM.</p>
+</blockquote>
+<p>It is a very interesting project and one that in my case came in very handy. The only problem I faced was that the laptop wouldn’t connect to Wi-Fi and thus I wasn’t able to download the <code>.exe</code> file. My solution was copying the update executable to another USB from which I transferred it to the live image. Simply executing the file worked correctly and the update was successful!</p>
+<p>Hope this short post will be helpful to anyone facing a similar problem :).</p>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{chousos2024,
+  author = {Chousos, Konstantinos},
+  title = {BIOS Update for {Lenovo} Laptop on {Linux}},
+  date = {2024-12-25},
+  url = {https://kchousos.github.io/posts/Lenovo BIOS Linux.html},
+  langid = {en}
+}
+</code></pre></div></section></div> ]]></description>
+  <category>software</category>
+  <category>hardware</category>
+  <category>BIOS</category>
+  <guid>https://kchousos.github.io/posts/Lenovo BIOS Linux.html</guid>
+  <pubDate>Wed, 25 Dec 2024 13:36:00 GMT</pubDate>
+</item>
+<item>
+  <title>SICP in Emacs</title>
+  <dc:creator>Konstantinos Chousos</dc:creator>
+  <link>https://kchousos.github.io/posts/SICP in Emacs.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p>I recently began reading the notorious “Structure and Interpretation of Computer Programs” <span class="citation" data-cites="abelsonStructureInterpretationComputer2002">[1]</span>, a.k.a. the <em>Wizard book</em>. I’m only on the first chapter, but I can already see its value and why it gets recommended so much.</p>
+<p>From Wikipedia:</p>
+<blockquote class="blockquote">
+<p>Structure and Interpretation of Computer Programs (SICP) is a computer science textbook by Massachusetts Institute of Technology professors Harold Abelson and Gerald Jay Sussman with Julie Sussman. […] It teaches fundamental principles of computer programming, including recursion, abstraction, modularity, and programming language design and implementation. […] The book describes computer science concepts using Scheme, a dialect of Lisp. It also uses a virtual register machine and assembler to implement Lisp interpreters and compilers.</p>
+</blockquote>
+<p>In this post, I aim to showcase my workflow for studying the book using Emacs <span class="citation" data-cites="stallmanEMACSExtensibleCustomizable1981">[2]</span>. Also, I will provide any resources that helped me get going. To study SICP, we need two things: The book and a Scheme implementation for the examples and exercises.</p>
+<section id="getting-the-book" class="level2">
+<h2 class="anchored" data-anchor-id="getting-the-book">Getting the book</h2>
+<p>Lucky for us, the book is freely distributed from MIT itself. It is available in <a href="https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html">HTML</a> and <a href="https://web.mit.edu/6.001/6.037/sicp.pdf">PDF</a>. But, there is also a third format option and it is the one we’re going to choose: the Texinfo format.</p>
+<p>From the official GNU site<sup>1</sup>:</p>
+<blockquote class="blockquote">
+<p>Texinfo uses a single source file to produce output in a number of formats, both online and printed (HTML, PDF, DVI, Info, DocBook, LaTeX, EPUB 3). This means that instead of writing different documents for online information and another for a printed manual, you need write only one document.</p>
+<p>The Texinfo system is well-integrated with GNU Emacs.</p>
+</blockquote>
+<p>That last line is what’s important here. <code>info</code> files are essentially manuals in plain text. Emacs has a built-in mode for rendering such documents. By using the <code>info</code> format, we can read SICP from inside Emacs.</p>
+<section id="obtaining-the-info-file" class="level3">
+<h3 class="anchored" data-anchor-id="obtaining-the-info-file">Obtaining the <code>info</code> file</h3>
+<p>The <code>info</code> file can be retrieved in two methods:</p>
+<ol type="1">
+<li><p>By installing the <code>sicp</code> MELPA package<sup>2</sup></p></li>
+<li><p>By downloading the <code>info</code> file directly from <a href="https://www.neilvandyke.org/sicp-texi/">neilvandyke.org</a> and installing it.</p>
+<ol type="1">
+<li><p>Download the <code>sicp.info.gz</code> file (<a href="https://www.neilvandyke.org/sicp-texi/sicp.info.gz">link</a>) in your home directory.</p></li>
+<li><p>Execute the following commands</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">$</span> sudo cp ~/sicp.info.gz /usr/local/share/info/</span>
+<span id="cb1-2"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">$</span> sudo chmod 644 /usr/local/share/info/sicp.info.gz</span>
+<span id="cb1-3"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">$</span> sudo install-info /usr/local/share/info/sicp.info.gz /usr/local/share/info/dir</span></code></pre></div></li>
+</ol></li>
+</ol>
+<p>Now SICP will be available through Emacs! To access it, you need to open Emacs, type <span class="visually-hidden">C-h</span> to go to the <code>*info*</code> top directory, type <span class="visually-hidden">m</span> to search and type <code>sicp</code> to find the book. If everything went correctly, you should be greeted with something like this:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../sicp in emacs.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="SICP’s table of contents in `info` format, viewed from within Emacs"><img src="https://kchousos.github.io/sicp in emacs.png" class="img-fluid figure-img" alt="SICP’s table of contents in `info` format, viewed from within Emacs"></a></p>
+<figcaption>SICP’s table of contents in `info` format, viewed from within Emacs</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="setting-up-scheme" class="level2">
+<h2 class="anchored" data-anchor-id="setting-up-scheme">Setting up Scheme</h2>
+<p>SICP’s examples and exercises are all implemented in Scheme. Scheme is a Lisp dialect with many implementations. <del>SICP uses the <a href="https://www.gnu.org/software/mit-scheme/">MIT-Scheme</a> implementation</del> Turns out GNU/MIT-Scheme is <strong>not</strong> fully compatible with the code in SICP (<a href="https://www.reddit.com/r/sicp/comments/mf0j95/comment/gsljkkw/?utm_source=share&amp;utm_medium=web2x&amp;context=3">source</a>). Instead, we will use <a href="https://racket-lang.org/">Racket</a>. Racket offers the <a href="https://docs.racket-lang.org/sicp-manual/">SICP collection</a>, a Racket <code>#lang</code> that makes it fully compatible with the SICP code.</p>
+<p>First, we need to install racket through our package manager. After that, the sicp collection can be downloaded like this:</p>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">$</span> raco pkg install sicp</span></code></pre></div>
+<p>That’s it! Now, when we write a <code>.rkt</code> file that needs to be compatible with SICP all we need to do is add <span class="inline-src language-racket" data-lang="racket"><code>#lang sicp</code></span> at the top of the file<sup>3</sup>.</p>
+<section id="racket-in-emacs" class="level3">
+<h3 class="anchored" data-anchor-id="racket-in-emacs">Racket in Emacs</h3>
+<p>Personally, I recommend <a href="https://github.com/greghendershott/racket-mode">racket-mode</a> for working with Racket in Emacs. Another popular choice is <a href="https://github.com/emacsmirror/geiser">geiser</a>, but its <code>geiser-racket</code> module seems to be unmaintained<sup>4</sup>.</p>
+<p>To install <code>racket-mode</code> using <a href="https://github.com/progfolio/elpaca/">elpaca</a>, add the following to your config file:</p>
+<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode numberSource lisp number-lines code-with-copy"><code class="sourceCode commonlisp"><span id="cb3-1">(<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">use-package</span> racket-mode</span>
+<span id="cb3-2">  :elpaca <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">t</span>)</span></code></pre></div>
+<section id="racket-in-org-babel" class="level4">
+<h4 class="anchored" data-anchor-id="racket-in-org-babel">Racket in Org-Babel</h4>
+<p>In case you choose to go the literate programming route (as I have) using Org-Mode, you will need to enable support for racket in org-babel. To do this, use the <a href="https://github.com/hasu/emacs-ob-racket">emacs-ob-racket</a> package. Add the following to your config:</p>
+<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode numberSource lisp number-lines code-with-copy"><code class="sourceCode commonlisp"><span id="cb4-1">(<span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">use-package</span> ob-racket</span>
+<span id="cb4-2">  :elpaca (<span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">:type</span> git <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">:host</span> github :repo <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"hasu/emacs-ob-racket"</span>))</span></code></pre></div>
+<p>and then enable racket in your org-babel configuration.</p>
+<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode numberSource lisp number-lines code-with-copy"><code class="sourceCode commonlisp"><span id="cb5-1">(org-babel-do-load-languages</span>
+<span id="cb5-2"> <span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">'org-babel-load-languages</span></span>
+<span id="cb5-3"> '((emacs-lisp :tangle ./init.el . <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">t</span>)</span>
+<span id="cb5-4">   (C . <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">t</span>)</span>
+<span id="cb5-5">   (python . <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">t</span>)</span>
+<span id="cb5-6">   ...</span>
+<span id="cb5-7">   (racket . <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">t</span>)))</span></code></pre></div>
+<p>To be able to use the <code>sicp</code> package in org-babel code blocks, you need to add <code>:lang sicp</code> in the Org block, like so:</p>
+<div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode numberSource org number-lines code-with-copy"><code class="sourceCode orgmode"><span id="cb6-1"> #+begin_src racket :lang sicp</span>
+<span id="cb6-2"> "Hello World!"</span>
+<span id="cb6-3"> #+end_src</span></code></pre></div>
+<p>Instead of adding that to every code block, you can add <code>#+property: header-args :lang sicp</code> to the start of your Org file. <del>This will be applied to <em>all</em> code blocks in the file, so make sure you include only racket code blocks</del> This can be mitigated by specifying that these header-args are to be applied only to racket blocks, like so: <code>#+property: header-args:racket :lang sicp</code>.</p>
+</section>
+</section>
+</section>
+<section id="result" class="level2">
+<h2 class="anchored" data-anchor-id="result">Result</h2>
+<p>After all this work, now we can finally start reading SICP. My so-far workflow consists of the book in the left window, a racket REPL in the top-right corner and my Org-Roam notes in the bottom-right corner.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../sicp workflow.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="My SICP studying workflow"><img src="https://kchousos.github.io/sicp workflow.png" class="img-fluid figure-img" alt="My SICP studying workflow"></a></p>
+<figcaption>My SICP studying workflow</figcaption>
+</figure>
+</div>
+<p>When it comes to the exercises, I use Org-Mode and Org-Babel to write the solutions in a literate programming style. The file is divided by chapter. Each exercise is included followed by its (hopefully correct) solution. (So far) I use a single <code>.org</code> file and export it to PDF. Also, all of the code blocks are exported to a <code>.rkt</code> file, with links to the corresponding position in the org file. All of these files can be found at <a href="https://github.com/kchousos/SICP-solutions">this repo</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../sicp literate notes.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="My SICP solutions in literate programming"><img src="https://kchousos.github.io/sicp literate notes.png" class="img-fluid figure-img" alt="My SICP solutions in literate programming"></a></p>
+<figcaption>My SICP solutions in literate programming</figcaption>
+</figure>
+</div>
+</section>
+<section id="miscellaneous-tips" class="level2">
+<h2 class="anchored" data-anchor-id="miscellaneous-tips">Miscellaneous tips</h2>
+<ul>
+<li><p><strong>Update 07/06/2023</strong>: As <a href="https://www.reddit.com/r/emacs/comments/143cyw3/comment/jna8ev2/?utm_source=share&amp;utm_medium=web2x&amp;context=3">u/jherrlin</a> on Reddit pointed out, the fact that SICP is in text format gives us the ability to leverage Emacs’ built-in bookmarks feature. When you arrive to the end of your study session, just type <span class="visually-hidden">C-x r m</span> and a bookmark will be placed on the current line. You can search your bookmarks with <span class="visually-hidden">C-x r b</span> or list them with <span class="visually-hidden">C-x r l</span>.</p>
+<p>My tip is to name the bookmark the same each time (e.g.&nbsp;<code>sicp</code>). That way, when you re-create it in a later position, the old bookmark is discarded automatically. Also, if you run Emacs in daemon mode, I suggest to run <span class="visually-hidden">M-x</span> <code>bookmark-save</code> after adding a bookmark, to make sure it has been saved.</p></li>
+</ul>
+
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0">
+<div id="ref-abelsonStructureInterpretationComputer2002" class="csl-entry">
+<div class="csl-left-margin">[1] </div><div class="csl-right-inline">H. Abelson, G. J. Sussman, and J. Sussman, <em>Structure and interpretation of computer programs</em>, 2. ed., 7. [pr.]. in Electrical engineering and computer science series. Cambridge, Mass.: MIT Press [u.a.], 2002.</div>
+</div>
+<div id="ref-stallmanEMACSExtensibleCustomizable1981" class="csl-entry">
+<div class="csl-left-margin">[2] </div><div class="csl-right-inline">R. M. Stallman, <span>“<span>EMACS</span> the extensible, customizable self-documenting display editor,”</span> <em>SIGPLAN Not.</em>, vol. 16, no. 6, pp. 147–156, Jun. 1981, doi: <a href="https://doi.org/10.1145/872730.806466">10.1145/872730.806466</a>.</div>
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p><a href="https://www.gnu.org/software/texinfo/" class="uri">https://www.gnu.org/software/texinfo/</a>↩︎</p></li>
+<li id="fn2"><p><a href="https://melpa.org/#/sicp" class="uri">https://melpa.org/#/sicp</a>↩︎</p></li>
+<li id="fn3"><p>when using the REPL, we need to first evaluate <span class="inline-src language-racket" data-lang="racket"><code>(require sicp)</code></span> before evaluating anything else.↩︎</p></li>
+<li id="fn4"><p><a href="https://lists.nongnu.org/archive/html/geiser-users/2022-06/msg00004.html" class="uri">https://lists.nongnu.org/archive/html/geiser-users/2022-06/msg00004.html</a>↩︎</p></li>
+</ol>
+</section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{chousos2023,
+  author = {Chousos, Konstantinos},
+  title = {SICP in {Emacs}},
+  date = {2023-06-07},
+  url = {https://kchousos.github.io/posts/SICP in Emacs.html},
+  langid = {en}
+}
+</code></pre></div></section></div> ]]></description>
+  <category>lisp</category>
+  <category>emacs</category>
+  <category>book</category>
+  <guid>https://kchousos.github.io/posts/SICP in Emacs.html</guid>
+  <pubDate>Wed, 07 Jun 2023 10:38:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

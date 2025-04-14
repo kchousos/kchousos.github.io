@@ -1,0 +1,16 @@
+/*-- scss:defaults --*/
+$font-family-monospace: 'Iosevka', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+
+/*-- scss:rules --*/
+
+.metadata {
+    flex-basis: 10% !important;
+}
+
+.listing-title {
+    margin-bottom: 10px !important;
+}
+
+kbd {
+    padding: .1rem .2rem !important;
+}
