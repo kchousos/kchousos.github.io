@@ -1,7 +1,7 @@
 ---
 title: SICP in Emacs
-date: 2023-06-07 13:38:00+03:00
-lastmod: 2023-06-28 14:38:44+03:00
+date: 2023-06-07
+date-modified: 2025-04-14
 categories:
   - lisp
   - emacs
@@ -9,7 +9,6 @@ categories:
 draft: false
 aliases:
   - 20250327191659-148e
-word-count: true
 ---
 I recently began reading the notorious "Structure and Interpretation of Computer Programs" [@abelsonStructureInterpretationComputer2002], a.k.a. the _Wizard book_. I'm only on the first chapter, but I can already see its value and why it gets recommended so much.
 

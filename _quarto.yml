@@ -3,7 +3,7 @@ project:
   output-dir: docs
   post-render:
     - "cp -rv static/. docs/"
-    - "ln -s posts.xml docs/index.xml"
+    - "ln -sf posts.xml docs/index.xml"
 
 website:
   title: "Konstantinos Chousos"
