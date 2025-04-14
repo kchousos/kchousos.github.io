@@ -57,7 +57,7 @@ format:
     respect-user-color-scheme: true
     highlight-style: gruvbox-dark
     html-math-method: katex
-    include-after-body:
+    include-in-header:
       text: |
         <script src="https://tinylytics.app/embed/bp9HPTzRCo35BgZSLJaf/min.js?kudos=❤️" defer></script>
 
