@@ -30,6 +30,11 @@
 </blockquote>
 <p>It is a very interesting project and one that in my case came in very handy. The only problem I faced was that the laptop wouldn’t connect to Wi-Fi and thus I wasn’t able to download the <code>.exe</code> file. My solution was copying the update executable to another USB from which I transferred it to the live image. Simply executing the file worked correctly and the update was successful!</p>
 <p>Hope this short post will be helpful to anyone facing a similar problem :).</p>
+<center>
+<div class="tinylytics-kudos">
+
+</div>
+</center>
 
 
 
@@ -189,6 +194,11 @@ font-style: inherit;">t</span>)))</span></code></pre></div>
 <li><p><strong>Update 07/06/2023</strong>: As <a href="https://www.reddit.com/r/emacs/comments/143cyw3/comment/jna8ev2/?utm_source=share&amp;utm_medium=web2x&amp;context=3">u/jherrlin</a> on Reddit pointed out, the fact that SICP is in text format gives us the ability to leverage Emacs’ built-in bookmarks feature. When you arrive to the end of your study session, just type <span class="visually-hidden">C-x r m</span> and a bookmark will be placed on the current line. You can search your bookmarks with <span class="visually-hidden">C-x r b</span> or list them with <span class="visually-hidden">C-x r l</span>.</p>
 <p>My tip is to name the bookmark the same each time (e.g.&nbsp;<code>sicp</code>). That way, when you re-create it in a later position, the old bookmark is discarded automatically. Also, if you run Emacs in daemon mode, I suggest to run <span class="visually-hidden">M-x</span> <code>bookmark-save</code> after adding a bookmark, to make sure it has been saved.</p></li>
 </ul>
+<center>
+<div class="tinylytics-kudos">
+
+</div>
+</center>
 
 
 

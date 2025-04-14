@@ -21,3 +21,7 @@ The easiest solution I came to find was instead of using a normal Windows instal
 It is a very interesting project and one that in my case came in very handy. The only problem I faced was that the laptop wouldn't connect to Wi-Fi and thus I wasn't able to download the `.exe` file. My solution was copying the update executable to another USB from which I transferred it to the live image. Simply executing the file worked correctly and the update was successful!
 
 Hope this short post will be helpful to anyone facing a similar problem :).
+
+<center>
+<div class="tinylytics-kudos"></div>
+</center>

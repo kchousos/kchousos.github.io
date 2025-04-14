@@ -13,3 +13,7 @@ My notes for the "ΘΠ05 Κρυπτογραφία" course [[1](https://eclass.uo
 </object>
 
 [Direct link](/ΘΠ05%20Κρυπτογραφία.pdf)
+
+<center>
+<div class="tinylytics-kudos"></div>
+</center>

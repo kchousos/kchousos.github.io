@@ -13,3 +13,7 @@ My notes for the "K06 Ανάλυση ΙΙ" course [[1](https://eclass.uoa.gr/cou
 </object>
 
 [Direct link](/K06%20Ανάλυση%20II.pdf)
+
+<center>
+<div class="tinylytics-kudos"></div>
+</center>

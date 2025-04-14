@@ -13,3 +13,7 @@ My notes for the "ΘΠ08 Θεωρία Αριθμών" course [[1](https://eclass
 </object>
 
 [Direct link](/ΘΠ08%20Θεωρία%20Αριθμών.pdf)
+
+<center>
+<div class="tinylytics-kudos"></div>
+</center>

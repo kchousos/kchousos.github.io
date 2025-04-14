@@ -127,3 +127,7 @@ When it comes to the exercises, I use Org-Mode and Org-Babel to write the soluti
 [^fn:2]: <https://melpa.org/#/sicp>
 [^fn:3]: when using the REPL, we need to first evaluate <span class="inline-src language-racket" data-lang="racket">`(require sicp)`</span> before evaluating anything else.
 [^fn:4]: <https://lists.nongnu.org/archive/html/geiser-users/2022-06/msg00004.html>
+
+<center>
+<div class="tinylytics-kudos"></div>
+</center>

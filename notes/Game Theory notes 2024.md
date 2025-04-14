@@ -13,3 +13,7 @@ My notes for the "MATH271 Θεωρία Παιγνίων και Εφαρμογέ�
 </object>
 
 [Direct link](/MATH271%20Θεωρία%20Παιγνίων%20και%20Εφαρμογές.pdf)
+
+<center>
+<div class="tinylytics-kudos"></div>
+</center>

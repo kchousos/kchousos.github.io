@@ -27,7 +27,8 @@ copyright:
 
 # PDF options
 format:
-  html: default
+  html:
+    default: true
   pdf:
     standalone: true
     cite-method: biblatex
