@@ -17,8 +17,10 @@ website:
     logo: './icons/favicon-32x32.png'
     right:
       - about.md
+      - now.md
       - posts.md
-      - links.md
+      - resources.md
+      - booklist.md
   page-footer:
     center:
       - text: '&copy; 2025 Konstantinos Chousos'
@@ -58,7 +60,7 @@ format:
     highlight-style: gruvbox-dark
     html-math-method: katex
     include-in-header:
-      text: <script src="https://tinylytics.app/embed/bp9HPTzRCo35BgZSLJaf.js?kudos=❤️" defer></script>
+      text: <script src="https://tinylytics.app/embed/bp9HPTzRCo35BgZSLJaf/min.js?kudos=❤️" defer></script>
 
 filters:
  - ./filters/image-slash.lua

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Notes – Konstantinos Chousos</title>
+<title>Resources – Konstantinos Chousos</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -77,20 +77,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-course-notes .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-date','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-course-notes'] = new List('listing-course-notes', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -103,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
-<script src="https://tinylytics.app/embed/bp9HPTzRCo35BgZSLJaf.js?kudos=❤️" defer=""></script>
+<script src="https://tinylytics.app/embed/bp9HPTzRCo35BgZSLJaf/min.js?kudos=❤️" defer=""></script>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
   <script>document.addEventListener("DOMContentLoaded", function () {
@@ -149,9 +149,9 @@ window.Quarto = {
 };
 </script>
 
-<meta property="og:title" content="Notes – Konstantinos Chousos">
+<meta property="og:title" content="Resources – Konstantinos Chousos">
 <meta property="og:site_name" content="Konstantinos Chousos">
-<meta name="twitter:title" content="Notes – Konstantinos Chousos">
+<meta name="twitter:title" content="Resources – Konstantinos Chousos">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -348,12 +348,20 @@ window.Quarto = {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./now.html"> 
+<span class="menu-text">Now</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./posts.html"> 
 <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./links.html"> 
-<span class="menu-text">Links</span></a>
+    <a class="nav-link active" href="./resources.html" aria-current="page"> 
+<span class="menu-text">Resources</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./booklist.html"> 
+<span class="menu-text">Reading</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -367,7 +375,7 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-left">
-      <h1 class="title">Notes</h1>
+      <h1 class="title">Resources</h1>
                       </div>
   </div>
     
@@ -394,77 +402,103 @@ window.Quarto = {
 
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<section id="course-notes" class="level1">
+<h1>Course notes</h1>
+<div id="listing-course-notes" class="quarto-listing quarto-listing-container-table">
 <div class="listing-actions-group">
     <div class="input-group input-group-sm quarto-listing-filter">
       <span class="input-group-text"><i class="bi bi-search"></i></span>
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="cGRmJTJDZ3JlZWslMkNjb3Vyc2U=" data-listing-date-sort="1738965600000" data-listing-file-modified-sort="1744598139509" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./notes/Number Theory notes 2024.html" class="no-external">Number Theory</a>
-</h3>
-</div>
-<div class="metadata">
-<a href="./notes/Number Theory notes 2024.html" class="no-external">
-<div class="listing-date">
-Feb 8, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="cGRmJTJDZ3JlZWslMkNjb3Vyc2U=" data-listing-date-sort="1738965600000" data-listing-file-modified-sort="1744598163494" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./notes/Calculus notes 2024.html" class="no-external">Multi-variable Calculus</a>
-</h3>
-</div>
-<div class="metadata">
-<a href="./notes/Calculus notes 2024.html" class="no-external">
-<div class="listing-date">
-Feb 8, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="cGRmJTJDZ3JlZWslMkNjb3Vyc2U=" data-listing-date-sort="1738965600000" data-listing-file-modified-sort="1744598156191" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./notes/Game Theory notes 2024.html" class="no-external">Game Theory</a>
-</h3>
-</div>
-<div class="metadata">
-<a href="./notes/Game Theory notes 2024.html" class="no-external">
-<div class="listing-date">
-Feb 8, 2025
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="cGRmJTJDZ3JlZWslMkNjb3Vyc2U=" data-listing-date-sort="1734991200000" data-listing-file-modified-sort="1744598158613" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./notes/Cryptography notes 2024.html" class="no-external">Cryptography</a>
-</h3>
-</div>
-<div class="metadata">
-<a href="./notes/Cryptography notes 2024.html" class="no-external">
-<div class="listing-date">
-Dec 24, 2024
-</div>
-</a>
-</div>
-</div>
-</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+Title
+</th>
+
+<th>
+Date
+</th>
+
+<th>
+Categories
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-categories="cGRmJTJDZ3JlZWslMkNjb3Vyc2U=" data-listing-date-sort="1738965600000" data-listing-file-modified-sort="1744598139509" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20" data-listing-title-sort="Number Theory" data-listing-filename-sort="Number Theory notes 2024.md">
+<td>
+<a href="./notes/Number Theory notes 2024.html" class="title listing-title">Number Theory</a>
+</td>
+<td>
+<span class="listing-date">Feb 8, 2025</span>
+</td>
+<td>
+<span class="listing-categories">pdf, greek, course</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-categories="cGRmJTJDZ3JlZWslMkNjb3Vyc2U=" data-listing-date-sort="1738965600000" data-listing-file-modified-sort="1744598163494" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20" data-listing-title-sort="Multi-variable Calculus" data-listing-filename-sort="Calculus notes 2024.md">
+<td>
+<a href="./notes/Calculus notes 2024.html" class="title listing-title">Multi-variable Calculus</a>
+</td>
+<td>
+<span class="listing-date">Feb 8, 2025</span>
+</td>
+<td>
+<span class="listing-categories">pdf, greek, course</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-categories="cGRmJTJDZ3JlZWslMkNjb3Vyc2U=" data-listing-date-sort="1738965600000" data-listing-file-modified-sort="1744598156191" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="22" data-listing-title-sort="Game Theory" data-listing-filename-sort="Game Theory notes 2024.md">
+<td>
+<a href="./notes/Game Theory notes 2024.html" class="title listing-title">Game Theory</a>
+</td>
+<td>
+<span class="listing-date">Feb 8, 2025</span>
+</td>
+<td>
+<span class="listing-categories">pdf, greek, course</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-categories="cGRmJTJDZ3JlZWslMkNjb3Vyc2U=" data-listing-date-sort="1734991200000" data-listing-file-modified-sort="1744598158613" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20" data-listing-title-sort="Cryptography" data-listing-filename-sort="Cryptography notes 2024.md">
+<td>
+<a href="./notes/Cryptography notes 2024.html" class="title listing-title">Cryptography</a>
+</td>
+<td>
+<span class="listing-date">Dec 24, 2024</span>
+</td>
+<td>
+<span class="listing-categories">pdf, greek, course</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
 <div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</div>
+</section>
+<section id="presentations" class="level1">
+<h1>Presentations</h1>
+<ul>
+<li><a href="https://kchousos.github.io/ofg-presentation/">Intro to OSS-Fuzz-Gen</a> (part of thesis)</li>
+</ul>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
