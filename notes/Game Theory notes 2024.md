@@ -9,10 +9,10 @@ categories: [pdf, greek, course]
 ---
 My notes for the "MATH271 Θεωρία Παιγνίων και Εφαρμογές" course [[1](https://eclass.uoa.gr/courses/MATH271/)] during the 2024 Winter semester.
 
-<object data="/MATH271%20Θεωρία%20Παιγνίων%20και%20Εφαρμογές.pdf" type="application/pdf" width="100%" height="800px">
+<object data="/static/MATH271%20Θεωρία%20Παιγνίων%20και%20Εφαρμογές.pdf" type="application/pdf" width="100%" height="800px">
 </object>
 
-[Direct link](/MATH271%20Θεωρία%20Παιγνίων%20και%20Εφαρμογές.pdf)
+[Direct link](/static/MATH271%20Θεωρία%20Παιγνίων%20και%20Εφαρμογές.pdf)
 
 <center>
 <button class="tinylytics_kudos"></button>

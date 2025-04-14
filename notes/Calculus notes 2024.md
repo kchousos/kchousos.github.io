@@ -9,10 +9,10 @@ categories: [pdf, greek, course]
 ---
 My notes for the "K06 Ανάλυση ΙΙ" course [[1](https://eclass.uoa.gr/courses/D260/)] during the 2024 Winter semester.
 
-<object data="/K06%20Ανάλυση%20II.pdf" type="application/pdf" width="100%" height="800px">
+<object data="/static/K06%20Ανάλυση%20II.pdf" type="application/pdf" width="100%" height="800px">
 </object>
 
-[Direct link](/K06%20Ανάλυση%20II.pdf)
+[Direct link](/static/K06%20Ανάλυση%20II.pdf)
 
 <center>
 <button class="tinylytics_kudos"></button>

@@ -1,7 +1,5 @@
 ---
 title: About
-categories:
-  - personal
 image: /static/headshot.png
 about:
   template: solana

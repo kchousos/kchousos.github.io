@@ -29,11 +29,11 @@ website:
       - text: '&copy; 2025 Konstantinos Chousos'
         href: copyright.md
     right:
-      - icon: github
+      - text: "{{< iconify fa6-brands github >}}"
         url: "https://github.com/kchousos"
       - text: "{{< iconify academicons orcid >}}"
         url: "https://orcid.org/0009-0008-6063-7915"
-      - icon: mastodon
+      - text: "{{< iconify fa6-brands mastodon >}}"
         url: "https://mastodon.social/@kchousos"
       - text: "{{< iconify fa6-brands x-twitter >}}"
         url: "https://x.com/kchousos"

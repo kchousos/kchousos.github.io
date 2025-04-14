@@ -9,10 +9,10 @@ categories: [pdf, greek, course]
 ---
 My notes for the "ΘΠ05 Κρυπτογραφία" course [[1](https://eclass.uoa.gr/courses/D41/)], [[2](https://crypto.di.uoa.gr/class/Kryptographia/index.html)] during the 2024 Spring semester.
 
-<object data="/ΘΠ05%20Κρυπτογραφία.pdf" type="application/pdf" width="100%" height="800px">
+<object data="/static/ΘΠ05%20Κρυπτογραφία.pdf" type="application/pdf" width="100%" height="800px">
 </object>
 
-[Direct link](/ΘΠ05%20Κρυπτογραφία.pdf)
+[Direct link](/static/ΘΠ05%20Κρυπτογραφία.pdf)
 
 <center>
 <button class="tinylytics_kudos"></button>
