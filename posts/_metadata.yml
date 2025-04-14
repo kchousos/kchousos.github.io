@@ -24,3 +24,45 @@ license: CC BY
 copyright:
   holder: Konstantinos Chousos
   year: 2025
+
+# PDF options
+format:
+  html: default
+  pdf:
+    standalone: true
+    cite-method: biblatex
+    
+    mainfont: "Libertinus Serif"
+    mainfontfallback:
+      - "Liberation Serif:"
+      - "NotoColorEmoji:mode=harf"
+    sansfont: "Libertinus Sans"
+    monofont: "Iosevka"
+    mathfont: "Libertinus Math"
+    numbersections: true
+    biblio-style: ieee
+    link-citations: true
+    papersize: a4
+    # urlstyle: tt
+    geometry:
+      - margin=1.4in
+    # linestretch: 1.2
+    colorlinks: true
+    boxlinks: false
+    citecolor: red
+    filecolor: cyan
+    urlcolor: blue
+    links-as-notes: false
+    default: true
+    filters:
+      - ../filters/minted.lua
+    header-includes: |
+      \usepackage[newfloat, cache=false]{minted}
+      \setminted{frame=single, framesep=2mm, linenos, breaklines, numbersep=0.5em}
+      \makeatletter
+      \let\listoflistings\relax
+      \makeatother
+
+pdf-engine: lualatex
+pdf-engine-opts:
+  - '-shell-escape'

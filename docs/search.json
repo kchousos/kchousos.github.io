@@ -4,7 +4,7 @@
     "href": "links.html",
     "title": "Links",
     "section": "",
-    "text": "About\nNow\nNotes\nReading\nDisclaimer"
+    "text": "Now\nNotes\nReading\nDisclaimer"
   },
   {
     "objectID": "notes/Game Theory notes 2024.html",
@@ -35,32 +35,25 @@
     "text": "I recently began reading the notorious “Structure and Interpretation of Computer Programs” [1], a.k.a. the Wizard book. I’m only on the first chapter, but I can already see its value and why it gets recommended so much.\nFrom Wikipedia:\nIn this post, I aim to showcase my workflow for studying the book using Emacs [2]. Also, I will provide any resources that helped me get going. To study SICP, we need two things: The book and a Scheme implementation for the examples and exercises."
   },
   {
-    "objectID": "posts/SICP in Emacs.html#getting-the-book",
-    "href": "posts/SICP in Emacs.html#getting-the-book",
+    "objectID": "posts/SICP in Emacs.html#obtaining-the-info-file",
+    "href": "posts/SICP in Emacs.html#obtaining-the-info-file",
     "title": "SICP in Emacs",
-    "section": "Getting the book",
-    "text": "Getting the book\nLucky for us, the book is freely distributed from MIT itself. It is available in HTML and PDF. But, there is also a third format option and it is the one we’re going to choose: the Texinfo format.\nFrom the official GNU site1:\n\nTexinfo uses a single source file to produce output in a number of formats, both online and printed (HTML, PDF, DVI, Info, DocBook, LaTeX, EPUB 3). This means that instead of writing different documents for online information and another for a printed manual, you need write only one document.\nThe Texinfo system is well-integrated with GNU Emacs.\n\nThat last line is what’s important here. info files are essentially manuals in plain text. Emacs has a built-in mode for rendering such documents. By using the info format, we can read SICP from inside Emacs.\n\nObtaining the info file\nThe info file can be retrieved in two methods:\n\nBy installing the sicp MELPA package2\nBy downloading the info file directly from neilvandyke.org and installing it.\n\nDownload the sicp.info.gz file (link) in your home directory.\nExecute the following commands\n$ sudo cp ~/sicp.info.gz /usr/local/share/info/\n$ sudo chmod 644 /usr/local/share/info/sicp.info.gz\n$ sudo install-info /usr/local/share/info/sicp.info.gz /usr/local/share/info/dir\n\n\nNow SICP will be available through Emacs! To access it, you need to open Emacs, type C-hC-h to go to the *info* top directory, type mm to search and type sicp to find the book. If everything went correctly, you should be greeted with something like this:\n\n\n\nSICP’s table of contents in `info` format, viewed from within Emacs"
+    "section": "Obtaining the info file",
+    "text": "Obtaining the info file\nThe info file can be retrieved in two methods:\n\nBy installing the sicp MELPA package2\nBy downloading the info file directly from neilvandyke.org and installing it.\n\nDownload the sicp.info.gz file (link) in your home directory.\nExecute the following commands\n$ sudo cp ~/sicp.info.gz /usr/local/share/info/\n$ sudo chmod 644 /usr/local/share/info/sicp.info.gz\n$ sudo install-info /usr/local/share/info/sicp.info.gz /usr/local/share/info/dir\n\n\nNow SICP will be available through Emacs! To access it, you need to open Emacs, type C-h iC-h i to go to the *info* top directory, type mm to search and type sicp to find the book. If everything went correctly, you should be greeted with something like this:\n\n\n\nSICP’s table of contents in `info` format, viewed from within Emacs"
   },
   {
-    "objectID": "posts/SICP in Emacs.html#setting-up-scheme",
-    "href": "posts/SICP in Emacs.html#setting-up-scheme",
+    "objectID": "posts/SICP in Emacs.html#racket-in-emacs",
+    "href": "posts/SICP in Emacs.html#racket-in-emacs",
     "title": "SICP in Emacs",
-    "section": "Setting up Scheme",
-    "text": "Setting up Scheme\nSICP’s examples and exercises are all implemented in Scheme. Scheme is a Lisp dialect with many implementations. SICP uses the MIT-Scheme implementation Turns out GNU/MIT-Scheme is not fully compatible with the code in SICP (source). Instead, we will use Racket. Racket offers the SICP collection, a Racket #lang that makes it fully compatible with the SICP code.\nFirst, we need to install racket through our package manager. After that, the sicp collection can be downloaded like this:\n$ raco pkg install sicp\nThat’s it! Now, when we write a .rkt file that needs to be compatible with SICP all we need to do is add #lang sicp at the top of the file3.\n\nRacket in Emacs\nPersonally, I recommend racket-mode for working with Racket in Emacs. Another popular choice is geiser, but its geiser-racket module seems to be unmaintained4.\nTo install racket-mode using elpaca, add the following to your config file:\n(use-package racket-mode\n  :elpaca t)\n\nRacket in Org-Babel\nIn case you choose to go the literate programming route (as I have) using Org-Mode, you will need to enable support for racket in org-babel. To do this, use the emacs-ob-racket package. Add the following to your config:\n(use-package ob-racket\n  :elpaca (:type git :host github :repo \"hasu/emacs-ob-racket\"))\nand then enable racket in your org-babel configuration.\n(org-babel-do-load-languages\n 'org-babel-load-languages\n '((emacs-lisp :tangle ./init.el . t)\n   (C . t)\n   (python . t)\n   ...\n   (racket . t)))\nTo be able to use the sicp package in org-babel code blocks, you need to add :lang sicp in the Org block, like so:\n #+begin_src racket :lang sicp\n \"Hello World!\"\n #+end_src\nInstead of adding that to every code block, you can add #+property: header-args :lang sicp to the start of your Org file. This will be applied to all code blocks in the file, so make sure you include only racket code blocks This can be mitigated by specifying that these header-args are to be applied only to racket blocks, like so: #+property: header-args:racket :lang sicp."
+    "section": "Racket in Emacs",
+    "text": "Racket in Emacs\nPersonally, I recommend racket-mode for working with Racket in Emacs. Another popular choice is geiser, but its geiser-racket module seems to be unmaintained4.\nTo install racket-mode using elpaca, add the following to your config file:\n(use-package racket-mode\n  :elpaca t)"
   },
   {
-    "objectID": "posts/SICP in Emacs.html#result",
-    "href": "posts/SICP in Emacs.html#result",
+    "objectID": "posts/SICP in Emacs.html#racket-in-org-babel",
+    "href": "posts/SICP in Emacs.html#racket-in-org-babel",
     "title": "SICP in Emacs",
-    "section": "Result",
-    "text": "Result\nAfter all this work, now we can finally start reading SICP. My so-far workflow consists of the book in the left window, a racket REPL in the top-right corner and my Org-Roam notes in the bottom-right corner.\n\n\n\nMy SICP studying workflow\n\n\nWhen it comes to the exercises, I use Org-Mode and Org-Babel to write the solutions in a literate programming style. The file is divided by chapter. Each exercise is included followed by its (hopefully correct) solution. (So far) I use a single .org file and export it to PDF. Also, all of the code blocks are exported to a .rkt file, with links to the corresponding position in the org file. All of these files can be found at this repo.\n\n\n\nMy SICP solutions in literate programming"
-  },
-  {
-    "objectID": "posts/SICP in Emacs.html#miscellaneous-tips",
-    "href": "posts/SICP in Emacs.html#miscellaneous-tips",
-    "title": "SICP in Emacs",
-    "section": "Miscellaneous tips",
-    "text": "Miscellaneous tips\n\nUpdate 07/06/2023: As u/jherrlin on Reddit pointed out, the fact that SICP is in text format gives us the ability to leverage Emacs’ built-in bookmarks feature. When you arrive to the end of your study session, just type C-x r mC-x r m and a bookmark will be placed on the current line. You can search your bookmarks with C-x r bC-x r b or list them with C-x r lC-x r l.\nMy tip is to name the bookmark the same each time (e.g. sicp). That way, when you re-create it in a later position, the old bookmark is discarded automatically. Also, if you run Emacs in daemon mode, I suggest to run M-xM-x bookmark-save after adding a bookmark, to make sure it has been saved."
+    "section": "Racket in Org-Babel",
+    "text": "Racket in Org-Babel\nIn case you choose to go the literate programming route (as I have) using Org-Mode, you will need to enable support for racket in org-babel. To do this, use the emacs-ob-racket package. Add the following to your config:\n(use-package ob-racket\n  :elpaca (:type git :host github :repo \"hasu/emacs-ob-racket\"))\nand then enable racket in your org-babel configuration.\n(org-babel-do-load-languages\n 'org-babel-load-languages\n '((emacs-lisp :tangle ./init.el . t)\n   (C . t)\n   (python . t)\n   ...\n   (racket . t)))\nTo be able to use the sicp package in org-babel code blocks, you need to add :lang sicp in the Org block, like so:\n #+begin_src racket :lang sicp\n \"Hello World!\"\n #+end_src\nInstead of adding that to every code block, you can add #+property: header-args :lang sicp to the start of your Org file. This will be applied to all code blocks in the file, so make sure you include only racket code blocks This can be mitigated by specifying that these header-args are to be applied only to racket blocks, like so: #+property: header-args:racket :lang sicp."
   },
   {
     "objectID": "posts/SICP in Emacs.html#footnotes",

@@ -10,7 +10,6 @@ kudos: false
 aliases:
   - 20250401225131-914c
 ---
-- [About](/about.md)
 - [Now](/now.md)
 - [Notes](/notes.md)
 - [Reading](/booklist.md)
