@@ -9,11 +9,12 @@ website:
   title: "Konstantinos Chousos"
   site-url: "https://kchousos.github.io"
   favicon: './icons/favicon.ico'
-  image: './static/cover.png'
   description: "Personal site of Konstantinos Chousos, AI/Security Researcher"
   bread-crumbs: true
-  open-graph: true
-  twitter-card: true
+  open-graph:
+    image: './static/cover.png'
+  twitter-card:
+    image: './static/cover.png'
   navbar:
     logo: './icons/favicon-32x32.png'
     right:
