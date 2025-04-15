@@ -19,3 +19,9 @@ kbd {
     border: 0;
     color: inherit;
 }
+
+@media (max-width: 991.98px) {
+  div.quarto-about-solana .about-entity {
+    text-align: left;
+  }
+}

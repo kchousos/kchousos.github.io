@@ -1,31 +1,31 @@
 [
   {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Konstantinos Chousos",
     "section": "",
-    "text": "Course notes\n\n\n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\nCategories\n\n\n\n\n\n\n\n\nNumber Theory\n\n\nFeb 8, 2025\n\n\npdf, greek, course\n\n\n\n\n\n\nMulti-variable Calculus\n\n\nFeb 8, 2025\n\n\npdf, greek, course\n\n\n\n\n\n\nGame Theory\n\n\nFeb 8, 2025\n\n\npdf, greek, course\n\n\n\n\n\n\nCryptography\n\n\nDec 24, 2024\n\n\npdf, greek, course\n\n\n\n\n\n\nNo matching items\n\n\n\nPresentations\n\nIntro to OSS-Fuzz-Gen (part of thesis)"
+    "text": "AI/Security Researcher @ DIT, UoA"
   },
   {
-    "objectID": "notes/Game Theory notes 2024.html",
-    "href": "notes/Game Theory notes 2024.html",
-    "title": "Game Theory",
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Posts",
     "section": "",
-    "text": "My notes for the “MATH271 Θεωρία Παιγνίων και Εφαρμογές” course [1] during the 2024 Winter semester.\n\n\nDirect link"
+    "text": "BIOS update for Lenovo laptop on Linux\n\n\n\nsoftware\n\nhardware\n\nBIOS\n\n\n\n\n\n\n\n\n\nDec 25, 2024\n\n2 min\n\n\n\n\n\n\nSICP in Emacs\n\n\n\nlisp\n\nemacs\n\nbook\n\n\n\n\n\n\n\n\n\nJun 7, 2023\n\n6 min\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "notes/Calculus notes 2024.html",
-    "href": "notes/Calculus notes 2024.html",
-    "title": "Multi-variable Calculus",
+    "objectID": "booklist.html",
+    "href": "booklist.html",
+    "title": "Reading",
     "section": "",
-    "text": "My notes for the “K06 Ανάλυση ΙΙ” course [1] during the 2024 Winter semester.\n\n\nDirect link"
+    "text": "2025\n\n\n\n\n\n\n\n\nTitle\nAuthor\nRating\n\n\n\n\nDune Messiah\nFrank Herbert\n⭐⭐⭐⭐⭐\n\n\nDigital Zettelkasten\nDavid Kadavy\n⭐⭐⭐\n\n\nModern Technical Writing\nAndrew Etter\n⭐⭐⭐\n\n\nA System for Writing\nBob Doto\n⭐⭐⭐⭐\n\n\nDune\nFrank Herbert\n⭐⭐⭐⭐⭐\n\n\nHow to Write a Thesis\nUmberto Eco\n⭐⭐⭐\n\n\nThe Halfling’s Gem\nR.A. Salvatore\n⭐⭐\n\n\nOn Bullshit\nHarry G. Frankfurt\n⭐⭐\n\n\nΟ Θείος Πέτρος και η Εικασία του Γκόλντμπαχ\nΑπόστολος Δοξιάδης\n⭐⭐⭐⭐\n\n\nNotes from Underground\nFyodor Dostoevsky\n⭐⭐⭐⭐\n\n\nΕυθύφρων\nΠλάτωνας\n⭐⭐⭐⭐\n\n\nStreams of Silver\nR.A. Salvatore\n⭐⭐⭐\n\n\n\n\n\n2024\n\n\n\n\n\n\n\n\nTitle\nAuthor\nRating\n\n\n\n\nThe Housekeeper and the Professor\nYoko Ogawa\n⭐⭐⭐\n\n\nThe Crystal Shard\nR.A. Salvatore\n⭐⭐⭐⭐\n\n\nSojourn\nR.A. Salvatore\n⭐⭐⭐⭐\n\n\nExile\nR.A. Salvatore\n⭐⭐⭐\n\n\nIn Praise of Idleness\nBertrand Russell\n⭐⭐\n\n\nYou and Your Research\nRichard W. Hamming\n⭐⭐⭐⭐\n\n\nHomeland\nR. A. Salvatore\n⭐⭐⭐⭐⭐\n\n\nLetter to His Father\nFranz Kafka\n⭐⭐\n\n\nΛι\nΝίκος Καββαδίας\n⭐⭐️\n\n\nThe Music of the Primes\nMarcus du Sautoy\n⭐⭐⭐\n\n\nChanging Planes\nUrsula K. Le Guin\nDNF\n\n\nDune\nFrank Herbert\nDNF\n\n\nHow to Write a Thesis\nUmberto Eco\nDNF\n\n\nCalculus Made Easy\nSilvanus Phillips Thompson\nDNF\n\n\nWhere Wizards Stay Up Late: The Origins of the Internet\nKatie Hafner & Matthew Lyon\nDNF\n\n\nNotes from Underground\nFyodor Dostoevsky\nDNF\n\n\n\n\n\n-2023\n\nTODO"
   },
   {
-    "objectID": "now.html",
-    "href": "now.html",
-    "title": "Now",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "(This is a now page, and if you have your own site, you should make one, too.)\nLast updated: March 30, 2025\n\n\nWorking on\n\nAn open-source platform for Resilient sECure digITAL identitieS | RECITALS Project\nAutomated fuzz targets generation through LLMs\n\n\n\nReading\n\nDune Messiah, Frank Herbert\nThe PARA Method, Tiago Forte\n\n\n\nListening\n\nThe New Sound, Geordie Greep\nAll Greece for Mikis, Μίκης Θεοδωράκης, Παναγής Μπαρμπάτης\nInspiration, Yngwie Malmsteen\n\n\n\nWatching\n\nThe Sopranos (rewatch)\nHalt and Catch Fire"
+    "text": "RECITALS\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
   },
   {
     "objectID": "posts/SICP in Emacs.html",
@@ -63,46 +63,39 @@
     "text": "Footnotes\n\n\nhttps://www.gnu.org/software/texinfo/↩︎\nhttps://melpa.org/#/sicp↩︎\nwhen using the REPL, we need to first evaluate (require sicp) before evaluating anything else.↩︎\nhttps://lists.nongnu.org/archive/html/geiser-users/2022-06/msg00004.html↩︎"
   },
   {
-    "objectID": "booklist.html",
-    "href": "booklist.html",
-    "title": "Reading",
+    "objectID": "notes/Cryptography notes 2024.html",
+    "href": "notes/Cryptography notes 2024.html",
+    "title": "Cryptography",
     "section": "",
-    "text": "2025\n\n\n\n\n\n\n\n\nTitle\nAuthor\nRating\n\n\n\n\nDune Messiah\nFrank Herbert\n⭐⭐⭐⭐⭐\n\n\nDigital Zettelkasten\nDavid Kadavy\n⭐⭐⭐\n\n\nModern Technical Writing\nAndrew Etter\n⭐⭐⭐\n\n\nA System for Writing\nBob Doto\n⭐⭐⭐⭐\n\n\nDune\nFrank Herbert\n⭐⭐⭐⭐⭐\n\n\nHow to Write a Thesis\nUmberto Eco\n⭐⭐⭐\n\n\nThe Halfling’s Gem\nR.A. Salvatore\n⭐⭐\n\n\nOn Bullshit\nHarry G. Frankfurt\n⭐⭐\n\n\nΟ Θείος Πέτρος και η Εικασία του Γκόλντμπαχ\nΑπόστολος Δοξιάδης\n⭐⭐⭐⭐\n\n\nNotes from Underground\nFyodor Dostoevsky\n⭐⭐⭐⭐\n\n\nΕυθύφρων\nΠλάτωνας\n⭐⭐⭐⭐\n\n\nStreams of Silver\nR.A. Salvatore\n⭐⭐⭐\n\n\n\n\n\n2024\n\n\n\n\n\n\n\n\nTitle\nAuthor\nRating\n\n\n\n\nThe Housekeeper and the Professor\nYoko Ogawa\n⭐⭐⭐\n\n\nThe Crystal Shard\nR.A. Salvatore\n⭐⭐⭐⭐\n\n\nSojourn\nR.A. Salvatore\n⭐⭐⭐⭐\n\n\nExile\nR.A. Salvatore\n⭐⭐⭐\n\n\nIn Praise of Idleness\nBertrand Russell\n⭐⭐\n\n\nYou and Your Research\nRichard W. Hamming\n⭐⭐⭐⭐\n\n\nHomeland\nR. A. Salvatore\n⭐⭐⭐⭐⭐\n\n\nLetter to His Father\nFranz Kafka\n⭐⭐\n\n\nΛι\nΝίκος Καββαδίας\n⭐⭐️\n\n\nThe Music of the Primes\nMarcus du Sautoy\n⭐⭐⭐\n\n\nChanging Planes\nUrsula K. Le Guin\nDNF\n\n\nDune\nFrank Herbert\nDNF\n\n\nHow to Write a Thesis\nUmberto Eco\nDNF\n\n\nCalculus Made Easy\nSilvanus Phillips Thompson\nDNF\n\n\nWhere Wizards Stay Up Late: The Origins of the Internet\nKatie Hafner & Matthew Lyon\nDNF\n\n\nNotes from Underground\nFyodor Dostoevsky\nDNF\n\n\n\n\n\n-2023\n\nTODO"
+    "text": "My notes for the “ΘΠ05 Κρυπτογραφία” course [1], [2] during the 2024 Spring semester.\n\n\nDirect link"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "notes/Calculus notes 2024.html",
+    "href": "notes/Calculus notes 2024.html",
+    "title": "Multi-variable Calculus",
     "section": "",
-    "text": "Hello, welcome to my personal site!\nMy name is Konstantinos Chousos. I am an AI/Security researcher, member of the UoA AI team."
+    "text": "My notes for the “K06 Ανάλυση ΙΙ” course [1] during the 2024 Winter semester.\n\n\nDirect link"
   },
   {
-    "objectID": "about.html#why-does-it-exist",
-    "href": "about.html#why-does-it-exist",
-    "title": "About",
-    "section": "Why does it exist?",
-    "text": "Why does it exist?\nThis site could be categorized as an e/n website.\n\nThe website’s content means everything to the publisher, but it could mean nothing to the rest of the world.\n\nThe content is/will be varied and will basically showcase whatever I find helpful and/or interesting, hoping that someone somewhere will find it useful."
-  },
-  {
-    "objectID": "about.html#how-is-it-built",
-    "href": "about.html#how-is-it-built",
-    "title": "About",
-    "section": "How is it built?",
-    "text": "How is it built?\nThis site is generated by Quarto. The posts are written in Markdown. Github-Pages is used for hosting. You can find the source code of this site on my github."
-  },
-  {
-    "objectID": "about.html#footnotes",
-    "href": "about.html#footnotes",
-    "title": "About",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nhttps://cordis.europa.eu/project/id/101168490↩︎\nhttps://recitals-project.eu/↩︎\nhttps://www.youtube.com/watch?v=QJvTAZme7-I↩︎\nhttps://www.youtube.com/watch?v=QgDGL_61noU↩︎"
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Posts",
+    "objectID": "notes/Number Theory notes 2024.html",
+    "href": "notes/Number Theory notes 2024.html",
+    "title": "Number Theory",
     "section": "",
-    "text": "BIOS update for Lenovo laptop on Linux\n\n\n\nsoftware\n\nhardware\n\nBIOS\n\n\n\n\n\n\n\n\n\nDec 25, 2024\n\n2 min\n\n\n\n\n\n\nSICP in Emacs\n\n\n\nlisp\n\nemacs\n\nbook\n\n\n\n\n\n\n\n\n\nJun 7, 2023\n\n6 min\n\n\n\n\nNo matching items"
+    "text": "My notes for the “ΘΠ08 Θεωρία Αριθμών” course [1] during the 2024 Spring semester.\n\n\nDirect link"
+  },
+  {
+    "objectID": "notes/Game Theory notes 2024.html",
+    "href": "notes/Game Theory notes 2024.html",
+    "title": "Game Theory",
+    "section": "",
+    "text": "My notes for the “MATH271 Θεωρία Παιγνίων και Εφαρμογές” course [1] during the 2024 Winter semester.\n\n\nDirect link"
+  },
+  {
+    "objectID": "posts/Lenovo BIOS Linux.html",
+    "href": "posts/Lenovo BIOS Linux.html",
+    "title": "BIOS update for Lenovo laptop on Linux",
+    "section": "",
+    "text": "Updating your BIOS is often perceived as a straightforward task. You run an .exe file, you wait a minute or two, your screen flashes and poof, you’re done. This at least is the Lenovo Experience™ with their BIOS update wizards.\nBut what if your laptop is running Linux? Then the only way to use these .exe files would be to dual boot with a Windows partition. Unfortunately, this is not acceptable for most.\nThe easiest solution I came to find was instead of using a normal Windows installation, I could run the update from a live CD Windows image, specifically Hiren’s BootCD PE. From their homepage:\n\nHiren’s BootCD PE (Preinstallation Environment) is a restored edition of Hiren’s BootCD based on Windows 11 PE x64. Given the absence of official updates after November 2012, the PE version is currently under development by the fans of Hiren’s BootCD. It includes a carefully chosen set of the best free tools, designed for modern computers that support UEFI booting and need at least 4 GB of RAM.\n\nIt is a very interesting project and one that in my case came in very handy. The only problem I faced was that the laptop wouldn’t connect to Wi-Fi and thus I wasn’t able to download the .exe file. My solution was copying the update executable to another USB from which I transferred it to the live image. Simply executing the file worked correctly and the update was successful!\nHope this short post will be helpful to anyone facing a similar problem :).\n\n\n\n\n\n\n\nReuseCC BY 4.0CitationBibTeX citation:@online{chousos2024,\n  author = {Chousos, Konstantinos},\n  title = {BIOS Update for {Lenovo} Laptop on {Linux}},\n  date = {2024-12-25},\n  url = {https://kchousos.github.io/posts/Lenovo BIOS Linux.html},\n  langid = {en}\n}"
   },
   {
     "objectID": "copyright.html",
@@ -133,31 +126,45 @@
     "text": "Contact\nFor inquiries about this disclaimer or any other concerns, feel free to reach out to me at 𝕏 or by email."
   },
   {
-    "objectID": "posts/Lenovo BIOS Linux.html",
-    "href": "posts/Lenovo BIOS Linux.html",
-    "title": "BIOS update for Lenovo laptop on Linux",
+    "objectID": "now.html",
+    "href": "now.html",
+    "title": "Now",
     "section": "",
-    "text": "Updating your BIOS is often perceived as a straightforward task. You run an .exe file, you wait a minute or two, your screen flashes and poof, you’re done. This at least is the Lenovo Experience™ with their BIOS update wizards.\nBut what if your laptop is running Linux? Then the only way to use these .exe files would be to dual boot with a Windows partition. Unfortunately, this is not acceptable for most.\nThe easiest solution I came to find was instead of using a normal Windows installation, I could run the update from a live CD Windows image, specifically Hiren’s BootCD PE. From their homepage:\n\nHiren’s BootCD PE (Preinstallation Environment) is a restored edition of Hiren’s BootCD based on Windows 11 PE x64. Given the absence of official updates after November 2012, the PE version is currently under development by the fans of Hiren’s BootCD. It includes a carefully chosen set of the best free tools, designed for modern computers that support UEFI booting and need at least 4 GB of RAM.\n\nIt is a very interesting project and one that in my case came in very handy. The only problem I faced was that the laptop wouldn’t connect to Wi-Fi and thus I wasn’t able to download the .exe file. My solution was copying the update executable to another USB from which I transferred it to the live image. Simply executing the file worked correctly and the update was successful!\nHope this short post will be helpful to anyone facing a similar problem :).\n\n\n\n\n\n\n\nReuseCC BY 4.0CitationBibTeX citation:@online{chousos2024,\n  author = {Chousos, Konstantinos},\n  title = {BIOS Update for {Lenovo} Laptop on {Linux}},\n  date = {2024-12-25},\n  url = {https://kchousos.github.io/posts/Lenovo BIOS Linux.html},\n  langid = {en}\n}"
+    "text": "(This is a now page, and if you have your own site, you should make one, too.)\nLast updated: March 30, 2025\n\n\nWorking on\n\nAn open-source platform for Resilient sECure digITAL identitieS | RECITALS Project\nAutomated fuzz targets generation through LLMs\n\n\n\nReading\n\nDune Messiah, Frank Herbert\nThe PARA Method, Tiago Forte\n\n\n\nListening\n\nThe New Sound, Geordie Greep\nAll Greece for Mikis, Μίκης Θεοδωράκης, Παναγής Μπαρμπάτης\nInspiration, Yngwie Malmsteen\n\n\n\nWatching\n\nThe Sopranos (rewatch)\nHalt and Catch Fire"
   },
   {
-    "objectID": "notes/Number Theory notes 2024.html",
-    "href": "notes/Number Theory notes 2024.html",
-    "title": "Number Theory",
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
     "section": "",
-    "text": "My notes for the “ΘΠ08 Θεωρία Αριθμών” course [1] during the 2024 Spring semester.\n\n\nDirect link"
+    "text": "Course notes\n\n\n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDate\n\n\n\nCategories\n\n\n\n\n\n\n\n\nNumber Theory\n\n\nFeb 8, 2025\n\n\npdf, greek, course\n\n\n\n\n\n\nMulti-variable Calculus\n\n\nFeb 8, 2025\n\n\npdf, greek, course\n\n\n\n\n\n\nGame Theory\n\n\nFeb 8, 2025\n\n\npdf, greek, course\n\n\n\n\n\n\nCryptography\n\n\nDec 24, 2024\n\n\npdf, greek, course\n\n\n\n\n\n\nNo matching items\n\n\n\nPresentations\n\nIntro to OSS-Fuzz-Gen (part of thesis)"
   },
   {
-    "objectID": "notes/Cryptography notes 2024.html",
-    "href": "notes/Cryptography notes 2024.html",
-    "title": "Cryptography",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "My notes for the “ΘΠ05 Κρυπτογραφία” course [1], [2] during the 2024 Spring semester.\n\n\nDirect link"
+    "text": "Hello, welcome to my personal site!\nMy name is Konstantinos Chousos. I am an AI/Security researcher, member of the UoA AI team."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Konstantinos Chousos",
-    "section": "",
-    "text": "AI/Security Researcher @ DIT, UoA"
+    "objectID": "about.html#why-does-it-exist",
+    "href": "about.html#why-does-it-exist",
+    "title": "About",
+    "section": "Why does it exist?",
+    "text": "Why does it exist?\nThis site could be categorized as an e/n website.\n\nThe website’s content means everything to the publisher, but it could mean nothing to the rest of the world.\n\nThe content is/will be varied and will basically showcase whatever I find helpful and/or interesting, hoping that someone somewhere will find it useful."
+  },
+  {
+    "objectID": "about.html#how-is-it-built",
+    "href": "about.html#how-is-it-built",
+    "title": "About",
+    "section": "How is it built?",
+    "text": "How is it built?\nThis site is generated by Quarto. The posts are written in Markdown. Github-Pages is used for hosting. You can find the source code of this site on my github."
+  },
+  {
+    "objectID": "about.html#footnotes",
+    "href": "about.html#footnotes",
+    "title": "About",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nhttps://cordis.europa.eu/project/id/101168490↩︎\nhttps://recitals-project.eu/↩︎\nhttps://www.youtube.com/watch?v=QJvTAZme7-I↩︎\nhttps://www.youtube.com/watch?v=QgDGL_61noU↩︎"
   }
 ]

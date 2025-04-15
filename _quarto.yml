@@ -21,6 +21,7 @@ website:
     right:
       - about.md
       - now.md
+      # - projects.md
       - posts.md
       - resources.md
       - booklist.md

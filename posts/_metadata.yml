@@ -33,6 +33,7 @@ format:
   pdf:
     default: true
     standalone: true
+    date-format: long
     cite-method: biblatex
     mainfont: "Libertinus Serif"
     mainfontfallback:
