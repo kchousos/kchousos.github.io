@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kchousos.github.io/index.html</loc>
-    <lastmod>2025-04-14T14:15:44.497Z</lastmod>
+    <loc>https://kchousos.github.io/about.html</loc>
+    <lastmod>2025-04-14T15:49:48.921Z</lastmod>
   </url>
   <url>
     <loc>https://kchousos.github.io/posts.html</loc>
     <lastmod>2025-04-14T00:06:51.779Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/booklist.html</loc>
-    <lastmod>2025-04-08T17:19:41.607Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/projects.html</loc>
-    <lastmod>2025-04-14T16:10:12.821Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/posts/SICP in Emacs.html</loc>
-    <lastmod>2025-04-14T13:45:26.381Z</lastmod>
   </url>
   <url>
     <loc>https://kchousos.github.io/notes/Cryptography notes 2024.html</loc>
@@ -29,6 +17,34 @@
     <lastmod>2025-04-14T15:50:26.624Z</lastmod>
   </url>
   <url>
+    <loc>https://kchousos.github.io/copyright.html</loc>
+    <lastmod>2025-04-06T15:51:22.391Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kchousos.github.io/booklist.html</loc>
+    <lastmod>2025-04-08T17:19:41.607Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kchousos.github.io/posts/SICP in Emacs.html</loc>
+    <lastmod>2025-04-14T13:45:26.381Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kchousos.github.io/posts/Lenovo BIOS Linux.html</loc>
+    <lastmod>2025-04-14T02:35:24.197Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kchousos.github.io/resources.html</loc>
+    <lastmod>2025-04-14T11:46:59.033Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kchousos.github.io/now.html</loc>
+    <lastmod>2025-04-15T18:11:50.926Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kchousos.github.io/index.html</loc>
+    <lastmod>2025-04-14T14:15:44.497Z</lastmod>
+  </url>
+  <url>
     <loc>https://kchousos.github.io/notes/Number Theory notes 2024.html</loc>
     <lastmod>2025-04-14T15:50:09.250Z</lastmod>
   </url>
@@ -37,23 +53,7 @@
     <lastmod>2025-04-14T15:50:15.067Z</lastmod>
   </url>
   <url>
-    <loc>https://kchousos.github.io/posts/Lenovo BIOS Linux.html</loc>
-    <lastmod>2025-04-14T02:35:24.197Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/copyright.html</loc>
-    <lastmod>2025-04-06T15:51:22.391Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/now.html</loc>
-    <lastmod>2025-04-13T22:07:06.502Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/resources.html</loc>
-    <lastmod>2025-04-14T11:46:59.033Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/about.html</loc>
-    <lastmod>2025-04-14T15:49:48.921Z</lastmod>
+    <loc>https://kchousos.github.io/projects.html</loc>
+    <lastmod>2025-04-14T16:10:12.821Z</lastmod>
   </url>
 </urlset>
