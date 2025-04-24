@@ -5,17 +5,13 @@ aliases:
   - διαβασμένα βιβλία
   - read list
   - 20250327163227-36ea
-tags:
-  - book
 title: Reading
-showtoc: false
-hideMeta: true
 ---
 # 2025
 
 | Title                                           | Author             | Rating |
 | ----------------------------------------------- | ------------------ | ------ |
-| **Dune Messiah**                                        | Frank Herbert      | ⭐⭐⭐⭐⭐  |
+| **Dune Messiah**                                | Frank Herbert      | ⭐⭐⭐⭐⭐  |
 | **Digital Zettelkasten**                        | David Kadavy       | ⭐⭐⭐    |
 | **Modern Technical Writing**                    | Andrew Etter       | ⭐⭐⭐    |
 | **A System for Writing**                        | Bob Doto           | ⭐⭐⭐⭐   |

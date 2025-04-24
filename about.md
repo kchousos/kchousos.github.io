@@ -16,7 +16,7 @@ I am nearing the end of my undergraduate studies at the [Department of Informati
 
 I am mainly interested in AI and its applications, software security and cryptography. Miscellaneous interests of mine include functional programming, typesetting/$\LaTeX$, Linux systems, human-computer interaction and CS-adjacent mathematics.
 
-Aside from computer science, my second passion is music. I play classical guitar, in which I acquired a diploma in January of 2023 from the national conservatory of Greece. I am also a member of the Vox Fortis choir^[<https://www.youtube.com/watch?v=QJvTAZme7-I>] ^[<https://www.youtube.com/watch?v=QgDGL_61noU>], with appearances in places such as the Athens Concert Hall and the Odeon of Herodes Atticus.
+Aside from computer science, my second passion is music. I play classical guitar, in which I acquired a diploma in January of 2023 from the national conservatory of Greece^[<https://youtu.be/Ca1J-dLcY44?si=NhWsm8AFgrS_dYx4>]. I am also a member of the Vox Fortis choir^[<https://www.youtube.com/watch?v=QJvTAZme7-I>] ^[<https://www.youtube.com/watch?v=QgDGL_61noU>], with appearances in places such as the Athens Concert Hall and the Odeon of Herodes Atticus.
 
 Lastly, I'm currently re-learning to draw, following the [DrawABox](https://drawabox.com) course. I've been making progress and I look forward to improving my drawing skills furthermore. I used to draw a lot during primary school, and I was quite good at it too. So. I'm excited to get back at it.
 
