@@ -4,16 +4,14 @@ project:
   post-render:
     # - "cp -rv static/. docs/"
     - "ln -sf posts.xml docs/index.xml"
+    - "cp icons/favicon.ico docs/"
 
 website:
   title: "Konstantinos Chousos"
   site-url: "https://kchousos.github.io"
-  favicon: './icons/favicon.ico'
   description: "Personal site of Konstantinos Chousos, AI/Security Researcher"
   bread-crumbs: true
   open-graph:
-    image: '/static/cover.jpg'
-  twitter-card:
     image: '/static/cover.jpg'
   search: false
   navbar:

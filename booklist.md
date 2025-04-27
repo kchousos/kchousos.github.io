@@ -11,6 +11,7 @@ title: Reading
 
 | Title                                           | Author             | Rating |
 | ----------------------------------------------- | ------------------ | ------ |
+| **The PARA Method**                             | Tiago Forte        | ⭐⭐⭐    |
 | **Dune Messiah**                                | Frank Herbert      | ⭐⭐⭐⭐⭐  |
 | **Digital Zettelkasten**                        | David Kadavy       | ⭐⭐⭐    |
 | **Modern Technical Writing**                    | Andrew Etter       | ⭐⭐⭐    |

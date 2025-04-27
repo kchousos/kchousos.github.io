@@ -3,21 +3,23 @@ title: Now
 kudos: false
 aliases:
   - 20250402000310-c5a5
-date-modified: 04-15-2025
+date-modified: 2025-04-26
 ---
 <center> 
-(This is [a now page](https://nownownow.com/about), and if you have your own site, [you should make one](https://nownownow.com/about), too.)
+<p>
+  (This is <a href="https://nownownow.com/about">a now page</a>, and if you have your own site, 
+  <a href="https://nownownow.com/about">you should make one</a>, too.)
+</p>
 </center> 
 
 # Working on
 
 - [An open-source platform for Resilient sECure digITAL identitieS \| RECITALS Project](https://cordis.europa.eu/project/id/101168490)
-- Automated fuzz targets generation through LLMs
+- [Automated fuzz targets generation through LLMs](https://github.com/kchousos/llm-harness)
 
 # Reading
 
 - **Children of Dune**, Frank Herbert
-- **The PARA Method**, Tiago Forte
 
 # Listening
 
