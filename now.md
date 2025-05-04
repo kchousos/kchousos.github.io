@@ -1,9 +1,8 @@
 ---
 title: Now
-kudos: false
 aliases:
   - 20250402000310-c5a5
-date-modified: 2025-04-26
+date-modified: 2025-05-04
 ---
 <center> 
 <p>
@@ -19,14 +18,15 @@ date-modified: 2025-04-26
 
 # Reading
 
+- **The Bullet Journal Method**, Ryder Carroll
 - **Children of Dune**, Frank Herbert
 
 # Listening
 
-- **Reggatta de Blanc**, The Police
-- **Sierra Tracks**, Vega Trails
-- **DELUXE '70, V4**, Haircuts for Men
+- **Winter Nights**, Al Di Meola
+- **Bastion of Sanity**, David Binney
 
 # Watching
 
+- **Mad Men**
 - **The Sopranos** (rewatch)
