@@ -51,15 +51,13 @@ format:
     theme:
       light:
         - cosmo
-        - brand
         - styles.scss
       dark:
         - cosmo
-        - brand
         - styles.scss
         - styles-dark.scss
     respect-user-color-scheme: true
-    highlight-style: gruvbox-dark
+    highlight-style: arrow
     html-math-method: katex
     include-in-header:
       text: <script src="https://tinylytics.app/embed/bp9HPTzRCo35BgZSLJaf/min.js?kudos=❤️" defer></script>
