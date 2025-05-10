@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kchousos.github.io/about.html</loc>
-    <lastmod>2025-04-28T13:45:47.612Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/posts.html</loc>
-    <lastmod>2025-04-23T09:21:12.771Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/notes/Cryptography notes 2024.html</loc>
-    <lastmod>2025-04-23T09:21:12.770Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/notes/Calculus notes 2024.html</loc>
-    <lastmod>2025-04-23T09:21:12.769Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/copyright.html</loc>
-    <lastmod>2025-04-23T09:21:12.692Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/booklist.html</loc>
-    <lastmod>2025-04-26T09:49:58.990Z</lastmod>
+    <loc>https://kchousos.github.io/resources.html</loc>
+    <lastmod>2025-05-08T09:56:28.253Z</lastmod>
   </url>
   <url>
     <loc>https://kchousos.github.io/posts/SICP in Emacs.html</loc>
-    <lastmod>2025-04-24T20:29:22.042Z</lastmod>
+    <lastmod>2025-05-10T15:43:45.269Z</lastmod>
   </url>
   <url>
-    <loc>https://kchousos.github.io/posts/Lenovo BIOS Linux.html</loc>
-    <lastmod>2025-04-23T09:21:12.771Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/resources.html</loc>
-    <lastmod>2025-04-23T09:21:12.772Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/now.html</loc>
-    <lastmod>2025-05-04T16:07:39.831Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/index.html</loc>
-    <lastmod>2025-04-23T09:21:12.769Z</lastmod>
+    <loc>https://kchousos.github.io/posts.html</loc>
+    <lastmod>2025-05-08T09:56:28.253Z</lastmod>
   </url>
   <url>
     <loc>https://kchousos.github.io/notes/Number Theory notes 2024.html</loc>
-    <lastmod>2025-04-23T09:21:12.770Z</lastmod>
+    <lastmod>2025-05-08T09:56:28.253Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kchousos.github.io/notes/Cryptography notes 2024.html</loc>
+    <lastmod>2025-05-08T09:56:28.253Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kchousos.github.io/index.html</loc>
+    <lastmod>2025-05-08T09:56:28.252Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kchousos.github.io/booklist.html</loc>
+    <lastmod>2025-05-08T09:56:28.196Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kchousos.github.io/about.html</loc>
+    <lastmod>2025-05-08T09:56:28.196Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kchousos.github.io/copyright.html</loc>
+    <lastmod>2025-05-08T09:56:28.196Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kchousos.github.io/notes/Calculus notes 2024.html</loc>
+    <lastmod>2025-05-08T09:56:28.252Z</lastmod>
   </url>
   <url>
     <loc>https://kchousos.github.io/notes/Game Theory notes 2024.html</loc>
-    <lastmod>2025-04-23T09:21:12.770Z</lastmod>
+    <lastmod>2025-05-08T09:56:28.253Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kchousos.github.io/now.html</loc>
+    <lastmod>2025-05-08T09:56:28.253Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kchousos.github.io/posts/Lenovo BIOS Linux.html</loc>
+    <lastmod>2025-05-08T09:56:28.253Z</lastmod>
   </url>
   <url>
     <loc>https://kchousos.github.io/projects.html</loc>
-    <lastmod>2025-04-23T09:21:12.772Z</lastmod>
+    <lastmod>2025-05-08T09:56:28.253Z</lastmod>
   </url>
 </urlset>

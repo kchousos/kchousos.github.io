@@ -10,7 +10,7 @@ draft: false
 aliases:
   - 20250327191659-148e
 ---
-I recently began reading the notorious "Structure and Interpretation of Computer Programs" [@abelsonStructureInterpretationComputer2002], a.k.a. the _Wizard book_. I'm only on the first chapter, but I can already see its value and why it gets recommended so much.
+I recently began reading the notorious "Structure and Interpretation of Computer Programs" [@sicp], a.k.a. the _Wizard book_. I'm only on the first chapter, but I can already see its value and why it gets recommended so much.
 
 From Wikipedia:
 
@@ -18,7 +18,7 @@ From Wikipedia:
 > [...]
 > The book describes computer science concepts using Scheme, a dialect of Lisp. It also uses a virtual register machine and assembler to implement Lisp interpreters and compilers.
 
-In this post, I aim to showcase my workflow for studying the book using Emacs [@stallmanEMACSExtensibleCustomizable1981]. Also, I will provide any resources that helped me get going. To study SICP, we need two things: The book and a Scheme implementation for the examples and exercises.
+In this post, I aim to showcase my workflow for studying the book using Emacs [@emacs]. Also, I will provide any resources that helped me get going. To study SICP, we need two things: The book and a Scheme implementation for the examples and exercises.
 
 # Getting the book
 
