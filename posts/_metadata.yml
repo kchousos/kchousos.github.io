@@ -30,6 +30,7 @@ copyright:
 format:
   html:
     default: true
+    reference-location: block
   pdf:
     default: true
     standalone: true

@@ -95,14 +95,14 @@
     "href": "posts/SICP in Emacs.html#obtaining-the-info-file",
     "title": "SICP in Emacs",
     "section": "Obtaining the info file",
-    "text": "Obtaining the info file\nThe info file can be retrieved in two methods:\n\nBy installing the sicp MELPA package2\nBy downloading the info file directly from neilvandyke.org and installing it.\n\nDownload the sicp.info.gz file (link) in your home directory.\nExecute the following commands\n$ sudo cp ~/sicp.info.gz /usr/local/share/info/\n$ sudo chmod 644 /usr/local/share/info/sicp.info.gz\n$ sudo install-info /usr/local/share/info/sicp.info.gz /usr/local/share/info/dir\n\n\nNow SICP will be available through Emacs! To access it, you need to open Emacs, type C-h iC-h i to go to the *info* top directory, type mm to search and type sicp to find the book. If everything went correctly, you should be greeted with something like this:\n\n\n\nSICP’s table of contents in `info` format, viewed from within Emacs"
+    "text": "Obtaining the info file\nThe info file can be retrieved in two methods:\n\nBy installing the sicp MELPA package2\nBy downloading the info file directly from neilvandyke.org and installing it.\n\nDownload the sicp.info.gz file (link) in your home directory.\nExecute the following commands\n$ sudo cp ~/sicp.info.gz /usr/local/share/info/\n$ sudo chmod 644 /usr/local/share/info/sicp.info.gz\n$ sudo install-info /usr/local/share/info/sicp.info.gz /usr/local/share/info/dir\n\n\n\n\nhttps://melpa.org/#/sicp↩︎\n\n\nNow SICP will be available through Emacs! To access it, you need to open Emacs, type C-h iC-h i to go to the *info* top directory, type mm to search and type sicp to find the book. If everything went correctly, you should be greeted with something like this:\n\n\n\nSICP’s table of contents in `info` format, viewed from within Emacs"
   },
   {
     "objectID": "posts/SICP in Emacs.html#racket-in-emacs",
     "href": "posts/SICP in Emacs.html#racket-in-emacs",
     "title": "SICP in Emacs",
     "section": "Racket in Emacs",
-    "text": "Racket in Emacs\nPersonally, I recommend racket-mode for working with Racket in Emacs. Another popular choice is geiser, but its geiser-racket module seems to be unmaintained4.\nTo install racket-mode using elpaca, add the following to your config file:\n(use-package racket-mode\n  :elpaca t)"
+    "text": "Racket in Emacs\nPersonally, I recommend racket-mode for working with Racket in Emacs. Another popular choice is geiser, but its geiser-racket module seems to be unmaintained4.\n\n\nhttps://lists.nongnu.org/archive/html/geiser-users/2022-06/msg00004.html↩︎\n\n\nTo install racket-mode using elpaca, add the following to your config file:\n(use-package racket-mode\n  :elpaca t)"
   },
   {
     "objectID": "posts/SICP in Emacs.html#racket-in-org-babel",
@@ -110,13 +110,6 @@
     "title": "SICP in Emacs",
     "section": "Racket in Org-Babel",
     "text": "Racket in Org-Babel\nIn case you choose to go the literate programming route (as I have) using Org-Mode, you will need to enable support for racket in org-babel. To do this, use the emacs-ob-racket package. Add the following to your config:\n(use-package ob-racket\n  :elpaca (:type git :host github :repo \"hasu/emacs-ob-racket\"))\nand then enable racket in your org-babel configuration.\n(org-babel-do-load-languages\n 'org-babel-load-languages\n '((emacs-lisp :tangle ./init.el . t)\n   (C . t)\n   (python . t)\n   ...\n   (racket . t)))\nTo be able to use the sicp package in org-babel code blocks, you need to add :lang sicp in the Org block, like so:\n #+begin_src racket :lang sicp\n \"Hello World!\"\n #+end_src\nInstead of adding that to every code block, you can add #+property: header-args :lang sicp to the start of your Org file. This will be applied to all code blocks in the file, so make sure you include only racket code blocks This can be mitigated by specifying that these header-args are to be applied only to racket blocks, like so: #+property: header-args:racket :lang sicp."
-  },
-  {
-    "objectID": "posts/SICP in Emacs.html#footnotes",
-    "href": "posts/SICP in Emacs.html#footnotes",
-    "title": "SICP in Emacs",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nhttps://www.gnu.org/software/texinfo/↩︎\nhttps://melpa.org/#/sicp↩︎\nwhen using the REPL, we need to first evaluate (require sicp) before evaluating anything else.↩︎\nhttps://lists.nongnu.org/archive/html/geiser-users/2022-06/msg00004.html↩︎"
   },
   {
     "objectID": "posts/Lenovo BIOS Linux.html",
