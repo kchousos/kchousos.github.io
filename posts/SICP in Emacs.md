@@ -10,7 +10,7 @@ draft: false
 aliases:
   - 20250327191659-148e
 ---
-I recently began reading the notorious "Structure and Interpretation of Computer Programs" [@abelsonStructureInterpretationComputer2002], a.k.a. the _Wizard book_. I'm only on the first chapter, but I can already see its value and why it gets recommended so much.
+I recently began reading the notorious "Structure and Interpretation of Computer Programs" [@sicp], a.k.a. the _Wizard book_. I'm only on the first chapter, but I can already see its value and why it gets recommended so much.
 
 From Wikipedia:
 
@@ -18,7 +18,7 @@ From Wikipedia:
 > [...]
 > The book describes computer science concepts using Scheme, a dialect of Lisp. It also uses a virtual register machine and assembler to implement Lisp interpreters and compilers.
 
-In this post, I aim to showcase my workflow for studying the book using Emacs [@stallmanEMACSExtensibleCustomizable1981]. Also, I will provide any resources that helped me get going. To study SICP, we need two things: The book and a Scheme implementation for the examples and exercises.
+In this post, I aim to showcase my workflow for studying the book using Emacs [@emacs]. Also, I will provide any resources that helped me get going. To study SICP, we need two things: The book and a Scheme implementation for the examples and exercises.
 
 # Getting the book
 
@@ -51,7 +51,7 @@ The `info` file can be retrieved in two methods:
 
 Now SICP will be available through Emacs! To access it, you need to open Emacs, type {{< kbd 'C-h i' >}} to go to the `*info*` top directory, type {{< kbd m >}} to search and type `sicp` to find the book. If everything went correctly, you should be greeted with something like this:
 
-![SICP's table of contents in \`info\` format, viewed from within Emacs](sicp%20in%20emacs.png)
+![SICP's table of contents in \`info\` format, viewed from within Emacs](../static/sicp%20in%20emacs.png)
 
 # Setting up Scheme
 
@@ -111,11 +111,11 @@ Instead of adding that to every code block, you can add `#+property: header-args
 
 After all this work, now we can finally start reading SICP. My so-far workflow consists of the book in the left window, a racket REPL in the top-right corner and my Org-Roam notes in the bottom-right corner.
 
-![My SICP studying workflow](sicp%20workflow.png)
+![My SICP studying workflow](../static/sicp%20workflow.png)
 
 When it comes to the exercises, I use Org-Mode and Org-Babel to write the solutions in a literate programming style. The file is divided by chapter. Each exercise is included followed by its (hopefully correct) solution. (So far) I use a single `.org` file and export it to PDF. Also, all of the code blocks are exported to a `.rkt` file, with links to the corresponding position in the org file. All of these files can be found at [this repo](https://github.com/kchousos/SICP-solutions).
 
-![My SICP solutions in literate programming](sicp%20literate%20notes.png)
+![My SICP solutions in literate programming](../static/sicp%20literate%20notes.png)
 
 # Miscellaneous tips
 
