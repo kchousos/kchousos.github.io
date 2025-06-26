@@ -8,22 +8,25 @@ title: Reading
 ---
 # 2025
 
-| Title                                           | Author             | Rating     |
-|-------------------------------------------------|--------------------|------------|
-| **The Bullet Journal Method**                   | Ryder Carroll      | ⭐⭐⭐⭐   |
-| **The PARA Method**                             | Tiago Forte        | ⭐⭐       |
-| **Dune Messiah**                                | Frank Herbert      | ⭐⭐⭐⭐⭐ |
-| **Digital Zettelkasten**                        | David Kadavy       | ⭐⭐⭐     |
-| **Modern Technical Writing**                    | Andrew Etter       | ⭐⭐⭐     |
-| **A System for Writing**                        | Bob Doto           | ⭐⭐⭐⭐   |
-| **Dune**                                        | Frank Herbert      | ⭐⭐⭐⭐⭐ |
-| **How to Write a Thesis**                       | Umberto Eco        | ⭐⭐⭐     |
-| **The Halfling's Gem**                          | R.A. Salvatore     | ⭐⭐       |
-| **On Bullshit**                                 | Harry G. Frankfurt | ⭐⭐       |
-| **Ο Θείος Πέτρος και η Εικασία του Γκόλντμπαχ** | Απόστολος Δοξιάδης | ⭐⭐⭐⭐   |
-| **Notes from Underground**                      | Fyodor Dostoevsky  | ⭐⭐⭐⭐   |
-| **Ευθύφρων**                                    | Πλάτωνας           | ⭐⭐⭐⭐   |
-| **Streams of Silver**                           | R.A. Salvatore     | ⭐⭐⭐     |
+| Title                                           | Author                      | Rating     |
+|-------------------------------------------------|-----------------------------|------------|
+| **The Time Machine**                            | H.G. Wells                  | ⭐⭐⭐     |
+| **How to Make Notes and Write**                 | Dan Allosso & S. F. Allosso | ⭐⭐⭐     |
+| **Children of Dune**                            | Frank Herbert               | ⭐⭐⭐     |
+| **The Bullet Journal Method**                   | Ryder Carroll               | ⭐⭐⭐⭐   |
+| **The PARA Method**                             | Tiago Forte                 | ⭐⭐       |
+| **Dune Messiah**                                | Frank Herbert               | ⭐⭐⭐⭐⭐ |
+| **Digital Zettelkasten**                        | David Kadavy                | ⭐⭐⭐     |
+| **Modern Technical Writing**                    | Andrew Etter                | ⭐⭐⭐     |
+| **A System for Writing**                        | Bob Doto                    | ⭐⭐⭐⭐   |
+| **Dune**                                        | Frank Herbert               | ⭐⭐⭐⭐⭐ |
+| **How to Write a Thesis**                       | Umberto Eco                 | ⭐⭐⭐     |
+| **The Halfling's Gem**                          | R.A. Salvatore              | ⭐⭐       |
+| **On Bullshit**                                 | Harry G. Frankfurt          | ⭐⭐       |
+| **Ο Θείος Πέτρος και η Εικασία του Γκόλντμπαχ** | Απόστολος Δοξιάδης          | ⭐⭐⭐⭐   |
+| **Notes from Underground**                      | Fyodor Dostoevsky           | ⭐⭐⭐⭐   |
+| **Ευθύφρων**                                    | Πλάτωνας                    | ⭐⭐⭐⭐   |
+| **Streams of Silver**                           | R.A. Salvatore              | ⭐⭐⭐     |
 
 # 2024
 
