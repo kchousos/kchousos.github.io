@@ -13,7 +13,7 @@ My name is Konstantinos Chousos. I am an AI/Security researcher, member of the [
 
 # About me
 
-I am nearing the end of my undergraduate studies at the [Department of Informatics and Telecommunications](https://www.di.uoa.gr/en) of the [University of Athens](https://en.uoa.gr/). Currently, I am working on my thesis under the guidance of prof. [Thanassis Avgerinos](https://ethan42.github.io/). I am also working on the RECITALS EU project^[<https://cordis.europa.eu/project/id/101168490>] ^[<https://recitals-project.eu/>], as part of prof. [Manolis Koubarakis'](https://cgi.di.uoa.gr/~koubarak/) team.
+I am nearing the end of my undergraduate studies at the [Department of Informatics and Telecommunications](https://www.di.uoa.gr/en) of the [University of Athens](https://en.uoa.gr/). Currently, I am working on my thesis under the guidance of prof. [Thanassis Avgerinos](https://cgi.di.uoa.gr/~thanassis/). I am also working on the RECITALS EU project^[<https://cordis.europa.eu/project/id/101168490>] ^[<https://recitals-project.eu/>], as part of prof. [Manolis Koubarakis'](https://cgi.di.uoa.gr/~koubarak/) team.
 
 I am mainly interested in AI and its applications, software security and cryptography. Miscellaneous interests of mine include functional programming, typesetting/$\LaTeX$, Linux systems, human-computer interaction and CS-adjacent mathematics.
 
