@@ -17,7 +17,3 @@ title-block-banner: true
 
 :::{#course-notes}
 :::
-
-# Presentations
-
-- [Intro to OSS-Fuzz-Gen](https://kchousos.github.io/ofg-presentation/) (part of thesis)

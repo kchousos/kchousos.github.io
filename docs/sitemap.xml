@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://kchousos.github.io/about.html</loc>
-    <lastmod>2025-07-10T11:24:03.602Z</lastmod>
+    <lastmod>2025-07-30T16:22:49.577Z</lastmod>
   </url>
   <url>
-    <loc>https://kchousos.github.io/posts.html</loc>
+    <loc>https://kchousos.github.io/notes/Game Theory notes 2024.html</loc>
     <lastmod>2025-05-06T22:11:19.702Z</lastmod>
   </url>
   <url>
-    <loc>https://kchousos.github.io/notes/Cryptography notes 2024.html</loc>
+    <loc>https://kchousos.github.io/notes/Number Theory notes 2024.html</loc>
     <lastmod>2025-05-06T22:11:19.702Z</lastmod>
   </url>
   <url>
-    <loc>https://kchousos.github.io/notes/Calculus notes 2024.html</loc>
+    <loc>https://kchousos.github.io/index.html</loc>
     <lastmod>2025-05-06T22:11:19.701Z</lastmod>
   </url>
   <url>
-    <loc>https://kchousos.github.io/copyright.html</loc>
-    <lastmod>2025-05-06T22:11:19.676Z</lastmod>
+    <loc>https://kchousos.github.io/now.html</loc>
+    <lastmod>2025-07-30T17:02:00.237Z</lastmod>
   </url>
   <url>
-    <loc>https://kchousos.github.io/booklist.html</loc>
-    <lastmod>2025-07-29T20:44:02.839Z</lastmod>
+    <loc>https://kchousos.github.io/research.html</loc>
+    <lastmod>2025-07-30T17:00:03.765Z</lastmod>
   </url>
   <url>
     <loc>https://kchousos.github.io/posts/SICP in Emacs.html</loc>
@@ -34,26 +34,26 @@
   </url>
   <url>
     <loc>https://kchousos.github.io/resources.html</loc>
-    <lastmod>2025-05-06T22:11:19.702Z</lastmod>
+    <lastmod>2025-07-30T16:12:47.486Z</lastmod>
   </url>
   <url>
-    <loc>https://kchousos.github.io/now.html</loc>
-    <lastmod>2025-05-06T22:11:19.702Z</lastmod>
+    <loc>https://kchousos.github.io/booklist.html</loc>
+    <lastmod>2025-07-29T20:44:02.839Z</lastmod>
   </url>
   <url>
-    <loc>https://kchousos.github.io/index.html</loc>
+    <loc>https://kchousos.github.io/copyright.html</loc>
+    <lastmod>2025-05-06T22:11:19.676Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kchousos.github.io/notes/Calculus notes 2024.html</loc>
     <lastmod>2025-05-06T22:11:19.701Z</lastmod>
   </url>
   <url>
-    <loc>https://kchousos.github.io/notes/Number Theory notes 2024.html</loc>
+    <loc>https://kchousos.github.io/notes/Cryptography notes 2024.html</loc>
     <lastmod>2025-05-06T22:11:19.702Z</lastmod>
   </url>
   <url>
-    <loc>https://kchousos.github.io/notes/Game Theory notes 2024.html</loc>
+    <loc>https://kchousos.github.io/posts.html</loc>
     <lastmod>2025-05-06T22:11:19.702Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/projects.html</loc>
-    <lastmod>2025-06-13T20:01:29.640Z</lastmod>
   </url>
 </urlset>
