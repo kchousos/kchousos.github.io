@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-<<<<<<< HEAD
     <loc>https://kchousos.github.io/booklist.html</loc>
-    <lastmod>2025-08-22T18:18:58.143Z</lastmod>
+    <lastmod>2025-08-22T18:22:58.741Z</lastmod>
   </url>
   <url>
     <loc>https://kchousos.github.io/resources.html</loc>
@@ -19,91 +18,42 @@
   </url>
   <url>
     <loc>https://kchousos.github.io/posts/Lenovo BIOS Linux.html</loc>
-=======
-    <loc>https://kchousos.github.io/about.html</loc>
-    <lastmod>2025-07-30T16:22:49.577Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/notes/Game Theory notes 2024.html</loc>
->>>>>>> f490b811625df8a43c92c18794874f1a6316c838
     <lastmod>2025-05-06T22:11:19.702Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/notes/Number Theory notes 2024.html</loc>
-    <lastmod>2025-05-06T22:11:19.702Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/index.html</loc>
-    <lastmod>2025-05-06T22:11:19.701Z</lastmod>
-  </url>
-  <url>
-<<<<<<< HEAD
-    <loc>https://kchousos.github.io/notes/Game Theory notes 2024.html</loc>
-    <lastmod>2025-05-06T22:11:19.702Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/notes/Number Theory notes 2024.html</loc>
-    <lastmod>2025-05-06T22:11:19.702Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/posts/SICP in Emacs.html</loc>
-    <lastmod>2025-06-05T16:48:27.605Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/copyright.html</loc>
-    <lastmod>2025-05-06T22:11:19.676Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/posts.html</loc>
-    <lastmod>2025-05-06T22:11:19.702Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/now.html</loc>
-    <lastmod>2025-07-30T17:02:00.237Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/about.html</loc>
-    <lastmod>2025-07-30T16:22:49.577Z</lastmod>
-  </url>
-=======
-    <loc>https://kchousos.github.io/now.html</loc>
-    <lastmod>2025-07-30T17:02:00.237Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/research.html</loc>
-    <lastmod>2025-07-30T17:00:03.765Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/posts/SICP in Emacs.html</loc>
-    <lastmod>2025-06-05T16:48:27.605Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/posts/Lenovo BIOS Linux.html</loc>
-    <lastmod>2025-05-06T22:11:19.702Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/resources.html</loc>
-    <lastmod>2025-07-30T16:12:47.486Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/booklist.html</loc>
-    <lastmod>2025-07-29T20:44:02.839Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/copyright.html</loc>
-    <lastmod>2025-05-06T22:11:19.676Z</lastmod>
-  </url>
-  <url>
-    <loc>https://kchousos.github.io/notes/Calculus notes 2024.html</loc>
-    <lastmod>2025-05-06T22:11:19.701Z</lastmod>
   </url>
   <url>
     <loc>https://kchousos.github.io/notes/Cryptography notes 2024.html</loc>
     <lastmod>2025-05-06T22:11:19.702Z</lastmod>
   </url>
   <url>
+    <loc>https://kchousos.github.io/notes/Calculus notes 2024.html</loc>
+    <lastmod>2025-05-06T22:11:19.701Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kchousos.github.io/notes/Game Theory notes 2024.html</loc>
+    <lastmod>2025-05-06T22:11:19.702Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kchousos.github.io/notes/Number Theory notes 2024.html</loc>
+    <lastmod>2025-05-06T22:11:19.702Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kchousos.github.io/posts/SICP in Emacs.html</loc>
+    <lastmod>2025-06-05T16:48:27.605Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kchousos.github.io/copyright.html</loc>
+    <lastmod>2025-05-06T22:11:19.676Z</lastmod>
+  </url>
+  <url>
     <loc>https://kchousos.github.io/posts.html</loc>
     <lastmod>2025-05-06T22:11:19.702Z</lastmod>
   </url>
->>>>>>> f490b811625df8a43c92c18794874f1a6316c838
+  <url>
+    <loc>https://kchousos.github.io/now.html</loc>
+    <lastmod>2025-07-30T17:02:00.237Z</lastmod>
+  </url>
+  <url>
+    <loc>https://kchousos.github.io/about.html</loc>
+    <lastmod>2025-07-30T16:22:49.577Z</lastmod>
+  </url>
 </urlset>
