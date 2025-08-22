@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.29">
+<meta name="generator" content="quarto-1.7.30">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,14 +32,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2d84c9656e6f015c0df4e6e55ade86f4.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-bbc094eb4da8cefe3fa2efe68a14d403.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2d84c9656e6f015c0df4e6e55ade86f4.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-fc28e9b749f75a4a381771fbe9d42b43.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-450b7d896efee5edec3f767475d1ea0a.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-fc28e9b749f75a4a381771fbe9d42b43.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3d0904c34c2e53f6db6f71270b480c8b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-2291eb19de93246d5fbccf0d4aa2db25.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-3d0904c34c2e53f6db6f71270b480c8b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-901e44537209cf99b2c5f74c14a03ee0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-af0df21f6fc60fd0c5c0c8dfb44ea30d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-901e44537209cf99b2c5f74c14a03ee0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "language": {
@@ -60,6 +60,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="Now – Konstantinos Chousos">
+<meta property="og:description" content="Personal site of Konstantinos Chousos, AI/Security Researcher">
 <meta property="og:image" content="https://kchousos.github.io/static/cover.jpg">
 <meta property="og:site_name" content="Konstantinos Chousos">
 </head>
@@ -219,6 +220,7 @@ ul.task-list li input[type="checkbox"] {
       toggleColorMode(toAlternate);
       setStyleSentinel(toAlternate);
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
     };
     queryPrefersDark.addEventListener("change", e => {
       if(window.localStorage.getItem("quarto-color-scheme") !== null)
@@ -260,6 +262,10 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link active" href="./now.html" aria-current="page"> 
 <span class="menu-text">Now</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./research.html"> 
+<span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./posts.html"> 
@@ -304,7 +310,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">May 4, 2025</p>
+      <p class="date-modified">July 30, 2025</p>
     </div>
   </div>
     
@@ -320,32 +326,31 @@ ul.task-list li input[type="checkbox"] {
 (This is <a href="https://nownownow.com/about">a now page</a>, and if you have your own site, <a href="https://nownownow.com/about">you should make one</a>, too.)
 </p>
 </center>
-<section id="working-on" class="level1">
-<h1>Working on</h1>
+<p>Just finished my BSc degree and taking a break for the summer 😎🏖️.</p>
+<section id="working-on" class="level3">
+<h3 class="anchored" data-anchor-id="working-on">Working on</h3>
 <ul>
-<li><a href="https://cordis.europa.eu/project/id/101168490">An open-source platform for Resilient sECure digITAL identitieS | RECITALS Project</a></li>
-<li><a href="https://github.com/kchousos/llm-harness">Automated fuzz targets generation through LLMs</a></li>
+<li><a href="https://cordis.europa.eu/project/id/101168490">RECITALS Project</a></li>
 </ul>
 </section>
-<section id="reading" class="level1">
-<h1>Reading</h1>
+<section id="reading" class="level3">
+<h3 class="anchored" data-anchor-id="reading">Reading</h3>
 <ul>
-<li><strong>The Bullet Journal Method</strong>, Ryder Carroll</li>
-<li><strong>Children of Dune</strong>, Frank Herbert</li>
+<li><strong>Knowing What We Know</strong>, Simon Winchester</li>
 </ul>
 </section>
-<section id="listening" class="level1">
-<h1>Listening</h1>
+<section id="listening" class="level3">
+<h3 class="anchored" data-anchor-id="listening">Listening</h3>
 <ul>
-<li><strong>Winter Nights</strong>, Al Di Meola</li>
-<li><strong>Bastion of Sanity</strong>, David Binney</li>
+<li><strong>Black Sabbath</strong>, Black Sabbath</li>
+<li><strong>Danzig</strong>, Danzig</li>
 </ul>
 </section>
-<section id="watching" class="level1">
-<h1>Watching</h1>
+<section id="watching" class="level3">
+<h3 class="anchored" data-anchor-id="watching">Watching</h3>
 <ul>
 <li><strong>Mad Men</strong></li>
-<li><strong>The Sopranos</strong> (rewatch)</li>
+<li><strong>Silicon Valley</strong> (rewatch)</li>
 </ul>
 
 

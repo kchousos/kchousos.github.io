@@ -9,8 +9,8 @@ title-block-banner: true
 
 code-line-numbers: true
 email-obfuscation: references
-bibliography: /home/kchou/HDD/Library/References/biblio.bib
-csl: /home/kchou/HDD/Library/Zotero data/styles/ieee.csl
+bibliography: /home/kchou/Library/References/biblio.bib
+csl: /home/kchou/Library/Zotero data/styles/ieee.csl
 author:
   - name: Konstantinos Chousos
     email: kon.chousos@gmail.com

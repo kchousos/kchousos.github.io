@@ -1,8 +1,6 @@
 ---
 title: Now
-aliases:
-  - 20250402000310-c5a5
-date-modified: 2025-05-04
+date-modified: 2025-07-30
 ---
 <center> 
 <p>
@@ -11,22 +9,22 @@ date-modified: 2025-05-04
 </p>
 </center> 
 
-# Working on
+Just finished my BSc degree and taking a break for the summer 😎🏖️.
 
-- [An open-source platform for Resilient sECure digITAL identitieS \| RECITALS Project](https://cordis.europa.eu/project/id/101168490)
-- [Automated fuzz targets generation through LLMs](https://github.com/kchousos/llm-harness)
+### Working on
 
-# Reading
+- [RECITALS Project](https://cordis.europa.eu/project/id/101168490)
 
-- **The Bullet Journal Method**, Ryder Carroll
-- **Children of Dune**, Frank Herbert
+### Reading
 
-# Listening
+- **Knowing What We Know**, Simon Winchester
 
-- **Winter Nights**, Al Di Meola
-- **Bastion of Sanity**, David Binney
+### Listening
 
-# Watching
+- **Black Sabbath**, Black Sabbath
+- **Danzig**, Danzig
+
+### Watching
 
 - **Mad Men**
-- **The Sopranos** (rewatch)
+- **Silicon Valley** (rewatch)
