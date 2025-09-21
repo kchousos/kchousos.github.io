@@ -11,8 +11,8 @@ website:
   site-url: "https://kchousos.github.io"
   description: "Personal site of Konstantinos Chousos, AI/Security Researcher"
   bread-crumbs: true
-  open-graph:
-    image: '/static/cover.jpg'
+  # open-graph:
+  #   image: '/static/cover.jpg'
   search: false
   navbar:
     logo: './icons/favicon-32x32.png'
@@ -32,16 +32,16 @@ website:
         url: "https://github.com/kchousos"
       - text: "{{< iconify academicons orcid >}}"
         url: "https://orcid.org/0009-0008-6063-7915"
-      - text: "{{< iconify fa6-brands mastodon >}}"
-        url: "https://mastodon.social/@kchousos"
-      - text: "{{< iconify fa6-brands x-twitter >}}"
-        url: "https://x.com/kchousos"
-      - text: "{{< iconify fa6-brands bluesky >}}"
-        url: "https://bsky.app/profile/kchousos.bsky.social"
+      # - text: "{{< iconify fa6-brands mastodon >}}"
+      #   url: "https://mastodon.social/@kchousos"
+      # - text: "{{< iconify fa6-brands x-twitter >}}"
+      #   url: "https://x.com/kchousos"
+      # - text: "{{< iconify fa6-brands bluesky >}}"
+      #   url: "https://bsky.app/profile/kchousos.bsky.social"
       - text: "{{< iconify fa6-brands linkedin >}}"
         url: "https://www.linkedin.com/in/kchousos/"
-      - text: "{{< iconify simple-icons kofi >}}"
-        url: "https://ko-fi.com/kchousos"
+      # - text: "{{< iconify simple-icons kofi >}}"
+      #   url: "https://ko-fi.com/kchousos"
       - text: "{{< iconify material-symbols mail >}}"
         url: "mailto:kon.chousos@gmail.com"
       - text: "{{< iconify material-symbols rss-feed >}}"
