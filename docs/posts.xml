@@ -9,7 +9,7 @@
 <link>https://kchousos.github.io/posts.html</link>
 <atom:link href="https://kchousos.github.io/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Personal site of Konstantinos Chousos, AI/Security Researcher</description>
-<generator>quarto-1.7.29</generator>
+<generator>quarto-1.7.30</generator>
 <lastBuildDate>Wed, 25 Dec 2024 13:36:00 GMT</lastBuildDate>
 <item>
   <title>BIOS update for Lenovo laptop on Linux</title>

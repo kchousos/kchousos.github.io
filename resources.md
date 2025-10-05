@@ -13,7 +13,11 @@ page-layout: full
 title-block-banner: true
 ---
 
-# Course notes
+### Course notes
 
 :::{#course-notes}
 :::
+
+### Flashcards
+
+My studying flashcards in markdown: <https://github.com/kchousos/Flashcards>.
