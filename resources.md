@@ -18,6 +18,11 @@ title-block-banner: true
 :::{#course-notes}
 :::
 
+### Talks/Presentations
+
+- **2025-10-16**: [Diffie & Hellman's "New Directions in Cryptography" presentation](https://kchousos.github.io/directions-cryptography/)
+  Part of the Algorithms course of [ALMA](http://alma.di.uoa.gr/) MSc program.
+
 ### Flashcards
 
 My studying flashcards in markdown: <https://github.com/kchousos/Flashcards>.

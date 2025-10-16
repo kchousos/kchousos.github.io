@@ -1,18 +1,18 @@
 [
   {
+    "listing": "/resources.html",
+    "items": [
+      "/notes/Calculus notes 2024.html",
+      "/notes/Number Theory notes 2024.html",
+      "/notes/Game Theory notes 2024.html",
+      "/notes/Cryptography notes 2024.html"
+    ]
+  },
+  {
     "listing": "/posts.html",
     "items": [
       "/posts/Lenovo BIOS Linux.html",
       "/posts/SICP in Emacs.html"
-    ]
-  },
-  {
-    "listing": "/resources.html",
-    "items": [
-      "/notes/Game Theory notes 2024.html",
-      "/notes/Calculus notes 2024.html",
-      "/notes/Number Theory notes 2024.html",
-      "/notes/Cryptography notes 2024.html"
     ]
   }
 ]
