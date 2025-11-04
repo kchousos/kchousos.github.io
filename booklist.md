@@ -10,6 +10,7 @@ title: Reading
 
 | Title                                                                | Author                         | Rating     |
 |----------------------------------------------------------------------|--------------------------------|------------|
+| **The Catcher in the Rye**                                           | J.D. Salinger                  | ⭐⭐⭐⭐⭐ |
 | **Μύθοι, παρεξηγήσεις και άβολες αλήθειες της ελληνικής ιστορίας 1** | Σταύρος Παναγιωτίδης           | ⭐⭐⭐⭐   |
 | **Just for Fun: The Story of an Accidental Revolutionary**           | Linus Torvalds & David Diamond | ⭐⭐⭐⭐   |
 | **The Time Machine**                                                 | H.G. Wells                     | ⭐⭐⭐     |

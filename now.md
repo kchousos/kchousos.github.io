@@ -1,6 +1,6 @@
 ---
 title: Now
-date-modified: 2025-07-30
+date-modified: 2025-11-04
 ---
 <center> 
 <p>
@@ -9,7 +9,7 @@ date-modified: 2025-07-30
 </p>
 </center> 
 
-Just finished my BSc degree and taking a break for the summer 😎🏖️.
+Have started my [MSc program](http://alma.di.uoa.gr/) in theoretical computer science. Currently I study algorithms, cryptography, graph theory and computational complexity. So far it's very interesting, although -- as expected -- a bit challenging.
 
 ### Working on
 
@@ -17,14 +17,14 @@ Just finished my BSc degree and taking a break for the summer 😎🏖️.
 
 ### Reading
 
-- **Knowing What We Know**, Simon Winchester
+- **The Catcher in the Rye**, J.D. Salinger
+- **Deep Work**, Cal Newport
 
 ### Listening
 
-- **Black Sabbath**, Black Sabbath
-- **Danzig**, Danzig
+- **Ξεσσαλονίκης**, Ξύλινα Σπαθιά
+- **Communion**, Septicflesh
 
 ### Watching
 
-- **Mad Men**
-- **Silicon Valley** (rewatch)
+Nothing currently, too busy 😛.
