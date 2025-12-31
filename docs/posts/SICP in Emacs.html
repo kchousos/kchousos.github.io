@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.29">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -85,18 +85,19 @@ div.csl-indent {
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2d84c9656e6f015c0df4e6e55ade86f4.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-bbc094eb4da8cefe3fa2efe68a14d403.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2d84c9656e6f015c0df4e6e55ade86f4.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-93b8c9058bab3de7da2ef1d2980be073.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b3861cce213c80ac26b579d77e21d477.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-93b8c9058bab3de7da2ef1d2980be073.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3d0904c34c2e53f6db6f71270b480c8b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-2291eb19de93246d5fbccf0d4aa2db25.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-3d0904c34c2e53f6db6f71270b480c8b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-c499bab53fbfaeaa32f2566e9f94890c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-829f4d663cc7c6a66af8ed91b3d72978.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-c499bab53fbfaeaa32f2566e9f94890c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script src="../site_libs/quarto-contrib/kbd/kbd.js"></script>
 <link href="../site_libs/quarto-contrib/kbd/kbd.css" rel="stylesheet">
@@ -278,6 +279,7 @@ div.csl-indent {
       toggleColorMode(toAlternate);
       setStyleSentinel(toAlternate);
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
     };
     queryPrefersDark.addEventListener("change", e => {
       if(window.localStorage.getItem("quarto-color-scheme") !== null)
@@ -301,7 +303,8 @@ div.csl-indent {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src=".././icons/favicon-32x32.png" alt="" class="navbar-logo">
+    <img src=".././icons/favicon-32x32.png" alt="" class="navbar-logo light-content">
+    <img src=".././icons/favicon-32x32.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Konstantinos Chousos</span>
@@ -443,9 +446,9 @@ div.csl-indent {
 <ol type="1">
 <li><p>Download the <code>sicp.info.gz</code> file (<a href="https://www.neilvandyke.org/sicp-texi/sicp.info.gz">link</a>) in your home directory.</p></li>
 <li><p>Execute the following commands</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a><span class="ex">$</span> sudo cp ~/sicp.info.gz /usr/local/share/info/</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a><span class="ex">$</span> sudo cp ~/sicp.info.gz /usr/local/share/info/</span>
 <span id="cb1-2"><a href="#cb1-2"></a><span class="ex">$</span> sudo chmod 644 /usr/local/share/info/sicp.info.gz</span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="ex">$</span> sudo install-info /usr/local/share/info/sicp.info.gz /usr/local/share/info/dir</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="ex">$</span> sudo install-info /usr/local/share/info/sicp.info.gz /usr/local/share/info/dir</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
 </ol></li>
 </ol>
 <aside id="footnotes-2" class="footnotes footnotes-end-of-block" role="doc-footnote">
@@ -453,7 +456,7 @@ div.csl-indent {
 <li id="fn2"><p><a href="https://melpa.org/#/sicp" class="uri">https://melpa.org/#/sicp</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </aside>
-<p>Now SICP will be available through Emacs! To access it, you need to open Emacs, type <kbd aria-hidden="true">C-h i</kbd><span class="visually-hidden">C-h i</span> to go to the <code>*info*</code> top directory, type <kbd aria-hidden="true">m</kbd><span class="visually-hidden">m</span> to search and type <code>sicp</code> to find the book. If everything went correctly, you should be greeted with something like this:</p>
+<p>Now SICP will be available through Emacs! To access it, you need to open Emacs, type <kbd title="C-h i" aria-hidden="true">C-h i</kbd><span class="visually-hidden">C-h i</span> to go to the <code>*info*</code> top directory, type <kbd title="m" aria-hidden="true">m</kbd><span class="visually-hidden">m</span> to search and type <code>sicp</code> to find the book. If everything went correctly, you should be greeted with something like this:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="../static/../static/sicp in emacs.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="SICP’s table of contents in `info` format, viewed from within Emacs"><img src="../static/../static/sicp in emacs.png" class="img-fluid figure-img" alt="SICP’s table of contents in `info` format, viewed from within Emacs"></a></p>
@@ -466,7 +469,7 @@ div.csl-indent {
 <h1>Setting up Scheme</h1>
 <p>SICP’s examples and exercises are all implemented in Scheme. Scheme is a Lisp dialect with many implementations. <del>SICP uses the <a href="https://www.gnu.org/software/mit-scheme/">MIT-Scheme</a> implementation</del> Turns out GNU/MIT-Scheme is <strong>not</strong> fully compatible with the code in SICP (<a href="https://www.reddit.com/r/sicp/comments/mf0j95/comment/gsljkkw/?utm_source=share&amp;utm_medium=web2x&amp;context=3">source</a>). Instead, we will use <a href="https://racket-lang.org/">Racket</a>. Racket offers the <a href="https://docs.racket-lang.org/sicp-manual/">SICP collection</a>, a Racket <code>#lang</code> that makes it fully compatible with the SICP code.</p>
 <p>First, we need to install racket through our package manager. After that, the sicp collection can be downloaded like this:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a><span class="ex">$</span> raco pkg install sicp</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a><span class="ex">$</span> raco pkg install sicp</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>That’s it! Now, when we write a <code>.rkt</code> file that needs to be compatible with SICP all we need to do is add <span class="inline-src language-racket" data-lang="racket"><code>#lang sicp</code></span> at the top of the file<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>.</p>
 <aside id="footnotes-3" class="footnotes footnotes-end-of-block" role="doc-footnote">
 <ol start="3">
@@ -482,26 +485,26 @@ div.csl-indent {
 </ol>
 </aside>
 <p>To install <code>racket-mode</code> using <a href="https://github.com/progfolio/elpaca/">elpaca</a>, add the following to your config file:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource lisp number-lines code-with-copy"><code class="sourceCode commonlisp"><span id="cb3-1"><a href="#cb3-1"></a>(<span class="kw">use-package</span> racket-mode</span>
-<span id="cb3-2"><a href="#cb3-2"></a>  :elpaca <span class="kw">t</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource lisp number-lines code-with-copy"><code class="sourceCode commonlisp"><span id="cb3-1"><a href="#cb3-1"></a>(<span class="kw">use-package</span> racket-mode</span>
+<span id="cb3-2"><a href="#cb3-2"></a>  :elpaca <span class="kw">t</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="racket-in-org-babel" class="level2">
 <h2 class="anchored" data-anchor-id="racket-in-org-babel">Racket in Org-Babel</h2>
 <p>In case you choose to go the literate programming route (as I have) using Org-Mode, you will need to enable support for racket in org-babel. To do this, use the <a href="https://github.com/hasu/emacs-ob-racket">emacs-ob-racket</a> package. Add the following to your config:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource lisp number-lines code-with-copy"><code class="sourceCode commonlisp"><span id="cb4-1"><a href="#cb4-1"></a>(<span class="kw">use-package</span> ob-racket</span>
-<span id="cb4-2"><a href="#cb4-2"></a>  :elpaca (<span class="bu">:type</span> git <span class="bu">:host</span> github :repo <span class="st">"hasu/emacs-ob-racket"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode numberSource lisp number-lines code-with-copy"><code class="sourceCode commonlisp"><span id="cb4-1"><a href="#cb4-1"></a>(<span class="kw">use-package</span> ob-racket</span>
+<span id="cb4-2"><a href="#cb4-2"></a>  :elpaca (<span class="bu">:type</span> git <span class="bu">:host</span> github :repo <span class="st">"hasu/emacs-ob-racket"</span>))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>and then enable racket in your org-babel configuration.</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource lisp number-lines code-with-copy"><code class="sourceCode commonlisp"><span id="cb5-1"><a href="#cb5-1"></a>(org-babel-do-load-languages</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode numberSource lisp number-lines code-with-copy"><code class="sourceCode commonlisp"><span id="cb5-1"><a href="#cb5-1"></a>(org-babel-do-load-languages</span>
 <span id="cb5-2"><a href="#cb5-2"></a> <span class="dt">'org-babel-load-languages</span></span>
 <span id="cb5-3"><a href="#cb5-3"></a> '((emacs-lisp :tangle ./init.el . <span class="kw">t</span>)</span>
 <span id="cb5-4"><a href="#cb5-4"></a>   (C . <span class="kw">t</span>)</span>
 <span id="cb5-5"><a href="#cb5-5"></a>   (python . <span class="kw">t</span>)</span>
 <span id="cb5-6"><a href="#cb5-6"></a>   ...</span>
-<span id="cb5-7"><a href="#cb5-7"></a>   (racket . <span class="kw">t</span>)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-7"><a href="#cb5-7"></a>   (racket . <span class="kw">t</span>)))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>To be able to use the <code>sicp</code> package in org-babel code blocks, you need to add <code>:lang sicp</code> in the Org block, like so:</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource org number-lines code-with-copy"><code class="sourceCode orgmode"><span id="cb6-1"><a href="#cb6-1"></a> #+begin_src racket :lang sicp</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode numberSource org number-lines code-with-copy"><code class="sourceCode orgmode"><span id="cb6-1"><a href="#cb6-1"></a> #+begin_src racket :lang sicp</span>
 <span id="cb6-2"><a href="#cb6-2"></a> "Hello World!"</span>
-<span id="cb6-3"><a href="#cb6-3"></a> #+end_src</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb6-3"><a href="#cb6-3"></a> #+end_src</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Instead of adding that to every code block, you can add <code>#+property: header-args :lang sicp</code> to the start of your Org file. <del>This will be applied to <em>all</em> code blocks in the file, so make sure you include only racket code blocks</del> This can be mitigated by specifying that these header-args are to be applied only to racket blocks, like so: <code>#+property: header-args:racket :lang sicp</code>.</p>
 </section>
 </section>
@@ -525,8 +528,8 @@ div.csl-indent {
 <section id="miscellaneous-tips" class="level1">
 <h1>Miscellaneous tips</h1>
 <ul>
-<li><p><strong>Update 07/06/2023</strong>: As <a href="https://www.reddit.com/r/emacs/comments/143cyw3/comment/jna8ev2/?utm_source=share&amp;utm_medium=web2x&amp;context=3">u/jherrlin</a> on Reddit pointed out, the fact that SICP is in text format gives us the ability to leverage Emacs’ built-in bookmarks feature. When you arrive to the end of your study session, just type <kbd aria-hidden="true">C-x r m</kbd><span class="visually-hidden">C-x r m</span> and a bookmark will be placed on the current line. You can search your bookmarks with <kbd aria-hidden="true">C-x r b</kbd><span class="visually-hidden">C-x r b</span> or list them with <kbd aria-hidden="true">C-x r l</kbd><span class="visually-hidden">C-x r l</span>.</p>
-<p>My tip is to name the bookmark the same each time (e.g.&nbsp;<code>sicp</code>). That way, when you re-create it in a later position, the old bookmark is discarded automatically. Also, if you run Emacs in daemon mode, I suggest to run <kbd aria-hidden="true">M-x</kbd><span class="visually-hidden">M-x</span> <code>bookmark-save</code> after adding a bookmark, to make sure it has been saved.</p></li>
+<li><p><strong>Update 07/06/2023</strong>: As <a href="https://www.reddit.com/r/emacs/comments/143cyw3/comment/jna8ev2/?utm_source=share&amp;utm_medium=web2x&amp;context=3">u/jherrlin</a> on Reddit pointed out, the fact that SICP is in text format gives us the ability to leverage Emacs’ built-in bookmarks feature. When you arrive to the end of your study session, just type <kbd title="C-x r m" aria-hidden="true">C-x r m</kbd><span class="visually-hidden">C-x r m</span> and a bookmark will be placed on the current line. You can search your bookmarks with <kbd title="C-x r b" aria-hidden="true">C-x r b</kbd><span class="visually-hidden">C-x r b</span> or list them with <kbd title="C-x r l" aria-hidden="true">C-x r l</kbd><span class="visually-hidden">C-x r l</span>.</p>
+<p>My tip is to name the bookmark the same each time (e.g.&nbsp;<code>sicp</code>). That way, when you re-create it in a later position, the old bookmark is discarded automatically. Also, if you run Emacs in daemon mode, I suggest to run <kbd title="M-x" aria-hidden="true">M-x</kbd><span class="visually-hidden">M-x</span> <code>bookmark-save</code> after adding a bookmark, to make sure it has been saved.</p></li>
 </ul>
 <center>
 <button class="tinylytics_kudos">
@@ -616,13 +619,14 @@ div.csl-indent {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

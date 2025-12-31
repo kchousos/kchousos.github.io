@@ -1,12 +1,10 @@
 ---
-aliases:
-  - read books
-  - booklist
-  - διαβασμένα βιβλία
-  - read list
 title: Reading
 ---
+
 # 2025
+
+Total books completed: 22.
 
 | Title                                                                        | Author                         | Rating     |
 |------------------------------------------------------------------------------|--------------------------------|------------|
@@ -41,8 +39,11 @@ title: Reading
 | **The Invisible Man**                                                        | H.G. Wells                     | DNF        |
 | **Knowing What We Know: The Transmission of Knowledge**                      | Simon Winchester               | DNF        |
 | **The Software Engineer's Guidebook**                                        | Gergely Orosz                  | DNF        |
+| **Confessions of a Mask**                                                    | Yukio Mishima                  | DNF        |
 
 # 2024
+
+Total books completed: 10.
 
 | Title                                                       | Author                      | Rating     |
 |-------------------------------------------------------------|-----------------------------|------------|
