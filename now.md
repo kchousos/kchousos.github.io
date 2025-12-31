@@ -9,7 +9,7 @@ This is <a href="https://nownownow.com/about">a now page</a>, and if you have yo
 </p>
 </center> 
 ::: aside
-Since 2025-12-31, it's structure changed to feed-like updates.
+Since 2025-12-31, its structure changed to feed-like updates.
 :::
   
 ### 2025-12-31 20:59
