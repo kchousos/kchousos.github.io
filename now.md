@@ -12,6 +12,10 @@ This is <a href="https://nownownow.com/about">a now page</a>, and if you have yo
 Since 2025-12-31, its structure changed to feed-like updates.
 :::
   
+### 2026-01-05 03:01
+
+Suggested reading:  [*Utopian Scholastic*, Michael Wolf](https://wol.fm/blog/utopian-scholastic.html).
+
 ### 2025-12-31 20:59
 
 - Catching a breath between Christmas-break assignments and work. 
