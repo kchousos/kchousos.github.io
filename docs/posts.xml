@@ -21,7 +21,6 @@
 
 
 
-
 <p>Updating your BIOS is often perceived as a straightforward task. You run an <code>.exe</code> file, you wait a minute or two, your screen flashes and poof, you’re done. This at least is the Lenovo Experience™ with their BIOS update wizards.</p>
 <p>But what if your laptop is running Linux? Then the only way to use these <code>.exe</code> files would be to dual boot with a Windows partition. Unfortunately, this is not acceptable for most.</p>
 <p>The easiest solution I came to find was instead of using a normal Windows installation, I could run the update from a live CD Windows image, specifically <a href="https://www.hirensbootcd.org/"><strong>Hiren’s BootCD PE</strong></a>. From their homepage:</p>
@@ -61,32 +60,24 @@
 
 
 
-
 <p>I recently began reading the notorious “Structure and Interpretation of Computer Programs” <span class="citation" data-cites="sicp">[1]</span>, a.k.a. the <em>Wizard book</em>. I’m only on the first chapter, but I can already see its value and why it gets recommended so much.</p>
 <p>From Wikipedia:</p>
 <blockquote class="blockquote">
 <p>Structure and Interpretation of Computer Programs (SICP) is a computer science textbook by Massachusetts Institute of Technology professors Harold Abelson and Gerald Jay Sussman with Julie Sussman. […] It teaches fundamental principles of computer programming, including recursion, abstraction, modularity, and programming language design and implementation. […] The book describes computer science concepts using Scheme, a dialect of Lisp. It also uses a virtual register machine and assembler to implement Lisp interpreters and compilers.</p>
 </blockquote>
 <p>In this post, I aim to showcase my workflow for studying the book using Emacs <span class="citation" data-cites="emacs">[2]</span>. Also, I will provide any resources that helped me get going. To study SICP, we need two things: The book and a Scheme implementation for the examples and exercises.</p>
-<section id="getting-the-book" class="level1">
+<section id="getting-the-book" class="level1 page-columns page-full">
 <h1>Getting the book</h1>
 <p>Lucky for us, the book is freely distributed from MIT itself. It is available in <a href="https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html">HTML</a> and <a href="https://web.mit.edu/6.001/6.037/sicp.pdf">PDF</a>. But, there is also a third format option and it is the one we’re going to choose: the Texinfo format.</p>
-<p>From the official GNU site<sup>1</sup>:</p>
-<aside id="footnotes" class="footnotes footnotes-end-of-block">
-<ol>
-<li id="fn1"><p><a href="https://www.gnu.org/software/texinfo/" class="uri">https://www.gnu.org/software/texinfo/</a>↩︎</p></li>
-</ol>
-</aside>
-<blockquote class="blockquote">
-<p>Texinfo uses a single source file to produce output in a number of formats, both online and printed (HTML, PDF, DVI, Info, DocBook, LaTeX, EPUB 3). This means that instead of writing different documents for online information and another for a printed manual, you need write only one document.</p>
-<p>The Texinfo system is well-integrated with GNU Emacs.</p>
-</blockquote>
-<p>That last line is what’s important here. <code>info</code> files are essentially manuals in plain text. Emacs has a built-in mode for rendering such documents. By using the <code>info</code> format, we can read SICP from inside Emacs.</p>
-<section id="obtaining-the-info-file" class="level2">
+<div class="page-columns page-full"><blockquote class="blockquote">
+<p>Texinfo uses a single source file to produce output in a number of formats, both online and printed (HTML, PDF, DVI, Info, DocBook, LaTeX, EPUB 3). This means that instead of writing different documents for online information and another for a printed manual, you need write only one document. […] The Texinfo system is well-integrated with GNU Emacs.<sup>1</sup></p>
+</blockquote><div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;From the <a href="https://www.gnu.org/software/texinfo/">official GNU site</a>.</p></div></div></div>
+<p>That last sentence is what’s important here. <code>info</code> files are essentially manuals in plain text. Emacs has a built-in mode for rendering such documents. By using the <code>info</code> format, we can read SICP from inside Emacs.</p>
+<section id="obtaining-the-info-file" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="obtaining-the-info-file">Obtaining the <code>info</code> file</h2>
 <p>The <code>info</code> file can be retrieved in two methods:</p>
 <ol type="1">
-<li><p>By installing the <code>sicp</code> MELPA package<sup>2</sup></p></li>
+<li><p>By installing the <code>sicp</code> package<sup>2</sup></p></li>
 <li><p>By downloading the <code>info</code> file directly from <a href="https://www.neilvandyke.org/sicp-texi/">neilvandyke.org</a> and installing it.</p>
 <ol type="1">
 <li><p>Download the <code>sicp.info.gz</code> file (<a href="https://www.neilvandyke.org/sicp-texi/sicp.info.gz">link</a>) in your home directory.</p></li>
@@ -102,12 +93,7 @@ background-color: null;
 font-style: inherit;">$</span> sudo install-info /usr/local/share/info/sicp.info.gz /usr/local/share/info/dir</span></code></pre></div></div></li>
 </ol></li>
 </ol>
-<aside id="footnotes-2" class="footnotes footnotes-end-of-block">
-<ol start="2">
-<li id="fn2"><p><a href="https://melpa.org/#/sicp" class="uri">https://melpa.org/#/sicp</a>↩︎</p></li>
-</ol>
-</aside>
-<p>Now SICP will be available through Emacs! To access it, you need to open Emacs, type <span class="visually-hidden">C-h i</span> to go to the <code>*info*</code> top directory, type <span class="visually-hidden">m</span> to search and type <code>sicp</code> to find the book. If everything went correctly, you should be greeted with something like this:</p>
+<div class="no-row-height column-margin column-container"><div id="fn2"><p><sup>2</sup>&nbsp;Found in the <a href="https://melpa.org/#/sicp">MELPA repository</a>.</p></div></div><p>Now SICP will be available through Emacs! To access it, you need to open Emacs, type <span class="visually-hidden">C-h i</span> to go to the <code>*info*</code> top directory, type <span class="visually-hidden">m</span> to search and type <code>sicp</code> to find the book. If everything went correctly, you should be greeted with something like this:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="../static/../static/sicp in emacs.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="SICP’s table of contents in `info` format, viewed from within Emacs"><img src="https://kchousos.github.io/static/sicp in emacs.png" class="img-fluid figure-img" alt="SICP’s table of contents in `info` format, viewed from within Emacs"></a></p>
@@ -116,7 +102,7 @@ font-style: inherit;">$</span> sudo install-info /usr/local/share/info/sicp.info
 </div>
 </section>
 </section>
-<section id="setting-up-scheme" class="level1">
+<section id="setting-up-scheme" class="level1 page-columns page-full">
 <h1>Setting up Scheme</h1>
 <p>SICP’s examples and exercises are all implemented in Scheme. Scheme is a Lisp dialect with many implementations. <del>SICP uses the <a href="https://www.gnu.org/software/mit-scheme/">MIT-Scheme</a> implementation</del> Turns out GNU/MIT-Scheme is <strong>not</strong> fully compatible with the code in SICP (<a href="https://www.reddit.com/r/sicp/comments/mf0j95/comment/gsljkkw/?utm_source=share&amp;utm_medium=web2x&amp;context=3">source</a>). Instead, we will use <a href="https://racket-lang.org/">Racket</a>. Racket offers the <a href="https://docs.racket-lang.org/sicp-manual/">SICP collection</a>, a Racket <code>#lang</code> that makes it fully compatible with the SICP code.</p>
 <p>First, we need to install racket through our package manager. After that, the sicp collection can be downloaded like this:</p>
@@ -124,20 +110,10 @@ font-style: inherit;">$</span> sudo install-info /usr/local/share/info/sicp.info
 background-color: null;
 font-style: inherit;">$</span> raco pkg install sicp</span></code></pre></div></div>
 <p>That’s it! Now, when we write a <code>.rkt</code> file that needs to be compatible with SICP all we need to do is add <span class="inline-src language-racket" data-lang="racket"><code>#lang sicp</code></span> at the top of the file<sup>3</sup>.</p>
-<aside id="footnotes-3" class="footnotes footnotes-end-of-block">
-<ol start="3">
-<li id="fn3"><p>when using the REPL, we need to first evaluate <span class="inline-src language-racket" data-lang="racket"><code>(require sicp)</code></span> before evaluating anything else.↩︎</p></li>
-</ol>
-</aside>
-<section id="racket-in-emacs" class="level2">
+<div class="no-row-height column-margin column-container"><div id="fn3"><p><sup>3</sup>&nbsp;when using the REPL, we need to first evaluate <span class="inline-src language-racket" data-lang="racket"><code>(require sicp)</code></span> before evaluating anything else.</p></div></div><section id="racket-in-emacs" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="racket-in-emacs">Racket in Emacs</h2>
 <p>Personally, I recommend <a href="https://github.com/greghendershott/racket-mode">racket-mode</a> for working with Racket in Emacs. Another popular choice is <a href="https://github.com/emacsmirror/geiser">geiser</a>, but its <code>geiser-racket</code> module seems to be unmaintained<sup>4</sup>.</p>
-<aside id="footnotes-4" class="footnotes footnotes-end-of-block">
-<ol start="4">
-<li id="fn4"><p><a href="https://lists.nongnu.org/archive/html/geiser-users/2022-06/msg00004.html" class="uri">https://lists.nongnu.org/archive/html/geiser-users/2022-06/msg00004.html</a>↩︎</p></li>
-</ol>
-</aside>
-<p>To install <code>racket-mode</code> using <a href="https://github.com/progfolio/elpaca/">elpaca</a>, add the following to your config file:</p>
+<div class="no-row-height column-margin column-container"><div id="fn4"><p><sup>4</sup>&nbsp;According to <a href="https://lists.nongnu.org/archive/html/geiser-users/2022-06/msg00004.html">this thread</a> from the <code>geiser-users</code> mailing list.</p></div></div><p>To install <code>racket-mode</code> using <a href="https://github.com/progfolio/elpaca/">elpaca</a>, add the following to your config file:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode numberSource lisp number-lines code-with-copy"><code class="sourceCode commonlisp"><span id="cb3-1">(<span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
@@ -221,6 +197,7 @@ font-style: inherit;">t</span>)))</span></code></pre></div></div>
 
 
 </section>
+
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" data-entry-spacing="0">
 <div id="ref-sicp" class="csl-entry">

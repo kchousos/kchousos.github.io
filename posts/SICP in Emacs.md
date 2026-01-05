@@ -1,14 +1,12 @@
 ---
 title: SICP in Emacs
 date: 2023-06-07
-date-modified: 2025-04-14
+date-modified: 2026-01-05
 categories:
   - lisp
   - emacs
   - book
 draft: false
-aliases:
-  - 20250327191659-148e
 ---
 I recently began reading the notorious "Structure and Interpretation of Computer Programs" [@sicp], a.k.a. the _Wizard book_. I'm only on the first chapter, but I can already see its value and why it gets recommended so much.
 
@@ -24,19 +22,15 @@ In this post, I aim to showcase my workflow for studying the book using Emacs [@
 
 Lucky for us, the book is freely distributed from MIT itself. It is available in [HTML](https://mitp-content-server.mit.edu/books/content/sectbyfn/books_pres_0/6515/sicp.zip/index.html) and [PDF](https://web.mit.edu/6.001/6.037/sicp.pdf). But, there is also a third format option and it is the one we're going to choose: the Texinfo format.
 
-From the official GNU site[^fn:1]:
+> Texinfo uses a single source file to produce output in a number of formats, both online and printed (HTML, PDF, DVI, Info, DocBook, LaTeX, EPUB 3). This means that instead of writing different documents for online information and another for a printed manual, you need write only one document. [...] The Texinfo system is well-integrated with GNU Emacs.[^fn:1]
 
-> Texinfo uses a single source file to produce output in a number of formats, both online and printed (HTML, PDF, DVI, Info, DocBook, LaTeX, EPUB 3). This means that instead of writing different documents for online information and another for a printed manual, you need write only one document.
->
-> The Texinfo system is well-integrated with GNU Emacs.
-
-That last line is what's important here. `info` files are essentially manuals in plain text. Emacs has a built-in mode for rendering such documents. By using the `info` format, we can read SICP from inside Emacs.
+That last sentence is what's important here. `info` files are essentially manuals in plain text. Emacs has a built-in mode for rendering such documents. By using the `info` format, we can read SICP from inside Emacs.
 
 ## Obtaining the `info` file
 
 The `info` file can be retrieved in two methods:
 
-1.  By installing the `sicp` MELPA package[^fn:2]
+1.  By installing the `sicp` package[^fn:2]
 
 2.  By downloading the `info` file directly from [neilvandyke.org](https://www.neilvandyke.org/sicp-texi/) and installing it.
     1.  Download the `sicp.info.gz` file ([link](https://www.neilvandyke.org/sicp-texi/sicp.info.gz)) in your home directory.
@@ -123,10 +117,10 @@ When it comes to the exercises, I use Org-Mode and Org-Babel to write the soluti
 
     My tip is to name the bookmark the same each time (e.g. `sicp`). That way, when you re-create it in a later position, the old bookmark is discarded automatically. Also, if you run Emacs in daemon mode, I suggest to run {{< kbd M-x >}} `bookmark-save` after adding a bookmark, to make sure it has been saved.
 
-[^fn:1]: <https://www.gnu.org/software/texinfo/>
-[^fn:2]: <https://melpa.org/#/sicp>
+[^fn:1]: From the [official GNU site](https://www.gnu.org/software/texinfo/).
+[^fn:2]: Found in the [MELPA repository](https://melpa.org/#/sicp).
 [^fn:3]: when using the REPL, we need to first evaluate <span class="inline-src language-racket" data-lang="racket">`(require sicp)`</span> before evaluating anything else.
-[^fn:4]: <https://lists.nongnu.org/archive/html/geiser-users/2022-06/msg00004.html>
+[^fn:4]: According to [this thread](https://lists.nongnu.org/archive/html/geiser-users/2022-06/msg00004.html) from the `geiser-users` mailing list.
 
 <center>
 <button class="tinylytics_kudos"></button>

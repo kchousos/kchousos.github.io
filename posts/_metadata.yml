@@ -5,7 +5,7 @@
 freeze: true
 
 # Enable banner style title blocks
-title-block-banner: true
+title-block-banner: false
 
 code-line-numbers: true
 email-obfuscation: references
@@ -30,7 +30,8 @@ copyright:
 format:
   html:
     default: true
-    reference-location: block
+    reference-location: margin
+    toc-location: left
   pdf:
     default: true
     standalone: true

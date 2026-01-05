@@ -102,14 +102,14 @@
     "href": "posts/SICP in Emacs.html#obtaining-the-info-file",
     "title": "SICP in Emacs",
     "section": "Obtaining the info file",
-    "text": "Obtaining the info file\nThe info file can be retrieved in two methods:\n\nBy installing the sicp MELPA package2\nBy downloading the info file directly from neilvandyke.org and installing it.\n\nDownload the sicp.info.gz file (link) in your home directory.\nExecute the following commands\n$ sudo cp ~/sicp.info.gz /usr/local/share/info/\n$ sudo chmod 644 /usr/local/share/info/sicp.info.gz\n$ sudo install-info /usr/local/share/info/sicp.info.gz /usr/local/share/info/dir\n\n\n\n\nhttps://melpa.org/#/sicp↩︎\n\n\nNow SICP will be available through Emacs! To access it, you need to open Emacs, type C-h iC-h i to go to the *info* top directory, type mm to search and type sicp to find the book. If everything went correctly, you should be greeted with something like this:\n\n\n\nSICP’s table of contents in `info` format, viewed from within Emacs"
+    "text": "Obtaining the info file\nThe info file can be retrieved in two methods:\n\nBy installing the sicp package2\nBy downloading the info file directly from neilvandyke.org and installing it.\n\nDownload the sicp.info.gz file (link) in your home directory.\nExecute the following commands\n$ sudo cp ~/sicp.info.gz /usr/local/share/info/\n$ sudo chmod 644 /usr/local/share/info/sicp.info.gz\n$ sudo install-info /usr/local/share/info/sicp.info.gz /usr/local/share/info/dir\n\n\n2 Found in the MELPA repository.Now SICP will be available through Emacs! To access it, you need to open Emacs, type C-h iC-h i to go to the *info* top directory, type mm to search and type sicp to find the book. If everything went correctly, you should be greeted with something like this:\n\n\n\nSICP’s table of contents in `info` format, viewed from within Emacs"
   },
   {
     "objectID": "posts/SICP in Emacs.html#racket-in-emacs",
     "href": "posts/SICP in Emacs.html#racket-in-emacs",
     "title": "SICP in Emacs",
     "section": "Racket in Emacs",
-    "text": "Racket in Emacs\nPersonally, I recommend racket-mode for working with Racket in Emacs. Another popular choice is geiser, but its geiser-racket module seems to be unmaintained4.\n\n\nhttps://lists.nongnu.org/archive/html/geiser-users/2022-06/msg00004.html↩︎\n\n\nTo install racket-mode using elpaca, add the following to your config file:\n(use-package racket-mode\n  :elpaca t)"
+    "text": "Racket in Emacs\nPersonally, I recommend racket-mode for working with Racket in Emacs. Another popular choice is geiser, but its geiser-racket module seems to be unmaintained4.\n4 According to this thread from the geiser-users mailing list.To install racket-mode using elpaca, add the following to your config file:\n(use-package racket-mode\n  :elpaca t)"
   },
   {
     "objectID": "posts/SICP in Emacs.html#racket-in-org-babel",
