@@ -25,4 +25,4 @@ title-block-banner: true
 
 ### Flashcards
 
-My studying flashcards in markdown: <https://github.com/kchousos/Flashcards>.
+My plain-text studying flashcards: <https://github.com/kchousos/Flashcards>.

@@ -12,6 +12,12 @@ This is <a href="https://nownownow.com/about">a now page</a>, and if you have yo
 Since 2025-12-31, its structure changed to feed-like updates.
 :::
   
+### 2026-02-06 00:20
+
+Today I had my two last exams for the semester. It was a *long* day, but all in all it went pretty well. I'm looking forward to the spring semester, at last my courses will be exclusively selected by me and not mandatory ones. Also have some personal projects in mind I'm looking forward to.
+
+Currently reading "The Martian" by Andy Weir. Although some technical parts outstay their welcome, it has managed to keep me hooked up till now.
+
 ### 2026-01-05 03:01
 
 Suggested reading:  [*Utopian Scholastic*, Michael Wolf](https://wol.fm/blog/utopian-scholastic.html).
