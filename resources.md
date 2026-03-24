@@ -20,8 +20,17 @@ title-block-banner: true
 
 ### Talks/Presentations
 
-- **2025-10-16**: [Diffie & Hellman's "New Directions in Cryptography" presentation](https://kchousos.github.io/directions-cryptography/)
+- **2026-02-26**: ["Reputable List Curation from Decentralized Voting" (Crites et al., 2020) paper presentation](static/Reputable List Curation from Decentralized Voting presentation.pdf)
+
+  Part of the Cryptography course of [ALMA](http://alma.di.uoa.gr/) MSc program.
+
+- **2025-10-16**: ["New Directions in Cryptography" (Diffie & Hellman, 1976) paper presentation](https://kchousos.github.io/directions-cryptography/)
+  
   Part of the Algorithms course of [ALMA](http://alma.di.uoa.gr/) MSc program.
+  
+- **2025-07-07**: [OverHAuL: Harness Automation with LLMs](https://kchousos.github.io/overhaul-presentation)
+
+  BSc thesis defense.
 
 ### Flashcards
 
