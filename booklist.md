@@ -1,6 +1,20 @@
 ---
 title: Reading
+date-modified: 2026-06-25
 ---
+
+# 2026
+
+No rating means book is in progress.
+
+| Title                                 | Author            | Rating |
+|---------------------------------------|-------------------|--------|
+| **Debt: The First 5,000 Years**       | David Graeber     |        |
+| **Focusing**                          | Eugene T. Gendlin |        |
+| **The Martian**                       | Andy Weir         |        |
+| **Deep Work**                         | Cal Newport       |        |
+| **The Legacy**                        | R.A. Salvatore    |        |
+| **The Unbearable Lightness of Being** | Milan Kundera     |        |
 
 # 2025
 
