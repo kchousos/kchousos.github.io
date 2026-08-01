@@ -7,14 +7,15 @@ date-modified: 2026-06-25
 
 No rating means book is in progress.
 
-| Title                                 | Author            | Rating |
-|---------------------------------------|-------------------|--------|
-| **Debt: The First 5,000 Years**       | David Graeber     |        |
-| **Focusing**                          | Eugene T. Gendlin |        |
-| **The Martian**                       | Andy Weir         |        |
-| **Deep Work**                         | Cal Newport       |        |
-| **The Legacy**                        | R.A. Salvatore    |        |
-| **The Unbearable Lightness of Being** | Milan Kundera     |        |
+| Title                                 | Author            | Rating     |
+|---------------------------------------|-------------------|------------|
+| **The Unbearable Lightness of Being** | Milan Kundera     | ⭐⭐⭐     |
+| **Guards! Guards!**                   | Terry Pratchett   | ⭐⭐⭐⭐⭐ |
+| **Debt: The First 5,000 Years**       | David Graeber     |            |
+| **Focusing**                          | Eugene T. Gendlin |            |
+| **The Martian**                       | Andy Weir         |            |
+| **Deep Work**                         | Cal Newport       |            |
+| **The Legacy**                        | R.A. Salvatore    |            |
 
 # 2025
 
