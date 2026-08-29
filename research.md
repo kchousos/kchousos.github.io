@@ -6,9 +6,9 @@ I am involved in the following research projects:
 
 ### RECITALS
 
-[EU funded project](https://cordis.europa.eu/project/id/101168490) with the goal of developing an open-source platform for "Resilient sECure digITAL identitieS". I am part of NKUA's team, responsible for the implementation of the core library, including the Anonymization and Cryptography Managers, as well as the Privacy-Preserving Record Linkage functionality.
+[EU funded project](https://cordis.europa.eu/project/id/101168490) with the goal of developing an open-source platform for "Resilient sECure digITAL identitieS". I am part of NKUA's team, responsible for the implementation of the core library, including the [Anonymization](https://ai-team-uoa.github.io/RECITALS-anonymization-manager/) and [Cryptography](https://ai-team-uoa.github.io/RECITALS-cryptography-manager/) Managers, as well as the Privacy-Preserving Record Linkage functionality.
 
-[Homepage](https://recitals-project.eu/)
+- [Project Homepage](https://recitals-project.eu/)
 
 ## Publications
 

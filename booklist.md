@@ -11,6 +11,7 @@ No rating means book is in progress.
 |---------------------------------------|-------------------|------------|
 | **The Unbearable Lightness of Being** | Milan Kundera     | ⭐⭐⭐     |
 | **Guards! Guards!**                   | Terry Pratchett   | ⭐⭐⭐⭐⭐ |
+| **Men at Arms**                   | Terry Pratchett   | ⭐⭐⭐⭐ |
 | **Debt: The First 5,000 Years**       | David Graeber     |            |
 | **Focusing**                          | Eugene T. Gendlin |            |
 | **The Martian**                       | Andy Weir         |            |
