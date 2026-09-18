@@ -1,6 +1,6 @@
 ---
 title: Reading
-date-modified: 2026-06-25
+date-modified: 2026-09-18
 ---
 
 # 2026
@@ -11,12 +11,11 @@ No rating means book is in progress.
 |---------------------------------------|-------------------|------------|
 | **The Unbearable Lightness of Being** | Milan Kundera     | ⭐⭐⭐     |
 | **Guards! Guards!**                   | Terry Pratchett   | ⭐⭐⭐⭐⭐ |
-| **Men at Arms**                   | Terry Pratchett   | ⭐⭐⭐⭐ |
-| **Debt: The First 5,000 Years**       | David Graeber     |            |
-| **Focusing**                          | Eugene T. Gendlin |            |
+| **Men at Arms**                       | Terry Pratchett   | ⭐⭐⭐⭐   |
+| **Feet of Clay**                      | Terry Pratchett   | ⭐⭐⭐     |
+| **The Legacy**                        | R.A. Salvatore    | ⭐⭐       |
 | **The Martian**                       | Andy Weir         |            |
-| **Deep Work**                         | Cal Newport       |            |
-| **The Legacy**                        | R.A. Salvatore    |            |
+| **Debt: The First 5,000 Years**       | David Graeber     |            |
 
 # 2025
 
