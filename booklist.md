@@ -7,15 +7,16 @@ date-modified: 2026-09-18
 
 No rating means book is in progress.
 
-| Title                                 | Author            | Rating     |
-|---------------------------------------|-------------------|------------|
-| **The Unbearable Lightness of Being** | Milan Kundera     | ⭐⭐⭐     |
-| **Guards! Guards!**                   | Terry Pratchett   | ⭐⭐⭐⭐⭐ |
-| **Men at Arms**                       | Terry Pratchett   | ⭐⭐⭐⭐   |
-| **Feet of Clay**                      | Terry Pratchett   | ⭐⭐⭐     |
-| **The Legacy**                        | R.A. Salvatore    | ⭐⭐       |
-| **The Martian**                       | Andy Weir         |            |
-| **Debt: The First 5,000 Years**       | David Graeber     |            |
+| Title                                 | Author             | Rating     |
+|---------------------------------------|--------------------|------------|
+| **The Unbearable Lightness of Being** | Milan Kundera      | ⭐⭐⭐     |
+| **Guards! Guards!**                   | Terry Pratchett    | ⭐⭐⭐⭐⭐ |
+| **Men at Arms**                       | Terry Pratchett    | ⭐⭐⭐⭐   |
+| **Feet of Clay**                      | Terry Pratchett    | ⭐⭐⭐     |
+| **The Legacy**                        | R.A. Salvatore     | ⭐⭐       |
+| **The Martian**                       | Andy Weir          |            |
+| **Debt: The First 5,000 Years**       | David Graeber      |            |
+| **A Confederacy of Dunces**           | John Kennedy Toole |            |
 
 # 2025
 

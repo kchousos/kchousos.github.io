@@ -20,6 +20,10 @@ title-block-banner: true
 
 ### Talks/Presentations
 
+- **2026-05-08**: [Faster single-source shortest paths with negative real weights via proper hop distance](static/Gkolosi_Chousos_huang2024.pdf)
+
+  Part of the Combinatorial Optimization course of [ALMA](http://alma.di.uoa.gr/) MSc program.
+
 - **2026-02-26**: ["Reputable List Curation from Decentralized Voting" (Crites et al., 2020) paper presentation](static/Reputable List Curation from Decentralized Voting presentation.pdf)
 
   Part of the Cryptography course of [ALMA](http://alma.di.uoa.gr/) MSc program.

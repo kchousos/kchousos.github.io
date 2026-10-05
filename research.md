@@ -16,6 +16,8 @@ I am involved in the following research projects:
 An open-source platform for Resilient Secure Digital Identities: The RECITALS project
 :::
 
+[Link](https://research.uni-hannover.de/en/publications/an-open-source-platform-for-resilient-secure-digital-identities-t/)
+
 ::: {style="font-size: 90%;"}
 - **Place:** RULEML+RR 2025: The 9th International joint Conference on Rules and Reasoning, September 22–25, 2025, Istanbul, Türkiye
 - **Authors:** George Stamoulis, Dimitris Pavlou, Konstantinos Chousos, Manolis Koubarakis, George Papadakis, Christina Papapostolou, Georgios Smaragdakis, Themis Palpanas, Paulo Correia, João Pedro, Ioan Constantin, Marco Fisichella, Harshvardhan Pandit, Kyriakos Dimitriou
