@@ -8,4 +8,4 @@ twitter-card:
 about:
   template: jolla
 ---
-AI/Security Researcher @ DIT, UoA
+Research assistant @ UoA AI Team │ MSc student @ ALMA, UoA
