@@ -4,28 +4,21 @@
     "href": "now.html",
     "title": "Now",
     "section": "",
-    "text": "This is a now page, and if you have your own site, you should make one, too.\n\n\n\n🎓️ — Recently started my third and final MSc semester. I’m attending three classes: Recursion Theory, Game Theory and Probabilistic Algorithms. All three seem really interesting so far, with a different teaching style for each. I’m also looking into starting my MSc thesis, more will be revealed soon…\n🎸 — Practicing and having rehearsals for the upcoming “100 guitars” concert at the Megaron Athens concert hall, in which I’m taking part. Excited to return on this stage.\n🏃 — In the middle of the Couch to 5k running program, combining it with a variation of the r/bodyweightfitness’s “Recommended Routine” (RR). This means 3 days a week cardio and 2 days a week calisthenics. Plus I’ve started following a nutrition plan from a dietitian, going strong for a month+ till now.\n🎲 — Started playing Dungeons & Dragons 5e with my friends, lots of fun so far.\n\nReading\n\nA Confederacy of Dunces, John Kennedy Toole\nSmall Things Like These, Claire Keegan\nMythology, Edith Hamilton\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nListening\n\nI Love My Computer, Ninajirachi\nSignificant Other, Limp Bizkit\nPiano Concertos nos 1 & 2, Krystian Zimerman, Carlo Maria Guilini, Los Angeles Philarmonic Orchestra\nEmpire Central, Snarky Puppy\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWatching\n\nSmallville (2001)\nCoyote vs. Acme (2026)\nJacob’s Ladder (1990)"
+    "text": "This is a now page, and if you have your own site, you should make one, too."
+  },
+  {
+    "objectID": "now.html#section",
+    "href": "now.html#section",
+    "title": "Now",
+    "section": "2026-10-06",
+    "text": "2026-10-06\n🎓️ — Recently started my third and final MSc semester. I’m attending three classes: Recursion Theory, Game Theory and Probabilistic Algorithms. All three seem really interesting so far, with a different teaching style for each. I’m also looking into starting my MSc thesis, more will be revealed soon…\n🎸 — Practicing and having rehearsals for the upcoming “100 guitars” concert at the Megaron Athens concert hall, in which I’m taking part. Excited to return on this stage.\n🏃 — In the middle of the Couch to 5k running program, combining it with a variation of the r/bodyweightfitness’s “Recommended Routine” (RR). This means 3 days a week cardio and 2 days a week calisthenics. Plus I’ve started following a nutrition plan from a dietitian, going strong for a month+ till now.\n🎲 — Started playing Dungeons & Dragons 5e with my friends, lots of fun so far.\n\nRecommendations\n\nReading\n\nA Confederacy of Dunces, John Kennedy Toole\nSmall Things Like These, Claire Keegan\nMythology, Edith Hamilton\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nListening\n\nI Love My Computer, Ninajirachi\nSignificant Other, Limp Bizkit\nPiano Concertos nos 1 & 2, Krystian Zimerman, Carlo Maria Guilini, Los Angeles Philarmonic Orchestra\nEmpire Central, Snarky Puppy\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWatching\n\nSmallville (2001-2011)\nCoyote vs. Acme (2026)\nJacob’s Ladder (1990)"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Hello, welcome to my personal site!\nMy name is Konstantinos Chousos. I am an AI/Security researcher, member of the UoA AI team."
-  },
-  {
-    "objectID": "about.html#about-me",
-    "href": "about.html#about-me",
-    "title": "About",
-    "section": "About me",
-    "text": "About me\nI recently finished my undergraduate studies at the Department of Informatics and Telecommunications of the University of Athens. For the last semester I was working on my thesis under the guidance of prof. Thanassis Avgerinos. I am also working on the RECITALS EU project, as part of prof. Manolis Koubarakis’ team.\nI am mainly interested in AI and its applications, software security and cryptography. Miscellaneous interests of mine include functional programming, typesetting/\\LaTeX, Linux systems, human-computer interaction and CS-adjacent mathematics.\nAside from computer science, my second passion is music. I play classical guitar, in which I acquired a diploma in January of 2023 from the national conservatory of Greece. I am also a member of the Vox Fortis choir, with appearances in places such as the Athens Concert Hall and the Odeon of Herodes Atticus.\nLastly, I’m currently re-learning to draw, following the DrawABox course. I’ve been making progress and I look forward to improving my drawing skills furthermore. I used to draw a lot during primary school, and I was quite good at it too. So. I’m excited to get back at it."
-  },
-  {
-    "objectID": "about.html#about-this-site",
-    "href": "about.html#about-this-site",
-    "title": "About",
-    "section": "About this site",
-    "text": "About this site\n\nWhy does it exist?\nThis site could be categorized as an e/n website.\n\nThe website’s content means everything to the publisher, but it could mean nothing to the rest of the world.\n\nThe content is/will be varied and will basically showcase whatever I find helpful and/or interesting, hoping that someone somewhere will find it useful.\n\n\nHow is it built?\nThis site is generated by Quarto. The posts are written in Markdown. Github-Pages is used for hosting. You can find the source code of this site on my github."
+    "text": "Hello, welcome to my personal site!\nMy name is Konstantinos Chousos. I am a research assistant in University of Athens’ AI team and a MSc student at ALMA. I’m currently finishing my master’s studies and starting my diploma thesis.\nBefore that, I finished my undergraduate studies at the Department of Informatics and Telecommunications of the University of Athens in the summer of 2025. My BSc thesis was under the guidance of Professor Thanassis Avgerinos.\nI am also working on RECITALS, a european research project, as part of Professor Manolis Koubarakis’ research team.\nMy interests mainly lie in cryptography and blockchains, both on the theoretical and practical level. I’m also interested in computability and game theory. I waste hours messing with Linux, \\LaTeX and Emacs.\nAnother passion of mine is music. I play classical guitar, in which I acquired a diploma in 2023 from the national conservatory of Greece. I am also a member of the Vox Fortis choir, with appearances in places such as the Athens Concert Hall and the Odeon of Herodes Atticus.\n\nAbout this site\nThe content is/will be varied and will basically showcase whatever I find helpful and/or interesting, hoping that someone somewhere will find it useful, as well as acting like a dumping ground for notes and stuff and publishing what I’m up to.\nThis site is generated by Quarto. The posts are written in Markdown. Github-Pages is used for hosting. You can find the source code of this site on my github."
   },
   {
     "objectID": "research.html",
