@@ -8,7 +8,7 @@ project:
 
 website:
   title: "Konstantinos Chousos"
-  site-url: "https://kchousos.github.io"
+  site-url: "https://kchousos.com"
   description: "Personal site of Konstantinos Chousos, AI/Security Researcher"
   bread-crumbs: true
   # open-graph:

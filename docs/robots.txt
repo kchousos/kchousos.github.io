@@ -1,1 +1,1 @@
-Sitemap: https://kchousos.github.io/sitemap.xml
+Sitemap: https://kchousos.com/sitemap.xml

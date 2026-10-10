@@ -9,7 +9,7 @@ Hello, welcome to my personal site!
 
 My name is Konstantinos Chousos. I am a research assistant in University of Athens' [AI team](https://ai.di.uoa.gr/) and a MSc student at [ALMA](https://alma.di.uoa.gr/). I'm currently finishing my master's studies and starting my diploma thesis. 
 
-Before that, I finished my undergraduate studies at the [Department of Informatics and Telecommunications](https://www.di.uoa.gr/en) of the [University of Athens](https://en.uoa.gr/) in the summer of 2025. My [BSc thesis](https://kchousos.github.io/BSc-Thesis/) was under the guidance of Professor [Thanassis Avgerinos](https://cgi.di.uoa.gr/~thanassis/). 
+Before that, I finished my undergraduate studies at the [Department of Informatics and Telecommunications](https://www.di.uoa.gr/en) of the [University of Athens](https://en.uoa.gr/) in the summer of 2025. My [BSc thesis](https://kchousos.com/BSc-Thesis/) was under the guidance of Professor [Thanassis Avgerinos](https://cgi.di.uoa.gr/~thanassis/). 
 
 I am also working on [RECITALS](https://recitals-project.eu/), a european research project, as part of Professor [Manolis Koubarakis](https://cgi.di.uoa.gr/~koubarak/)' research team.
 

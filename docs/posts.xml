@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Konstantinos Chousos</title>
-<link>https://kchousos.github.io/posts.html</link>
-<atom:link href="https://kchousos.github.io/posts.xml" rel="self" type="application/rss+xml"/>
+<link>https://kchousos.com/posts.html</link>
+<atom:link href="https://kchousos.com/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Personal site of Konstantinos Chousos, AI/Security Researcher</description>
 <generator>quarto-1.8.26</generator>
 <lastBuildDate>Wed, 25 Dec 2024 13:36:00 GMT</lastBuildDate>
 <item>
   <title>BIOS update for Lenovo laptop on Linux</title>
   <dc:creator>Konstantinos Chousos</dc:creator>
-  <link>https://kchousos.github.io/posts/Lenovo BIOS Linux.html</link>
+  <link>https://kchousos.com/posts/Lenovo BIOS Linux.html</link>
   <description><![CDATA[ 
 
 
@@ -40,20 +40,20 @@
   author = {Chousos, Konstantinos},
   title = {BIOS Update for {Lenovo} Laptop on {Linux}},
   date = {2024-12-25},
-  url = {https://kchousos.github.io/posts/Lenovo BIOS Linux.html},
+  url = {https://kchousos.com/posts/Lenovo BIOS Linux.html},
   langid = {en}
 }
 </code></pre></div></section></div> ]]></description>
   <category>software</category>
   <category>hardware</category>
   <category>BIOS</category>
-  <guid>https://kchousos.github.io/posts/Lenovo BIOS Linux.html</guid>
+  <guid>https://kchousos.com/posts/Lenovo BIOS Linux.html</guid>
   <pubDate>Wed, 25 Dec 2024 13:36:00 GMT</pubDate>
 </item>
 <item>
   <title>SICP in Emacs</title>
   <dc:creator>Konstantinos Chousos</dc:creator>
-  <link>https://kchousos.github.io/posts/SICP in Emacs.html</link>
+  <link>https://kchousos.com/posts/SICP in Emacs.html</link>
   <description><![CDATA[ 
 
 
@@ -96,7 +96,7 @@ font-style: inherit;">$</span> sudo install-info /usr/local/share/info/sicp.info
 <div class="no-row-height column-margin column-container"><div id="fn2"><p><sup>2</sup>&nbsp;Found in the <a href="https://melpa.org/#/sicp">MELPA repository</a>.</p></div></div><p>Now SICP will be available through Emacs! To access it, you need to open Emacs, type <span class="visually-hidden">C-h i</span> to go to the <code>*info*</code> top directory, type <span class="visually-hidden">m</span> to search and type <code>sicp</code> to find the book. If everything went correctly, you should be greeted with something like this:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../static/../static/sicp in emacs.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="SICP’s table of contents in `info` format, viewed from within Emacs"><img src="https://kchousos.github.io/static/sicp in emacs.png" class="img-fluid figure-img" alt="SICP’s table of contents in `info` format, viewed from within Emacs"></a></p>
+<p><a href="../static/../static/sicp in emacs.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="SICP’s table of contents in `info` format, viewed from within Emacs"><img src="https://kchousos.com/static/sicp in emacs.png" class="img-fluid figure-img" alt="SICP’s table of contents in `info` format, viewed from within Emacs"></a></p>
 <figcaption>SICP’s table of contents in `info` format, viewed from within Emacs</figcaption>
 </figure>
 </div>
@@ -171,14 +171,14 @@ font-style: inherit;">t</span>)))</span></code></pre></div></div>
 <p>After all this work, now we can finally start reading SICP. My so-far workflow consists of the book in the left window, a racket REPL in the top-right corner and my Org-Roam notes in the bottom-right corner.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../static/../static/sicp workflow.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="My SICP studying workflow"><img src="https://kchousos.github.io/static/sicp workflow.png" class="img-fluid figure-img" alt="My SICP studying workflow"></a></p>
+<p><a href="../static/../static/sicp workflow.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="My SICP studying workflow"><img src="https://kchousos.com/static/sicp workflow.png" class="img-fluid figure-img" alt="My SICP studying workflow"></a></p>
 <figcaption>My SICP studying workflow</figcaption>
 </figure>
 </div>
 <p>When it comes to the exercises, I use Org-Mode and Org-Babel to write the solutions in a literate programming style. The file is divided by chapter. Each exercise is included followed by its (hopefully correct) solution. (So far) I use a single <code>.org</code> file and export it to PDF. Also, all of the code blocks are exported to a <code>.rkt</code> file, with links to the corresponding position in the org file. All of these files can be found at <a href="https://github.com/kchousos/SICP-solutions">this repo</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../static/../static/sicp literate notes.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="My SICP solutions in literate programming"><img src="https://kchousos.github.io/static/sicp literate notes.png" class="img-fluid figure-img" alt="My SICP solutions in literate programming"></a></p>
+<p><a href="../static/../static/sicp literate notes.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="My SICP solutions in literate programming"><img src="https://kchousos.com/static/sicp literate notes.png" class="img-fluid figure-img" alt="My SICP solutions in literate programming"></a></p>
 <figcaption>My SICP solutions in literate programming</figcaption>
 </figure>
 </div>
@@ -210,14 +210,14 @@ font-style: inherit;">t</span>)))</span></code></pre></div></div>
   author = {Chousos, Konstantinos},
   title = {SICP in {Emacs}},
   date = {2023-06-07},
-  url = {https://kchousos.github.io/posts/SICP in Emacs.html},
+  url = {https://kchousos.com/posts/SICP in Emacs.html},
   langid = {en}
 }
 </code></pre></div></section></div> ]]></description>
   <category>lisp</category>
   <category>emacs</category>
   <category>book</category>
-  <guid>https://kchousos.github.io/posts/SICP in Emacs.html</guid>
+  <guid>https://kchousos.com/posts/SICP in Emacs.html</guid>
   <pubDate>Tue, 06 Jun 2023 21:00:00 GMT</pubDate>
 </item>
 </channel>

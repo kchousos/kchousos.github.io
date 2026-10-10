@@ -28,11 +28,11 @@ title-block-banner: true
 
   Part of the Cryptography course of [ALMA](http://alma.di.uoa.gr/) MSc program.
 
-- **2025-10-16**: ["New Directions in Cryptography" (Diffie & Hellman, 1976) paper presentation](https://kchousos.github.io/directions-cryptography/)
+- **2025-10-16**: ["New Directions in Cryptography" (Diffie & Hellman, 1976) paper presentation](https://kchousos.com/directions-cryptography/)
   
   Part of the Algorithms course of [ALMA](http://alma.di.uoa.gr/) MSc program.
   
-- **2025-07-07**: [OverHAuL: Harness Automation with LLMs](https://kchousos.github.io/overhaul-presentation)
+- **2025-07-07**: [OverHAuL: Harness Automation with LLMs](https://kchousos.com/overhaul-presentation)
 
   BSc thesis defense.
 
